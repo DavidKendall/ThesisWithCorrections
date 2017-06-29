@@ -1,0 +1,235 @@
+\chapter{SIMULATOR DATA SETS}\label{app4}
+
+\lstset{language=SQL,
+basicstyle=\tiny,
+numbers=left, 
+numberstyle=\tiny,
+captionpos=b,
+frame=single,
+breaklines=true,
+caption=\texttt{\textbf{PARTICIPANT}} table
+} % Set your language (you can change the language for each code-block optionally)
+\begin{lstlisting}[label={code:Participant}]  % Start your code-block
+
+CREATE TABLE `PARTICIPANT` (
+  `logCount` int(11) DEFAULT NULL,
+  `timeStamp` double DEFAULT NULL,
+  `id` int(11) DEFAULT NULL,
+  `x` double DEFAULT NULL,
+  `y` double DEFAULT NULL,
+  `directionX` double DEFAULT NULL,
+  `directionY` double DEFAULT NULL,
+  `destinationX` double DEFAULT NULL,
+  `destinationY` double DEFAULT NULL,
+  `alive` tinyint(1) DEFAULT NULL,
+  `distanceTravelled` double DEFAULT NULL,
+  `scanCounter` int(11) DEFAULT NULL,
+  `minNeighbour` int(11) DEFAULT NULL,
+  `maxNeighbour` int(11) DEFAULT NULL,
+  `isPerimeter` tinyint(1) DEFAULT NULL,
+  `scanning` tinyint(1) DEFAULT NULL
+);
+\end{lstlisting}
+
+\lstset{language=SQL,
+basicstyle=\tiny,
+numbers=left, 
+numberstyle=\tiny,
+captionpos=b,
+frame=single,
+breaklines=true,
+caption=\texttt{\textbf{NEIGHBOUR}} table
+} % Set your language (you can change the language for each code-block optionally)
+\begin{lstlisting}[label={code:Neighbour}]  % Start your code-block
+
+CREATE TABLE `NEIGHBOUR` (
+  `logCount` int(11) DEFAULT NULL,
+  `id` int(11) DEFAULT NULL,
+  `NeighbourId` int(11) DEFAULT NULL,
+  `Distance` double DEFAULT NULL,
+  `Resultant` double NOT NULL,
+  `Cohesion` double NOT NULL,
+  `Repulsion` double NOT NULL
+);
+\end{lstlisting}
+
+\lstset{language=SQL,
+basicstyle=\tiny,
+numbers=left, 
+numberstyle=\tiny,
+captionpos=b,
+frame=single,
+breaklines=true,
+caption=\texttt{\textbf{LOGS}} view
+} % Set your language (you can change the language for each code-block optionally)
+\begin{lstlisting}[label={code:LOGS}]  % Start your code-block
+
+CREATE TABLE LOGS AS 
+	SELECT DISTINCT logCount, timeStamp FROM PARTICIPANT;
+\end{lstlisting}
+
+\lstset{language=SQL,
+basicstyle=\tiny,
+numbers=left, 
+numberstyle=\tiny,
+captionpos=b,
+frame=single,
+breaklines=true,
+caption=\texttt{\textbf{SWARM}} view
+} % Set your language (you can change the language for each code-block optionally)
+\begin{lstlisting}[label={code:SWARM}]  % Start your code-block
+
+CREATE TABLE SWARM AS 
+	SELECT logCount, AVG(x) AS 'X', -AVG(y) AS 'Y', COUNT(*) AS 'SIZE' 
+   FROM PARTICIPANT 
+   WHERE alive = 1 GROUP BY logCount;
+\end{lstlisting}
+
+\lstset{language=SQL,
+basicstyle=\tiny,
+numbers=left, 
+numberstyle=\tiny,
+captionpos=b,
+frame=single,
+breaklines=true,
+caption=\texttt{\textbf{PERIMETER}} view
+} % Set your language (you can change the language for each code-block optionally)
+\begin{lstlisting}[label={code:PERIMETER}]  % Start your code-block
+
+CREATE TABLE PERIMETER AS 
+	SELECT logCount, id 
+	FROM PARTICIPANT 
+	WHERE isPerimeter = 1 AND alive = 1;
+
+\end{lstlisting}
+
+\lstset{language=SQL,
+basicstyle=\tiny,
+numbers=left, 
+numberstyle=\tiny,
+captionpos=b,
+frame=single,
+breaklines=true,
+caption=\texttt{\textbf{FULLPERIMETER}} view
+} % Set your language (you can change the language for each code-block optionally)
+\begin{lstlisting}[label={code:FULLPERIMETER}]  % Start your code-block
+
+CREATE TABLE FULLPERIMETER AS 
+	SELECT LOGS.logCount, COUNT(PERIMETER.id) AS 'SIZE' 
+	FROM LOGS LEFT JOIN PERIMETER ON LOGS.logCount = PERIMETER.logCount 
+	GROUP BY LOGS.logCount;
+\end{lstlisting}
+
+\lstset{language=SQL,
+basicstyle=\tiny,
+numbers=left, 
+numberstyle=\tiny,
+captionpos=b,
+frame=single,
+breaklines=true,
+caption=\texttt{\textbf{SWARMSIZE}} view
+} % Set your language (you can change the language for each code-block optionally)
+\begin{lstlisting}[label={code:SWARMSIZE}]  % Start your code-block
+
+CREATE TABLE SWARMSIZE AS 
+	SELECT logCount, COUNT(*) FROM PARTICIPANT 
+	WHERE alive = 1 GROUP BY logCount;
+
+\end{lstlisting}
+
+\lstset{language=SQL,
+basicstyle=\tiny,
+numbers=left, 
+numberstyle=\tiny,
+captionpos=b,
+frame=single,
+breaklines=true,
+caption=\texttt{\textbf{FULLNEIGHBOUR}} view
+} % Set your language (you can change the language for each code-block optionally)
+\begin{lstlisting}[label={code:FULLNEIGHBOUR}]  % Start your code-block
+
+CREATE TABLE FULLNEIGHBOUR AS 
+	SELECT PARTICIPANT.logCount, PARTICIPANT.id, COUNT(*) 
+	FROM PARTICIPANT INNER JOIN NEIGHBOUR ON 
+		(PARTICIPANT.logCount = NEIGHBOUR.logCount 
+			AND 
+		 PARTICIPANT.id = NEIGHBOUR.id) 
+	WHERE alive = 1 GROUP BY PARTICIPANT.logCount, PARTICIPANT.id;
+
+\end{lstlisting}
+
+\lstset{language=SQL,
+basicstyle=\tiny,
+numbers=left, 
+numberstyle=\tiny,
+captionpos=b,
+frame=single,
+breaklines=true,
+caption=\texttt{\textbf{NEIGHBOURDISTANCE}} view
+} % Set your language (you can change the language for each code-block optionally)
+\begin{lstlisting}[label={code:NEIGHBOURDISTANCE}]  % Start your code-block
+
+CREATE TABLE NEIGHBOURDISTANCE AS 
+	SELECT NEIGHBOUR.logCount, NEIGHBOUR.id, MAX(Distance), MIN(Distance), 
+		AVG(Distance), STDDEV(Distance), MAX(Repulsion), MIN(Repulsion), 
+		AVG(Repulsion), STDDEV(Repulsion), MAX(Cohesion), MIN(Cohesion), 
+		AVG(Cohesion), STDDEV(Cohesion), MAX(Resultant), MIN(Resultant), 
+		AVG(Resultant), STDDEV(Resultant)  
+	FROM PARTICIPANT JOIN NEIGHBOUR ON PARTICIPANT.id = NEIGHBOUR.id 
+	WHERE alive = 1 GROUP BY NEIGHBOUR.logCount, NEIGHBOUR.id;
+
+\end{lstlisting}
+
+\lstset{language=SQL,
+basicstyle=\tiny,
+numbers=left, 
+numberstyle=\tiny,
+captionpos=b,
+frame=single,
+breaklines=true,
+caption=\texttt{\textbf{SWARMTRAVELLED}} view
+} % Set your language (you can change the language for each code-block optionally)
+\begin{lstlisting}[label={code:SWARMTRAVELLED}]  % Start your code-block
+
+CREATE TABLE SWARMTRAVELLED AS 
+	SELECT logCount, SUM(distanceTravelled) AS DISTANCE 
+	FROM PARTICIPANT GROUP BY logCount;
+
+\end{lstlisting}
+
+\lstset{language=SQL,
+basicstyle=\tiny,
+numbers=left, 
+numberstyle=\tiny,
+captionpos=b,
+frame=single,
+breaklines=true,
+caption=\texttt{\textbf{DISTANCEGPS}} view,
+escapechar=|
+} % Set your language (you can change the language for each code-block optionally)
+\begin{lstlisting}[label={code:DISTANCEGPS}]  % Start your code-block
+
+CREATE TABLE DISTANCEGPS AS 
+	SELECT FULLPERIMETER.logCount, SIZE, DISTANCE 
+	FROM FULLPERIMETER JOIN SWARMTRAVELLED ON 
+		FULLPERIMETER.logCount = SWARMTRAVELLED.logCount;
+
+\end{lstlisting}
+
+\lstset{language=SQL,
+basicstyle=\tiny,
+numbers=left, 
+numberstyle=\tiny,
+captionpos=b,
+frame=single,
+breaklines=true,
+caption=\texttt{\textbf{SWARMPROFILE}} view
+} % Set your language (you can change the language for each code-block optionally)
+\begin{lstlisting}[label={code:SWARMPROFILE}]  % Start your code-block
+
+CREATE TABLE SWARMPROFILE AS 
+	SELECT SWARM.logCount, x, y, SWARM.SIZE AS SIZE, DISTANCE, 
+		DISTANCEGPS.SIZE AS PERIMETER 
+	FROM SWARM JOIN DISTANCEGPS ON 
+		SWARM.logCount = DISTANCEGPS.logCount;
+\end{lstlisting}

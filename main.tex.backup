@@ -1,0 +1,80 @@
+\documentclass[a4paper,11pt,nocenter,bold,notitlepage,noheadline,noindent]{thesis}
+\usepackage{etex} % Fix problem of running out of dimensions
+%                     PACKAGES
+% Add any additional packages that you require to the list below
+%
+\usepackage{a4,graphicx,natbib}
+\usepackage{mathtools, amssymb}
+%\usepackage[lined,boxed,commentsnumbered]{algorithm2e}
+\usepackage{subfigure}
+\usepackage{tabularx}
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{listings}
+\usepackage{tikz}
+\usetikzlibrary{arrows, shapes, trees, backgrounds, calc}
+\usepackage{hyperref}
+
+%                     SPACING
+% This really shouldn't be necessary...
+\usepackage{setspace}
+% \doublespacing
+
+%                     DOCUMENT DETAILS
+% Edit these entries to fit your document
+%
+
+\newcommand{\theauthor}{NEIL ELIOT}
+\newcommand{\thetitle}{ALGORITHMS AND PROTOCOLS FOR ENERGY-EFFICIENT COOPERATIVE MULTI-AGENT EMBEDDED SENSOR NETWORKS}
+\newcommand{\thedegreeshort}{PhD}
+\newcommand{\thedegreelong}{Doctor of Philosophy}
+\newcommand{\themonth}{March}
+\newcommand{\theyear}{2015}
+
+%                    DEDICATION (OPTIONAL)
+%
+% \dedication{To someone special -- or some other appropriate text}
+
+%                     INCLUDE ONLY
+% Use this if you want to process only a small part of the document
+
+%\includeonly{CHAPTER-1/text}
+
+
+%                     DOCUMENT
+\begin{document}
+\frontmatter
+
+\include{FRONT/cover}
+
+%\maketitle
+\include{FRONT/title}
+
+\include{FRONT/abstract}
+
+\tableofcontents
+
+\listoffigures
+\listoftables
+
+\include{FRONT/acknowledgements}
+\include{FRONT/declaration}
+
+\mainmatter
+\include{CHAPTER-1/text}  %introduction.
+\include{CHAPTER-2/text}  %general methods.
+\include{CHAPTER-3/text}  %contribution 1
+\include{CHAPTER-4/text}  %contribution 2
+\include{CHAPTER-5/text}  %contribution 3
+\include{CHAPTER-6/text}  %evaluation.
+\include{CHAPTER-7/text}  %conclusion.
+
+\appendix
+\include{APPENDIX-1/text}
+% GLOSSARY -- include if you've used lots of technical terminology/notation
+% \include{glossary}
+
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{apalike}
+\bibliography{thesis}
+
+\end{document}

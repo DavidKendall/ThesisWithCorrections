@@ -1,0 +1,203 @@
+%% \begin{abstract}
+%% \vspace*{-3em}
+%% VERSION 1
+%% 
+%% Swarming has been identified in many species including fish, birds, insects and mammals. Studies of swarms has lead to many mathematical models based on robotic `agents' to mimic those behaviours and solve problems in a novel way.
+%% 
+%% Swarms by their construction provide redundancy through distribution of resources. There are also benefits in behaviours that manifest from simple distributed algorithms. Swarming, however, introduces complications; how do you efficiently coordinate a swarm as an infrastructure?
+%% 
+%% This thesis focuses on how a swarm of an arbitrary size can be coordinated using only localised sensing information and no communications infrastructure leading to a reduction in energy and resource demands.
+%% 
+%% This thesis presents two new coordination algorithms to coordinate a swarm's directional bias. The algorithms provide partial detection and a full detection of perimeter edges. The full perimeter detection algorithm also provides an emergent behaviour of `void closing' to create a healing effect and object surrounding.
+%% 
+%% To measure and compare the coordination algorithms and swarm structures this thesis proposes a new metric for measuring the `quality' of a swarms structure based upon the resultant magnitudes of inter-agent interactions. 
+%% 
+%% The metric and all the behaviours have been modelled and examined in a simulation environment and it can be shown that efficiencies can be obtained with the new algorithms along with improved coordination. A video demonstrating the simulator is available at: 
+%% 
+%% \noindent{\footnotesize\texttt{\url{https://drive.google.com/file/d/0B0DIRBx-V-eYT3YzTU03LW1pb1E/view?usp=sharing}}}
+%% 
+%% \newpage
+%% VERSION 2
+%% 
+%% Swarming has been identified in many species including fish, birds, insects and mammals. Studies of swarms has lead to many mathematical models based on robotic `agents' to mimic those behaviours and solve problems in a novel way.
+%% 
+%% Swarms by their construction provide redundancy through distribution of resources. There are also benefits in behaviours that manifest from simple distributed algorithms. Swarming, however, introduces complications; how do you efficiently coordinate a swarm as an infrastructure and how do we identify if a swarm is operating efficiently?
+%% 
+%% This thesis focuses on the coordination of arbitrary sized swarms using localised sensing information that does not require a communications infrastructure. This leads to a reduction in energy and resource demands. The thesis also focuses on a new metric that allows the internal structure of a swarm to be analysed to identify efficiencies in agent movement.
+%% 
+%% The metric and all the behaviours have been modelled in a simulation environment. The simulator has been developed as part of this thesis and is designed to allow aspects of a swarms construct and the algorithms effects to be captured. A video demonstrating the simulator is available at: 
+%% 
+%% \noindent{\footnotesize\texttt{\url{https://drive.google.com/file/d/0B0DIRBx-V-eYT3YzTU03LW1pb1E/view?usp=sharing}}}
+%% 
+%% This thesis proposes that it is possible to coordinate arbitrary sized warms using the new techniques and algorithms, and that by using the metric that has been defined in this thesis, it is possible to identify efficiencies in the coordination of a swarm. This thesis also demonstrates that it is possible to identify the benefits of emergent behaviours and the effects the emergent behaviours have upon the swarms structure.
+%% 
+%% 
+%% \newpage
+%% VERSION 3
+%% 
+%% Swarming has been identified in many species including fish, birds, insects and mammals. In 1987 Craig Reynolds published his paper on boid-based swarming which has lead to many researchers creating mathematical models to enable robotic `agents' to mimic those behaviours. These behaviours have then been applied to solving problems in novel ways. Swarm based reconnaissance soon after became a topic of interest to the military and more recently in 2016 an article in Wired (www.wired.co.uk) discusses the implications of the US Navy's LOCUST (\textit{L}ow \textit{C}ost \textit{U}av \textit{S}warm \textit{T}echnology) project which uses swarms of drones specifically to create a platform capable of reconfiguring its structure in the event of failures.
+%% 
+%% Swarms by their construction provide redundancy through distribution of tasks and replication of resources in agents. There are also benefits in behaviours that manifest from simple distributed algorithms. However swarming introduces complications; How do you efficiently coordinate a swarm as an infrastructure and how do we identify if a swarm is operating efficiently? `Efficiency' is the ability of the swarm to use minimal resources for maximum execution of a task i.e. increasing the distance a swarm can travel or reducing the time required to carry out a task.
+%% 
+%% This thesis focuses on the coordination of arbitrary sized swarms using localised sensing information that does not require a communications infrastructure. This leads to a reduction in energy and resource demands. The thesis also focuses on a new metric that allows the internal structure of a swarm to be analysed to identify efficiencies in agent movement.
+%% 
+%% This thesis also identifies and enhances a swarms capabilities through the introduction of perimeter detection to develop emergent behaviours. Perimeter detections allows a swarm to be coordinated efficiently with a directional bias and also allows a swarm to exhibit a self-healing feature to remove voids. The self healing behaviour can be applied to ensuring the construct of a swarm is uniform and improve the area coverage of a reconnaissance task. 
+%% 
+%% The metric and all the behaviours have been modelled in a simulation environment. The simulator has been developed as part of this thesis and is designed to allow aspects of a swarms construct and the algorithms effects to be captured.
+%% 
+%% This thesis proposes that it is possible to coordinate arbitrary sized warms using the new techniques and algorithms, and that by using the metric that has been defined in this thesis, it is possible to identify efficiencies in the coordination of a swarm. This thesis also demonstrates that it is possible to identify the benefits of emergent behaviours and the effects the emergent behaviours have upon the swarms structure.
+%% 
+%% \newpage
+%% VERSION 4
+%% Swarming has been identified in many species including fish, birds, insects and mammals. In 1986 Khatib published a paper on using field effects to enable mobile robots to avoid  obstacles and in 1987 Craig Reynolds published his paper on boid-based swarming. In 1989 swarm based reconnaissance became a topic of interest to the military and in 2016 the US Navy's LOCUST (\textit{L}ow \textit{C}ost \textit{U}av \textit{S}warm \textit{T}echnology) project demonstrated the use of swarms in drone deployment.
+%% 
+%% Swarms by their construction provide redundancy through distribution of tasks and replication of resources in agents. Simple distributed algorithms create emergent behaviours that can be used to solve problems. However, swarming introduces complications; How do you efficiently and effectively coordinate a swarm?
+%% 
+%% This thesis focuses on the coordination of arbitrary sized swarms by using localised sensing information that does not require a communications infrastructure. This thesis also focuses on a new metric based on inter-agent magnitudes that allows the internal structure of a swarm to be analysed rather than inter-agent distances. The metric and all the behaviours have been modelled in a simulator developed as part of this thesis which has then been used to produce the experimental results.
+%% 
+%% This thesis applies perimeter detection techniques to efficiently coordinate a swarm's direction. Perimeter detection is also used to create a self-healing behaviour to remove void anomilies. The self healing behaviour is also used to to increase area coverage of a reconnaissance task when obstacles such as a tree are incurred and to surround an object such as an oil spill. 
+%% 
+%% This thesis proposes that it is possible to coordinate arbitrary sized swarms using the new techniques and algorithms and that by using the metric it is possible to identify efficiencies in the coordination of a swarm. This thesis also demonstrates that it is possible to utilise emergent behaviours and identify the effects the emergent behaviours have upon a swarm's structure.
+%% 
+%% VERSION 5
+%% Swarming has been identified in many species including fish, birds, insects and mammals. In 1986 Khatib published a paper on field effects with obstacles and in 1987 Craig Reynolds published his paper on boid-based swarming. In 1989 swarms became a topic of interest to the US Navy and in 2016 their LOCUST (\textit{L}ow \textit{C}ost \textit{U}AV \textit{S}warm \textit{T}echnology) project demonstrated a swarm of drones.
+%% 
+%% Swarms by their construction provide redundancy through distribution of tasks and replication of resources. Simple distributed algorithms create emergent behaviours that can be used to solve problems. However, swarming introduces complications; How do you efficiently and effectively coordinate a swarm?
+%% 
+%% This thesis introduces a new metric based on inter-agent magnitudes. The magnitude is the calculated vector effects that determine an agents movement. This new metric allows the internal structure of a swarm to be analysed based on cohesiveness. When combined with inter-agent distances a better understanding of a swarms structure can be realised. The combined metrics also identify other behaviours such as the compression of a swarm when filling an space.  
+%% 
+%% This thesis focuses on the coordination of arbitrary sized swarms using localised sensing information only. This is achieved by the novel approach of applying a directional bias via perimeter detection techniques. These techniques reduce the internal disturbances a directional bias introduces to a goal based swarm. The full perimeter detection mechanism is used to create a self-healing behaviour that removes void anomalies. This same technique is applied to area coverage of a reconnaissance tasked swarm and to create an enclosing effect with a static swarm to surround an object such as an oil spill. 
+%% 
+%% The metric and all the behaviours have been modelled in a simulator written as part of this thesis which allows arbitrary sized swarms to be modelled and an algorithm's effects to be analysed. 
+%% 
+%% This thesis proposes that it is possible to coordinate arbitrary sized swarms using the new techniques and by using the metric it is possible to identify efficiencies in the coordination of a swarm.
+
+%% VERSION ?
+%% Swarming has been observed in many animal species, including fish, birds, insects and mammals. These biological observations have inspired mathematical models that have been applied to the development of multi-agent robotic systems, such as collections of unmanned ariel vehicles (UAVs). Loosely, the idea is to take advantage of efficient biological mechanisms, evolved naturally over millenia, by mimicking their behaviour in computational systems. As early as 1986, Khatib recognised the possibility of controlling a robot using vector field effects, rather than using path planning techniques. Shortly afterwards, Reynolds similarly applied vector field effects to replicate the behaviour of swarms (flocks). This line of research has continued to the present day; recent examples include work by Kumar and D'Andrea who apply similar techniques to the coordination of swarms of UAVs.
+%% 
+%% Swarms provide redundancy and resilience through replication of resources and the use of simple distributed algorithms. These algorithms create emergent behaviours that can be used to solve problems. However, swarming introduces complications; How do you efficiently and effectively coordinate a swarm?
+%% 
+%% This thesis introduces a new metric that allows the internal structure of a swarm to be analysed based on its cohesiveness. When combined with inter-agent distances a better understanding of a swarms structure can be realised. The metric also identifies other behaviours such as space filling. The thesis also focuses on the coordination of arbitrary sized swarms using localised sensing and a novel approach of using subsets of agents to apply a directional bias. These techniques reduce internal disturbances and energy usage of goal based swarm. This thesis uses perimeter detection to create a self-healing behaviour to remove anomalies and improve area coverage of goal based swarms and to implement a surround effect to contain objects such as an oil spill. 
+%% 
+%% The metric and all the behaviours have been modelled an extensible simulator written as part of this thesis. 
+%% 
+%% This thesis demonstrates that it is possible to coordinate arbitrary sized swarms using the new techniques and by using the metric it is possible to identify efficiencies in the coordination of a swarm.
+
+%% \begin{abstract}
+%% vspace*{-3em}
+%% Swarming has been observed in many animal species, including fish, birds,
+%% insects and mammals. These observations have inspired mathematical
+%% models that have been applied to the development of
+%% multi-agent robotic systems. e.g. unmanned autonomous
+%% vehicles (UAVs). Loosely, the idea is to take advantage of efficient biological
+%% mechanisms, evolved naturally over millenia and modelling them. As early as 1986, Khatib introduced the idea of vector field effects rather than using path planning techniques. Shortly afterwards, Reynolds similarly applied vector field effects to replicate the behaviour of swarms. More recently Kumar and
+%% D'Andrea have apply similar techniques to swarms of UAVs.
+%% The advantages of a swarming approach to distributed coordination are clear:
+%% each agent acts according to a simple set of rules on
+%% resource-constrained devices, and so it becomes feasible to replicate agents in
+%% order to build more resilient systems. However, there remain significant
+%% challenges in making the approach practicable. This thesis addresses two of the
+%% most significant: energy efficiency and scalability.
+%% 
+%% A major source of inefficiency in the deployment of a swarm is `oscillation',
+%% small movements of the agents that arise as a side effect of the application of
+%% their rules but which are not strictly necessary in order to satisfy the overall
+%% system function. The thesis introduces a new metric to identify and measure this in swarm control algorithms. 
+%% 
+%% Goal based swarms require a directional bias, two perimeter based approaches are discussed in this thesis. Perimeter detection is also used to improve swarm coverage. 
+%% 
+%% Investigation of large-scale swarms via simulation requires a new approach. This thesis
+%% proposes a new simulator that abstracts from all but the essential aspects of
+%% the control algorithms and parameters. The size of swarms catered for by
+%% simulators in the existing literature is of the order of 50. The simulator
+%% developed in this thesis comfortably simulates swarms of 500. The simulator also allows the investigation of emergent behaviours to investigate the impact of control algorithms on swarm structure, e.g. removal of voids.
+%% 
+%% This thesis therefore contributes to efficient coordination of large-scale swarms.
+%% \end{abstract}
+
+%% \begin{abstract}
+%% Swarming has been observed in many animal species, including fish, birds,
+%% insects and mammals. These biological observations have inspired mathematical
+%% models of distributed coordination that have been applied to the development of
+%% multi-agent robotic systems, such as collections of unmanned autonomous
+%% vehicles (UAVs). Loosely, the idea is to take advantage of efficient biological
+%% mechanisms, evolved naturally over millenia, by mimicking their behaviour in
+%% computational systems. As early as 1986, Khatib recognised the possibility of
+%% controlling a mobile robot using vector field effects, rather than using path
+%% planning techniques. Shortly afterwards, Reynolds similarly applied vector
+%% field effects to replicate the behaviour of swarms. This line of research has
+%% continued to the present day; recent examples include work by Kumar and
+%% D'Andrea, who apply similar techniques to the coordination of swarms of UAVs.
+%% The advantages of a swarming approach to distributed coordination are clear:
+%% each agent acts according to a simple set of rules that can be implemented on
+%% resource-constrained devices, and so it becomes feasible to replicate agents in
+%% order to build more resilient systems. However, there remain significant
+%% challenges in making the approach practicable. This thesis addresses two of the
+%% most significant: energy efficiency and scalability.
+%% 
+%% A major source of inefficiency in the deployment of a swarm is `oscillation',
+%% small movements of the nodes that arise as a side effect of the application of
+%% their rules but which are not strictly necessary in order to satisfy the overall
+%% system function. The thesis introduces a new metric for `oscillation' that
+%% allows it to be identified and measured in the swarm control algorithms.
+%% 
+%% The ability to detect a swarm's perimeter is important in many applications, e.g.
+%% covering an area or driving a swarm towards a target. This thesis proposes
+%% two new algorithms for efficient perimeter detection and analyses their behaviour
+%% by simulation.
+%% 
+%% Investigation of large-scale swarms via simulation requires a new approach. The thesis
+%% proposes a new simulator that abstracts from all but the essential aspects of
+%% the control algorithms and parameters. The size of swarms catered for by
+%% simulators in the existing literature is of the order of 50. The simulator
+%% developed in this thesis comfortably simulates swarms of 500 or more.
+%% 
+%% The simulator allows the investigation of emergent behaviours of large-scale
+%% swarms. It has been used here to investigate the impact of control algorithms
+%% and parameters on swarm structure, e.g. the creation and removal of voids.
+%% 
+%% In summary, the thesis makes significant contributions to the analysis and
+%% design of efficient control algorithms for the coordination of large-scale
+%% swarms of land-based UAVs.
+%% \end{abstract}
+
+\begin{abstract}
+\vspace*{-3em}
+Swarming has been observed in many animal species, including fish, birds,
+insects and mammals. These biological observations have inspired mathematical
+models of distributed coordination that have been applied to the development of
+multi-agent robotic systems, such as collections of unmanned autonomous
+vehicles (UAVs). Loosely, the idea is to take advantage of efficient biological
+mechanisms, evolved naturally over millenia, by mimicking their behaviour in
+computational systems. The advantages of a swarming approach to distributed
+coordination are clear: each agent acts according to a simple set of rules that
+can be implemented on resource-constrained devices, and so it becomes feasible
+to replicate agents in order to build more resilient systems. However, there
+remain significant challenges in making the approach practicable. This thesis
+addresses two of the most significant: coordination and scalability.
+
+A major source of inefficiency in the deployment of a swarm is `oscillation',
+small movements of the agents that arise as a side effect of the application of
+their rules but which are not strictly necessary in order to satisfy the overall
+system function. The thesis introduces a new metric for `oscillation' that
+allows it to be identified and measured in the swarm control algorithms.
+
+The ability to detect a swarm's perimeter is important in many applications, e.g.
+covering an area or driving a swarm towards a target. This thesis proposes
+two new algorithms for efficient perimeter detection and analyses their behaviour
+by simulation.
+
+Investigation of large-scale swarms via simulation requires a new approach. The thesis
+proposes a new simulator that abstracts from all but the essential aspects of
+the control algorithms and parameters. The size of swarms catered for by
+simulators in the existing literature is of the order of 50. The simulator
+developed in this thesis comfortably simulates swarms of 500 or more.
+
+The simulator allows the investigation of emergent behaviours of large-scale
+swarms. It has been used here to investigate the impact of control algorithms
+and parameters on swarm structure, e.g. the creation and removal of voids.
+
+In summary, the thesis makes significant contributions to the analysis and
+design of efficient control algorithms for the coordination of large-scale
+swarms.
+\end{abstract}

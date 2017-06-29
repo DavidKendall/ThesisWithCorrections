@@ -1,0 +1,338 @@
+\documentclass[a4paper,11pt,nocenter,bold,notitlepage,noheadline,noindent]{
+thesis}
+\usepackage{etex} % Fix problem of running out of dimensions
+%                     PACKAGES
+% Add any additional packages that you require to the list below
+%
+\usepackage{a4,natbib}
+\usepackage[dvips]{graphicx}
+\usepackage{mathtools, amssymb}
+\usepackage{float}
+%\usepackage[lined,boxed,commentsnumbered]{algorithm2e}
+\usepackage{subfigure}
+\usepackage{tabularx}
+\usepackage{tabulary}
+\newcolumntype{K}[1]{>{\centering\arraybackslash}p{#1}}
+\usepackage[ruled,vlined]{algorithm2e}
+%\usepackage{algorithm}
+%\usepackage{algorithmic}
+\usepackage{algpseudocode}
+\usepackage{listings}
+\usepackage{tikz}
+\usetikzlibrary{arrows, shapes, trees, backgrounds, calc}
+\usepackage[hidelinks]{hyperref}
+\usepackage{breakurl}
+
+\usepackage{setspace}
+\usepackage{bold-extra}
+%                     SPACING
+% This really shouldn't be necessary...
+\usepackage{setspace}
+\onehalfspacing
+% \doublespacing
+\setcounter{secnumdepth}{5}
+%                     DOCUMENT DETAILS
+% Edit these entries to fit your document
+%
+
+\newcommand{\theauthor}{NEIL ELIOT}
+\newcommand{\thetitle}{METHODS FOR THE EFFICIENT DEPLOYMENT AND COORDINATION OF SWARM ROBOTIC SYSTEMS}
+\newcommand{\thedegreeshort}{PhD}
+\newcommand{\thedegreelong}{Doctor of Philosophy}
+\newcommand{\themonth}{January}
+\newcommand{\theyear}{2017}
+\newcommand{\subsubsubsection}[1]{\medskip\par\emph{#1:}}
+\newcommand{\swarmA}{Hexagonal}
+\newcommand{\swarmB}{Connected}
+\newcommand{\stability}{internal movement}
+\newcommand{\Stability}{Internal movement}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+%\newcommand{\Fig}{fig.}
+%\newcommand{\Figs}{figs.}
+%\newcommand{\Eq}{Eq.}
+%\newcommand{\eq}{eq.}
+%\newcommand{\Eqs}{eqs.}
+%\newcommand{\Sec}{sec.}
+%\newcommand{\Alg}{alg.}
+%\newcommand{\Tab}{tab.}
+%\newcommand{\Tabs}{tabs.}
+%\newcommand{\List}{list.}
+%\newcommand{\Lists}{lists.}
+%\newcommand{\Chapter}{Ch.}
+\newcommand{\app}{Appendix}
+\renewcommand{\chapterautorefname}{\S}
+\renewcommand{\sectionautorefname}{\S}
+\renewcommand{\subsectionautorefname}{\S}
+\renewcommand{\subsubsectionautorefname}{\S}
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+%                    DEDICATION (OPTIONAL)
+%
+\dedication{To my Mother for encouraging me to 'Keep On Learning'}
+
+%                     INCLUDE ONLY
+% Use this if you want to process only a small part of the document
+
+%\includeonly{CHAPTER-1/text}
+
+%                     DOCUMENT
+\begin{document}
+\mainmatter
+\linespread{1.3}
+\setcounter{chapter}{0}
+\chapter{Research related to thesis topics}
+
+\section{Swarm agent magnitude metric (C) \cite{NIM:09,HS:05,RMT:15}}
+\textbf{\underline{APPLICATIONS}}
+\begin{itemize}  
+\setlength\itemsep{0em}
+  \item Performance analysis \cite{NIM:09,HS:05}
+  \item Field effect optimisation
+  \item Swarm algorithm comparisons
+\end{itemize}
+
+\subsection{Discussion of \cite{NIM:09}} 
+Published in 2009 this paper proposes metrics to measure the `performance' of coordinated swarms. The paper's focus is flocking and formation based agent movement. The metrics are all based upon discrete time and a non directional swarm configurations. The paper proposes a quality metric based upon volume and perimeter size of a swarm to calculate the density of the swarm. The paper also proposes a Mean Distance Error measurement to calculate the average distance and the variation. (This is used in the thesis but was derived before this paper was found). The paper also proposes a Path Length Ration derived from distance between starting and finishing points over a set time. This metric identifies how far the centroid of the swarm has moved as a ratio.
+  
+\textbf{\underline{SIMILARITIES}}
+\begin{itemize}
+   \setlength\itemsep{0em}
+	\item This paper uses discrete time as a method of identifying the swarm movements as does the thesis.
+	\item Both use the centre of the swarm (centroid) for comparison.
+\end{itemize} 
+
+\textbf{\underline{DIFFERENCES}}
+\begin{itemize}
+   \setlength\itemsep{0em}
+	\item This paper does not consider the magnitude variations for the swarm nor does it consider the level of cohesion within the swarm. 
+	\item The thesis uses magnitude as it better quantifies the internal `state' of the swarm. 
+	\item The thesis uses centroid tracking to identify distance travelled and the effect of reduced coordination, it is also used to identify the resultant speed to the swarm.   
+\end{itemize} 
+
+\subsection{Discussion of \cite{HS:05}} 
+Published in 2005 this paper proposes using potential fields to control a swarms structure and highlights the hexagonal formation. The paper focuses on scalability and deployment with directional control with only localised sensing. The paper also states that performance metrics are not `complete'. The metrics that the paper uses are based on a very simplistic formulae of reaching a goal in a specified time. The research is based upon a 2D model and a swarm of 40 agents and 90- obstacles with all agents having the ability to sense the goal. the swarm sizes where selected due to an $N^2$ issue.  
+
+\textbf{\underline{SIMILARITIES}}
+\begin{itemize}
+   \setlength\itemsep{0em}
+	\item This paper uses potential fields to create movement.
+	\item This paper is trying to measure performance based on swarm movement.
+\end{itemize} 
+
+\textbf{\underline{DIFFERENCES}}
+\begin{itemize}
+   \setlength\itemsep{0em}
+	\item The thesis metric is based upon the structure of the swarm rather than a simple collision or success ratio.
+	\item The thesis metric and simulations work with arbitrary sized swarms and are scalable.
+	\item The thesis approach using boundary detection allows a reduction i resource usage and the metric is still applicable due to the adaptive nature of the agents.
+\end{itemize} 
+
+\subsection{Discussion of \cite{RMT:15}} 
+Published in 2015 this paper proposes using potential fields to control a swarms with a weighted aggregation of the calculated vectors for movement. The paper also introduces the concept of sensor failure and recovery and measuring the effects of the failures on the control of the swarm.  
+
+\textbf{\underline{SIMILARITIES}}
+\begin{itemize}
+   \setlength\itemsep{0em}
+	\item This paper uses potential fields to create movement.
+	\item This paper is trying to measure performance based distance changes.
+\end{itemize} 
+
+\textbf{\underline{DIFFERENCES}}
+\begin{itemize}
+   \setlength\itemsep{0em}
+	\item The thesis metric is based upon magnitude.
+	\item The paper considers agents with multiple sensors for the same task.
+\end{itemize} 
+
+\section{Perimeter Detection (no comms) (C) \cite{SOM:12,ZAPS:07,ZFG:13,AKK:08,APZDAMC:09,AZDPS:11,JG:13,SALGVPJ:08,MD:09}}
+\textbf{\underline{APPLICATIONS}}
+\begin{itemize}
+  \setlength\itemsep{0em}
+	\item Search and rescue (A) \cite{SALGVPJ:08}
+	\item Sensor deployment (A) \cite{SOM:12}
+\end{itemize}
+
+\subsection{Discussion of \cite{SOM:12}}
+Published in 2012 (translated from Spanish) this paper proposes a mechanism of detecting the perimeter of an anomaly by using a gradient detection method. The agents use sensors (to detect the gradient i.e. heat) The agents can then be made to move into more appropriate positions and the agents communicate via an infrastructure. The paper is based on simulations for proof. The main focus is the align of agents to a perimeter rather than for the agents to detect their own perimeter.
+
+\textbf{\underline{SIMILARITIES}}
+\begin{itemize}
+   \setlength\itemsep{0em}
+	\item This paper uses a perimeter feature within the swarm.
+\end{itemize} 
+
+\textbf{\underline{DIFFERENCES}}
+\begin{itemize}
+   \setlength\itemsep{0em}
+	\item This paper uses a perimeter feature within the swarm.
+\end{itemize} 
+
+\subsection{Discussion of \cite{ZAPS:07}}
+Published in 2007 this paper by Zeinalipour-Yazti proposes a mechanism of detecting the perimeter using a communications infrastructure that produces a database of agent coordinates. Each agent can then determine if it is on the perimeter via a simple geometry test.
+
+\textbf{\underline{SIMILARITIES}}
+\begin{itemize}
+   \setlength\itemsep{0em}
+	\item Detection of a boundary in a mobile swarm.
+\end{itemize} 
+
+\textbf{\underline{DIFFERENCES}}
+\begin{itemize}
+   \setlength\itemsep{0em}
+	\item The algorithm in this thesis requires no comms.
+	\item The algorithm in this thesis will work with arbitrary sized swarms.
+	\item The thesis uses the boundary for overall coordination, the paper only specifies a detection mechanism.
+\end{itemize} 
+
+\subsection{Discussion of \cite{ZFG:13}}
+Published in 2013 this paper by Zhang proposes a mechanism of detecting a perimeter and tracking a spill. The agents have a foraging mode to locate a spill (some form of sensing) then they travel around the perimeter (spill on left) and use field effects to prevent agent collisions. The agents also employ a communications infrastructure to attract nearby agents. The spill perimeter is treat as an obstacle.
+
+\textbf{\underline{SIMILARITIES}}
+\begin{itemize}
+   \setlength\itemsep{0em}
+	\item Using field effects with obstacles and agents.
+	\item Using agents to surround an object. 
+	\item The paper identifies a metric for the stability of the system. 
+\end{itemize} 
+
+\textbf{\underline{DIFFERENCES}}
+\begin{itemize}
+   \setlength\itemsep{0em}
+	\item In the thesis it is assumed the agents have been deployed around the obstacle and will contract to surround the spill rather than search for the spill and then move around it.
+	\item The emergent behaviour in this thesis will exert a compression on the surrounded object at a level shown by the metric (positive value)
+	\item The paper uses distance as a metric the thesis uses magnitude which in this case would allow the compression of the spill to be identified. 
+\end{itemize} 
+
+\subsection{Discussion of \cite{APZDAMC:09}}
+Published in 2009 this paper by Panayiotis is exactly the same as \cite{AZDPS:11} published 2 years later in 2011 (\autoref{AZDPS:11}) in a different journal.
+
+\subsection{Discussion of \cite{AZDPS:11}}\label{AZDPS:11}
+Published in 2011 this paper by Panayiotis proposes a mechanism of splitting a swarm into tasks based upon feature detection. (perimeter and core) the perimeter is used for sensing the environment and the core is used to store data via communications infrastructure. The perimeter algorithm uses the comms network (localised) and geometry to identify perimeter nodes. By local there is a propagation time as all agents must know their location relative to the neighbours to identify a perimeter.  
+
+\textbf{\underline{SIMILARITIES}}
+\begin{itemize}
+   \setlength\itemsep{0em}
+	\item Perimeter detection using localised information. However the paper is communicating the coordinates of neighbours.
+	\item Using agents to surround an object. 
+\end{itemize} 
+
+\textbf{\underline{DIFFERENCES}}
+\begin{itemize}
+   \setlength\itemsep{0em}
+	\item The paper identifies a metric for the stability of the system based on distance. 
+	\item The thesis has no comms.
+\end{itemize} 
+
+\subsection{Discussion of \cite{JG:13}}
+Published in 2013 this paper by Saez-Pons discuses the use of potential fields to create a swarm but adds to the swarm influencing factors as a subset of the main swarm described as a mediator.  
+
+\textbf{\underline{SIMILARITIES}}
+\begin{itemize}
+   \setlength\itemsep{0em}
+	\item Using a subset of agents to control the swarms movement.
+	\item Using potential fields.
+	\item No comms.
+	\item Creating swarm shapes through attraction of neighbours to nearest mediator
+\end{itemize} 
+
+\textbf{\underline{DIFFERENCES}}
+\begin{itemize}
+   \setlength\itemsep{0em}
+	\item Destinations are separate from the swarm.
+	\item The coordinator agents are selected via rules rather than hard coded.
+	\item The thesis introduces and compares several methodologies for subset identification.
+	\item The thesis methodology allows agents to change roles. 
+\end{itemize} 
+
+\subsection{Discussion of \cite{SALGVPJ:08}}
+Published in 2008 this paper by Saez-Pons discusses the use of potential fields to create a swarm deployment in a warehouse without comms. The paper is based on the GUARDIAN project. The agents are homogeneous and attracted to a human.
+
+\textbf{\underline{SIMILARITIES}}
+\begin{itemize}
+   \setlength\itemsep{0em}
+	\item Direction is applied via a potential directional field.
+	\item Obstacles are identified with a potential field.
+	\item No comms.
+\end{itemize} 
+
+\textbf{\underline{DIFFERENCES}}
+\begin{itemize}
+   \setlength\itemsep{0em}
+	\item The paper identifies all agents as directional. 
+\end{itemize} 
+
+\subsection{Discussion of \cite{MD:09}}
+Published in 2009 this paper by McLurkin proposes a mechanism of detecting the perimeter using a cyclic check of angles. The algorithm includes the use of communications to identify the internal voids and the external perimeter.
+
+\textbf{\underline{SIMILARITIES}}
+\begin{itemize}
+   \setlength\itemsep{0em}
+	\item This paper uses a cyclic angle test to identify perimeter types.
+\end{itemize} 
+
+\textbf{\underline{DIFFERENCES}}
+\begin{itemize}
+   \setlength\itemsep{0em}
+	\item The algorithm in this thesis uses a short circuit mechanism to reduce the computational overhead.
+	\item This paper uses communications to identify perimeter types, no comms is included in the thesis.
+	\item The thesis uses the boundary for overall coordination, the paper only specifies a detection mechanism.
+\end{itemize} 
+
+\section{Directional bias (reduced energy usage)(C) \cite{SOM:12,ZAPS:07,ZFG:13,AKK:08,APZDAMC:09,AZDPS:11,JG:13,RMT:15,SALGVPJ:08}}
+\textbf{\underline{APPLICATIONS}} 
+\begin{itemize}
+  \setlength\itemsep{0em}
+	\item Search and rescue (A) \cite{SALGVPJ:08}
+	\item Sensor deployment (A) \cite{ZAPS:07}
+\end{itemize}
+
+All papers discussed above.
+
+\section{Void closing (dynamic coverage)(C)\cite{HGCTREA:15,RMT:15}}   
+\textbf{\underline{APPLICATIONS}}
+\begin{itemize}
+  \setlength\itemsep{0em}
+  	\item Crop spraying (A) \cite{HGCTREA:15}
+   \item Search and rescue (A)
+ 	\item Self healing (to improve above applications)(A) \cite{RMT:15}
+\end{itemize}	
+
+\section{Partial (Basic count algorithm)}
+No papers have been found using this technique of identifying rudimentary boundaries or subsets of a swarm for directional bias.
+
+\begin{itemize}
+\setlength\itemsep{0em}
+	\item Directional bias (reduced energy usage)(C)
+	\begin{itemize}
+   \setlength\itemsep{0em}
+   	\item Search and rescue (A)
+   	\item reconnaissance (A)
+	\end{itemize}
+\end{itemize}
+	
+\section{Full Perimeter (no GPS)}
+\begin{itemize}
+\setlength\itemsep{0em}
+  	\item Void closing (static swarm)(C)\cite{ZFG:13,GN:08,IT:10,RS:08,RS:09}
+	\begin{itemize}
+   \setlength\itemsep{0em}
+   	\item Object surrounding \cite{ZFG:13}
+	 	\item Oil spillages (A)
+		\item Fire containment (A)
+	\end{itemize}
+\end{itemize}
+
+\section{Emergent behaviours (by-products of field effects)}
+\begin{itemize}
+\setlength\itemsep{0em}
+	\item Swarm flooding (part of emergent behaviours) (c) \cite{BH:00,RWBK:15}
+	\item Path following (emergent behaviour with multiple destinations)
+	\item Shape forming (emergent behaviour with multiple destinations)	
+	\item Reconnaissance (with GPS) (A)
+\end{itemize}
+%\bibliographystyle{apalike}
+%\nocite{*}
+\bibliographystyle{plain}
+\bibliography{thesis}
+
+\end{document}

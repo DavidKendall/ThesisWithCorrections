@@ -1,0 +1,1118 @@
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 *:902                   *:*                     LISTEN     
+tcp        0      0 localhost:mysql         *:*                     LISTEN     
+tcp        0      0 study1:domain           *:*                     LISTEN     
+tcp        0      0 *:ssh                   *:*                     LISTEN     
+tcp        0      0 localhost:ipp           *:*                     LISTEN     
+tcp        0      1 M5722.eliot.org.u:39559 192.168.39.128:85       SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:39162 192.168.39.147:32768    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:55948 192.168.39.161:1067     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:36829 192.168.39.155:5989     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:54612 192.168.39.184:256      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:46364 192.168.39.154:1175     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:43389 192.168.39.157:32768    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:53308 192.168.39.151:667      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:48938 192.168.39.156:5718     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:51036 192.168.39.140:bpcd     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:39241 192.168.39.157:imaps    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:38453 192.168.39.166:32768    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:44627 192.168.39.143:2394     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:57741 192.168.39.157:4002     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:51140 192.168.39.127:kshell   SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:49137 192.168.39.127:668      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:47614 192.168.39.163:801      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:50758 192.168.39.133:9917     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:42787 192.168.39.110:1461     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:55267 192.168.39.147:8899     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:45050 192.168.39.162:1055     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:51103 192.168.39.163:1071     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:44128 192.168.39.179:domain   SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:52987 192.168.39:microsoft-ds SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:32993 192.168.39.129:7800     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:55950 192.168.39.132:18040    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:46745 192.168.39.103:5560     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:45733 192.168.39.153:667      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:36189 192.168.39.165:1111     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:49238 192.168.39.141:msnp     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:58174 192.168.39.158:5120     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:49345 192.168.39.122:3390     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:50906 192.168.39.156:3390     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:33930 192.168.39.147:gopher   SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:55358 192.168.39.106:socks    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:37441 192.168.39.155:259      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:50001 192.168.39.163:sunrpc   SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:40640 192.168.39.141:1067     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:54497 192.168.39.141:x11-6    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:55159 192.168.39.158:socks    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:46076 192.168.39.131:smtp     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:40609 a104-82-69-22.dep:https ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:59994 192.168.39.117:259      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:47295 192.168.39.105:32782    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:48296 192.168.39.118:2522     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:48325 192.168.39.134:x11-6    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:58605 192.168.39.171:smtp     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:52947 lhr26s03-in-f14.1e:http ESTABLISHED
+tcp        0      0 M5722.eliot.org.u:37315 c7.ae.c1ad.ip4.sta:http ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:57311 192.168.39.138:1461     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:34496 192.168.39.122:8007     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:54358 192.168.39.111:1058     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:49977 192.168.39.135:ms-sql-s SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:43118 192.168.39.160:2200     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:47231 192.168.39.110:4002     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:32843 192.168.39.132:domain   SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:34140 192.168.39.160:787      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:56721 192.168.39.:xmpp-client SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:52902 192.168.39.162:50003    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:53437 192.168.39.165:54045    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:47756 192.168.39.140:44176    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:40005 192.168.39.125:5718     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:53265 192.168.39.110:8400     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:44309 adtechus-ads-adte:https ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:46594 192.168.39.128:9050     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:40938 192.168.39.163:5900     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:56994 192.168.39.131:85       SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:54559 192.168.39.118:5560     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:41775 192.168.39.122:3659     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:36371 192.168.39.157:2200     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:37620 192.168.39.157:256      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:46771 192.168.39.186:pop3     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:50340 192.168.39.120:9050     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:43741 lhr25s07-in-f10.1:https TIME_WAIT  
+tcp        0      1 M5722.eliot.org.u:60996 192.168.39.123:1124     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:33057 192.168.39.133:18040    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:40358 192.168.39.134:1043     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:48910 192.168.39.112:5560     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:32795 192.168.39.133:44176    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:48943 192.168.39.139:1035     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:40489 192.168.39.132:9050     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:34413 192.168.39.150:8400     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:49384 192.168.39.130:44176    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:40446 192.168.39.152:bpcd     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:59268 192.168.39.153:12000    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:32971 192.168.39.111:1067     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:34972 192.168.39.159:pop3     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:50544 192.168.39.125:5054     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:59387 192.168.39.144:30718    SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:50927 a104-82-103-93.de:https ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:45359 192.168.39.132:1043     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:33656 host39-rangeC-akam:http ESTABLISHED
+tcp        0      0 M5722.eliot.org.u:58675 lhr26s02-in-f2.1e1:http ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:41226 192.168.39.105:socks    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:39228 192.168.39.107:2702     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:38341 192.168.39.105:5225     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:59910 192.168.39.135:1175     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:57111 192.168.39.112:30718    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:36095 192.168.39.:xmpp-client SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:48356 192.168.39.161:sunrpc   SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:33770 192.168.39.135:bpcd     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:41494 192.168.39.140:1175     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:50061 192.168.39.148:5989     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:46148 192.168.39.132:1072     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:36471 192.168.39.168:44176    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:58690 192.168.39.113:3918     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:36802 192.168.39.185:5900     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:53367 192.168.39.132:sunrpc   SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:54374 192.168.39.150:2702     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:37244 192.168.39.153:256      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:57837 192.168.39.112:2190     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:48386 a104-86-110-16.dep:http ESTABLISHED
+tcp        0      0 M5722.eliot.org.u:56614 a23-43-75-27.deplo:http ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:55284 192.168.39.152:1175     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:55776 192.168.39.110:787      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:36127 192.168.39.162:imaps    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:53241 192.168.39.147:5510     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:45259 192.168.39.147:snpp     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:46251 192.168.39.131:18040    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:52359 192.168.39.125:1081     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:59984 69.172.216.111:https    TIME_WAIT  
+tcp        0      1 M5722.eliot.org.u:54120 192.168.39.131:3390     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:37874 192.168.39.138:49152    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:37324 192.168.39.157:1058     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:41377 192.168.39.122:9050     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:35745 192.168.39.111:2702     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:50068 192.168.39.126:8200     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:58373 192.168.39.134:8200     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:46304 192.168.39.128:sunrpc   SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:37347 192.168.39.143:x11-6    SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:58676 lhr26s02-in-f2.1e1:http ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:36165 192.168.39.103:8400     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:57006 192.168.39.137:32775    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:42277 192.168.39.160:100      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:39198 192.168.39.103:32768    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:38110 192.168.39.160:49152    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:56015 192.168.39.157:1067     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:41665 192.168.39.134:7800     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:48414 192.168.39.144:3031     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:37086 192.168.39.159:1111     SYN_SENT   
+tcp       13      0 M5722.eliot.org.u:60874 192.168.0.:microsoft-ds CLOSE_WAIT 
+tcp        0      1 M5722.eliot.org.u:43904 192.168.39.138:5859     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:42722 192.168.39.155:1175     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:60047 192.168.39.140:5989     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:39553 192.168.39.132:smtp     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:58611 192.168.39.:xmpp-client SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:39162 192.168.39.128:18040    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:48335 192.168.39.166:8400     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:47362 192.168.39.103:8899     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:39695 192.168.39.122:32775    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:35461 192.168.39.163:domain   SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:53165 192.168.39.163:54045    SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:48825 192.168.0.10:afpovertcp ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:46366 192.168.39.117:ms-sql-s SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:57736 192.168.39.106:5120     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:55608 192.168.39.144:2190     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:51653 192.168.39.129:8200     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:38468 192.168.39:microsoft-ds SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:59498 host39-rangeC-akam:http ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:40729 192.168.39.141:2394     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:55279 69.172.216.56:https     TIME_WAIT  
+tcp        0      1 M5722.eliot.org.u:59115 192.168.39.151:5989     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:47512 192.168.39.156:25735    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:37366 192.168.39.141:5510     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:36112 192.168.39.157:snpp     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:51851 192.168.39.163:2383     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:48973 192.168.39.108:3390     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:58162 192.168.39.158:2383     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:42112 192.168.39.133:1043     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:54265 192.168.39.111:snpp     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:52926 192.168.39.137:gopher   SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:33655 host39-rangeC-akam:http ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:40397 192.168.39.129:9917     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:33638 192.168.39.156:9050     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:40356 192.168.39.155:bpcd     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:40944 192.168.39.162:5225     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:46005 192.168.39.110:2702     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:54223 192.168.39.105:2383     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:52414 192.168.39.131:9917     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:52580 192.168.39.143:5510     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:35336 192.168.39.120:1072     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:52044 192.168.39.150:1067     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:34471 192.168.39.122:5718     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:39241 192.168.39.150:8899     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:59243 192.168.39.116:8200     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:46095 192.168.39.129:85       SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:45530 192.168.39.111:49152    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:42306 192.168.39.161:pop3     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:40759 192.168.39.105:19315    SYN_SENT   
+tcp        1      0 M5722.eliot.org.u:36427 192.168.0.2:netbios-ssn CLOSE_WAIT 
+tcp        0      1 M5722.eliot.org.u:60911 192.168.39.166:8899     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:37955 192.168.39.148:bpcd     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:37978 192.168.39.153:bpcd     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:33079 192.168.39.157:2702     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:46206 192.168.39.105:54045    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:60810 192.168.39.133:8083     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:36680 192.168.39.161:8899     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:58105 192.168.39.165:smtp     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:39970 192.168.39.141:8400     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:37452 192.168.39.150:snpp     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:35666 192.168.39.133:1072     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:37609 192.168.39.110:100      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:57194 192.168.39.127:691      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:55334 192.168.39.131:8888     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:40228 edge-atlas-shv-01:https ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:46536 192.168.39.140:msnp     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:35253 192.168.39.103:2702     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:59499 host39-rangeC-akam:http ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:37109 192.168.39.151:ms-sql-s SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:58893 192.168.39.121:9050     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:39565 192.168.39.155:ms-sql-s SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:45165 192.168.39.112:2525     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:35487 a104-82-71-221.dep:http ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:38173 192.168.39.162:32782    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:34300 192.168.39.156:1296     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:35472 192.168.39.113:5054     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:50529 192.168.39.140:7800     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:54652 192.168.39.107:1058     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:50927 192.168.39.104:1461     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:48411 192.168.39.161:8400     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:54877 192.168.39.128:1043     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:50047 192.168.39.188:9917     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:57058 192.168.39.156:8007     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:40230 192.168.39.185:sunrpc   SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:54901 192.168.39.160:1461     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:58472 192.168.39.128:1072     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:47474 192.168.39.141:4002     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:48487 192.168.39.112:5120     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:36586 192.168.39.185:domain   SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:59620 lhr26s02-in-f2.1e1:http ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:54741 192.168.39.190:imaps    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:37604 192.168.39.161:2702     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:52946 lhr26s03-in-f14.1e:http ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:49681 192.168.39.135:5989     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:54290 192.168.39.159:3031     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:44095 192.168.39.159:801      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:57752 192.168.39.130:9917     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:34823 192.168.39.113:222      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:52745 192.168.39.125:3918     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:50227 192.168.39.138:625      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:45320 192.168.39.162:2042     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:39342 192.168.39.132:8083     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:48511 192.168.39.112:32768    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:53501 192.168.39.157:5560     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:56516 192.168.39.142:5510     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:33308 192.168.39.111:2200     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:52619 192.168.39.131:8083     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:36546 lhr25s02-in-f6.1e:https ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:35450 192.168.39.179:smtp     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:56149 192.168.0.:microsoft-ds ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:60679 192.168.39.130:msnp     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:47842 192.168.39.103:4002     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:42969 192.168.39.149:9917     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:39922 192.168.39.162:256      SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:48698 192.168.0.10:afpovertcp ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:38949 192.168.39.167:9917     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:41234 192.168.39.:xmpp-client SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:59849 192.168.39.122:25735    SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:60852 host176-rangeA-aka:http ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:43624 192.168.39.150:5560     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:41178 192.168.39.111:8899     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:43896 192.168.39.172:9917     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:39299 192.168.39.103:2522     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:33160 192.168.39.155:5900     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:35716 192.168.39.125:3659     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:60879 192.168.39.112:snpp     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:55294 192.168.39.161:5900     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:37757 192.168.39:microsoft-ds SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:40467 192.168.39.105:1111     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:52829 192.168.39.112:2522     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:35422 192.168.39.132:1296     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:45888 192.168.39.144:2522     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:60792 192.168.39.159:socks    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:60081 192.168.39.145:cmip-man SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:52272 192.168.39.103:snpp     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:40051 192.168.39.115:1124     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:49932 192.168.39.148:5510     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:45275 192.168.39.110:2200     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:56555 192.168.39.105:5500     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:37316 192.168.39.131:1296     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:60191 dd.ae.c1ad.ip4.sta:http TIME_WAIT  
+tcp        0      1 M5722.eliot.org.u:41554 192.168.39.150:32768    SYN_SENT   
+tcp        1      0 M5722.eliot.org.u:33933 192.168.0.2:netbios-ssn CLOSE_WAIT 
+tcp        0      1 M5722.eliot.org.u:56340 192.168.39.112:3031     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:44162 192.168.39.108:1296     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:37401 192.168.39.185:pop3     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:56234 192.168.39.162:8181     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:35309 192.168.39.163:19315    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:54700 192.168.39.172:44176    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:58851 192.168.39.147:2190     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:33529 192.168.39.171:sunrpc   SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:60130 192.168.39.164:2190     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:36419 ec2-23-21-104-228:https TIME_WAIT  
+tcp        0      0 M5722.eliot.org.u:59497 host39-rangeC-akam:http ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:57406 192.168.39.115:ms-sql-s SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:46049 192.168.39.103:1067     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:49866 192.168.39.144:8888     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:56434 192.168.39.147:5560     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:42043 192.168.39.186:5900     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:54925 192.168.39.142:x11-6    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:45256 192.168.39.143:msnp     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:54522 192.168.39.131:25735    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:37476 192.168.39.106:3031     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:45822 192.168.39.135:259      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:41351 192.168.39.131:9050     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:48834 192.168.39.184:auth     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:40452 192.168.39.161:snpp     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:56670 192.168.39:microsoft-ds SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:37151 192.168.39:gnutella-svc SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:40182 192.168.39.129:1043     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:48375 192.168.39.111:32768    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:53603 192.168.39.170:msnp     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:39624 192.168.39.155:sunrpc   SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:33347 192.168.39.153:259      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:59076 192.168.39.159:54045    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:44170 192.168.39.119:7800     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:52818 192.168.39.108:9050     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:37434 192.168.39.163:5225     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:48073 192.168.39.134:2394     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:57505 192.168.39.159:1071     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:48026 192.168.39.133:9050     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:56053 192.168.39:microsoft-ds SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:43262 192.168.39.103:2190     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:48794 a104-82-135-83.de:https ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:46925 192.168.39.153:1175     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:55795 192.168.39.186:256      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:36968 192.168.39.159:5120     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:33907 192.168.39.155:12000    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:46153 192.168.39.128:8200     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:46629 192.168.39.141:2702     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:41646 192.168.39.157:8400     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:58428 host8-rangeC-akama:http ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:33787 192.168.39.114:8200     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:51162 192.168.39.162:5500     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:55478 192.168.39.105:1071     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:48411 192.168.39.125:222      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:37353 192.168.39.153:8200     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:44564 192.168.39.152:12000    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:49228 192.168.39.187:5900     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:36453 192.168.39.136:8200     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:54415 192.168.39.137:5718     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:51176 192.168.39.171:domain   SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:50820 192.168.39.155:667      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:33424 192.168.39.156:32775    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:58241 192.168.39.111:4002     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:49835 192.168.39.144:9917     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:57426 192.168.39.152:8200     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:55176 192.168.39.134:18040    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:41612 192.168.39.135:64623    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:58822 192.168.39.159:auth     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:48457 192.168.39.129:msnp     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:33422 192.168.39.122:1296     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:40150 192.168.39.141:8899     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:46638 192.168.39.110:49152    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:57440 192.168.39.153:5989     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:54018 192.168.39.105:801      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:60466 192.168.39.166:snpp     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:32893 192.168.39.129:1072     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:36145 192.168.39.128:8083     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:35457 a23-43-75-27.deplo:http ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:49321 192.168.39.118:32768    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:46821 192.168.39.138:787      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:52612 192.168.39.109:787      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:53882 192.168.39.161:auth     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:51180 192.168.39.135:903      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:54793 192.168.39.185:smtp     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:52114 192.168.39.118:2190     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:60711 192.168.39.140:12000    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:35882 192.168.39.190:256      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:39836 192.168.39.153:7800     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:57656 192.168.39.129:44176    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:38093 192.168.39.118:snpp     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:49225 192.168.39.162:6565     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:56038 192.168.39.162:19315    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:34811 192.168.39.110:1058     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:51683 192.168.39.155:7800     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:52694 192.168.39.111:8400     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:51875 192.168.39.125:8007     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:40910 192.168.39.120:8083     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:52077 a104-82-238-28.dep:http ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:56863 192.168.39.132:3390     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:49338 192.168.39.164:9917     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:48174 192.168.39.157:8899     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:39996 192.168.39.131:1072     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:56540 192.168.39.:xmpp-client SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:57694 192.168.39.152:7800     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:56363 192.168.39.112:15742    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:40587 192.168.39.161:32768    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:60984 192.168.39.128:5900     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:59420 192.168.39.129:18040    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:38898 192.168.39.149:8888     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:44902 192.168.39.167:8888     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:37156 192.168.39.114:7800     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:56707 192.168.39.142:2394     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:55030 192.168.39.151:259      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:39619 192.168.39.144:15742    SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:37242 192.168.39.151:1124     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:56033 192.168.39.142:8083     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:45696 192.168.39.137:8007     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:59493 192.168.39.134:85       SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:45279 192.168.39.135:667      SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:33872 192.168.39.116:85       SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:39811 192.168.39.144:2525     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:35219 192.168.39.189:smtp     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:55467 192.168.39:microsoft-ds SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:51689 192.168.39.163:1111     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:46086 192.168.39.131:1043     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:33957 192.168.39.172:msnp     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:34107 192.168.39.147:2522     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:35456 a23-43-75-27.deplo:http ESTABLISHED
+tcp        0      0 M5722.eliot.org.u:50848 sc.iasds01.com:https    TIME_WAIT  
+tcp        0      1 M5722.eliot.org.u:41067 192.168.39.107:4002     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:49843 192.168.39.144:smtp     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:56491 lhr26s02-in-f14.1e:http ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:34641 192.168.39.161:5560     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:42643 192.168.39.142:9050     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:50928 a104-82-103-93.de:https ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:47731 192.168.39.186:auth     SYN_SENT   
+tcp        0      1 M5722.eliot.org.u:59622 192.168.39.159:2383     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:40638 edge-star-mini-sh:https ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:54330 192.168.39.122:1081     SYN_SENT   
+tcp        0      0 M5722.eliot.org.u:40638 edge-star-mini-sh:https ESTABLISHED
+tcp        0      1 M5722.eliot.org.u:54330 192.168.39.122:1081     SYN_SENT   
+tcp6       0      0 [::]:902                [::]:*                  LISTEN     
+tcp6       0      0 [::]:http               [::]:*                  LISTEN     
+tcp6       0      0 [::]:ssh                [::]:*                  LISTEN     
+tcp6       0      0 ip6-localhost:ipp       [::]:*                  LISTEN     
+tcp6       1      0 ip6-localhost:49744     ip6-localhost:ipp       CLOSE_WAIT 
+udp        0      0 *:35554                 *:*                                
+udp        0      0 *:56876                 *:*                                
+udp        0      0 study1:domain           *:*                                
+udp        0      0 *:bootpc                *:*                                
+udp        0      0 *:ipp                   *:*                                
+udp        0      0 *:mdns                  *:*                                
+udp        0      0 *:mdns                  *:*                                
+udp6       0      0 [::]:52930              [::]:*                             
+udp6       0      0 [::]:54474              [::]:*                             
+udp6       0      0 [::]:mdns               [::]:*                             
+raw        0      0 *:icmp                  *:*                     7          
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  2      [ ACC ]     STREAM     LISTENING     96977    /tmp/insync1000.sock
+unix  2      [ ACC ]     STREAM     LISTENING     11541    /var/run/avahi-daemon/socket
+unix  2      [ ACC ]     STREAM     LISTENING     89430    @/tmp/.ICE-unix/4905
+unix  2      [ ACC ]     STREAM     LISTENING     32792    /run/user/1000/pulse/native
+unix  2      [ ACC ]     STREAM     LISTENING     20703323 @/dbus-vfs-daemon/socket-AxDfHexm
+unix  2      [ ACC ]     STREAM     LISTENING     77782    @/tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     1860846  @neil-com.canonical.Unity.Scope.files.T666621017691224
+unix  2      [ ACC ]     STREAM     LISTENING     83768    /run/user/1000/keyring-eynGId/control
+unix  2      [ ACC ]     STREAM     LISTENING     15919797 @/dbus-vfs-daemon/socket-gSHoNxQ7
+unix  2      [ ACC ]     STREAM     LISTENING     1857     /var/run/acpid.socket
+unix  2      [ ACC ]     SEQPACKET  LISTENING     9704     /run/udev/control
+unix  2      [ ACC ]     STREAM     LISTENING     247284   @/dbus-vfs-daemon/socket-9JmCYRZ7
+unix  2      [ ACC ]     STREAM     LISTENING     10535    @/com/ubuntu/upstart
+unix  2      [ ACC ]     STREAM     LISTENING     12394    /var/run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     91980    @/tmp/dbus-8hb7IfBGNA
+unix  2      [ ACC ]     STREAM     LISTENING     12908    /var/run/vmnat.1266
+unix  2      [ ACC ]     STREAM     LISTENING     20703325 @/dbus-vfs-daemon/socket-QKb4u43u
+unix  2      [ ACC ]     STREAM     LISTENING     20914856 @/dbus-vfs-daemon/socket-pM43wO9v
+unix  2      [ ACC ]     STREAM     LISTENING     77783    /tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     93064    /run/user/1000/keyring-eynGId/pkcs11
+unix  2      [ ACC ]     STREAM     LISTENING     1860850  @neil-com.canonical.Unity.Scope.applications.T666626017932144
+unix  2      [ ACC ]     STREAM     LISTENING     12168    /var/run/vmware/usbarbitrator-socket
+unix  2      [ ACC ]     STREAM     LISTENING     93069    /run/user/1000/keyring-eynGId/gpg
+unix  2      [ ACC ]     STREAM     LISTENING     93071    /run/user/1000/keyring-eynGId/ssh
+unix  2      [ ACC ]     STREAM     LISTENING     89431    /tmp/.ICE-unix/4905
+unix  2      [ ACC ]     STREAM     LISTENING     1859904  @neil-com.canonical.Unity.Master.Scope.applications.T666620162995184
+unix  2      [ ACC ]     STREAM     LISTENING     89281    @/tmp/dbus-D0NOBBAuDG
+unix  2      [ ACC ]     STREAM     LISTENING     8399767  /var/run/cups/cups.sock
+unix  2      [ ACC ]     STREAM     LISTENING     13278819 @/dbus-vfs-daemon/socket-waC2W0Ba
+unix  3      [ ]         SEQPACKET  CONNECTED     32317948 @0003a
+unix  2      [ ACC ]     STREAM     LISTENING     1860851  @neil-com.canonical.Unity.Scope.scopes.T666626027258524
+unix  2      [ ACC ]     STREAM     LISTENING     93013    @/com/ubuntu/upstart-session/1000/4708
+unix  2      [ ACC ]     STREAM     LISTENING     12468    /var/run/sdp
+unix  2      [ ACC ]     STREAM     LISTENING     20702063 @/dbus-vfs-daemon/socket-MP2VgQww
+unix  2      [ ACC ]     STREAM     LISTENING     14020    /var/run/mysqld/mysqld.sock
+unix  2      [ ACC ]     STREAM     LISTENING     32318060 /tmp/.org.chromium.Chromium.OkQ7fD/SingletonSocket
+unix  2      [ ACC ]     STREAM     LISTENING     1859905  @neil-com.canonical.Unity.Master.Scope.files.T666620178843098
+unix  2      [ ACC ]     STREAM     LISTENING     93135    @/tmp/dbus-4D3Nhp0b
+unix  23     [ ]         DGRAM                    11506    /dev/log
+unix  3      [ ]         SEQPACKET  CONNECTED     32318315 
+unix  3      [ ]         STREAM     CONNECTED     89772    @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     93085    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     93431    
+unix  3      [ ]         STREAM     CONNECTED     94325    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     93051    @/tmp/dbus-8hb7IfBGNA
+unix  2      [ ]         DGRAM                    11140    
+unix  3      [ ]         STREAM     CONNECTED     11428    
+unix  3      [ ]         STREAM     CONNECTED     89733    
+unix  3      [ ]         STREAM     CONNECTED     89570    
+unix  3      [ ]         STREAM     CONNECTED     95274    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     89408    
+unix  3      [ ]         STREAM     CONNECTED     92120    
+unix  3      [ ]         STREAM     CONNECTED     14404    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     32742802 @/tmp/dbus-8hb7IfBGNA
+unix  2      [ ]         STREAM     CONNECTED     116622   @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     83881    
+unix  3      [ ]         STREAM     CONNECTED     12945    
+unix  2      [ ]         STREAM     CONNECTED     102784   @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     98872    
+unix  3      [ ]         STREAM     CONNECTED     11561    
+unix  3      [ ]         STREAM     CONNECTED     32545165 
+unix  3      [ ]         STREAM     CONNECTED     32545164 
+unix  3      [ ]         STREAM     CONNECTED     32321759 
+unix  3      [ ]         STREAM     CONNECTED     14097106 
+unix  3      [ ]         STREAM     CONNECTED     14100514 
+unix  3      [ ]         STREAM     CONNECTED     103212   
+unix  3      [ ]         STREAM     CONNECTED     93394    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     89342    
+unix  2      [ ]         STREAM     CONNECTED     20702594 @/dbus-vfs-daemon/socket-MP2VgQww
+unix  3      [ ]         STREAM     CONNECTED     83868    @/tmp/.X11-unix/X0
+unix  2      [ ]         DGRAM                    12144    
+unix  3      [ ]         STREAM     CONNECTED     32321361 
+unix  3      [ ]         STREAM     CONNECTED     32320907 
+unix  3      [ ]         STREAM     CONNECTED     103660   
+unix  3      [ ]         STREAM     CONNECTED     15668611 
+unix  3      [ ]         STREAM     CONNECTED     83947    
+unix  3      [ ]         STREAM     CONNECTED     31828737 @/tmp/.ICE-unix/4905
+unix  3      [ ]         STREAM     CONNECTED     21510429 
+unix  3      [ ]         STREAM     CONNECTED     98854    
+unix  3      [ ]         STREAM     CONNECTED     89726    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     93111    
+unix  3      [ ]         STREAM     CONNECTED     101903   @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     32322588 
+unix  3      [ ]         STREAM     CONNECTED     8400883  
+unix  3      [ ]         STREAM     CONNECTED     94411    
+unix  3      [ ]         STREAM     CONNECTED     89530    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     91959    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     12589    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     103211   @/tmp/dbus-D0NOBBAuDG
+unix  3      [ ]         STREAM     CONNECTED     92045    
+unix  3      [ ]         STREAM     CONNECTED     11763    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     89764    
+unix  3      [ ]         STREAM     CONNECTED     89428    @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     94235    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     89397    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     83806    
+unix  3      [ ]         STREAM     CONNECTED     32545212 
+unix  2      [ ]         DGRAM                    16038    
+unix  3      [ ]         SEQPACKET  CONNECTED     32321792 
+unix  3      [ ]         STREAM     CONNECTED     89396    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     32317981 /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     89242    @/tmp/dbus-8hb7IfBGNA
+unix  2      [ ]         DGRAM                    31947    
+unix  2      [ ]         STREAM     CONNECTED     13280622 @/dbus-vfs-daemon/socket-waC2W0Ba
+unix  2      [ ]         STREAM     CONNECTED     848454   @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     95384    
+unix  3      [ ]         STREAM     CONNECTED     89358    
+unix  3      [ ]         STREAM     CONNECTED     83857    
+unix  2      [ ]         STREAM     CONNECTED     20592670 @/tmp/dbus-4D3Nhp0b
+unix  2      [ ]         DGRAM                    12583    
+unix  3      [ ]         STREAM     CONNECTED     32318450 
+unix  2      [ ]         STREAM     CONNECTED     16121108 
+unix  3      [ ]         STREAM     CONNECTED     89800    @/dbus-vfs-daemon/socket-egtpm14o
+unix  2      [ ]         STREAM     CONNECTED     20702033 @/dbus-vfs-daemon/socket-ls2LAglL
+unix  3      [ ]         STREAM     CONNECTED     15668291 @/tmp/dbus-8hb7IfBGNA
+unix  2      [ ]         STREAM     CONNECTED     9427799  @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     97937    
+unix  3      [ ]         STREAM     CONNECTED     95265    
+unix  3      [ ]         STREAM     CONNECTED     32742261 @/tmp/dbus-D0NOBBAuDG
+unix  3      [ ]         STREAM     CONNECTED     8399762  /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     748620   
+unix  3      [ ]         STREAM     CONNECTED     102726   /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     93563    
+unix  3      [ ]         STREAM     CONNECTED     83930    
+unix  3      [ ]         STREAM     CONNECTED     12435    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     15667996 
+unix  3      [ ]         STREAM     CONNECTED     21510402 
+unix  2      [ ]         STREAM     CONNECTED     89767    @/dbus-vfs-daemon/socket-dImbUN2g
+unix  3      [ ]         STREAM     CONNECTED     95424    
+unix  3      [ ]         STREAM     CONNECTED     93121    
+unix  3      [ ]         STREAM     CONNECTED     32321847 
+unix  2      [ ]         STREAM     CONNECTED     939008   @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     819659   
+unix  2      [ ]         STREAM     CONNECTED     22481190 @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     89700    
+unix  3      [ ]         STREAM     CONNECTED     89629    
+unix  3      [ ]         STREAM     CONNECTED     89411    
+unix  3      [ ]         STREAM     CONNECTED     94222    
+unix  3      [ ]         STREAM     CONNECTED     92153    
+unix  3      [ ]         STREAM     CONNECTED     89320    
+unix  3      [ ]         STREAM     CONNECTED     13078    
+unix  3      [ ]         STREAM     CONNECTED     101906   
+unix  3      [ ]         STREAM     CONNECTED     93466    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     93155    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     92001    
+unix  3      [ ]         STREAM     CONNECTED     31829099 @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     14100517 @/tmp/.X11-unix/X0
+unix  2      [ ]         STREAM     CONNECTED     863603   @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     89631    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     89354    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     92085    @/tmp/dbus-D0NOBBAuDG
+unix  3      [ ]         STREAM     CONNECTED     32321360 
+unix  3      [ ]         STREAM     CONNECTED     95444    @/dbus-vfs-daemon/socket-Nhp4YWNo
+unix  3      [ ]         STREAM     CONNECTED     92083    /var/run/dbus/system_bus_socket
+unix  2      [ ]         STREAM     CONNECTED     31807805 @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     14099536 @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     15666756 /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     95379    @/tmp/dbus-D0NOBBAuDG
+unix  3      [ ]         STREAM     CONNECTED     31827591 @/tmp/dbus-8hb7IfBGNA
+unix  2      [ ]         STREAM     CONNECTED     15925203 @/dbus-vfs-daemon/socket-XMWmLmiu
+unix  3      [ ]         STREAM     CONNECTED     31829095 @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     99900    
+unix  2      [ ]         STREAM     CONNECTED     99363    @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     34827    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     96983    
+unix  3      [ ]         STREAM     CONNECTED     94489    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     94357    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     93259    
+unix  3      [ ]         STREAM     CONNECTED     89244    @/com/ubuntu/upstart-session/1000/4708
+unix  3      [ ]         STREAM     CONNECTED     21509974 @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     93122    @/tmp/dbus-D0NOBBAuDG
+unix  3      [ ]         STREAM     CONNECTED     32946    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     10819    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     100995   @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     32321760 
+unix  3      [ ]         STREAM     CONNECTED     1859159  
+unix  3      [ ]         STREAM     CONNECTED     15514    
+unix  3      [ ]         STREAM     CONNECTED     11347    @/com/ubuntu/upstart
+unix  3      [ ]         STREAM     CONNECTED     97939    
+unix  3      [ ]         STREAM     CONNECTED     12807    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     89638    
+unix  3      [ ]         STREAM     CONNECTED     94318    
+unix  3      [ ]         STREAM     CONNECTED     89350    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     93128    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     1915     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     15791664 
+unix  3      [ ]         STREAM     CONNECTED     89472    
+unix  3      [ ]         STREAM     CONNECTED     89312    
+unix  3      [ ]         STREAM     CONNECTED     31825805 
+unix  3      [ ]         STREAM     CONNECTED     93223    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     93168    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     93151    
+unix  3      [ ]         STREAM     CONNECTED     31962824 /run/user/1000/pulse/native
+unix  3      [ ]         STREAM     CONNECTED     89399    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     31825802 
+unix  3      [ ]         STREAM     CONNECTED     18182    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     15666893 @/dbus-vfs-daemon/socket-2LDO0ShG
+unix  3      [ ]         STREAM     CONNECTED     92154    @/tmp/dbus-D0NOBBAuDG
+unix  3      [ ]         STREAM     CONNECTED     99901    /var/run/dbus/system_bus_socket
+unix  2      [ ]         STREAM     CONNECTED     24534443 @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     14097090 @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     93625    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     89641    
+unix  3      [ ]         STREAM     CONNECTED     94348    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     94216    
+unix  3      [ ]         STREAM     CONNECTED     83866    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     13104    
+unix  3      [ ]         STREAM     CONNECTED     32741298 
+unix  3      [ ]         STREAM     CONNECTED     820430   
+unix  3      [ ]         STREAM     CONNECTED     101907   
+unix  3      [ ]         STREAM     CONNECTED     93515    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     93169    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     12578    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     32545211 
+unix  2      [ ]         STREAM     CONNECTED     99798    @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     32317979 @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     94697    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     93126    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     34991    
+unix  3      [ ]         STREAM     CONNECTED     32320075 @/tmp/.X11-unix/X0
+unix  2      [ ]         STREAM     CONNECTED     1872010  @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     89632    @/tmp/dbus-8hb7IfBGNA
+unix  2      [ ]         DGRAM                    93260    
+unix  3      [ ]         STREAM     CONNECTED     89245    @/com/ubuntu/upstart-session/1000/4708
+unix  3      [ ]         STREAM     CONNECTED     11427    
+unix  2      [ ]         STREAM     CONNECTED     14088665 @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     15670606 
+unix  3      [ ]         STREAM     CONNECTED     12422    
+unix  3      [ ]         STREAM     CONNECTED     15668609 
+unix  3      [ ]         STREAM     CONNECTED     93393    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     15667893 @/dbus-vfs-daemon/socket-CtCNBe1h
+unix  3      [ ]         STREAM     CONNECTED     94515    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     93514    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     93175    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     93162    
+unix  3      [ ]         STREAM     CONNECTED     83861    
+unix  2      [ ]         STREAM     CONNECTED     15925597 @/dbus-vfs-daemon/socket-yoA397Eu
+unix  2      [ ]         STREAM     CONNECTED     15672373 @/dbus-vfs-daemon/socket-DnbUs5Ag
+unix  3      [ ]         STREAM     CONNECTED     31879673 /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     104356   @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     94518    
+unix  3      [ ]         STREAM     CONNECTED     92033    
+unix  3      [ ]         STREAM     CONNECTED     94603    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     89642    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     89494    
+unix  3      [ ]         STREAM     CONNECTED     83960    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     92086    
+unix  3      [ ]         STREAM     CONNECTED     13083    /var/run/dbus/system_bus_socket
+unix  3      [ ]         SEQPACKET  CONNECTED     32321829 
+unix  3      [ ]         STREAM     CONNECTED     748673   @/dbus-vfs-daemon/socket-QozpytXM
+unix  3      [ ]         STREAM     CONNECTED     21506955 @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     99334    @/tmp/.ICE-unix/4905
+unix  3      [ ]         STREAM     CONNECTED     95392    
+unix  3      [ ]         STREAM     CONNECTED     93112    
+unix  3      [ ]         STREAM     CONNECTED     1859156  @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     100785   
+unix  3      [ ]         STREAM     CONNECTED     32318452 
+unix  3      [ ]         SEQPACKET  CONNECTED     32318316 
+unix  3      [ ]         STREAM     CONNECTED     14099533 
+unix  2      [ ]         STREAM     CONNECTED     247285   @/dbus-vfs-daemon/socket-9JmCYRZ7
+unix  3      [ ]         STREAM     CONNECTED     94484    
+unix  3      [ ]         STREAM     CONNECTED     11572    
+unix  3      [ ]         STREAM     CONNECTED     1859909  @neil-com.canonical.Unity.Master.Scope.files.T666620178843098
+unix  3      [ ]         STREAM     CONNECTED     12584    
+unix  3      [ ]         STREAM     CONNECTED     32320909 
+unix  3      [ ]         STREAM     CONNECTED     21511260 @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     95660    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     31825804 
+unix  2      [ ]         DGRAM                    14550    
+unix  3      [ ]         STREAM     CONNECTED     95323    
+unix  3      [ ]         DGRAM                    1468     
+unix  3      [ ]         STREAM     CONNECTED     31962823 
+unix  3      [ ]         STREAM     CONNECTED     93233    
+unix  3      [ ]         STREAM     CONNECTED     15792675 @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     32321732 @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     14100516 
+unix  3      [ ]         STREAM     CONNECTED     95386    
+unix  3      [ ]         STREAM     CONNECTED     93395    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     83842    
+unix  3      [ ]         STREAM     CONNECTED     751637   
+unix  3      [ ]         STREAM     CONNECTED     99338    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     12576    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     89667    
+unix  3      [ ]         STREAM     CONNECTED     94351    
+unix  3      [ ]         STREAM     CONNECTED     89427    
+unix  3      [ ]         STREAM     CONNECTED     89412    
+unix  3      [ ]         STREAM     CONNECTED     94255    
+unix  3      [ ]         STREAM     CONNECTED     92945    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     102720   @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     91997    /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    12772    
+unix  3      [ ]         STREAM     CONNECTED     32317985 
+unix  3      [ ]         STREAM     CONNECTED     101000   
+unix  3      [ ]         STREAM     CONNECTED     94354    
+unix  3      [ ]         STREAM     CONNECTED     94317    @/tmp/dbus-D0NOBBAuDG
+unix  3      [ ]         STREAM     CONNECTED     93062    
+unix  3      [ ]         STREAM     CONNECTED     11470    
+unix  3      [ ]         STREAM     CONNECTED     15669771 @/dbus-vfs-daemon/socket-UYaSKqYS
+unix  3      [ ]         STREAM     CONNECTED     32319744 @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     93503    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     89287    @/tmp/dbus-D0NOBBAuDG
+unix  3      [ ]         STREAM     CONNECTED     15669061 
+unix  3      [ ]         STREAM     CONNECTED     95378    
+unix  3      [ ]         STREAM     CONNECTED     31828733 @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     102907   
+unix  3      [ ]         STREAM     CONNECTED     15792708 @/dbus-vfs-daemon/socket-xAmNubsD
+unix  3      [ ]         STREAM     CONNECTED     14099532 @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     31702    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     15670607 
+unix  3      [ ]         STREAM     CONNECTED     103661   @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     31825808 
+unix  3      [ ]         STREAM     CONNECTED     14100515 @/tmp/dbus-D0NOBBAuDG
+unix  3      [ ]         STREAM     CONNECTED     89333    
+unix  3      [ ]         STREAM     CONNECTED     92078    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     93152    @/tmp/dbus-D0NOBBAuDG
+unix  3      [ ]         STREAM     CONNECTED     93094    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     32321734 
+unix  2      [ ]         STREAM     CONNECTED     20913647 @/dbus-vfs-daemon/socket-0lXLLfYR
+unix  3      [ ]         STREAM     CONNECTED     92135    @/tmp/dbus-D0NOBBAuDG
+unix  3      [ ]         STREAM     CONNECTED     32321848 
+unix  3      [ ]         STREAM     CONNECTED     1860836  
+unix  3      [ ]         STREAM     CONNECTED     98853    @/tmp/.X11-unix/X0
+unix  2      [ ]         DGRAM                    32945    
+unix  2      [ ]         DGRAM                    12810    
+unix  3      [ ]         STREAM     CONNECTED     97940    
+unix  3      [ ]         STREAM     CONNECTED     93382    @/tmp/.ICE-unix/4905
+unix  3      [ ]         STREAM     CONNECTED     89392    
+unix  3      [ ]         STREAM     CONNECTED     83875    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     83799    
+unix  3      [ ]         STREAM     CONNECTED     10806    
+unix  3      [ ]         STREAM     CONNECTED     32745515 
+unix  2      [ ]         STREAM     CONNECTED     1819051  @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     99765    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     89647    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     89355    @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     11538    
+unix  3      [ ]         STREAM     CONNECTED     21510400 
+unix  3      [ ]         STREAM     CONNECTED     98857    
+unix  3      [ ]         STREAM     CONNECTED     94407    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     93127    
+unix  3      [ ]         STREAM     CONNECTED     100994   
+unix  3      [ ]         STREAM     CONNECTED     15668250 @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     1860843  
+unix  3      [ ]         STREAM     CONNECTED     15094    
+unix  3      [ ]         STREAM     CONNECTED     15668612 @/dbus-vfs-daemon/socket-mfpd8dHH
+unix  3      [ ]         STREAM     CONNECTED     89507    @/tmp/dbus-4D3Nhp0b
+unix  2      [ ]         STREAM     CONNECTED     22637035 @/tmp/dbus-4D3Nhp0b
+unix  2      [ ]         STREAM     CONNECTED     20669834 @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     15671372 @/dbus-vfs-daemon/socket-FN7wbODi
+unix  2      [ ]         STREAM     CONNECTED     15921516 @/dbus-vfs-daemon/socket-gSHoNxQ7
+unix  3      [ ]         STREAM     CONNECTED     94488    
+unix  3      [ ]         STREAM     CONNECTED     32320911 
+unix  3      [ ]         STREAM     CONNECTED     89286    
+unix  2      [ ]         STREAM     CONNECTED     980025   @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     89356    
+unix  3      [ ]         STREAM     CONNECTED     92088    @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     83873    
+unix  3      [ ]         STREAM     CONNECTED     32317977 @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     93199    
+unix  3      [ ]         SEQPACKET  CONNECTED     32321791 
+unix  2      [ ]         STREAM     CONNECTED     22568022 @/tmp/dbus-4D3Nhp0b
+unix  2      [ ]         STREAM     CONNECTED     15668009 @/dbus-vfs-daemon/socket-MTSdJRcy
+unix  3      [ ]         STREAM     CONNECTED     89407    @/tmp/dbus-8hb7IfBGNA
+unix  2      [ ]         STREAM     CONNECTED     32528143 @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     105600   @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     89361    
+unix  3      [ ]         STREAM     CONNECTED     83865    @/tmp/.X11-unix/X0
+unix  2      [ ]         STREAM     CONNECTED     221849   @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     93165    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     32317980 @/tmp/dbus-4D3Nhp0b
+unix  2      [ ]         STREAM     CONNECTED     252003   @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     93385    
+unix  3      [ ]         STREAM     CONNECTED     11537    
+unix  3      [ ]         STREAM     CONNECTED     1859906  
+unix  3      [ ]         STREAM     CONNECTED     12423    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     89357    @/tmp/dbus-8hb7IfBGNA
+unix  2      [ ]         STREAM     CONNECTED     24587142 @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     15669723 
+unix  3      [ ]         STREAM     CONNECTED     100992   
+unix  3      [ ]         STREAM     CONNECTED     98851    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     93520    @/tmp/dbus-D0NOBBAuDG
+unix  3      [ ]         STREAM     CONNECTED     93125    
+unix  3      [ ]         STREAM     CONNECTED     32322589 
+unix  3      [ ]         STREAM     CONNECTED     1859157  
+unix  3      [ ]         STREAM     CONNECTED     95385    @/tmp/dbus-D0NOBBAuDG
+unix  3      [ ]         STREAM     CONNECTED     93014    
+unix  3      [ ]         STREAM     CONNECTED     11471    @/com/ubuntu/upstart
+unix  3      [ ]         STREAM     CONNECTED     95419    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     95272    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     94215    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     93224    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     92004    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     32741302 /run/user/1000/keyring-eynGId/pkcs11
+unix  3      [ ]         SEQPACKET  CONNECTED     31873986 
+unix  3      [ ]         STREAM     CONNECTED     93132    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     12946    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     21510047 
+unix  2      [ ]         STREAM     CONNECTED     1009561  @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     817107   @/dbus-vfs-daemon/socket-QeigjuKv
+unix  3      [ ]         STREAM     CONNECTED     32545167 
+unix  3      [ ]         STREAM     CONNECTED     93235    
+unix  3      [ ]         STREAM     CONNECTED     108870   /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     89634    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     83874    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     32319746 
+unix  3      [ ]         STREAM     CONNECTED     89353    
+unix  3      [ ]         STREAM     CONNECTED     93153    @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     79006    
+unix  3      [ ]         STREAM     CONNECTED     11566    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     31828756 
+unix  2      [ ]         STREAM     CONNECTED     13278820 @/dbus-vfs-daemon/socket-CzaQnagx
+unix  3      [ ]         STREAM     CONNECTED     97938    @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     15666755 @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     83959    
+unix  3      [ ]         STREAM     CONNECTED     21511261 @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     94492    /var/run/dbus/system_bus_socket
+unix  3      [ ]         DGRAM                    1467     
+unix  3      [ ]         STREAM     CONNECTED     101902   @/tmp/dbus-D0NOBBAuDG
+unix  3      [ ]         STREAM     CONNECTED     32318451 
+unix  3      [ ]         STREAM     CONNECTED     1859126  
+unix  3      [ ]         STREAM     CONNECTED     89780    
+unix  3      [ ]         STREAM     CONNECTED     93392    
+unix  3      [ ]         STREAM     CONNECTED     11543    
+unix  3      [ ]         SEQPACKET  CONNECTED     32321828 
+unix  3      [ ]         SEQPACKET  CONNECTED     31873985 
+unix  3      [ ]         STREAM     CONNECTED     94615    
+unix  3      [ ]         STREAM     CONNECTED     83839    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     94520    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     89393    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     92157    
+unix  3      [ ]         STREAM     CONNECTED     92080    
+unix  2      [ ]         DGRAM                    13103    
+unix  2      [ ]         STREAM     CONNECTED     1056292  @/dbus-vfs-daemon/socket-2zwwiPjV
+unix  3      [ ]         STREAM     CONNECTED     14950    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     89360    
+unix  3      [ ]         STREAM     CONNECTED     93154    
+unix  3      [ ]         STREAM     CONNECTED     93073    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     110699   
+unix  3      [ ]         STREAM     CONNECTED     89311    
+unix  3      [ ]         STREAM     CONNECTED     748672   
+unix  3      [ ]         STREAM     CONNECTED     94514    
+unix  3      [ ]         STREAM     CONNECTED     8399776  
+unix  3      [ ]         STREAM     CONNECTED     94221    @/tmp/dbus-D0NOBBAuDG
+unix  3      [ ]         STREAM     CONNECTED     93124    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     31825793 
+unix  3      [ ]         STREAM     CONNECTED     102725   
+unix  3      [ ]         STREAM     CONNECTED     32320906 
+unix  3      [ ]         STREAM     CONNECTED     98873    /var/run/dbus/system_bus_socket
+unix  2      [ ]         STREAM     CONNECTED     20703326 @/dbus-vfs-daemon/socket-QKb4u43u
+unix  3      [ ]         STREAM     CONNECTED     15791706 @/dbus-vfs-daemon/socket-hKsEBRlT
+unix  3      [ ]         STREAM     CONNECTED     15671370 @/dbus-vfs-daemon/socket-9GcVUxcI
+unix  3      [ ]         STREAM     CONNECTED     32742260 
+unix  2      [ ]         STREAM     CONNECTED     1218170  @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     99764    
+unix  3      [ ]         STREAM     CONNECTED     94504    
+unix  3      [ ]         STREAM     CONNECTED     93063    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     12452    /var/run/dbus/system_bus_socket
+unix  2      [ ]         STREAM     CONNECTED     15907554 @/dbus-vfs-daemon/socket-K0mlyss5
+unix  3      [ ]         STREAM     CONNECTED     15669525 
+unix  3      [ ]         STREAM     CONNECTED     1860837  @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     32317978 
+unix  3      [ ]         STREAM     CONNECTED     94634    
+unix  3      [ ]         STREAM     CONNECTED     95422    
+unix  3      [ ]         STREAM     CONNECTED     95381    
+unix  2      [ ]         STREAM     CONNECTED     21510150 @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     1860853  @neil-com.canonical.Unity.Scope.scopes.T666626027258524
+unix  2      [ ]         STREAM     CONNECTED     780543   @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     11563    
+unix  3      [ ]         STREAM     CONNECTED     32743494 
+unix  3      [ ]         STREAM     CONNECTED     89630    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     89473    /run/user/1000/pulse/native
+unix  3      [ ]         STREAM     CONNECTED     94217    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     83744    
+unix  3      [ ]         STREAM     CONNECTED     13082    
+unix  3      [ ]         STREAM     CONNECTED     31878652 
+unix  3      [ ]         STREAM     CONNECTED     94519    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     89285    
+unix  3      [ ]         STREAM     CONNECTED     89246    @/com/ubuntu/upstart-session/1000/4708
+unix  3      [ ]         STREAM     CONNECTED     751215   @/dbus-vfs-daemon/socket-3SF7Ukyi
+unix  3      [ ]         STREAM     CONNECTED     89343    @/tmp/dbus-4D3Nhp0b
+unix  2      [ ]         DGRAM                    79071    
+unix  3      [ ]         STREAM     CONNECTED     32321733 
+unix  2      [ ]         STREAM     CONNECTED     20914861 @/dbus-vfs-daemon/socket-pM43wO9v
+unix  3      [ ]         STREAM     CONNECTED     93238    
+unix  2      [ ]         STREAM     CONNECTED     13376200 @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     15004    
+unix  3      [ ]         STREAM     CONNECTED     95305    
+unix  3      [ ]         STREAM     CONNECTED     1859907  @neil-com.canonical.Unity.Master.Scope.applications.T666620162995184
+unix  2      [ ]         STREAM     CONNECTED     24601495 @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     21511259 
+unix  3      [ ]         STREAM     CONNECTED     31701    
+unix  3      [ ]         STREAM     CONNECTED     32743720 @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     32321763 /run/user/1000/pulse/native
+unix  3      [ ]         STREAM     CONNECTED     1860847  @neil-com.canonical.Unity.Scope.files.T666621017691224
+unix  3      [ ]         STREAM     CONNECTED     94355    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     93241    
+unix  2      [ ]         DGRAM                    93068    
+unix  2      [ ]         DGRAM                    11535    
+unix  3      [ ]         SEQPACKET  CONNECTED     32317949 
+unix  3      [ ]         STREAM     CONNECTED     93113    @/tmp/.X11-unix/X0
+unix  2      [ ]         DGRAM                    1911     
+unix  3      [ ]         STREAM     CONNECTED     14097107 @/tmp/.X11-unix/X0
+unix  2      [ ]         DGRAM                    15523    
+unix  3      [ ]         STREAM     CONNECTED     9693     @/com/ubuntu/upstart
+unix  3      [ ]         STREAM     CONNECTED     104625   
+unix  3      [ ]         STREAM     CONNECTED     94571    
+unix  3      [ ]         STREAM     CONNECTED     91996    
+unix  3      [ ]         STREAM     CONNECTED     89734    @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     94352    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     94337    
+unix  3      [ ]         STREAM     CONNECTED     94214    
+unix  3      [ ]         STREAM     CONNECTED     89389    
+unix  3      [ ]         STREAM     CONNECTED     32309014 /run/user/1000/pulse/native
+unix  3      [ ]         STREAM     CONNECTED     14097094 
+unix  2      [ ]         STREAM     CONNECTED     22884940 @/tmp/dbus-4D3Nhp0b
+unix  2      [ ]         STREAM     CONNECTED     20681861 @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     14097093 @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     31827592 @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     100996   @/tmp/dbus-8hb7IfBGNA
+unix  2      [ ]         STREAM     CONNECTED     704858   @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     93232    
+unix  3      [ ]         STREAM     CONNECTED     32319747 
+unix  3      [ ]         STREAM     CONNECTED     14100522 
+unix  3      [ ]         STREAM     CONNECTED     95388    
+unix  3      [ ]         STREAM     CONNECTED     95382    
+unix  3      [ ]         STREAM     CONNECTED     83880    
+unix  3      [ ]         STREAM     CONNECTED     32320910 
+unix  3      [ ]         STREAM     CONNECTED     89391    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     92155    
+unix  3      [ ]         STREAM     CONNECTED     89293    
+unix  2      [ ]         DGRAM                    12160    
+unix  3      [ ]         STREAM     CONNECTED     89765    @/dbus-vfs-daemon/socket-wQrGXh1j
+unix  3      [ ]         STREAM     CONNECTED     94338    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     89413    @/tmp/dbus-8hb7IfBGNA
+unix  2      [ ]         DGRAM                    13105    
+unix  3      [ ]         STREAM     CONNECTED     32741301 
+unix  3      [ ]         STREAM     CONNECTED     92046    
+unix  3      [ ]         STREAM     CONNECTED     21510048 
+unix  2      [ ]         STREAM     CONNECTED     20724694 @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     1859158  
+unix  3      [ ]         STREAM     CONNECTED     102894   @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     21511258 @/tmp/dbus-D0NOBBAuDG
+unix  3      [ ]         STREAM     CONNECTED     97936    
+unix  3      [ ]         STREAM     CONNECTED     89362    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     32321338 @/tmp/.X11-unix/X0
+unix  2      [ ]         STREAM     CONNECTED     24561692 @/tmp/dbus-4D3Nhp0b
+unix  2      [ ]         DGRAM                    93425    
+unix  3      [ ]         STREAM     CONNECTED     94356    
+unix  3      [ ]         STREAM     CONNECTED     93251    
+unix  3      [ ]         STREAM     CONNECTED     93050    
+unix  3      [ ]         STREAM     CONNECTED     11431    
+unix  2      [ ]         DGRAM                    12585    
+unix  3      [ ]         STREAM     CONNECTED     32320903 
+unix  3      [ ]         STREAM     CONNECTED     96937    
+unix  3      [ ]         STREAM     CONNECTED     15669538 
+unix  3      [ ]         STREAM     CONNECTED     99760    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         SEQPACKET  CONNECTED     32317945 
+unix  3      [ ]         STREAM     CONNECTED     95261    
+unix  2      [ ]         STREAM     CONNECTED     24581761 @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     95273    /run/user/1000/keyring-eynGId/pkcs11
+unix  3      [ ]         STREAM     CONNECTED     89273    
+unix  2      [ ]         DGRAM                    31935    
+unix  3      [ ]         STREAM     CONNECTED     32319748 
+unix  2      [ ]         STREAM     CONNECTED     13287890 @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     819657   @/dbus-vfs-daemon/socket-bqFCa8FP
+unix  3      [ ]         STREAM     CONNECTED     106859   
+unix  3      [ ]         STREAM     CONNECTED     102735   /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     89321    
+unix  3      [ ]         STREAM     CONNECTED     76532    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     101905   
+unix  3      [ ]         STREAM     CONNECTED     93167    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     83838    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     12704    
+unix  3      [ ]         STREAM     CONNECTED     89778    
+unix  3      [ ]         STREAM     CONNECTED     89505    
+unix  3      [ ]         STREAM     CONNECTED     95266    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     89398    
+unix  3      [ ]         STREAM     CONNECTED     83800    
+unix  3      [ ]         STREAM     CONNECTED     32545166 
+unix  3      [ ]         STREAM     CONNECTED     1860852  @neil-com.canonical.Unity.Scope.applications.T666626017932144
+unix  3      [ ]         STREAM     CONNECTED     16019    
+unix  3      [ ]         STREAM     CONNECTED     21510401 
+unix  3      [ ]         STREAM     CONNECTED     15668610 
+unix  3      [ ]         STREAM     CONNECTED     94205    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     94696    
+unix  2      [ ]         STREAM     CONNECTED     1151302  @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     100784   
+unix  3      [ ]         STREAM     CONNECTED     32318449 
+unix  2      [ ]         STREAM     CONNECTED     9290030  @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     93684    
+unix  3      [ ]         STREAM     CONNECTED     89621    @/tmp/dbus-D0NOBBAuDG
+unix  3      [ ]         STREAM     CONNECTED     95377    @/tmp/dbus-D0NOBBAuDG
+unix  3      [ ]         STREAM     CONNECTED     93058    
+unix  3      [ ]         STREAM     CONNECTED     10653    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     8400886  /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     95380    
+unix  3      [ ]         STREAM     CONNECTED     31825803 
+unix  3      [ ]         STREAM     CONNECTED     15791710 
+unix  3      [ ]         STREAM     CONNECTED     89802    
+unix  2      [ ]         STREAM     CONNECTED     20703324 @/dbus-vfs-daemon/socket-AxDfHexm
+unix  2      [ ]         STREAM     CONNECTED     15671339 @/dbus-vfs-daemon/socket-yUliezCT
+unix  2      [ ]         DGRAM                    221574   
+unix  3      [ ]         STREAM     CONNECTED     89359    
+unix  3      [ ]         STREAM     CONNECTED     93164    
+unix  3      [ ]         STREAM     CONNECTED     83811    
+unix  3      [ ]         STREAM     CONNECTED     91982    
+unix  3      [ ]         STREAM     CONNECTED     89241    
+unix  3      [ ]         STREAM     CONNECTED     32321730 
+unix  3      [ ]         STREAM     CONNECTED     92146    @/tmp/dbus-8hb7IfBGNA
+unix  2      [ ]         STREAM     CONNECTED     21524241 @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     819651   
+unix  3      [ ]         STREAM     CONNECTED     11345    
+unix  3      [ ]         STREAM     CONNECTED     89762    
+unix  3      [ ]         STREAM     CONNECTED     89571    @/tmp/.ICE-unix/4905
+unix  3      [ ]         STREAM     CONNECTED     95285    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     89405    
+unix  3      [ ]         STREAM     CONNECTED     92087    
+unix  3      [ ]         STREAM     CONNECTED     13079    /var/run/dbus/system_bus_socket
+unix  2      [ ]         STREAM     CONNECTED     20778916 @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     102721   @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     94616    
+unix  3      [ ]         STREAM     CONNECTED     89243    @/com/ubuntu/upstart-session/1000/4708
+unix  3      [ ]         STREAM     CONNECTED     15792706 
+unix  3      [ ]         STREAM     CONNECTED     32790    
+unix  3      [ ]         STREAM     CONNECTED     14097088 
+unix  3      [ ]         STREAM     CONNECTED     749731   @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     99767    
+unix  3      [ ]         STREAM     CONNECTED     94699    @/dbus-vfs-daemon/socket-PMdm0QIf
+unix  3      [ ]         STREAM     CONNECTED     93055    
+unix  3      [ ]         STREAM     CONNECTED     11475    
+unix  3      [ ]         SEQPACKET  CONNECTED     32317946 
+unix  3      [ ]         STREAM     CONNECTED     94206    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     97935    
+unix  3      [ ]         STREAM     CONNECTED     93123    
+unix  3      [ ]         STREAM     CONNECTED     31825794 
+unix  3      [ ]         STREAM     CONNECTED     17022    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     89395    /run/user/1000/pulse/native
+unix  2      [ ]         STREAM     CONNECTED     20657972 @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     1859908  
+unix  3      [ ]         STREAM     CONNECTED     32309886 
+unix  2      [ ]         STREAM     CONNECTED     24596272 @/tmp/dbus-4D3Nhp0b
+unix  2      [ ]         STREAM     CONNECTED     15668010 @/dbus-vfs-daemon/socket-2KPVJumc
+unix  3      [ ]         STREAM     CONNECTED     93117    @/tmp/dbus-8hb7IfBGNA
+unix  2      [ ]         STREAM     CONNECTED     20914820 @/dbus-vfs-daemon/socket-juvaHumP
+unix  2      [ ]         STREAM     CONNECTED     13007745 @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     95387    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     93161    @/tmp/dbus-D0NOBBAuDG
+unix  2      [ ]         STREAM     CONNECTED     20912773 @/dbus-vfs-daemon/socket-fIjNNYfC
+unix  3      [ ]         STREAM     CONNECTED     93216    
+unix  3      [ ]         STREAM     CONNECTED     32743495 @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     820414   @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     15515    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     9687     
+unix  2      [ ]         STREAM     CONNECTED     25042438 @/tmp/dbus-4D3Nhp0b
+unix  3      [ ]         STREAM     CONNECTED     83801    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     12806    
+unix  3      [ ]         STREAM     CONNECTED     89720    
+unix  3      [ ]         STREAM     CONNECTED     89639    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     89406    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     89390    @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     92152    
+unix  3      [ ]         STREAM     CONNECTED     83803    
+unix  3      [ ]         STREAM     CONNECTED     1860814  @/tmp/dbus-8hb7IfBGNA
+unix  3      [ ]         STREAM     CONNECTED     93627    @/dbus-vfs-daemon/socket-crzpVhd1
+unix  3      [ ]         STREAM     CONNECTED     89415    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     32317976 
+unix  3      [ ]         STREAM     CONNECTED     95461    
+unix  3      [ ]         STREAM     CONNECTED     93084    
+unix  3      [ ]         STREAM     CONNECTED     1958     
+unix  3      [ ]         STREAM     CONNECTED     100999   

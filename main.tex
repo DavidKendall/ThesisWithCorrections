@@ -1,0 +1,129 @@
+\documentclass[a4paper,11pt,nocenter,bold,notitlepage,noheadline,noindent]{
+thesis}
+\usepackage{etex} % Fix problem of running out of dimensions
+%                     PACKAGES
+% Add any additional packages that you require to the list below
+%
+\usepackage{a4,natbib}
+\usepackage[dvips]{graphicx}
+\usepackage{mathtools, amssymb}
+\usepackage{float}
+%\usepackage[lined,boxed,commentsnumbered]{algorithm2e}
+\usepackage{subfigure}
+\usepackage{tabularx}
+\usepackage{tabulary}
+\newcolumntype{K}[1]{>{\centering\arraybackslash}p{#1}}
+\usepackage[ruled,vlined]{algorithm2e}
+%\usepackage{algorithm}
+%\usepackage{algorithmic}
+\usepackage{algpseudocode}
+\usepackage{listings}
+\usepackage{tikz}
+\usetikzlibrary{arrows, shapes, trees, backgrounds, calc}
+\usepackage[hidelinks]{hyperref}
+\usepackage{breakurl}
+
+\usepackage{setspace}
+\usepackage{bold-extra}
+%                     SPACING
+% This really shouldn't be necessary...
+\usepackage{setspace}
+\onehalfspacing
+% \doublespacing
+\setcounter{secnumdepth}{5}
+
+%                     DOCUMENT DETAILS
+% Edit these entries to fit your document
+%
+
+\newcommand{\theauthor}{NEIL ELIOT}
+\newcommand{\thetitle}{METHODS FOR THE EFFICIENT DEPLOYMENT AND COORDINATION OF SWARM ROBOTIC SYSTEMS}
+\newcommand{\thedegreeshort}{PhD}
+\newcommand{\thedegreelong}{Doctor of Philosophy}
+\newcommand{\themonth}{January}
+\newcommand{\theyear}{2017}
+\newcommand{\subsubsubsection}[1]{\medskip\par\emph{#1:}}
+\newcommand{\swarmA}{Hexagonal}
+\newcommand{\swarmB}{Connected}
+\newcommand{\stability}{internal movement}
+\newcommand{\Stability}{Internal movement}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+\def\HiLi{\leavevmode\rlap{\hbox to \hsize{\color{yellow!50}\leaders\hrule height .8\baselineskip depth .5ex\hfill}}}
+%\newcommand{\Fig}{fig.}
+%\newcommand{\Figs}{figs.}
+%\newcommand{\Eq}{Eq.}
+%\newcommand{\eq}{eq.}
+%\newcommand{\Eqs}{eqs.}
+%\newcommand{\Sec}{sec.}
+%\newcommand{\Alg}{alg.}
+%\newcommand{\Tab}{tab.}
+%\newcommand{\Tabs}{tabs.}
+%\newcommand{\List}{list.}
+%\newcommand{\Lists}{lists.}
+%\newcommand{\Chapter}{Ch.}
+\newcommand{\app}{Appendix}
+\renewcommand{\chapterautorefname}{\S}
+\renewcommand{\sectionautorefname}{\S}
+\renewcommand{\subsectionautorefname}{\S}
+\renewcommand{\subsubsectionautorefname}{\S}
+\newcommand{\card}[1]{\vert{#1}\vert}
+\newcommand{\magn}[1]{\Vert{#1}\Vert}
+%                    DEDICATION (OPTIONAL)
+%
+\dedication{To my Mother for encouraging me to 'Keep On Learning'}
+
+%                     INCLUDE ONLY
+% Use this if you want to process only a small part of the document
+
+%\includeonly{CHAPTER-1/text}
+
+%                     DOCUMENT
+
+\begin{document}
+\frontmatter
+
+\include{FRONT/cover}
+
+%\maketitle
+\include{FRONT/title}
+
+\include{FRONT/abstract}
+
+\tableofcontents
+
+\listoffigures
+\listoftables
+
+\include{FRONT/acknowledgements}
+\include{FRONT/declaration}
+
+\mainmatter
+\linespread{1.3}
+\include{CHAPTER-1/text}  %introduction.
+\setcounter{chapter}{1}
+\include{CHAPTER-2/text}  %general methods.
+%\include{CHAPTER-3/text}  %contribution 1
+\include{CHAPTER-4/text}  %contribution 2
+\include{CHAPTER-5/text}  %contribution 3
+\include{CHAPTER-6/text}  %Application 1
+\include{CHAPTER-7/text}  %contribution 4
+\include{CHAPTER-8/text}  %conclusions
+\include{CHAPTER-9/text}  %future work
+
+\addcontentsline{toc}{chapter}{Bibliography}
+%\bibliographystyle{apalike}
+%\nocite{*}
+\bibliographystyle{plain}
+\bibliography{thesis}
+\appendix
+
+\include{APPENDIX-1/text}
+\include{APPENDIX-2/text}
+\include{APPENDIX-3/text}
+\include{APPENDIX-4/text}
+\include{APPENDIX-5/text}
+% GLOSSARY -- include if you've used lots of technical terminology/notation
+\include{glossary}
+
+\end{document}

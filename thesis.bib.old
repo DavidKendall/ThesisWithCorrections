@@ -1,0 +1,420 @@
+\Sort{
+  Mode{on}
+  Collation{mixed}
+  SortTypeOrder{pattern,name}
+  NameOrder{ascending}
+  Pattern{author+editor: "doron"}
+  PatternOrder{first}
+  StringSort{ascending}
+}
+@STRING{ acmsurv = "ACM Computing Surveys" }
+@STRING{ cav92 = "Proceedings of the 4th International Conference on Computer Aided
+          Verification (CAV'92)" }
+@STRING{ cav93 = "Proceedings of the 5th International Conference on Computer Aided
+          Verification (CAV'93)" }
+@STRING{ cav94 = "Proc. 6th Int. Conf. on Computer Aided Verification" }
+@STRING{ cav95 = "Proceedings of the 7th International Conference on Computer Aided
+          Verification (CAV'95)" }
+@STRING{ cav97 = "Proceedings of the 9th International Conference on Computer Aided
+          Verification (CAV'97)" }
+@STRING{ charme95 = "Proc. CHARME'95" }
+@STRING{ charme95eds = "Camurati,P. and Eveking,H." }
+@STRING{ compj = "The Computer Journal" }
+@STRING{ concur90 = "Proc. 1st Int. Conf. on Concurrency Theory (CONCUR'90)" }
+@STRING{ concur90eds = "Baeten,J. and Klop,J." }
+@STRING{ concur92 = "Proceedings of the 3rd International Conference of Concurrency
+          Theory (CONCUR'92)" }
+@STRING{ cup = "Cambridge University Press" }
+@STRING{ elsevier = "Elsevier Science" }
+@STRING{ entcs = "Electronic Notes in Theoretical Computer Science" }
+@STRING{ fmcad96 = "Formal Methods in Computer Aided Design (FMCAD'96)" }
+@STRING{ fmsd = "Formal Methods in Systems Design" }
+@STRING{ focs77 = "Proceedings of 18th IEEE Symposium on Foundations of Computer
+          Science" }
+@STRING{ focs89 = "Proc. 30th IEEE Symp. Found. of Comp. Sci." }
+@STRING{ forte94 = "Proc. Int. Conf. on Formal Description Techniques VII (FORTE'94)" }
+@STRING{ ftrtft = "Formal Techniques in Real Time and Fault Tolerant Systems" }
+@STRING{ hart97 = "Proc. 1st Int. Workshop on Hybrid and Real-Time Systems (HART'97)" }
+@STRING{ htcs = "Handbook of Theoretical Computer Science" }
+@STRING{ hybrid3 = "Proc. DIMACS/SYCON Workshop on Verification and Control of Hybrid
+          Systems (Hybrid Systems III)" }
+@STRING{ ieee = "IEEE Computer Society Press" }
+@STRING{ ieeecomp = "IEEE Transactions on Computers" }
+@STRING{ ieeeseng = "IEEE Transactions on Software Engineering" }
+@STRING{ infcomp = "Information and Computation" }
+@STRING{ jacm = "Journal of the ACM" }
+@STRING{ jrts = "Journal of Real-Time Systems" }
+@STRING{ lics86 = "Proc. 1st IEEE Symp. on Logic in Computer Science" }
+@STRING{ lics90 = "Proc. 5th IEEE Symp. on Logic in Computer Science" }
+@STRING{ lncs = "Lecture Notes in Computer Science" }
+@STRING{ popl84 = "Proc. of ACM Symp. on Principles of Programming Languages (POPL'84)" }
+@STRING{ rex91 = "Proceedings of REX Workshop, Real-Time:Theory in Practice" }
+@STRING{ rex93 = "Proceedings of REX School, Decade of Concurrency -- Reflections and
+          Perspectives" }
+@STRING{ rex93eds = "{de Bakker},J. and {de Roever},W.-P. and Rozenberg,G." }
+@STRING{ rtss = "Real Time Systems Symposium" }
+@STRING{ rtss97 = "Proc. of 18th IEEE Real Time Systems Symposium" }
+@STRING{ scp = "Science of Computer Programming" }
+@STRING{ siamcomp = "SIAM J. Comput." }
+@STRING{ springer = "Springer Verlag" }
+@STRING{ tacas96 = "Proceedings of 2nd International Workshop on Tools and Algorithms
+          for the Construction of Systems (TACAS'96)" }
+@STRING{ tacas97 = "Proceedings of 3rd International Workshop on Tools and Algorithms
+          for the Construction of Systems (TACAS'97)" }
+@STRING{ tacas97eds = "Brinksma,E." }
+@STRING{ toplas = "ACM Transactions on Programming Languages and Systems" }
+@STRING{ rtas98 = "Proceedings of 4th IEEE Real Time Technology and Applications Symposium (RTAS'98)" }
+
+@INPROCEEDINGS{CR87,
+  author =	 {Reynolds, Craig W.},
+  title =	 {Flocks, herds, and schools: A distributed behavioral
+                  model},
+  year =	 1987,
+  booktitle =	 {Proceedings of the 14th Annual Conference on
+                  Computer Graphics and Interactive Techniques
+                  (SIGGRAPH’87) (ACM).},
+  url =		 {../ref/Swarms/CR87.pdf}
+}
+
+@INPROCEEDINGS{RPBWG08,
+  author =	 {R. Pedrami and B. W. Gordon},
+  title =	 {Control and Cohesion of Energetic Swarms},
+  year =	 2008,
+  booktitle =	 {Proceedings of American Control Conference, June
+                  11-13 2008.},
+  url =		 {../ref/Swarms/RPBWG08.pdf}
+}
+
+@INPROCEEDINGS{Barnes06,
+  author =	 {Barnes, L. and Alvis, W. and Fields, M. and
+                  Valavanis, K.},
+  title =	 {Heterogeneous Swarm Formation Control Using
+                  Bivariate Normal Functions to Generate Potential
+                  Fields},
+  year =	 2006,
+  booktitle =	 {Proceedings of Distributed Intelligent Systems:
+                  Collective Intelligence and Its Applications,
+                  2006. DIS 2006. IEEE },
+  url =		 {../ref/Swarms/RPBWG08.pdf}
+}
+
+@INPROCEEDINGS{LBMFKV07,
+  author =	 {Barnes, L. and Fields, M. and Valavanis, K.},
+  title =	 {Unmanned Ground Vehicle Swarm Formation Control
+                  Using Potential Fields},
+  year =	 2007,
+  booktitle =	 {Proceedings of Mediterranean Conference on Control
+                  and Automation, July 27-29, 2007, Athens - Greece},
+  url =		 {../ref/Swarms/LBMFKV07.pdf}
+}
+
+@INPROCEEDINGS{PADZMAKC09,
+  author =	 {Andreou, P. and Zeinalipour-Yazti, D. and Andreou,
+                  M. and Chrysanthis, P.K.},
+  title =	 {Perimeter-Based Data Replication in Mobile Sensor
+                  Networks},
+  year =	 2009,
+  booktitle =	 {Mobile Data Management: Systems, Services and
+                  Middleware, 2009. MDM '09. Tenth International
+                  Conference},
+  page =	 {244-251},
+  url =		 {../ref/Perimeter/PADZMAKC09.pdf}
+}
+
+@PhDThesis{MJ08,
+  author =	 {James D. McLurkin IV},
+  title =	 {Analysis and Implementation of Distributed
+                  Algorithms for Multi-Robot Systems},
+  school =	 {Massachusetts Institute of Technology},
+  address =	 {USA},
+  year =	 2008,
+  url =		 {../ref/Perimeter/MJ08.pdf}
+}
+
+@misc{G13,
+  author =	 {Google},
+  title =	 {Project Loon Homepage},
+  howpublished = "\url{http://www.google.com/loon/}",
+  year =	 2013,
+  note =	 "[Online; accessed 18-Jan-2014]"
+}
+
+@misc{Python3,
+  author =	 {{Python Software Foundation}},
+  title =	 {Welcome to Python.org},
+  howpublished = "\url{http://www.python.org/}",
+  year =	 2015,
+  note =	 "[Online; accessed 21-Jan-2015]"
+}
+
+@misc{Pygame,
+  author =	 {{SEUL}},
+  title =	 {Pygame},
+  howpublished = "\url{http://www.pygame.org/}",
+  year =	 2015,
+  note =	 "[Online; accessed 21-Jan-2015]"
+}
+
+@Article{HSAUAPPRFM11,
+  abstract =	 {Foraging is a common benchmark problem in collective
+                  robotics in which a robot (the forager) explores a
+                  given environment while collecting items for further
+                  deposition at specific locations. A typical
+                  real-world application of foraging is garbage
+                  collection where robots collect garbage for further
+                  disposal in pre-defined locations.  This work
+                  proposes a method to cooperatively perform the task
+                  of finding such locations: instead of using local or
+                  global localization strategies relying on
+                  pre-installed infrastructure, the proposed approach
+                  takes advantage of the knowledge gathered by a
+                  population about the localization of the targets. In
+                  our approach, robots communicate in an intrinsic way
+                  the estimation about how near they are from a
+                  target; these estimations are used by neighbour
+                  robots for estimating their proximity, and for
+                  guiding the navigation of the whole population when
+                  looking for these specific areas. We performed
+                  several tests in a simulator, and we validated our
+                  approach on a population of real robots. For the
+                  validation tests we used a mobile robot called
+                  marXbot. In both cases (i.e., simulation and
+                  implementation on real robots), we found that the
+                  proposed approach efficiently guides the robots
+                  towards the pre-specified targets while allowing the
+                  modulation of their speed.},
+  affiliation =	 {EPFL},
+  author =	 {Satizabal, Hector F. and Upegui, Andres and
+                  Perez-Uribe, Andres and Retornaz, Philippe and
+                  Mondada, Francesco},
+  journal =	 {Memetic {C}omputing},
+  keywords =	 {[MOBOTS]; social; robot; localization},
+  pages =	 {1--15},
+  review =	 {REVIEWED},
+  status =	 {PUBLISHED},
+  title =	 {A {S}ocial {A}pproach for {T}arget {L}ocalization:
+                  {S}imulation and {I}mplementation in the mar{X}bot
+                  {R}obot},
+  unit =	 {LSRO},
+  year =	 2011,
+  url =		 {../ref/Swarms/HSAUAPPRFM11.pdf}
+}
+
+@article{MD07,
+  title =	 {Swarm robotics algorithms: A survey},
+  author =	 {Miner, Don},
+  journal =	 {Report, MAPLE lab, University of Maryland},
+  year =	 2007,
+  publisher =	 {Citeseer}
+}
+
+@article{DKH11,
+  title =	 {Vectors and Plane Geometry},
+  author =	 {Dovermann, Karl Heinz},
+  journal =	 {Report, University of Hawaii},
+  year =	 2011,
+  publisher =	 {University of Hawaii}
+}
+
+@INPROCEEDINGS{ALMC13,
+  author =	 {Aidan Lyon and Mark Colyvan},
+  title =	 {On the Application of the Honeycomb Conjecture to
+                  the Bee’s Honeycomb},
+  year =	 2013,
+  booktitle =	 {Philosophia Mathematica (III) 00 (2013)},
+  url =		 {../ref/Swarms/ALMC13.pdf}
+}
+
+@INPROCEEDINGS{VGKP04,
+  author =	 {Gazi, V. and Passino, K.M.},
+  title =	 {A class of attractions/repulsion functions for
+                  stable swarm aggregations},
+  year =	 2004,
+  booktitle =	 {International Journal of Control},
+  url =		 {../ref/Swarms/VGKP04.pdf}
+}
+
+@INPROCEEDINGS{VGKP02,
+  title =	 {Stability analysis of swarms in an environment with
+                  an attractant/repellent profile},
+  author =	 {Gazi, Veysel and Passino, Kevin M},
+  booktitle =	 {American Control Conference, 2002. Proceedings of
+                  the 2002},
+  volume =	 3,
+  pages =	 {1819--1824},
+  year =	 2002,
+  organization = {IEEE},
+  url =		 {../ref/Stability/VGKP02.pdf}
+}
+
+@INPROCEEDINGS{XCFPLLHF06,
+  author =	 {Chen, X. and Pan, F. and Li, L. and Fang, H.},
+  title =	 {Practical Stability Analysis for Swarm Systems},
+  year =	 2006,
+  booktitle =	 {Proceedings of IEEE IECON},
+  url =		 {../ref/Stability/XCFPLLHF06.pdf}
+}
+
+@inbook{DMTE2005,
+  title =	 {The SWARM-BOTS Project},
+  author =	 {Dorigo, M. and Tuci, E. and Grob, R. and Trianni,
+                  V. and Labella, T. and Houyan, S.},
+  chapter =	 {},
+  booktitle =	 {Swarm Robotics WS 2004},
+  pages =	 {31–44},
+  year =	 2005,
+  publisher =	 {Springer-Verlag}
+}
+
+@inbook{VGKP11,
+  title =	 {Swarm Stability and Optimization},
+  author =	 {Gazi, V. and Passino, K.M.},
+  chapter =	 {3.2 Aggregation},
+  isbn =	 9783642180415,
+  url =		 {http://books.google.co.uk/books?id=jebZAtLeiVEC},
+  year =	 2011,
+  publisher =	 {Springer}
+}
+
+@inproceedings{riano2010emergence,
+  title =	 {On the Emergence of Novel Behaviours From Complex
+                  Non Linear Systems},
+  author =	 {Riano, Lorenzo and McGinnity, TM},
+  booktitle =	 {Proceeding of the 2010 conference on Biologically
+                  Inspired Cognitive Architectures 2010: Proceedings
+                  of the First Annual Meeting of the BICA Society},
+  pages =	 {106--112},
+  year =	 2010,
+  organization = {IOS Press}
+}
+
+@article{pham2009bees,
+  title =	 {The Bees Algorithm: modelling foraging behaviour to
+                  solve continuous optimization problems},
+  author =	 {Pham, Duc Truong and Castellani, M},
+  journal =	 {Proceedings of the Institution of Mechanical
+                  Engineers, Part C: Journal of Mechanical Engineering
+                  Science},
+  volume =	 223,
+  number =	 12,
+  pages =	 {2919--2938},
+  year =	 2009,
+  publisher =	 {SAGE Publications}
+}
+
+@article{Gurfil01032007,
+  author =	 {Gurfil, P and Kivelevitch, E},
+  title =	 {Flock properties effect on task assignment and
+                  formation flying of cooperating unmanned aerial
+                  vehicles},
+  volume =	 221,
+  number =	 3,
+  pages =	 {401-416},
+  year =	 2007,
+  doi =		 {10.1243/09544100JAERO120},
+  abstract =	 {In this article, a hierarchical algorithm was
+                  developed for autonomous formation flying,
+                  communication, and task assignment for cooperating
+                  unmanned aerial vehicles (UAVs) and Dudek's taxonomy
+                  was used to evaluate the performance of the
+                  autonomous UAV group cooperating in mission
+                  execution against a group of enemy agents in an
+                  unknown environment. The authors showed that
+                  increasing the number of UAVs in the group proves to
+                  be beneficial as it allows the group to react to
+                  more enemy events, even if the overall search and
+                  detect capabilities remain invariant with the number
+                  of UAVs. It is also showed that, in general, using
+                  communication improves the cooperation among the
+                  flock members; however, using infinite communication
+                  range or infinite communication bandwidth results in
+                  considerable computational complexity. In
+                  conclusion, it is sufficient to use finite-bandwidth
+                  communication, keeping the computational complexity
+                  constant with the number of UAVs in the group, thus
+                  allowing the group to be scalable to large numbers
+                  of UAVs. The authors use a behavioural flocking
+                  algorithm to control the movement of the UAVs when
+                  searching, and show that flocking assists the UAVs
+                  in dispersing in the environment and improves the
+                  overall detection probability of the flock. Finally,
+                  it is showed that using flocking improves the group
+                  performance only if the group is capable of mission
+                  task collaboration.},
+  URL =		 {http://pig.sagepub.com/content/221/3/401.abstract},
+  eprint =
+                  {http://pig.sagepub.com/content/221/3/401.full.pdf+html},
+  journal =	 {Proceedings of the Institution of Mechanical
+                  Engineers, Part G: Journal of Aerospace Engineering}
+}
+
+@article{8fc267b5263e472a9a3beda5431b8fbd,
+  title =	 "Verifiable control of a swarm of unmanned aerial
+                  vehicles",
+  keywords =	 "Swarming, unmanned aerial vehicles, artificial
+                  potential fields, bifurcation, Mechanical
+                  engineering and machinery, Motor
+                  vehicles. Aeronautics. Astronautics, Mechanical
+                  Engineering, Aerospace Engineering, Control and
+                  Systems Engineering",
+  author =	 "Bennet, {Derek J.} and C.R. McInnes",
+  year =	 2009,
+  doi =		 "10.1243/09544100JAERO508",
+  volume =	 223,
+  number =	 7,
+  pages =	 "939--953",
+  journal =	 "Journal of Aerospace Engineering",
+  issn =	 "0893-1321",
+}
+
+@INPROCEEDINGS{971475,
+  author =	 {Polycarpou, M.M. and Yanli Yang and Passino, K.M.},
+  booktitle =	 {Intelligent Control, 2001. (ISIC '01). Proceedings
+                  of the 2001 IEEE International Symposium on},
+  title =	 {A cooperative search framework for distributed
+                  agents},
+  year =	 2001,
+  pages =	 {1-6},
+  keywords =	 {distributed control;learning (artificial
+                  intelligence);mobile robots;multi-agent systems;path
+                  planning;search problems;autonomous
+                  agents;cooperative search;distributed
+                  learning;guidance trajectory;multiple agent
+                  systems;path planning;planning;Computer
+                  science;Control systems;Decision
+                  making;Fuels;Intelligent control;Robot
+                  kinematics;Search problems;Time
+                  factors;Uncertainty;Unmanned aerial vehicles},
+  doi =		 {10.1109/ISIC.2001.971475},
+  ISSN =	 {2158-9860},
+}
+
+@online{KV2016,
+  author = {Kumar, Vijay},
+  title = {Current Projects: Vijay Kumar Lab},
+  year = 2016,
+  url = {http://www.kumarrobotics.org/research/},
+  urldate = {2016-01-27}
+}
+
+@inproceedings{hoff2011effect,
+  title =	 {Effect of sensor and actuator quality on robot swarm
+                  algorithm performance},
+  author =	 {Hoff, Nicholas and Wood, Robert and Nagpal, Radhika},
+  booktitle =	 {Intelligent Robots and Systems (IROS), 2011 IEEE/RSJ
+                  International Conference on},
+  pages =	 {4989--4994},
+  year =	 2011,
+  organization = {IEEE}
+}
+
+@incollection{moeslinger2009minimalist,
+  title =	 {A minimalist flocking algorithm for swarm robots},
+  author =	 {Moeslinger, Christoph and Schmickl, Thomas and
+                  Crailsheim, Karl},
+  booktitle =	 {Advances in Artificial Life. Darwin Meets von
+                  Neumann},
+  pages =	 {375--382},
+  year =	 2009,
+  publisher =	 {Springer}
+}

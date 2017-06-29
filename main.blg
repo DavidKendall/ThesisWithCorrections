@@ -1,0 +1,74 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: FRONT/cover.aux
+A level-1 auxiliary file: FRONT/title.aux
+A level-1 auxiliary file: FRONT/abstract.aux
+A level-1 auxiliary file: FRONT/acknowledgements.aux
+A level-1 auxiliary file: FRONT/declaration.aux
+A level-1 auxiliary file: CHAPTER-1/text.aux
+A level-1 auxiliary file: CHAPTER-2/text.aux
+A level-1 auxiliary file: CHAPTER-4/text.aux
+A level-1 auxiliary file: CHAPTER-5/text.aux
+A level-1 auxiliary file: CHAPTER-6/text.aux
+A level-1 auxiliary file: CHAPTER-7/text.aux
+A level-1 auxiliary file: CHAPTER-8/text.aux
+A level-1 auxiliary file: CHAPTER-9/text.aux
+The style file: plain.bst
+A level-1 auxiliary file: APPENDIX-1/text.aux
+A level-1 auxiliary file: APPENDIX-2/text.aux
+A level-1 auxiliary file: APPENDIX-3/text.aux
+A level-1 auxiliary file: APPENDIX-4/text.aux
+A level-1 auxiliary file: APPENDIX-5/text.aux
+A level-1 auxiliary file: glossary.aux
+Database file #1: thesis.bib
+Warning--to sort, need author or key in RAV:13
+Warning--to sort, need author or key in CBS:13
+Warning--to sort, need author or key in NZH:13
+Warning--to sort, need author or key in MATLAB:94
+Warning--empty journal in CML:ND
+Warning--empty booktitle in PCL:08
+Warning--can't use both volume and number fields in REY:87
+Warning--empty journal in SRDF:10
+You've used 164 entries,
+            2118 wiz_defined-function locations,
+            1545 strings with 35307 characters,
+and the built_in function-call counts, 64414 in all, are:
+= -- 6393
+> -- 2807
+< -- 85
++ -- 1136
+- -- 942
+* -- 4274
+:= -- 9877
+add.period$ -- 536
+call.type$ -- 164
+change.case$ -- 957
+chr.to.int$ -- 0
+cite$ -- 172
+duplicate$ -- 2645
+empty$ -- 5234
+format.name$ -- 942
+if$ -- 14236
+int.to.chr$ -- 0
+int.to.str$ -- 164
+missing$ -- 147
+newline$ -- 838
+num.names$ -- 320
+pop$ -- 1206
+preamble$ -- 1
+purify$ -- 799
+quote$ -- 0
+skip$ -- 2119
+stack$ -- 0
+substring$ -- 4159
+swap$ -- 938
+text.length$ -- 85
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 646
+warning$ -- 8
+while$ -- 579
+width$ -- 167
+write$ -- 1838
+(There were 8 warnings)

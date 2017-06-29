@@ -1,0 +1,2731 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.4.11)  28 JUN 2017 14:46
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main
+(./main.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
+(./thesis.cls
+
+LaTeX Warning: You have requested document class ` thesis',
+               but the document class provides `thesis'.
+
+Document Class: thesis 1996/25/01 1.0g LaTeX document class (wm).
+\hours=\count79
+\minutes=\count80
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count81
+\c@chapter=\count82
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@subparagraph=\count87
+\beforechaptervspace=\skip41
+\afterchaptervspace=\skip42
+\exampleindent=\skip43
+\c@figure=\count88
+\c@table=\count89
+\abovecaptionskip=\skip44
+\belowcaptionskip=\skip45
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 2016/01/11 v2.6 eTeX basic definition package (PEB,DPC)
+\et@xins=\count90
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ntgclass/a4.sty
+Package: a4 2004/04/15 v1.2g A4 based page layout
+)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip46
+\bibsep=\skip47
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count91
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 95.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count92
+\calc@Bcount=\count93
+\calc@Adimen=\dimen105
+\calc@Bdimen=\dimen106
+\calc@Askip=\skip48
+\calc@Bskip=\skip49
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count94
+\calc@Cskip=\skip50
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen107
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen108
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen109
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
+\dotsspace@=\muskip10
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks16
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks17
+\eqnshift@=\dimen110
+\alignsep@=\dimen111
+\tagshift@=\dimen112
+\tagwidth@=\dimen113
+\totwidth@=\dimen114
+\lineht@=\dimen115
+\@envbody=\toks18
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count107
+\l_MT_multwidth_dim=\dimen116
+\origjot=\skip54
+\l_MT_shortvdotswithinadjustabove_dim=\dimen117
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen118
+\l_MT_above_intertext_sep=\dimen119
+\l_MT_below_intertext_sep=\dimen120
+\l_MT_above_shortintertext_sep=\dimen121
+\l_MT_below_shortintertext_sep=\dimen122
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count108
+\float@exts=\toks20
+\float@box=\box28
+\@float@everytoks=\toks21
+\@floatcapt=\box29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip55
+\subfigcapskip=\skip56
+\subfigcaptopadj=\dimen123
+\subfigbottomskip=\skip57
+\subfigcapmargin=\dimen124
+\subfiglabelskip=\skip58
+\c@subfigure=\count109
+\c@lofdepth=\count110
+\c@subtable=\count111
+\c@lotdepth=\count112
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip59
+\subfig@bottom=\skip60
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen125
+\extrarowheight=\dimen126
+\NC@list=\toks22
+\extratabsurround=\skip61
+\backup@length=\skip62
+)
+\TX@col@width=\dimen127
+\TX@old@table=\dimen128
+\TX@old@col=\dimen129
+\TX@target=\dimen130
+\TX@delta=\dimen131
+\TX@cols=\count113
+\TX@ftn=\toks23
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tabulary/tabulary.sty
+Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
+\TY@count=\count114
+\TY@linewidth=\dimen132
+\tymin=\dimen133
+\tymax=\dimen134
+\TY@tablewidth=\dimen135
+)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2013/01/06 v5.00 algorithms environments
+\c@AlgoLine=\count115
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip63
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+********************************************************
+Package `algorithm2e' Release 5.1 -- october 19 2015 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (christophe.fiorio@umontpellier.fr)
+********************************************************
+\skiptotal=\skip64
+\skiplinenumber=\skip65
+\skiprule=\skip66
+\skiphlne=\skip67
+\skiptext=\skip68
+\skiplength=\skip69
+\algomargin=\skip70
+\skipalgocfslide=\skip71
+\algowidth=\dimen136
+\inoutsize=\dimen137
+\inoutindent=\dimen138
+\interspacetitleruled=\dimen139
+\interspacealgoruled=\dimen140
+\interspacetitleboxruled=\dimen141
+\algocf@ruledwidth=\skip72
+\algocf@inoutbox=\box30
+\algocf@inputbox=\box31
+\AlCapSkip=\skip73
+\AlCapHSkip=\skip74
+\algoskipindent=\skip75
+\algocf@nlbox=\box32
+\algocf@hangingbox=\box33
+\algocf@untilbox=\box34
+\algocf@skipuntil=\skip76
+\algocf@capbox=\box35
+\algoheightruledefault=\skip77
+\algoheightrule=\skip78
+\algotitleheightruledefault=\skip79
+\algotitleheightrule=\skip80
+\c@algocfline=\count116
+\c@algocfproc=\count117
+\c@algocf=\count118
+\algocf@algoframe=\box36
+\algocf@algobox=\box37
+) (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count119
+\c@ALG@rem=\count120
+\c@ALG@nested=\count121
+\ALG@tlm=\skip81
+\ALG@thistlm=\skip82
+\c@ALG@Lnr=\count122
+\c@ALG@blocknr=\count123
+\c@ALG@storecount=\count124
+\c@ALG@tmpcounter=\count125
+\ALG@tmplength=\skip83
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count126
+\lst@gtempboxa=\box38
+\lst@token=\toks24
+\lst@length=\count127
+\lst@currlwidth=\dimen142
+\lst@column=\count128
+\lst@pos=\count129
+\lst@lostspace=\dimen143
+\lst@width=\dimen144
+\lst@newlines=\count130
+\lst@lineno=\count131
+\lst@maxwidth=\dimen145
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count132
+\lst@skipnumbers=\count133
+\lst@framebox=\box39
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen146
+\pgfutil@tempdimb=\dimen147
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box40
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen148
+\pgf@y=\dimen149
+\pgf@xa=\dimen150
+\pgf@ya=\dimen151
+\pgf@xb=\dimen152
+\pgf@yb=\dimen153
+\pgf@xc=\dimen154
+\pgf@yc=\dimen155
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count134
+\c@pgf@countb=\count135
+\c@pgf@countc=\count136
+\c@pgf@countd=\count137
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-dvips.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvips.def
+File: pgfsys-dvips.def 2014/07/09  (rcs-revision 1.25)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-postsc
+ript.def
+File: pgfsys-common-postscript.def 2008/10/01  (rcs-revision 1.22)
+\pgf@objectcount=\count138
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count139
+\pgfsyssoftpath@bigbuffer@items=\count140
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen156
+\pgfmath@count=\count141
+\pgfmath@box=\box41
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count142
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen157
+\pgf@picmaxx=\dimen158
+\pgf@picminy=\dimen159
+\pgf@picmaxy=\dimen160
+\pgf@pathminx=\dimen161
+\pgf@pathmaxx=\dimen162
+\pgf@pathminy=\dimen163
+\pgf@pathmaxy=\dimen164
+\pgf@xx=\dimen165
+\pgf@xy=\dimen166
+\pgf@yx=\dimen167
+\pgf@yy=\dimen168
+\pgf@zx=\dimen169
+\pgf@zy=\dimen170
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen171
+\pgf@path@lasty=\dimen172
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen173
+\pgf@shorten@start@additional=\dimen174
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box42
+\pgf@hbox=\box43
+\pgf@layerbox@main=\box44
+\pgf@picture@serial@count=\count143
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen175
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen176
+\pgf@pt@y=\dimen177
+\pgf@pt@temp=\dimen178
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen179
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen180
+\pgf@sys@shading@range@num=\count144
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box45
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box46
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen181
+\pgf@nodesepend=\dimen182
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen183
+\pgffor@skip=\dimen184
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count145
+\pgfplotmarksize=\dimen185
+)
+\tikz@lastx=\dimen186
+\tikz@lasty=\dimen187
+\tikz@lastxsaved=\dimen188
+\tikz@lastysaved=\dimen189
+\tikzleveldistance=\dimen190
+\tikzsiblingdistance=\dimen191
+\tikz@figbox=\box47
+\tikz@figbox@bg=\box48
+\tikz@tempbox=\box49
+\tikz@tempbox@bg=\box50
+\tikztreelevel=\count146
+\tikznumberofchildren=\count147
+\tikznumberofcurrentchild=\count148
+\tikz@fig@count=\count149
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count150
+\pgfmatrixcurrentcolumn=\count151
+\pgf@matrix@numberofcolumns=\count152
+)
+\tikz@expandcount=\count153
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen192
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.callouts.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.callouts.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
+
+\pgfnodepartlowerbox=\box51
+\pgfnodeparttwobox=\box52
+\pgfnodepartthreebox=\box53
+\pgfnodepartfourbox=\box54
+\pgfnodeparttwentybox=\box55
+\pgfnodepartnineteenbox=\box56
+\pgfnodeparteighteenbox=\box57
+\pgfnodepartseventeenbox=\box58
+\pgfnodepartsixteenbox=\box59
+\pgfnodepartfifteenbox=\box60
+\pgfnodepartfourteenbox=\box61
+\pgfnodepartthirteenbox=\box62
+\pgfnodeparttwelvebox=\box63
+\pgfnodepartelevenbox=\box64
+\pgfnodeparttenbox=\box65
+\pgfnodepartninebox=\box66
+\pgfnodeparteightbox=\box67
+\pgfnodepartsevenbox=\box68
+\pgfnodepartsixbox=\box69
+\pgfnodepartfivebox=\box70
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2008/02/24 v3.0.1a (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.3)
+\pgf@layerbox@background=\box71
+\pgf@layerboxsaved@background=\box72
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen193
+\Hy@linkcounter=\count154
+\Hy@pagecounter=\count155
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count156
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count157
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen194
+\Fld@menulength=\count158
+\Field@Width=\dimen195
+\Fld@charsize=\dimen196
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count159
+\c@Item=\count160
+\c@Hfootnote=\count161
+)
+
+Package hyperref Message: Driver (default): hdvips.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2012/11/06 v6.83m Hyperref driver for dvips
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2012/11/06 v6.83m Hyperref definitions for pdfmark specials
+\pdf@docset=\toks37
+\pdf@box=\box73
+\pdf@toks=\toks38
+\pdf@defaulttoks=\toks39
+\HyField@AnnotCount=\count162
+\Fld@listcount=\count163
+\c@bookmark@seq@number=\count164
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip84
+))
+(/usr/share/texlive/texmf-dist/tex/latex/breakurl/breakurl.sty
+Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks40
+\XKV@tempa@toks=\toks41
+)
+\XKV@depth=\count165
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\burl@toks=\toks42
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/bold-extra/bold-extra.sty
+Package: bold-extra 2001/11/13 v0.1 Use fonts from cm/mf-extra/bold
+) (./main.aux (./FRONT/cover.aux) (./FRONT/title.aux) (./FRONT/abstract.aux)
+(./FRONT/acknowledgements.aux) (./FRONT/declaration.aux) (./CHAPTER-1/text.aux)
+(./CHAPTER-2/text.aux
+
+LaTeX Warning: Label `sec:Direction1' multiply defined.
+
+) (./CHAPTER-4/text.aux
+
+LaTeX Warning: Label `eq:SwarmStabilityDistance1' multiply defined.
+
+
+LaTeX Warning: Label `eq:SwarmPotentialMagnitude' multiply defined.
+
+) (./CHAPTER-5/text.aux) (./CHAPTER-6/text.aux
+
+LaTeX Warning: Label `concave:VoidPerimeter1' multiply defined.
+
+
+LaTeX Warning: Label `sub@concave:VoidPerimeter1' multiply defined.
+
+
+LaTeX Warning: Label `concave:VoidPerimeter2' multiply defined.
+
+
+LaTeX Warning: Label `sub@concave:VoidPerimeter2' multiply defined.
+
+
+LaTeX Warning: Label `section:compareBaselineAll1' multiply defined.
+
+) (./CHAPTER-7/text.aux
+
+LaTeX Warning: Label `fig:VoidConcaveReduction1' multiply defined.
+
+) (./CHAPTER-8/text.aux
+
+LaTeX Warning: Label `tab:FillParameters' multiply defined.
+
+) (./CHAPTER-9/text.aux) (./APPENDIX-1/text.aux) (./APPENDIX-2/text.aux)
+(./APPENDIX-3/text.aux) (./APPENDIX-4/text.aux) (./APPENDIX-5/text.aux)
+(./glossary.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+\c@lstlisting=\count166
+ ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box74
+Package hyperref Info: Link coloring OFF on input line 83.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count167
+)
+LaTeX Info: Redefining \ref on input line 83.
+LaTeX Info: Redefining \pageref on input line 83.
+LaTeX Info: Redefining \nameref on input line 83.
+
+(./main.out) (./main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+\openout2 = `FRONT/cover.aux'.
+
+ (./FRONT/cover.tex
+File: FRONT/northumbria.eps Graphic file (type eps)
+ <FRONT/northumbria.eps>) [1
+
+
+
+]
+\openout2 = `FRONT/title.aux'.
+
+
+(./FRONT/title.tex) [2
+
+
+]
+\openout2 = `FRONT/abstract.aux'.
+
+ (./FRONT/abstract.tex [3
+
+
+
+] [4]) (./main.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 1.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 1.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [5
+
+
+] [6] [7] [8]
+[9])
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+ [10] (./main.lof [11
+
+] [12] [13] [14]
+Overfull \hbox (20.52591pt too wide) in paragraph at lines 113--113
+ [][] [] [][]  
+ []
+
+
+Overfull \hbox (35.67343pt too wide) in paragraph at lines 114--114
+ [][] [] [][]  
+ []
+
+
+Overfull \hbox (23.02007pt too wide) in paragraph at lines 115--115
+ [][] [] [][]  
+ []
+
+
+Overfull \hbox (7.08173pt too wide) in paragraph at lines 117--117
+ [][] [] [][]  
+ []
+
+
+Overfull \hbox (7.08173pt too wide) in paragraph at lines 118--118
+ [][] [] [][]  
+ []
+
+
+Overfull \hbox (25.27094pt too wide) in paragraph at lines 137--137
+ [][] [] [][]  
+ []
+
+
+Overfull \hbox (9.45424pt too wide) in paragraph at lines 138--138
+ [][] [] [][]  
+ []
+
+[15] [16])
+\tf@lof=\write6
+\openout6 = `main.lof'.
+
+ [17] (./main.lot [18
+
+])
+\tf@lot=\write7
+\openout7 = `main.lot'.
+
+ [19]
+\openout2 = `FRONT/acknowledgements.aux'.
+
+ (./FRONT/acknowledgements.tex [20
+
+
+])
+\openout2 = `FRONT/declaration.aux'.
+
+
+(./FRONT/declaration.tex) [21
+
+
+
+]
+\openout2 = `CHAPTER-1/text.aux'.
+
+ (./CHAPTER-1/text.tex
+Chapter 1.
+[1
+
+
+
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 18.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
+ [2] [3] [4]
+[5]
+Overfull \hbox (5.86504pt too wide) in paragraph at lines 56--57
+[]\OT1/cmr/m/n/10.95 An ex-am-ple of a large im-ple-men-ta-tion of a swarm-ing 
+plat-form is Project Loon [[],
+ []
+
+[6] [7] [8]) [9] [10]
+\openout2 = `CHAPTER-2/text.aux'.
+
+ (./CHAPTER-2/text.tex
+Chapter 2.
+File: CHAPTER-2/figures/FieldEffects.eps Graphic file (type eps)
+<CHAPTER-2/figures/FieldEffects.eps> [11
+
+
+
+]
+
+LaTeX Warning: Reference `VG:05, XJYYH:10, SW:03, BAF:06, BAFVM:06, BFV:07, BM:
+09, HC:09' on page 12 undefined on input line 27.
+
+
+LaTeX Warning: Reference `YH:14, GKF:13, PZ:13' on page 12 undefined on input l
+ine 27.
+
+[12] [13] [14]
+File: CHAPTER-2/figures/FlyToCentre1.eps Graphic file (type eps)
+ <CHAPTER-2/figures/FlyToCentre1.eps>
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+ [15]
+File: CHAPTER-2/figures/Repulsion3.eps Graphic file (type eps)
+
+<CHAPTER-2/figures/Repulsion3.eps>
+File: CHAPTER-2/figures/Repulsion1.eps Graphic file (type eps)
+ <CHAPTER-2/figures/Repulsion1.eps> [16]
+File: CHAPTER-2/figures/Repulsion2.eps Graphic file (type eps)
+
+<CHAPTER-2/figures/Repulsion2.eps> [17]
+File: CHAPTER-2/figures/Repulsion4.eps Graphic file (type eps)
+ <CHAPTER-2/figures/Repulsion4.eps>
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+
+[18]
+File: CHAPTER-2/figures/Obstacle1.eps Graphic file (type eps)
+ <CHAPTER-2/figures/Obstacle1.eps>
+Overfull \hbox (63.8041pt too wide) in paragraph at lines 199--200
+[]\OT1/cmr/m/n/10.95 Equation [][][][] shows the re-sul-tant re-pul-sion vec-to
+r $\OML/cmm/m/it/10.95 v[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 b\OT1/cmr/m/n
+/10.95 )$ for an agent. $\OMS/cmsy/m/n/10.95 f\OML/cmm/m/it/10.95 o [] \OMS/cms
+y/m/n/10.95 2  []\OML/cmm/m/it/10.95 O [] \OT1/cmr/m/n/10.95 :  []\OMS/cmsy/m/n
+/10.95 k[]k [] \OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 =  []\OML/cmm/m/it/10.95
+ O[]\OMS/cmsy/m/n/10.95 g$
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+[19]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+ [20]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+ [21]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+File: CHAPTER-2/figures/StableForms.eps Graphic file (type eps)
+ <CHAPTER-2/figures/StableForms.eps> [22]
+File: CHAPTER-2/figures/Hexagon.eps Graphic file (type eps)
+
+<CHAPTER-2/figures/Hexagon.eps> [23]
+File: CHAPTER-2/figures/Chaos.eps Graphic file (type eps)
+ <CHAPTER-2/figures/Chaos.eps>
+File: CHAPTER-2/figures/Stable.eps Graphic file (type eps)
+
+<CHAPTER-2/figures/Stable.eps> [24]
+File: CHAPTER-2/figures/StableTime.eps Graphic file (type eps)
+ <CHAPTER-2/figures/StableTime.eps> [25]
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 385.
+
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 385.
+
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/cmtt/b/n' tried instead on input line 388.
+[26]
+File: CHAPTER-3/figures/classes_World.eps Graphic file (type eps)
+ <CHAPTER-3/figures/classes_World.eps> [27]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 402.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 402.
+Missing character: There is no ¬ in font cmtt10!
+Missing character: There is no Æ in font cmtt10!
+Missing character: There is no ‚ in font cmtt10!
+Missing character: There is no Ñ in font cmtt10!
+Missing character: There is no ¢ in font cmtt10!
+File: CHAPTER-3/figures/SimulatorProcess.eps Graphic file (type eps)
+
+<CHAPTER-3/figures/SimulatorProcess.eps> [28]
+Overfull \hbox (9.81773pt too wide) in paragraph at lines 415--416
+[]\OT1/cmr/m/n/10.95 The com-plete PySwarm-World ap-pli-ca-tion is avail-able a
+t [][][][][][][][][][][][][][][]
+ []
+
+[29]
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 433.
+
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 433.
+
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 433.
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) [30]
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 457.
+
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 457.
+
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 457.
+
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 457.
+
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <6> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 476.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 478.
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 483.
+
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 483.
+
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 505.
+
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 505.
+
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 505.
+
+[31]
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 532.
+
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 532.
+
+[32]) [33]
+\openout2 = `CHAPTER-4/text.aux'.
+
+ (./CHAPTER-4/text.tex
+Chapter 3.
+File: CHAPTER-4/figures/Stability5.eps Graphic file (type eps)
+<CHAPTER-4/figures/Stability5.eps> [34
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]|\OT1/cmr/bx/n/10.95 Weight
+ []
+
+[35]
+File: CHAPTER-4/figures/Stability1.eps Graphic file (type eps)
+ <CHAPTER-4/figures/Stability1.eps> [36]
+File: CHAPTER-4/figures/Stability2.eps Graphic file (type eps)
+
+<CHAPTER-4/figures/Stability2.eps>
+Overfull \hbox (30.99457pt too wide) in paragraph at lines 85--93
+ [] 
+ []
+
+File: CHAPTER-4/figures/Stability3.eps Graphic file (type eps)
+<CHAPTER-4/figures/Stability3.eps> [37]
+Overfull \hbox (36.46957pt too wide) in paragraph at lines 108--116
+ [] 
+ []
+
+File: CHAPTER-4/figures/Stability4.eps Graphic file (type eps)
+<CHAPTER-4/figures/Stability4.eps>
+Overfull \hbox (37.38208pt too wide) in paragraph at lines 131--139
+ [] 
+ []
+
+[38]
+File: CHAPTER-4/figures/StabilityNullVector.eps Graphic file (type eps)
+ <CHAPTER-4/figures/StabilityNullVector.eps> [39]
+File: CHAPTER-4/figures/StabilityNullVector3.eps Graphic file (type eps)
+
+<CHAPTER-4/figures/StabilityNullVector3.eps>
+File: CHAPTER-4/figures/StabilityNullVector2.eps Graphic file (type eps)
+
+<CHAPTER-4/figures/StabilityNullVector2.eps> [40] [41] [42] [43] [44] [45])
+[46]
+\openout2 = `CHAPTER-5/text.aux'.
+
+ (./CHAPTER-5/text.tex
+Chapter 4.
+
+Overfull \hbox (15.62924pt too wide) in paragraph at lines 16--26
+ [] 
+ []
+
+[47
+
+
+
+] [48]
+File: CHAPTER-5/figures/StabilityDistanceSwarm40-50.eps Graphic file (type eps)
+
+ <CHAPTER-5/figures/StabilityDistanceSwarm40-50.eps>
+File: CHAPTER-5/figures/StabilityDistibutionHexagonal.eps Graphic file (type ep
+s)
+
+<CHAPTER-5/figures/StabilityDistibutionHexagonal.eps> [49]
+File: CHAPTER-5/figures/StabilityDistibutionHexagonal3D.eps Graphic file (type 
+eps)
+
+<CHAPTER-5/figures/StabilityDistibutionHexagonal3D.eps>
+Overfull \hbox (50.98756pt too wide) in paragraph at lines 61--63
+[][] 
+ []
+
+File: CHAPTER-5/figures/StabilityDistibutionHexagonal3D2.eps Graphic file (type
+ eps)
+<CHAPTER-5/figures/StabilityDistibutionHexagonal3D2.eps>
+Overfull \hbox (50.98756pt too wide) in paragraph at lines 68--70
+[][] 
+ []
+
+[50]
+File: CHAPTER-5/figures/StabilityMagnitudeSwarm40-50.eps Graphic file (type eps
+)
+ <CHAPTER-5/figures/StabilityMagnitudeSwarm40-50.eps>
+File: CHAPTER-5/figures/StabilityMagnitudeHexagonal.eps Graphic file (type eps)
+
+
+<CHAPTER-5/figures/StabilityMagnitudeHexagonal.eps> [51]
+File: CHAPTER-5/figures/StabilityMagHexagonal3D.eps Graphic file (type eps)
+
+<CHAPTER-5/figures/StabilityMagHexagonal3D.eps> [52]
+File: CHAPTER-5/figures/StabilityMagHexagonal3D2.eps Graphic file (type eps)
+
+<CHAPTER-5/figures/StabilityMagHexagonal3D2.eps> [53]
+File: CHAPTER-5/figures/CrushedStability.eps Graphic file (type eps)
+
+<CHAPTER-5/figures/CrushedStability.eps>
+File: CHAPTER-5/figures/StableFormsCompressed.eps Graphic file (type eps)
+
+<CHAPTER-5/figures/StableFormsCompressed.eps> [54]
+File: CHAPTER-5/figures/StabilityDistanceSwarm40-60.eps Graphic file (type eps)
+
+
+<CHAPTER-5/figures/StabilityDistanceSwarm40-60.eps> [55]
+File: CHAPTER-5/figures/StabilityDistibutionHyper.eps Graphic file (type eps)
+
+<CHAPTER-5/figures/StabilityDistibutionHyper.eps> [56]
+File: CHAPTER-5/figures/StabilityDistibutionHyper3D.eps Graphic file (type eps)
+
+
+<CHAPTER-5/figures/StabilityDistibutionHyper3D.eps>
+File: CHAPTER-5/figures/StabilityDistibutionHyper3D2.eps Graphic file (type eps
+)
+
+<CHAPTER-5/figures/StabilityDistibutionHyper3D2.eps> [57]
+File: CHAPTER-5/figures/StabilityMagnitudeSwarm40-60.eps Graphic file (type eps
+)
+
+<CHAPTER-5/figures/StabilityMagnitudeSwarm40-60.eps>
+File: CHAPTER-5/figures/StabilityMagnitudeHyper.eps Graphic file (type eps)
+
+<CHAPTER-5/figures/StabilityMagnitudeHyper.eps> [58]
+File: CHAPTER-5/figures/StabilityMagHyper3D.eps Graphic file (type eps)
+
+<CHAPTER-5/figures/StabilityMagHyper3D.eps> [59]
+File: CHAPTER-5/figures/StabilityMagHyper3D2.eps Graphic file (type eps)
+
+<CHAPTER-5/figures/StabilityMagHyper3D2.eps> [60]
+File: CHAPTER-5/figures/StabilityDistanceSwarm40-5060.eps Graphic file (type ep
+s)
+
+<CHAPTER-5/figures/StabilityDistanceSwarm40-5060.eps>
+File: CHAPTER-5/figures/StabilityMagnitudeSwarm40-5060.eps Graphic file (type e
+ps)
+
+<CHAPTER-5/figures/StabilityMagnitudeSwarm40-5060.eps>
+File: CHAPTER-5/figures/StabilityDistanceSwarm.eps Graphic file (type eps)
+
+<CHAPTER-5/figures/StabilityDistanceSwarm.eps> [61]
+File: CHAPTER-5/figures/StabilityMagnitudeSwarm.eps Graphic file (type eps)
+
+<CHAPTER-5/figures/StabilityMagnitudeSwarm.eps>
+File: CHAPTER-5/figures/DistanceDistributionComparison.eps Graphic file (type e
+ps)
+
+<CHAPTER-5/figures/DistanceDistributionComparison.eps> [62]
+File: CHAPTER-5/figures/StabilityDistibutionHyperHexagonal3D.eps Graphic file (
+type eps)
+
+<CHAPTER-5/figures/StabilityDistibutionHyperHexagonal3D.eps>
+File: CHAPTER-5/figures/StabilityDistibutionHyperHexagonal3D2.eps Graphic file 
+(type eps)
+
+<CHAPTER-5/figures/StabilityDistibutionHyperHexagonal3D2.eps> [63]
+File: CHAPTER-5/figures/MagnitudeDistributionComparison.eps Graphic file (type 
+eps)
+
+<CHAPTER-5/figures/MagnitudeDistributionComparison.eps>
+File: CHAPTER-5/figures/StabilityMagHyperHexagonal3D.eps Graphic file (type eps
+)
+
+<CHAPTER-5/figures/StabilityMagHyperHexagonal3D.eps>
+Overfull \hbox (20.64752pt too wide) in paragraph at lines 269--276
+[]\OT1/cmr/m/n/10.95 The most no-table dif-fer-ence be-tween the two mag-ni-tud
+e met-ric anal-y-ses ([][][][]
+ []
+
+[64]
+File: CHAPTER-5/figures/StabilityMagHyperHexagonal3D2.eps Graphic file (type ep
+s)
+ <CHAPTER-5/figures/StabilityMagHyperHexagonal3D2.eps> [65]
+File: CHAPTER-5/figures/ArbitrarySize200500.eps Graphic file (type eps)
+
+<CHAPTER-5/figures/ArbitrarySize200500.eps> [66]
+File: CHAPTER-5/figures/ArbitrarySize200500MAG.eps Graphic file (type eps)
+
+<CHAPTER-5/figures/ArbitrarySize200500MAG.eps> [67]) [68]
+\openout2 = `CHAPTER-6/text.aux'.
+
+ (./CHAPTER-6/text.tex
+Chapter 5.
+File: CHAPTER-6/figures/SampleSwarm200-1.eps Graphic file (type eps)
+<CHAPTER-6/figures/SampleSwarm200-1.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 14--15
+ [] 
+ []
+
+[69
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]|\OT1/cmr/bx/n/10.95 Weight
+ []
+
+
+Overfull \hbox (33.20961pt too wide) in paragraph at lines 35--36
+[]\OT1/cmr/m/n/10.95 The re-sults for the base-line ex-per-i-men-tal swarm are 
+shown in [][][][] and [][][][].
+ []
+
+File: CHAPTER-6/figures/BaselineMagnitude1.eps Graphic file (type eps)
+<CHAPTER-6/figures/BaselineMagnitude1.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 39--40
+ [] 
+ []
+
+[70]
+File: CHAPTER-6/figures/BaselineDistance1.eps Graphic file (type eps)
+ <CHAPTER-6/figures/BaselineDistance1.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 48--49
+ [] 
+ []
+
+[71]
+File: CHAPTER-6/figures/SwarmPathBaseline.eps Graphic file (type eps)
+ <CHAPTER-6/figures/SwarmPathBaseline.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 59--60
+ [] 
+ []
+
+[72] [73] [74]
+File: CHAPTER-6/figures/Monolithic2.eps Graphic file (type eps)
+ <CHAPTER-6/figures/Monolithic2.eps> [75]
+File: CHAPTER-6/figures/BaselineAllAgentsMag1.eps Graphic file (type eps)
+
+<CHAPTER-6/figures/BaselineAllAgentsMag1.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 113--114
+ [] 
+ []
+
+File: CHAPTER-6/figures/BaselineAllAgentsDist1.eps Graphic file (type eps)
+<CHAPTER-6/figures/BaselineAllAgentsDist1.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 122--123
+ [] 
+ []
+
+[76]
+File: CHAPTER-6/figures/ConicalPath.eps Graphic file (type eps)
+ <CHAPTER-6/figures/ConicalPath.eps> [77]
+File: CHAPTER-6/figures/BaselineAllAgentsMag2.eps Graphic file (type eps)
+
+<CHAPTER-6/figures/BaselineAllAgentsMag2.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 142--143
+ [] 
+ []
+
+File: CHAPTER-6/figures/BaselineAllAgentsDist2.eps Graphic file (type eps)
+<CHAPTER-6/figures/BaselineAllAgentsDist2.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 149--150
+ [] 
+ []
+
+[78] [79] [80]
+File: CHAPTER-6/figures/BaselineBasicCountMag1.eps Graphic file (type eps)
+ <CHAPTER-6/figures/BaselineBasicCountMag1.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 186--187
+ [] 
+ []
+
+File: CHAPTER-6/figures/BaselineBasicCountDist1.eps Graphic file (type eps)
+<CHAPTER-6/figures/BaselineBasicCountDist1.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 195--196
+ [] 
+ []
+
+[81]
+File: CHAPTER-6/figures/SimpleMulti2.eps Graphic file (type eps)
+ <CHAPTER-6/figures/SimpleMulti2.eps> [82]
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 212.
+
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 212.
+
+File: CHAPTER-6/figures/PerimeterBots1.eps Graphic file (type eps)
+<CHAPTER-6/figures/PerimeterBots1.eps>
+File: CHAPTER-6/figures/PerimeterBots2.eps Graphic file (type eps)
+ <CHAPTER-6/figures/PerimeterBots2.eps>
+[83]
+File: CHAPTER-6/figures/FullPerimeter.eps Graphic file (type eps)
+ <CHAPTER-6/figures/FullPerimeter.eps>
+File: CHAPTER-6/figures/Perimeter1.eps Graphic file (type eps)
+ <CHAPTER-6/figures/Perimeter1.eps>
+[84]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+ [85]
+File: CHAPTER-6/figures/Triangulate.eps Graphic file (type eps)
+ <CHAPTER-6/figures/Triangulate.eps> [86]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+File: CHAPTER-6/figures/Perimeter2.eps Graphic file (type eps)
+
+<CHAPTER-6/figures/Perimeter2.eps> [87]
+Overfull \hbox (5.28712pt too wide) in paragraph at lines 370--371
+[]\OT1/cmr/m/n/10.95 The com-plete perime-ter de-tec-tion al-go-rithm us-ing th
+is `cyclic-angular-neighbour-
+ []
+
+[88]
+File: CHAPTER-6/figures/PerimeterError1.eps Graphic file (type eps)
+ <CHAPTER-6/figures/PerimeterError1.eps> [89]
+File: CHAPTER-6/figures/PerimeterAnomaly.eps Graphic file (type eps)
+
+<CHAPTER-6/figures/PerimeterAnomaly.eps>
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 416.
+
+[90]
+Overfull \hbox (34.9693pt too wide) in paragraph at lines 418--419
+\OT1/cmr/m/n/10.95 from be-ing co-or-di-nated due to the $\OML/cmm/m/it/10.95 O
+\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 n[]\OT1/cmr/m/n/10.95 )$ mes-sage prop-
+a-ga-tion time fac-tor ([][][][]) [[]].
+ []
+
+File: CHAPTER-6/figures/BaselineFullPerimeterMag1.eps Graphic file (type eps)
+<CHAPTER-6/figures/BaselineFullPerimeterMag1.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 429--430
+ [] 
+ []
+
+[91]
+File: CHAPTER-6/figures/BaselineFullPerimeterDist1.eps Graphic file (type eps)
+ <CHAPTER-6/figures/BaselineFullPerimeterDist1.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 440--441
+ [] 
+ []
+
+[92] [93]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+File: CHAPTER-6/figures/BaselineAllDist1.eps Graphic file (type eps)
+ <CHAPTER-6/figures/BaselineAllDist1.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 472--473
+ [] 
+ []
+
+[94]
+File: CHAPTER-6/figures/BaselineAllDist2.eps Graphic file (type eps)
+ <CHAPTER-6/figures/BaselineAllDist2.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 479--480
+ [] 
+ []
+
+File: CHAPTER-6/figures/BaselineAllMag1.eps Graphic file (type eps)
+<CHAPTER-6/figures/BaselineAllMag1.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 488--489
+ [] 
+ []
+
+[95]
+File: CHAPTER-6/figures/BaselineAllMag2.eps Graphic file (type eps)
+ <CHAPTER-6/figures/BaselineAllMag2.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 495--496
+ [] 
+ []
+
+[96]
+File: CHAPTER-6/figures/SwarmPerimeter1.eps Graphic file (type eps)
+ <CHAPTER-6/figures/SwarmPerimeter1.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 511--512
+ [] 
+ []
+
+[97] [98]
+Overfull \hbox (2.78271pt too wide) in paragraph at lines 542--543
+\OT1/cmr/m/n/10.95 swarms move-ment to-wards the des-ti-na-tion. This ef-fect c
+an be seen in [][][][]
+ []
+
+File: CHAPTER-6/figures/SwarmPropagationComparison1.eps Graphic file (type eps)
+
+<CHAPTER-6/figures/SwarmPropagationComparison1.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 546--547
+ [] 
+ []
+
+[99]
+File: CHAPTER-6/figures/SwarmPropagationComparison2.eps Graphic file (type eps)
+
+ <CHAPTER-6/figures/SwarmPropagationComparison2.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 555--556
+ [] 
+ []
+
+[100]
+Overfull \hbox (0.63338pt too wide) in paragraph at lines 562--563
+[]\OT1/cmr/m/n/10.95 The ef-fect of the al-go-rithms on the sta-bil-i-sa-tion p
+e-riod can be seen in [][][][]
+ []
+
+File: CHAPTER-6/figures/SwarmPropagationComparison3.eps Graphic file (type eps)
+
+<CHAPTER-6/figures/SwarmPropagationComparison3.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 566--567
+ [] 
+ []
+
+[101]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+
+Overfull \hbox (24.84497pt too wide) in paragraph at lines 584--585
+[][][][][] \OT1/cmr/m/n/10.95 shows how the speed is cal-cu-lated based on the 
+dis-tance in [][][][].
+ []
+
+[102]
+File: CHAPTER-6/figures/SwarmSpeed1.eps Graphic file (type eps)
+ <CHAPTER-6/figures/SwarmSpeed1.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 644--645
+ [] 
+ []
+
+[103]
+File: CHAPTER-6/figures/SwarmNeighbourCount.eps Graphic file (type eps)
+ <CHAPTER-6/figures/SwarmNeighbourCount.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 656--657
+ [] 
+ []
+
+[104]
+File: CHAPTER-6/figures/SwarmNeighbourCountBalanced.eps Graphic file (type eps)
+
+ <CHAPTER-6/figures/SwarmNeighbourCountBalanced.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 679--680
+ [] 
+ []
+
+[105]
+File: CHAPTER-6/figures/BaselineAll100-60-20-1.eps Graphic file (type eps)
+ <CHAPTER-6/figures/BaselineAll100-60-20-1.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 688--689
+ [] 
+ []
+
+[106]
+File: CHAPTER-6/figures/BaselineAll100-60-20-2.eps Graphic file (type eps)
+ <CHAPTER-6/figures/BaselineAll100-60-20-2.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 697--698
+ [] 
+ []
+
+File: CHAPTER-6/figures/BaselineAllMag100-60-20-1.eps Graphic file (type eps)
+<CHAPTER-6/figures/BaselineAllMag100-60-20-1.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 708--709
+ [] 
+ []
+
+[107]
+File: CHAPTER-6/figures/BaselineAllMag100-60-20-2.eps Graphic file (type eps)
+ <CHAPTER-6/figures/BaselineAllMag100-60-20-2.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 715--716
+ [] 
+ []
+
+File: CHAPTER-6/figures/BaselineAllPath100-60-20-1.eps Graphic file (type eps)
+<CHAPTER-6/figures/BaselineAllPath100-60-20-1.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 724--725
+ [] 
+ []
+
+[108]
+File: CHAPTER-6/figures/BaselineAllPath100-60-20-2.eps Graphic file (type eps)
+ <CHAPTER-6/figures/BaselineAllPath100-60-20-2.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 735--736
+ [] 
+ []
+
+[109]
+File: CHAPTER-6/figures/BaselineAllPath100-60-20-3.eps Graphic file (type eps)
+ <CHAPTER-6/figures/BaselineAllPath100-60-20-3.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 742--743
+ [] 
+ []
+
+[110] [111]
+File: CHAPTER-6/figures/OmniBall.eps Graphic file (type eps)
+ <CHAPTER-6/figures/OmniBall.eps>
+Overfull \hbox (5.81812pt too wide) in paragraph at lines 785--786
+[]\OT1/cmr/m/n/10.95 The sce-nario as-sumes a GPS is be-ing used in all the age
+nts as shown in ([][][][])
+ []
+
+[112] [113]
+File: CHAPTER-6/figures/MessagePropogation1.eps Graphic file (type eps)
+ <CHAPTER-6/figures/MessagePropogation1.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 849--855
+
+ []
+
+[114]) [115]
+\openout2 = `CHAPTER-7/text.aux'.
+
+ (./CHAPTER-7/text.tex
+Chapter 6.
+File: CHAPTER-7/figures/SwarmStableShape1.eps Graphic file (type eps)
+<CHAPTER-7/figures/SwarmStableShape1.eps> [116
+
+
+
+] [117]
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 39.
+
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 41.
+
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 41.
+
+[118]
+File: CHAPTER-7/figures/OuterPerimeter1.eps Graphic file (type eps)
+ <CHAPTER-7/figures/OuterPerimeter1.eps>
+File: CHAPTER-7/figures/InnerPerimeter1.eps Graphic file (type eps)
+
+<CHAPTER-7/figures/InnerPerimeter1.eps>
+File: CHAPTER-7/figures/PerimeterBotsCircle3.eps Graphic file (type eps)
+
+<CHAPTER-7/figures/PerimeterBotsCircle3.eps>
+File: CHAPTER-7/figures/PerimeterBotsCircle4.eps Graphic file (type eps)
+
+<CHAPTER-7/figures/PerimeterBotsCircle4.eps> [119]
+File: CHAPTER-7/figures/PerimeterBotsCircle1.eps Graphic file (type eps)
+
+<CHAPTER-7/figures/PerimeterBotsCircle1.eps>
+File: CHAPTER-7/figures/PerimeterBotsCircle2.eps Graphic file (type eps)
+
+<CHAPTER-7/figures/PerimeterBotsCircle2.eps> [120]
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+[121]
+File: CHAPTER-7/figures/VoidConcave1.eps Graphic file (type eps)
+ <CHAPTER-7/figures/VoidConcave1.eps> [122]
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 140.
+
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 140.
+
+File: CHAPTER-7/figures/InterAgentEffect1.eps Graphic file (type eps)
+<CHAPTER-7/figures/InterAgentEffect1.eps>
+File: CHAPTER-7/figures/InterAgentEffect2.eps Graphic file (type eps)
+
+<CHAPTER-7/figures/InterAgentEffect2.eps>
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 157.
+
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 157.
+
+[123]
+File: CHAPTER-7/figures/PerimeterBots4.eps Graphic file (type eps)
+ <CHAPTER-7/figures/PerimeterBots4.eps>
+File: CHAPTER-7/figures/PerimeterBots5.eps Graphic file (type eps)
+
+<CHAPTER-7/figures/PerimeterBots5.eps>
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+ [124]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+[]|\OT1/cmr/bx/n/10.95 Weight
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+[]|\OT1/cmr/bx/n/10.95 Baseline
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+[]|\OT1/cmr/bx/n/10.95 Concave
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
+[]|\OT1/cmr/m/n/10.95 Repulsion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
+[]|\OT1/cmr/m/n/10.95 Neighbour
+ []
+
+[125]
+File: CHAPTER-7/figures/BaselineConcaveEffectDist.eps Graphic file (type eps)
+ <CHAPTER-7/figures/BaselineConcaveEffectDist.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 230--231
+ [] 
+ []
+
+[126]
+File: CHAPTER-7/figures/BaselineConcaveEffectMag.eps Graphic file (type eps)
+ <CHAPTER-7/figures/BaselineConcaveEffectMag.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 242--243
+ [] 
+ []
+
+[127]
+File: CHAPTER-7/figures/BaselineConcavePerimeter.eps Graphic file (type eps)
+ <CHAPTER-7/figures/BaselineConcavePerimeter.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 251--252
+ [] 
+ []
+
+[128]
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 256.
+
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 256.
+
+File: CHAPTER-7/figures/OuterPerimeterJitter1.eps Graphic file (type eps)
+<CHAPTER-7/figures/OuterPerimeterJitter1.eps>
+File: CHAPTER-7/figures/OuterPerimeterJitter2.eps Graphic file (type eps)
+
+<CHAPTER-7/figures/OuterPerimeterJitter2.eps> [129]
+File: CHAPTER-7/figures/BaselineConcaveEffectPath1.eps Graphic file (type eps)
+
+<CHAPTER-7/figures/BaselineConcaveEffectPath1.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 277--278
+ [] 
+ []
+
+[130]
+File: CHAPTER-7/figures/BaselineConcaveEffectPath2.eps Graphic file (type eps)
+ <CHAPTER-7/figures/BaselineConcaveEffectPath2.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 287--288
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+[]|\OT1/cmr/bx/n/10.95 Weight
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+[]|\OT1/cmr/bx/n/10.95 Baseline
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+[]|\OT1/cmr/bx/n/10.95 Concave
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+[]|\OT1/cmr/m/n/10.95 Repulsion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
+[]|\OT1/cmr/m/n/10.95 Neighbour
+ []
+
+[131]
+File: CHAPTER-7/figures/BaselineConcaveEffectDist8060.eps Graphic file (type ep
+s)
+ <CHAPTER-7/figures/BaselineConcaveEffectDist8060.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 315--316
+ [] 
+ []
+
+[132]
+File: CHAPTER-7/figures/BaselineConcaveEffectMag8060.eps Graphic file (type eps
+)
+ <CHAPTER-7/figures/BaselineConcaveEffectMag8060.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 324--325
+ [] 
+ []
+
+[133]
+File: CHAPTER-7/figures/BaselineConcavePerimeter8060.eps Graphic file (type eps
+)
+ <CHAPTER-7/figures/BaselineConcavePerimeter8060.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 334--335
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--345
+[]|\OT1/cmr/bx/n/10.95 Neighbour
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--345
+[]|\OT1/cmr/bx/n/10.95 Baseline
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--345
+[]|\OT1/cmr/bx/n/10.95 Concave
+ []
+
+File: CHAPTER-7/figures/Baseline8060End.eps Graphic file (type eps)
+<CHAPTER-7/figures/Baseline8060End.eps>
+File: CHAPTER-7/figures/Concave8060End.eps Graphic file (type eps)
+ <CHAPTER-7/figures/Concave8060End.eps>
+[134]
+File: CHAPTER-7/figures/BaselineConcaveEffectPath80601.eps Graphic file (type e
+ps)
+ <CHAPTER-7/figures/BaselineConcaveEffectPath80601.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 370--371
+ [] 
+ []
+
+File: CHAPTER-7/figures/BaselineConcaveEffectPath80602.eps Graphic file (type e
+ps)
+<CHAPTER-7/figures/BaselineConcaveEffectPath80602.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 377--378
+ [] 
+ []
+
+[135]
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
+[]|\OT1/cmr/bx/n/10.95 Weight
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
+[]|\OT1/cmr/bx/n/10.95 Baseline
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
+[]|\OT1/cmr/bx/n/10.95 Concave
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
+[]|\OT1/cmr/m/n/10.95 Repulsion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
+[]|\OT1/cmr/m/n/10.95 Neighbour
+ []
+
+[136]
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 408.
+
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 408.
+
+File: CHAPTER-7/figures/Baseline4560End.eps Graphic file (type eps)
+<CHAPTER-7/figures/Baseline4560End.eps>
+File: CHAPTER-7/figures/Concave4560End.eps Graphic file (type eps)
+ <CHAPTER-7/figures/Concave4560End.eps>
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 426.
+
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 426.
+
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 426.
+
+[137]
+File: CHAPTER-7/figures/Concave4560-1.eps Graphic file (type eps)
+ <CHAPTER-7/figures/Concave4560-1.eps>
+File: CHAPTER-7/figures/Concave4560-2.eps Graphic file (type eps)
+
+<CHAPTER-7/figures/Concave4560-2.eps>
+File: CHAPTER-7/figures/Concave4560-3.eps Graphic file (type eps)
+ <CHAPTER-7/figures/Concave4560-3.eps>
+File: CHAPTER-7/figures/ConcavePerimeter4560-DIST.eps Graphic file (type eps)
+
+<CHAPTER-7/figures/ConcavePerimeter4560-DIST.eps>
+Overfull \hbox (50.98756pt too wide) in paragraph at lines 457--458
+ [] 
+ []
+
+[138]
+File: CHAPTER-7/figures/ConcavePerimeter4560-DIST-2.eps Graphic file (type eps)
+
+ <CHAPTER-7/figures/ConcavePerimeter4560-DIST-2.eps>
+Overfull \hbox (50.98756pt too wide) in paragraph at lines 466--467
+ [] 
+ []
+
+[139]
+File: CHAPTER-7/figures/ConcavePerimeter4560-MAG.eps Graphic file (type eps)
+ <CHAPTER-7/figures/ConcavePerimeter4560-MAG.eps>
+Overfull \hbox (50.98756pt too wide) in paragraph at lines 475--476
+ [] 
+ []
+
+[140]
+File: CHAPTER-7/figures/ConcavePerimeter4560-MAG-2.eps Graphic file (type eps)
+ <CHAPTER-7/figures/ConcavePerimeter4560-MAG-2.eps>
+Overfull \hbox (50.98756pt too wide) in paragraph at lines 484--485
+ [] 
+ []
+
+[141]
+File: CHAPTER-7/figures/ConcavePerimeter4560-1.eps Graphic file (type eps)
+ <CHAPTER-7/figures/ConcavePerimeter4560-1.eps>
+Overfull \hbox (50.98756pt too wide) in paragraph at lines 495--496
+ [] 
+ []
+
+[142]
+File: CHAPTER-7/figures/SwarmCoverage4560-1.eps Graphic file (type eps)
+ <CHAPTER-7/figures/SwarmCoverage4560-1.eps>
+Overfull \hbox (50.98756pt too wide) in paragraph at lines 504--505
+ [] 
+ []
+
+
+Overfull \hbox (2.08318pt too wide) in paragraph at lines 500--507
+[]\OT1/cmr/m/n/10.95 The ef-fect on the swarms struc-ture is shown in Fig-ures 
+[][][][] and [][][][]. [][][][]
+ []
+
+[143]
+File: CHAPTER-7/figures/SwarmCoverage4560-2.eps Graphic file (type eps)
+ <CHAPTER-7/figures/SwarmCoverage4560-2.eps>
+Overfull \hbox (50.98756pt too wide) in paragraph at lines 513--514
+ [] 
+ []
+
+[144] [145]
+File: CHAPTER-7/figures/OilSlick.eps Graphic file (type eps)
+ <CHAPTER-7/figures/OilSlick.eps>
+File: CHAPTER-7/figures/OilSpillSimulator.eps Graphic file (type eps)
+
+<CHAPTER-7/figures/OilSpillSimulator.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 538--539
+ [] 
+ []
+
+[146]
+File: CHAPTER-7/figures/OilSpillBase1.eps Graphic file (type eps)
+ <CHAPTER-7/figures/OilSpillBase1.eps>
+File: CHAPTER-7/figures/OilSpillBase2.eps Graphic file (type eps)
+
+<CHAPTER-7/figures/OilSpillBase2.eps>
+File: CHAPTER-7/figures/OilSpillBase3.eps Graphic file (type eps)
+ <CHAPTER-7/figures/OilSpillBase3.eps>
+[147]
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 563.
+
+File: CHAPTER-7/figures/OilSpillConcave1.eps Graphic file (type eps)
+<CHAPTER-7/figures/OilSpillConcave1.eps>
+File: CHAPTER-7/figures/OilSpillConcave2.eps Graphic file (type eps)
+
+<CHAPTER-7/figures/OilSpillConcave2.eps>
+File: CHAPTER-7/figures/OilSpillConcave3.eps Graphic file (type eps)
+
+<CHAPTER-7/figures/OilSpillConcave3.eps> [148]
+File: CHAPTER-7/figures/OilSpillPerimeter8060-DIST-1.eps Graphic file (type eps
+)
+
+<CHAPTER-7/figures/OilSpillPerimeter8060-DIST-1.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 589--590
+ [] 
+ []
+
+File: CHAPTER-7/figures/OilSpillPerimeter8060-MAG-1.eps Graphic file (type eps)
+
+<CHAPTER-7/figures/OilSpillPerimeter8060-MAG-1.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 598--599
+ [] 
+ []
+
+[149]
+File: CHAPTER-7/figures/OilSpillPerimeter8060-1.eps Graphic file (type eps)
+ <CHAPTER-7/figures/OilSpillPerimeter8060-1.eps>
+Overfull \hbox (22.5348pt too wide) in paragraph at lines 609--610
+ [] 
+ []
+
+[150]
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 615.
+
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 615.
+
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 617.
+
+File: CHAPTER-7/figures/PerimeterObject2.eps Graphic file (type eps)
+<CHAPTER-7/figures/PerimeterObject2.eps>
+File: CHAPTER-7/figures/PerimeterObject1.eps Graphic file (type eps)
+
+<CHAPTER-7/figures/PerimeterObject1.eps> [151]
+Underfull \hbox (badness 10000) in paragraph at lines 641--641
+[]|\OT1/cmr/bx/n/10.95 Weight
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 641--641
+[]|\OT1/cmr/bx/n/10.95 Baseline
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
+[]|\OT1/cmr/m/n/10.95 Repulsion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 649--649
+[]|\OT1/cmr/m/n/10.95 Neighbour
+ []
+
+[152]
+File: CHAPTER-7/figures/ObstacleTest.eps Graphic file (type eps)
+ <CHAPTER-7/figures/ObstacleTest.eps> [153]
+File: CHAPTER-7/figures/SWARMCOVER456060BASELINE.eps Graphic file (type eps)
+
+<CHAPTER-7/figures/SWARMCOVER456060BASELINE.eps>
+Overfull \hbox (50.98756pt too wide) in paragraph at lines 667--668
+ [] 
+ []
+
+[154]
+File: CHAPTER-7/figures/SWARMCOVER456060CONCAVE.eps Graphic file (type eps)
+ <CHAPTER-7/figures/SWARMCOVER456060CONCAVE.eps>
+File: CHAPTER-7/figures/IdealSwarm.eps Graphic file (type eps)
+
+<CHAPTER-7/figures/IdealSwarm.eps> [155]) [156]
+\openout2 = `CHAPTER-8/text.aux'.
+
+ (./CHAPTER-8/text.tex
+Chapter 7.
+[157
+
+
+
+] [158]
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]|\OT1/cmr/bx/n/10.95 Weight
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+\OT1/cmr/bx/n/10.95 com-po-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+[]|\OT1/cmr/m/n/10.95 Repulsion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+[]|\OT1/cmr/m/n/10.95 Neighbour
+ []
+
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 45.
+
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 45.
+
+File: CHAPTER-8/figures/EXPAND1.eps Graphic file (type eps)
+<CHAPTER-8/figures/EXPAND1.eps>
+File: CHAPTER-8/figures/EXPAND2.eps Graphic file (type eps)
+ <CHAPTER-8/figures/EXPAND2.eps>
+File: CHAPTER-8/figures/EXPAND3.eps Graphic file (type eps)
+
+<CHAPTER-8/figures/EXPAND3.eps>
+File: CHAPTER-8/figures/EXPAND4.eps Graphic file (type eps)
+ <CHAPTER-8/figures/EXPAND4.eps>
+File: CHAPTER-8/figures/EXPAND5.eps Graphic file (type eps)
+
+<CHAPTER-8/figures/EXPAND5.eps>
+File: CHAPTER-8/figures/EXPAND6.eps Graphic file (type eps)
+ <CHAPTER-8/figures/EXPAND6.eps> [159]
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 77.
+
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 77.
+
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 77.
+
+[160]
+File: CHAPTER-8/figures/FIELDFILL-MAG.eps Graphic file (type eps)
+ <CHAPTER-8/figures/FIELDFILL-MAG.eps>
+File: CHAPTER-8/figures/FIELDFILL-MAG-1.eps Graphic file (type eps)
+
+<CHAPTER-8/figures/FIELDFILL-MAG-1.eps> [161]
+File: CHAPTER-8/figures/FIELDFILL-MAG-2.eps Graphic file (type eps)
+
+<CHAPTER-8/figures/FIELDFILL-MAG-2.eps> [162]
+File: CHAPTER-8/figures/FIELDFILL-DIST.eps Graphic file (type eps)
+
+<CHAPTER-8/figures/FIELDFILL-DIST.eps>
+File: CHAPTER-8/figures/FIELDFILL-DIST-1.eps Graphic file (type eps)
+
+<CHAPTER-8/figures/FIELDFILL-DIST-1.eps> [163]
+File: CHAPTER-8/figures/FIELDFILL-DIST-2.eps Graphic file (type eps)
+
+<CHAPTER-8/figures/FIELDFILL-DIST-2.eps> [164]
+File: CHAPTER-8/figures/FIELDFILL-DIST-3.eps Graphic file (type eps)
+
+<CHAPTER-8/figures/FIELDFILL-DIST-3.eps>
+File: CHAPTER-8/figures/FIELDFILL-MAG-3.eps Graphic file (type eps)
+
+<CHAPTER-8/figures/FIELDFILL-MAG-3.eps> [165]
+File: CHAPTER-8/figures/FIELDFILL-DIST-3b.eps Graphic file (type eps)
+
+<CHAPTER-8/figures/FIELDFILL-DIST-3b.eps>
+File: CHAPTER-8/figures/FIELDFILL-MAG-3b.eps Graphic file (type eps)
+
+<CHAPTER-8/figures/FIELDFILL-MAG-3b.eps> [166]
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
+[]|\OT1/cmr/bx/n/10.95 Weight
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
+\OT1/cmr/bx/n/10.95 com-po-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+[]|\OT1/cmr/m/n/10.95 Repulsion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
+[]|\OT1/cmr/m/n/10.95 Neighbour
+ []
+
+[167]
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 199.
+
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 199.
+
+File: CHAPTER-8/figures/REPEL52-1.eps Graphic file (type eps)
+<CHAPTER-8/figures/REPEL52-1.eps>
+File: CHAPTER-8/figures/REPEL52-2.eps Graphic file (type eps)
+ <CHAPTER-8/figures/REPEL52-2.eps>
+File: CHAPTER-8/figures/REPEL52-3.eps Graphic file (type eps)
+
+<CHAPTER-8/figures/REPEL52-3.eps>
+File: CHAPTER-8/figures/REPEL52-4.eps Graphic file (type eps)
+ <CHAPTER-8/figures/REPEL52-4.eps>
+File: CHAPTER-8/figures/REPEL52-5.eps Graphic file (type eps)
+
+<CHAPTER-8/figures/REPEL52-5.eps>
+File: CHAPTER-8/figures/REPEL52-6.eps Graphic file (type eps)
+ <CHAPTER-8/figures/REPEL52-6.eps>
+File: CHAPTER-8/figures/REPEL52-7.eps Graphic file (type eps)
+
+<CHAPTER-8/figures/REPEL52-7.eps>
+File: CHAPTER-8/figures/REPEL52-8.eps Graphic file (type eps)
+ <CHAPTER-8/figures/REPEL52-8.eps> [168]
+Overfull \vbox (1.50053pt too high) has occurred while \output is active []
+
+
+[169]
+Overfull \hbox (5.70714pt too wide) in paragraph at lines 240--241
+[][][][] \OT1/cmr/m/n/10.95 shows the \OT1/cmr/m/it/10.95 inter-agent vec-tor m
+ag-ni-tude \OT1/cmr/m/n/10.95 pro-duced be-tween the agents.
+ []
+
+File: CHAPTER-8/figures/REPELFILL5055-MAG.eps Graphic file (type eps)
+<CHAPTER-8/figures/REPELFILL5055-MAG.eps>
+File: CHAPTER-8/figures/REPELFILL5055-MAG-1-2.eps Graphic file (type eps)
+
+<CHAPTER-8/figures/REPELFILL5055-MAG-1-2.eps> [170]
+File: CHAPTER-8/figures/REPELFILL5055-MAG-2-3.eps Graphic file (type eps)
+
+<CHAPTER-8/figures/REPELFILL5055-MAG-2-3.eps> [171]
+File: CHAPTER-8/figures/REPELFILL5055-MAG-8.eps Graphic file (type eps)
+
+<CHAPTER-8/figures/REPELFILL5055-MAG-8.eps> [172]
+File: CHAPTER-8/figures/REPELFILL5055-DIST.eps Graphic file (type eps)
+
+<CHAPTER-8/figures/REPELFILL5055-DIST.eps> [173]
+File: CHAPTER-8/figures/REPELFILL5055-DIST-1.eps Graphic file (type eps)
+
+<CHAPTER-8/figures/REPELFILL5055-DIST-1.eps>
+File: CHAPTER-8/figures/REPELFILL5055-DIST-1-2.eps Graphic file (type eps)
+
+<CHAPTER-8/figures/REPELFILL5055-DIST-1-2.eps> [174]
+File: CHAPTER-8/figures/REPELFILL5055-DIST-2-3.eps Graphic file (type eps)
+
+<CHAPTER-8/figures/REPELFILL5055-DIST-2-3.eps> [175]
+File: CHAPTER-8/figures/REPELFILL5055-DIST-8.eps Graphic file (type eps)
+
+<CHAPTER-8/figures/REPELFILL5055-DIST-8.eps>) [176] [177]
+\openout2 = `CHAPTER-9/text.aux'.
+
+ (./CHAPTER-9/text.tex
+Chapter 8.
+[178
+
+
+
+] [179] [180] [181] [182]
+File: CHAPTER-9/figures/FieldEffects.eps Graphic file (type eps)
+ <CHAPTER-9/figures/FieldEffects.eps> [183]
+File: CHAPTER-9/figures/FieldEffects2.eps Graphic file (type eps)
+
+<CHAPTER-9/figures/FieldEffects2.eps> [184]
+File: CHAPTER-9/figures/FloodEdges1.eps Graphic file (type eps)
+
+<CHAPTER-9/figures/FloodEdges1.eps> [185]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no é in font cmr10!
+
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 108.
+
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 108.
+
+File: CHAPTER-9/figures/SwarmShaping1.eps Graphic file (type eps)
+<CHAPTER-9/figures/SwarmShaping1.eps>
+File: CHAPTER-9/figures/SwarmShaping2.eps Graphic file (type eps)
+ <CHAPTER-9/figures/SwarmShaping2.eps>
+File: CHAPTER-9/figures/SwarmShaping4.eps Graphic file (type eps)
+
+<CHAPTER-9/figures/SwarmShaping4.eps>
+Overfull \hbox (0.23796pt too wide) in paragraph at lines 128--129
+[]\OT1/cmr/m/n/10.95 Within this type of swarm-ing ef-fect there is a nat-u-ral
+ `self-healing' prop-erty [[],
+ []
+
+[186]
+File: CHAPTER-9/figures/SwarmPath1.eps Graphic file (type eps)
+ <CHAPTER-9/figures/SwarmPath1.eps>
+File: CHAPTER-9/figures/SwarmPath2.eps Graphic file (type eps)
+ <CHAPTER-9/figures/SwarmPath2.eps>
+File: CHAPTER-9/figures/SwarmPath3.eps Graphic file (type eps)
+
+<CHAPTER-9/figures/SwarmPath3.eps>
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 151.
+
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 151.
+
+
+Package hyperref Warning: No autoref name for `subfigure' on input line 151.
+
+[187]) [188] (./main.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 22--27
+[]\OT1/cmr/m/n/10.95 Google's am-bi-tious in-ter-net bal-loons soar above
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--27
+\OT1/cmr/m/n/10.95 New Zealand.  [][][][][][][][][][][][][][][][][][][][][][][]
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--27
+[][][][][][]\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 43--48
+[]\OT1/cmr/m/n/10.95 Panayiotis An-dreou, Demetrios Zeinalipour-Yazti, Maria An
+-dreou,
+ []
+
+[189
+
+
+] [190]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ≥ in font cmr10!
+ [191] [192]
+Underfull \hbox (badness 4805) in paragraph at lines 307--313
+\OT1/cmr/m/n/10.95 spec-trum.  [][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--313
+[][][][][][]\OT1/cmr/m/n/10.95 , Dec 2011.
+ []
+
+[193]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no º in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+ [194] [195]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 473--480
+[]\OT1/cmr/m/n/10.95 Morgan Kelly.  Army ants liv-ing bridges span
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 473--480
+\OT1/cmr/m/n/10.95 col-lec-tive in-tel-li-gence, swarm robotics (pnas).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 473--480
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+]
+ []
+
+
+Overfull \hbox (85.12416pt too wide) in paragraph at lines 473--480
+[][][][][][]\OT1/cmr/m/n/10.95 ,
+ []
+
+[196] [197]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [198] [199]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no Å in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no © in font cmr10!
+ [200] [201]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Underfull \hbox (badness 2426) in paragraph at lines 884--890
+[]\OT1/cmr/m/n/10.95 David Smal-ley.  Au-tonomous war-fare  a rev-o-lu-tion in 
+mil-i-tary
+ []
+
+[202]
+Underfull \hbox (badness 1259) in paragraph at lines 954--957
+[]\OT1/cmr/m/n/10.95 Maarten Vankerkom and Jin Yu.  \OT1/cmr/m/it/10.95 Vi-su-a
+l-iz-ing Swarm Al-go-rithms\OT1/cmr/m/n/10.95 .
+ []
+
+[203]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+ [204]) [205] [206
+
+]
+\openout2 = `APPENDIX-1/text.aux'.
+
+ (./APPENDIX-1/text.tex
+Chapter A.
+
+Overfull \hbox (32.35306pt too wide) in paragraph at lines 18--23
+\OT1/cmtt/m/n/10.95 sudo apt-get install python3-dev libjpeg-dev libpng-dev lib
+avformat-dev
+ []
+
+
+Overfull \hbox (32.35306pt too wide) in paragraph at lines 18--23
+\OT1/cmtt/m/n/10.95 libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev l
+ibsdl1.2-dev
+ []
+
+
+Overfull \hbox (3.60962pt too wide) in paragraph at lines 18--23
+\OT1/cmtt/m/n/10.95 libsmpeg-dev python3-numpy python-numpy subversion libportm
+idi-dev
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+[207
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 32--35
+
+ []
+
+) [208]
+\openout2 = `APPENDIX-2/text.aux'.
+
+ (./APPENDIX-2/text.tex
+Chapter B.
+(../../PySwarmWorld/PySwarmWorld.py [209
+
+
+
+] [210] [211] [212] [213])
+(../../PySwarmWorld/PySwarmWorldCLI.py [214] [215] [216])) [217]
+\openout2 = `APPENDIX-3/text.aux'.
+
+
+(./APPENDIX-3/text.tex
+Chapter C.
+File: APPENDIX-3/figures/schema.eps Graphic file (type eps)
+<APPENDIX-3/figures/schema.eps>
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
+(Font)              Font shape `OT1/cmtt/b/n' tried instead on input line 8.
+) [218
+
+
+
+]
+\openout2 = `APPENDIX-4/text.aux'.
+
+ (./APPENDIX-4/text.tex
+Chapter D.
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) [219
+
+
+
+]) [220]
+\openout2 = `APPENDIX-5/text.aux'.
+
+
+(./APPENDIX-5/text.tex
+Chapter E.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 9.
+
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 10.
+
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 10.
+
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 10.
+
+[221
+
+
+
+] [222] [223] [224]
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 91.
+
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 91.
+
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 91.
+
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 91.
+
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 91.
+
+
+Package hyperref Warning: No autoref name for `lstnumber' on input line 91.
+
+[225]
+File: CHAPTER-3/figures/SampleGraph.eps Graphic file (type eps)
+ <CHAPTER-3/figures/SampleGraph.eps>
+Overfull \hbox (50.98756pt too wide) in paragraph at lines 130--131
+ [] 
+ []
+
+) [226]
+\openout2 = `glossary.aux'.
+
+
+No file glossary.tex.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
+(./main.aux (./FRONT/cover.aux) (./FRONT/title.aux) (./FRONT/abstract.aux)
+(./FRONT/acknowledgements.aux) (./FRONT/declaration.aux) (./CHAPTER-1/text.aux)
+(./CHAPTER-2/text.aux) (./CHAPTER-4/text.aux) (./CHAPTER-5/text.aux)
+(./CHAPTER-6/text.aux) (./CHAPTER-7/text.aux) (./CHAPTER-8/text.aux)
+(./CHAPTER-9/text.aux) (./APPENDIX-1/text.aux) (./APPENDIX-2/text.aux)
+(./APPENDIX-3/text.aux) (./APPENDIX-4/text.aux) (./APPENDIX-5/text.aux)
+(./glossary.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 129.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 184A4E887A624558AA265ACA0AD361FB;10216.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
+ ) 
+Here is how much of TeX's memory you used:
+ 24533 strings out of 494954
+ 469951 string characters out of 6181003
+ 1219695 words of memory out of 5000000
+ 27054 multiletter control sequences out of 15000+600000
+ 20648 words of font info for 80 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 55i,20n,74p,2031b,1795s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on main.dvi (247 pages, 1335636 bytes).

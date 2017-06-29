@@ -1,0 +1,136 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction and overview}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Biological swarms}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Computational swarms}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{Foraging swarms}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.2}{Ant-colony swarms}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.3}{Boid-based swarms}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.4}{Centralised swarms}{section.1.2}% 7
+\BOOKMARK [1][-]{section.1.3}{Swarming applications}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.4}{Focus of the thesis}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.5}{Contributions}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.6}{Structure of the thesis}{chapter.1}% 11
+\BOOKMARK [0][-]{chapter.2}{Methods, techniques, tools}{}% 12
+\BOOKMARK [1][-]{section.2.1}{Modelling agents and swarms}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.2}{Modelling agents and environment interactions}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.3}{Boid-based model}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.4}{Swarm cohesion}{chapter.2}% 16
+\BOOKMARK [1][-]{section.2.5}{Swarm repulsion}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.6}{Swarm agents/obstacles interactions}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.7}{Swarm direction \(goal based swarms\)}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.8}{Weighted movement-direction model}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.9}{Modelling movement}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.10}{Stable swarm structures}{chapter.2}% 22
+\BOOKMARK [1][-]{section.2.11}{Resultant swarm model}{chapter.2}% 23
+\BOOKMARK [1][-]{section.2.12}{Swarm deployment}{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.13}{Swarm simulator}{chapter.2}% 25
+\BOOKMARK [1][-]{section.2.14}{Development overview}{chapter.2}% 26
+\BOOKMARK [1][-]{section.2.15}{Swarm simulator object model}{chapter.2}% 27
+\BOOKMARK [1][-]{section.2.16}{Swarm simulator software}{chapter.2}% 28
+\BOOKMARK [1][-]{section.2.17}{Motion modelling implementation}{chapter.2}% 29
+\BOOKMARK [2][-]{subsection.2.17.1}{Modelling Time}{section.2.17}% 30
+\BOOKMARK [2][-]{subsection.2.17.2}{Sensor modelling}{section.2.17}% 31
+\BOOKMARK [2][-]{subsection.2.17.3}{Cohesion implementation}{section.2.17}% 32
+\BOOKMARK [2][-]{subsection.2.17.4}{Repulsion implementation}{section.2.17}% 33
+\BOOKMARK [2][-]{subsection.2.17.5}{Destination implementation}{section.2.17}% 34
+\BOOKMARK [2][-]{subsection.2.17.6}{Obstacle avoidance implementation}{section.2.17}% 35
+\BOOKMARK [2][-]{subsection.2.17.7}{Agent model implementation}{section.2.17}% 36
+\BOOKMARK [1][-]{section.2.18}{Conclusion}{chapter.2}% 37
+\BOOKMARK [0][-]{chapter.3}{Swarm movement metric}{}% 38
+\BOOKMARK [1][-]{section.3.1}{Inter-agent vector magnitude effect on internal movement}{chapter.3}% 39
+\BOOKMARK [1][-]{section.3.2}{Swarm movement analysis}{chapter.3}% 40
+\BOOKMARK [1][-]{section.3.3}{Internal movement and the null vector}{chapter.3}% 41
+\BOOKMARK [1][-]{section.3.4}{Residual internal movement \(Jitter\)}{chapter.3}% 42
+\BOOKMARK [1][-]{section.3.5}{Magnitude based metric}{chapter.3}% 43
+\BOOKMARK [1][-]{section.3.6}{Distance based metric}{chapter.3}% 44
+\BOOKMARK [1][-]{section.3.7}{Magnitude based internal movement model}{chapter.3}% 45
+\BOOKMARK [1][-]{section.3.8}{Variance in agent resultant magnitude metric}{chapter.3}% 46
+\BOOKMARK [1][-]{section.3.9}{Distance metric}{chapter.3}% 47
+\BOOKMARK [1][-]{section.3.10}{Calculating distance based internal movement}{chapter.3}% 48
+\BOOKMARK [1][-]{section.3.11}{Variance in distance metric}{chapter.3}% 49
+\BOOKMARK [1][-]{section.3.12}{Conclusion - metric comparison}{chapter.3}% 50
+\BOOKMARK [0][-]{chapter.4}{Swarm type identification}{}% 51
+\BOOKMARK [1][-]{section.4.1}{Internal movement testing \(static swarms\)}{chapter.4}% 52
+\BOOKMARK [1][-]{section.4.2}{Hexagonal swarm analysis}{chapter.4}% 53
+\BOOKMARK [2][-]{subsection.4.2.1}{Distance based metric}{section.4.2}% 54
+\BOOKMARK [2][-]{subsection.4.2.2}{Agent resultant magnitude based metric}{section.4.2}% 55
+\BOOKMARK [1][-]{section.4.3}{Hyper-connected swarm analysis}{chapter.4}% 56
+\BOOKMARK [2][-]{subsection.4.3.1}{Distance based metric}{section.4.3}% 57
+\BOOKMARK [2][-]{subsection.4.3.2}{Agent resultant magnitude based metric}{section.4.3}% 58
+\BOOKMARK [1][-]{section.4.4}{Metric comparison}{chapter.4}% 59
+\BOOKMARK [1][-]{section.4.5}{Static swarm conclusion}{chapter.4}% 60
+\BOOKMARK [2][-]{subsection.4.5.1}{Arbitrary sized swarms}{section.4.5}% 61
+\BOOKMARK [0][-]{chapter.5}{Swarm coordination - perimeter detection}{}% 62
+\BOOKMARK [1][-]{section.5.1}{Baseline specification}{chapter.5}% 63
+\BOOKMARK [1][-]{section.5.2}{Destination vector application}{chapter.5}% 64
+\BOOKMARK [1][-]{section.5.3}{Swarm destination vector}{chapter.5}% 65
+\BOOKMARK [1][-]{section.5.4}{Identifying the coordinator role}{chapter.5}% 66
+\BOOKMARK [1][-]{section.5.5}{Monolithic swarm - \(all-agent\)}{chapter.5}% 67
+\BOOKMARK [2][-]{subsection.5.5.1}{Baseline and effect of no perimeter detection}{section.5.5}% 68
+\BOOKMARK [1][-]{section.5.6}{Simple multifaceted swarm \(basic-count\)}{chapter.5}% 69
+\BOOKMARK [2][-]{subsection.5.6.1}{Simple multifaceted algorithm}{section.5.6}% 70
+\BOOKMARK [2][-]{subsection.5.6.2}{Basic-count effect}{section.5.6}% 71
+\BOOKMARK [1][-]{section.5.7}{Complex multifaceted swarm \(full-perimeter\)}{chapter.5}% 72
+\BOOKMARK [2][-]{subsection.5.7.1}{Full-perimeter coordinator detection}{section.5.7}% 73
+\BOOKMARK [2][-]{subsection.5.7.2}{Baseline/full perimeter comparison}{section.5.7}% 74
+\BOOKMARK [2][-]{subsection.5.7.3}{Complex Multifaceted Swarm \(full-perimeter\) - Simulation}{section.5.7}% 75
+\BOOKMARK [1][-]{section.5.8}{Baseline and effect comparison}{chapter.5}% 76
+\BOOKMARK [2][-]{subsection.5.8.1}{Internal movement comparison}{section.5.8}% 77
+\BOOKMARK [2][-]{subsection.5.8.2}{Swarm GPS utilisation}{section.5.8}% 78
+\BOOKMARK [2][-]{subsection.5.8.3}{Swarm path propagation comparison}{section.5.8}% 79
+\BOOKMARK [2][-]{subsection.5.8.4}{Speed of Swarm \(Based on centroid\)}{section.5.8}% 80
+\BOOKMARK [2][-]{subsection.5.8.5}{Alternate weightings for directional bias}{section.5.8}% 81
+\BOOKMARK [2][-]{subsection.5.8.6}{Swarm coordination evaluation}{section.5.8}% 82
+\BOOKMARK [1][-]{section.5.9}{Energy efficiency evaluation}{chapter.5}% 83
+\BOOKMARK [1][-]{section.5.10}{Message Propagation Performance}{chapter.5}% 84
+\BOOKMARK [2][-]{subsection.5.10.1}{SenseSwarm Message Propagation Comparison}{section.5.10}% 85
+\BOOKMARK [1][-]{section.5.11}{Conclusion}{chapter.5}% 86
+\BOOKMARK [0][-]{chapter.6}{Swarm coordination - concave reduction}{}% 87
+\BOOKMARK [1][-]{section.6.1}{Concave reduction implementation}{chapter.6}% 88
+\BOOKMARK [1][-]{section.6.2}{Concave reduction agent movement}{chapter.6}% 89
+\BOOKMARK [2][-]{subsection.6.2.1}{Perimeter Exceptions}{section.6.2}% 90
+\BOOKMARK [1][-]{section.6.3}{Concave reduction mathematical model}{chapter.6}% 91
+\BOOKMARK [1][-]{section.6.4}{Application of concave reduction on perimeter agents}{chapter.6}% 92
+\BOOKMARK [1][-]{section.6.5}{Application of concave reduction on concave perimeters \(voids\)}{chapter.6}% 93
+\BOOKMARK [1][-]{section.6.6}{Concave reduction for object surrounding}{chapter.6}% 94
+\BOOKMARK [1][-]{section.6.7}{Concave reduction for destination-based swarms}{chapter.6}% 95
+\BOOKMARK [1][-]{section.6.8}{Conclusion}{chapter.6}% 96
+\BOOKMARK [0][-]{chapter.7}{Swarm coordination - area flooding}{}% 97
+\BOOKMARK [1][-]{section.7.1}{Field effect modification with cohesion and repulsion}{chapter.7}% 98
+\BOOKMARK [2][-]{subsection.7.1.1}{Magnitude analysis}{section.7.1}% 99
+\BOOKMARK [2][-]{subsection.7.1.2}{Distance analysis}{section.7.1}% 100
+\BOOKMARK [2][-]{subsection.7.1.3}{Combined magnitude and distance analysis}{section.7.1}% 101
+\BOOKMARK [1][-]{section.7.2}{Field effect modification with repulsion only}{chapter.7}% 102
+\BOOKMARK [2][-]{subsection.7.2.1}{Inter-agent magnitude analysis}{section.7.2}% 103
+\BOOKMARK [2][-]{subsection.7.2.2}{Distance analysis}{section.7.2}% 104
+\BOOKMARK [1][-]{section.7.3}{Conclusion}{chapter.7}% 105
+\BOOKMARK [0][-]{chapter.8}{Summary and additional work}{}% 106
+\BOOKMARK [1][-]{section.8.1}{Summary of contributions}{chapter.8}% 107
+\BOOKMARK [2][-]{subsection.8.1.1}{Model/Simulator}{section.8.1}% 108
+\BOOKMARK [2][-]{subsection.8.1.2}{Inter-agent magnitude metric}{section.8.1}% 109
+\BOOKMARK [2][-]{subsection.8.1.3}{Perimeter coordination}{section.8.1}% 110
+\BOOKMARK [2][-]{subsection.8.1.4}{Concave reduction}{section.8.1}% 111
+\BOOKMARK [2][-]{subsection.8.1.5}{Flood filling}{section.8.1}% 112
+\BOOKMARK [1][-]{section.8.2}{Additional work}{chapter.8}% 113
+\BOOKMARK [2][-]{subsection.8.2.1}{Metric comparison}{section.8.2}% 114
+\BOOKMARK [2][-]{subsection.8.2.2}{Area flooding}{section.8.2}% 115
+\BOOKMARK [2][-]{subsection.8.2.3}{Directional shape forming}{section.8.2}% 116
+\BOOKMARK [2][-]{subsection.8.2.4}{Simulator enhancements}{section.8.2}% 117
+\BOOKMARK [0][-]{subsection.8.2.4}{Bibliography}{}% 118
+\BOOKMARK [-1][-]{part*.8}{Appendix}{}% 119
+\BOOKMARK [0][-]{appendix.A}{ENVIRONMENT SETUP}{part*.8}% 120
+\BOOKMARK [1][-]{section.A.1}{MATPLOTLIB}{appendix.A}% 121
+\BOOKMARK [1][-]{section.A.2}{PYGAME}{appendix.A}% 122
+\BOOKMARK [1][-]{section.A.3}{PYTHON EDITOR}{appendix.A}% 123
+\BOOKMARK [1][-]{section.A.4}{MySQL}{appendix.A}% 124
+\BOOKMARK [0][-]{appendix.B}{PySwarmWorld Code Listing}{part*.8}% 125
+\BOOKMARK [1][-]{section.B.1}{Graphical Environment}{appendix.B}% 126
+\BOOKMARK [1][-]{section.B.2}{CLI Simulator}{appendix.B}% 127
+\BOOKMARK [0][-]{appendix.C}{APPENDIX 3}{part*.8}% 128
+\BOOKMARK [1][-]{section.C.1}{Analysis database schema}{appendix.C}% 129
+\BOOKMARK [0][-]{appendix.D}{SIMULATOR DATA SETS}{part*.8}% 130
+\BOOKMARK [0][-]{appendix.E}{Simulator data capture}{part*.8}% 131
+\BOOKMARK [1][-]{subsection.E.0.1}{Data capture implementation}{appendix.E}% 132
+\BOOKMARK [2][-]{subsection.E.0.2}{Data capture tables}{subsection.E.0.1}% 133
+\BOOKMARK [1][-]{section.E.1}{Simulator data aggregation}{appendix.E}% 134
+\BOOKMARK [2][-]{subsection.E.1.1}{Data aggregation views}{section.E.1}% 135
+\BOOKMARK [1][-]{section.E.2}{Data graphing tools}{appendix.E}% 136
