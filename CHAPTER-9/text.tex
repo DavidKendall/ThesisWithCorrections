@@ -49,13 +49,15 @@ Chapter~\ref{chapter:ConcaveReduction} examines how swarms can exhibit emergent 
 \subsection{Flood filling}
 In chapter~\ref{chapter:flooding} the cohesion and repulsion field effects (\textit{interaction vectors}) are used to create an area filling behaviour using a swarm of a fixed size. This is achieved by increasing the repulsion field effect of the agents to influence the distribution of the agents such that the agents fill a bounded area. The chapter examines two different techniques of coordinating the expansion process. The first technique involves using a `normal' swarm that utilises both cohesion and repulsion to create a swarm that acts as a single entity and ensures agents maintain `visibility' of each of its neighbours. The second technique exploits the fact that the swarm is in a bounded area and removes the cohesion field effect and uses only the repulsion field to expand the agents throughout the space. The metrics discussed in chapter~\ref{chapter:metric} are used to identify the effects of the expansion on the swarms internal structures and to identify terminating conditions for the filling behaviours.
 
-\section{Additional work}\label{additional:MoreWork}
+\section{Future work}\label{additional:MoreWork}
 The research in this thesis has investigated several issues with respect to swarm analysis but has also raised further questions that need to be answered. The new metric allows swarms to be analysed in a completely different way and has opened up the possibility of analysing new swarm configurations.
 
-\subsection{Metric comparison}\label{additional:fieldsWork}
-Swarms are often constructed from heterogeneous agents that adapt to stimuli but the agents themselves are usually modelled using homogeneous field effects. This modelling of homogeneous field effects lends itself to being measured and monitored by a distance based metric as defined by Navarro et al. \cite{NIM:09} due to the regular shapes and structures that emerge. The dependence on regularity of shapes and structures is a limitation of the distance metric due to the aggregation of the distances not reflecting the mathematical model that creates the structures. The magnitude based metric overcomes that limitation by analysing the vectors that effect the agent distribution. With heterogeneous field effects the inter-agent distances will be varied in an equilibrium state due to the way the field effects overlap when agents interact. 
+\subsection{Magnitude metric application}\label{additional:fieldsWork}
+Swarms are often constructed from heterogeneous agents that adapt to stimuli but the agents themselves are usually modelled using homogeneous field effects. This modelling of homogeneous field effects lends itself to being measured and monitored by a distance based metric as discussed by Navarro et al. \cite{NIM:09} due to the regular shapes and structures that emerge. The dependence on regularity of shapes and structures is a limitation of the distance metric due to the aggregation of the distances not reflecting the mathematical model that creates the structures. The magnitude based metric overcomes that limitation by analysing the vectors that effect the agent distribution. With heterogeneous field effects the inter-agent distances may vary in an equilibrium state due to the way the field effects overlap when agents interact. 
 
-The \textit{inter-agent vector magnitude} metric takes into consideration the resultant effects of the mathematical model~\autoref{additional:FieldEffects} rather than just arbitrary distances between agents. Preliminary tests have shown that the metric is able to provide meaningful results for agents that use varying field effects within the same swarm structure. The distance metric is unable to achieve this analysis due to the distances being a physical presentation of the mathematical model. The balancing of \textit{interaction vectors} affect the resultant agent distributions. Distance variance is different to magnitude variance even though with a homogeneous agent they appear to be similar as shown by the metric comparison. \autoref{additional:FieldEffects} shows a swarm construct where the interaction of the agents would be unidirectional, agent $b$ is affected by agent $b'$ with respect to cohesion but agent $b'$ is not affected by $b$. This type of interaction does not produce a meaningful distance metric as there is no distinction between agents with different field effects producing the different agent distributions.  
+The \textit{inter-agent vector magnitude} metric takes into consideration the resultant effects of the mathematical model~Figure~\ref{additional:FieldEffects} rather than just arbitrary distances between agents. 
+
+The balancing of \textit{interaction vectors} affect the resultant agent distributions. Figure~\ref{additional:FieldEffects} shows a swarm construct where the interaction of the agents would be unidirectional, agent $b$ is affected by agent $b'$ with respect to cohesion but agent $b'$ is not affected by $b$. 
 
 \begin{figure}[H]
 \begin{center}
@@ -64,21 +66,14 @@ The \textit{inter-agent vector magnitude} metric takes into consideration the re
 \caption{Varied field effects\label{additional:FieldEffects}}
 \end{figure}
 
-Further work needs to be carried out to identify how variations in field effects affect the overall structure of a swarm which would be more realistic when transferred to the real world as sensors rarely provide consistent results. Physical environments have conditions that may affect sensor readings i.e. an omni-directional camera will be affected by visibility. There is also the possibility of agents having different techniques of implementing the cohesion and repulsion models, this could improve a swarm's performance in specific applications. This is similar to how ant colonies use different casts with a swarm to create efficiencies in their activities such as foraging for resources. This combination of using a Boid-based swarm with a cast system based on field effects measured by the \textit{inter-agent vector} metric opens up a new method of modelling and analysing a swarm. This thesis has used a graduated cohesion effect however other methods of applying cohesion such as using a fixed vector could be applied or a mixture depending upon environmental conditions. These changes would affect the results from the distance based metric but the mixed implementations can be analysed by the new \textit{inter-agent vector} metric.
-
-\autoref{additional:FieldEffects2} shows a more complex situation that can occur in a heterogeneous field effect swarm. In this scenario 2 sets of agents have different field ranges ($b,b^{'}$ and $b^{''},b^{'''}$). The use of the distance metric in this environment would not be applicable due to variation in the distances that the different field effects create. The \textit{inter-agent vector} metric defined in this thesis would allow an analysis of the environment due to balancing of the field effects resulting in vectors that will have equivalent resultant magnitudes.
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=9cm]{CHAPTER-9/figures/FieldEffects2}
-\end{center}
-\caption{Complex swarm interactions\label{additional:FieldEffects2}}
-\end{figure}
-
 The additional work required here would be to identify potential applications of these variations in the field effects that could improve existing swarm applications. For example, if an agent is on a perimeter would the swarm benefit from reducing the field effects to create a greater compression effect? Would having a mixed field effect swarm produce better coverage of an area? What would be the impact of having variable field effects upon a goal-based swarm?
 
 \subsection{Area flooding}
-In chapter~\ref{chapter:flooding} the ability of a swarm to fill a space was examined using the distance and \textit{inter-agent vector} metrics. The swarms that were applied to the task used homogeneous field effects. If agents could vary their field effects based on their position in a swarm (e.g. agents at the boundary) it may be possible to improve coverage. As a swarm expands it was found that the expansion process was affected by the distribution of the agents on convex and concave corners~(\autoref{additional:FloodEdges1}). If agents were able to vary the effect based on detected features the swarm may be able to achieve set goals more efficiently (use less energy) and effectively (reducing time). Confined spaces may have narrow paths linking larger chambers and allowing agents to change their field effects may allow a swarm to propagate through this type of environment more effectively. 
+If agents could vary their field effects based on their position in a swarm (e.g. agents at the boundary) is it possible to improve coverage?
+
+As a swarm expands the distribution of the agents is effected by convex and concave corners~(\autoref{additional:FloodEdges1}). If agents were able to vary their field effects based on detected features a swarm may be able to achieve set goals more efficiently (use less energy) and effectively (reducing time).
+
+Using a fixed potential field may effect distribution. An environment may have narrow paths linking larger chambers. Allowing agents to change their field effects may allow a swarm to propagate through this type of environment more effectively. 
 
 \begin{figure}[H]
 \begin{center}
@@ -87,70 +82,9 @@ In chapter~\ref{chapter:flooding} the ability of a swarm to fill a space was exa
 \caption{Flood fill edges\label{additional:FloodEdges1}}
 \end{figure}
 
-Additional experiments need to be developed to identify why the corners and edges caused these problems and also to test the affect of using alternate field effects. One of the possible areas of research here would be to identify if there is a correlation between the field effect size and the angle of any boundary anomalies.
+Further work is needed to identify the affect of using adaptive field effects on area flooding.
  
-\subsection{Directional shape forming}\label{sec:DirectionalShape1}
-The \textit{destination vector} as discussed in~\autoref{sec:Direction1} has been based upon a swarm having a fixed single destination however this model can be changed slightly to produce two more possible swarming effects by applying the \textit{destination vector} to a set of points. The effects that are possible from these simple changes are to create swarms that create arbitrary shapes or a swarm that will migrate along a specific path. The \textit{destination vector} required to achieve these two emergent behaviours can be implemented using the coordination techniques discussed in chapter~\ref{chapter:coordination}.
+\subsection{Path following and shape forming swarms}\label{sec:DirectionalShape1}
+The \textit{destination vector} as discussed in~\autoref{sec:Direction1} has been based upon a swarm having a fixed single destination however this model can be changed slightly to produce two more possible swarming effects by applying the \textit{destination vector} to a set of points. The effects that are possible are to create swarms that form arbitrary shapes or a swarm that will migrate along a specific path. The \textit{destination vector} required to achieve these two emergent behaviours can be implemented using the coordination techniques discussed in chapter~\ref{chapter:coordination}.
 
-Shape forming~\cite{EP:07} and path following (which is an enhancement to the shape forming) in swarms is caused by the coalescence of the agents towards a point (target) when attempting to ensure the swarm exists as a single entity. The target is identified by the coordinator's \textit{destination vector} being towards the closest destination. Due to the cohesive properties of a Boid-based swarm a large swarm will therefore coordinate the centroid towards the target.
-
-\subsubsection{Shape forming swarms}\label{sec:DirectionalShape3}
-For shape forming to take place the distance between the destination points must be less than half of the radius of the swarm for the coordinators destinations to change as the swarm migrates towards the first destination point. This process will continue as the swarm `spreads' over the set of destination points. This is shown in~\autoref{methods:SwarmShape}.
-
-$v_d(b)$~(\autoref{eq:Destination2}) is the resultant \textit{destination vector} where $D$ is the set of all possible destinations. $b$ is the agent's current position and $min(b,D)$ returns the destination which has the smallest magnitude in relation to agent $b$. $F(.)$ returns a vector from agent $b$ position to the nearest destination.
-
-\begin{center}
-\begin{equation}\label{eq:Destination2}‎
-v_{d}(b) =‎ F(b,min(b,D))
-\end{equation}‎
-\end{center}
-
-Figure~\autoref{emerge:Shaping1} shows the swarm initially encountering the set of destination points. As the simulation continues the proximity of the destination points influences different coordinator agents and the swarm is `pulled' by the coordinators around the set of destinations. Figure~\autoref{emerge:Shaping4}~shows the resultant swarm distributed around the set of points. The effect emerges due to the coordinator agents `exerting' a compression effect based on different points this combined with the swarms cohesive bias holding the swarm together and the destination vectors for the agents deform the swarm to an equilibrium point forming the shape.
-
-\begin{figure}[H]
-\centering
-\subfigure[Stage 1]{
-	 \includegraphics[width=4cm]{CHAPTER-9/figures/SwarmShaping1}
-	 \label{emerge:Shaping1}
-}
-\subfigure[Stage 2]{
-	 \includegraphics[width=4cm]{CHAPTER-9/figures/SwarmShaping2}
-	 \label{emerge:Shaping2}
-}
-\subfigure[Stage 3]{
-	 \includegraphics[width=4cm]{CHAPTER-9/figures/SwarmShaping4}
-	 \label{emerge:Shaping4}
-}
-\caption{Boid based swarm shaping}
-\label{methods:SwarmShape}
-\end{figure}
-
-Within this type of swarming effect there is a natural `self-healing' property~\cite{RS:08, KY:10} as having a destination will naturally cause a swarm's centroid to coalesce around a single point which will therefore create a compressing effect. Non directional swarms and swarms that have distant goals do not naturally exhibit this behaviour, however it can be induced as discussed in chapter~\ref{chapter:ConcaveReduction}. 
-
-\subsubsection{Path following swarms}\label{sec:DirectionalShape4}
-If the destination set is a path that must be followed then a slight change is required to the logic used within the shape forming algorithm. When a coordinator agent falls within a specified range of a destination it can be classed as having successfully met a target. The agent can then move to the next destination in the set. This will cause the agents \textit{destination vector} to move causing the non-coordinator agents to follow through due to the proximity cohesion effect. This effect cascades through all the coordinators and the swarm will propagate along the set of destinations and therefore follow a predetermined trail.
-
-\begin{figure}[H]
-\centering
-\subfigure[Stage 1]{
-	 \includegraphics[width=4cm]{CHAPTER-9/figures/SwarmPath1}
-	 \label{emerge:Path1}
-}
-\subfigure[Stage 2]{
-	 \includegraphics[width=4cm]{CHAPTER-9/figures/SwarmPath2}
-	 \label{emerge:Path2}
-}	 
-\subfigure[Stage 3]{
-	 \includegraphics[width=4cm]{CHAPTER-9/figures/SwarmPath3}
-	 \label{emerge:Path3}
-}
-\caption{Boid based swarm path following}
-\label{methods:SwarmPath}
-\end{figure}
-
-\autoref{methods:SwarmPath} shows the effect in the stages of path propagation. Initially the whole swarm will be coordinated towards the nearest destination~(Figure~\autoref{emerge:Path1}). The leading edge of the swarm will then move onto the next destination drawing the swarm along~Figure~\autoref{emerge:Path2}. As each `goal' is met the swarm will move along the destination points~Figure~\autoref{emerge:Path3} and will eventually result in the swarm centering on the final destination point.
-
-\subsection{Simulator enhancements}
-All of the additional work detailed above will require the simulator to be developed further to allow additional modelling to be carried out. Several aspects of the current simulator are geared towards modelling homogeneous agents rather than each agent having an individual configuration, however the object model supports the required features in its current form. The object model used to develop the simulator already supports the generic modelling requirements for the future work but they are not fully exploited by the current implementation of the applications. i.e. all agent object instances hold their own field effect values that are globally adjusted within the software.
-
-The additional work will require further adaptations to the bespoke simulation software to generate the new behaviours identified above and to allow for the additional data logging requirements.
+The main area of research that is still required in this area is how to best implement the coordination. The thesis shows that changing how coordination is applied via perimeter coordinators can improve a swarms structure however what is not know is what is the best way to apply the coordination if a swarm is being applied to a shape forming~\cite{EP:07} or path following task.

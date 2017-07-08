@@ -167,14 +167,12 @@ Swarming has been observed in many animal species, including fish, birds,
 insects and mammals. These biological observations have inspired mathematical
 models of distributed coordination that have been applied to the development of
 multi-agent robotic systems, such as collections of unmanned autonomous
-vehicles (UAVs). Loosely, the idea is to take advantage of efficient biological
-mechanisms, evolved naturally over millenia, by mimicking their behaviour in
-computational systems. The advantages of a swarming approach to distributed
+vehicles (UAVs). The advantages of a swarming approach to distributed
 coordination are clear: each agent acts according to a simple set of rules that
 can be implemented on resource-constrained devices, and so it becomes feasible
 to replicate agents in order to build more resilient systems. However, there
 remain significant challenges in making the approach practicable. This thesis
-addresses two of the most significant: coordination and scalability.
+addresses two of the most significant: coordination and scalability. The coordination algorithms proposed here address the issue of scalability by requiring only proximity sensing between agents without the need for any other communications infrastructure. 
 
 A major source of inefficiency in the deployment of a swarm is `oscillation',
 small movements of the agents that arise as a side effect of the application of
@@ -182,22 +180,13 @@ their rules but which are not strictly necessary in order to satisfy the overall
 system function. The thesis introduces a new metric for `oscillation' that
 allows it to be identified and measured in the swarm control algorithms.
 
-The ability to detect a swarm's perimeter is important in many applications, e.g.
-covering an area or driving a swarm towards a target. This thesis proposes
-two new algorithms for efficient perimeter detection and analyses their behaviour
-by simulation.
+The thesis addresses the issue of controlling goal-based swarms by introducing a perimeter detection mechanism. The mechanism is used to improve the internal coordination of agents whilst maintaining a directional focus to the swarm; this is then analysed using the new metric.
 
-Investigation of large-scale swarms via simulation requires a new approach. The thesis
-proposes a new simulator that abstracts from all but the essential aspects of
-the control algorithms and parameters. The size of swarms catered for by
-simulators in the existing literature is of the order of 50. The simulator
-developed in this thesis comfortably simulates swarms of 500 or more.
+A mechanism is proposed to allow a swarm to exhibit a `healing' behaviour (concave reduction) by identifying perimeter edges an then altering the movement of agents based upon a simple criterion to remove voids (holes within a swarms structure), this has the emergent effect of smoothing the outer edges of a swarm and creating a more uniform swarm structure.
 
-The simulator allows the investigation of emergent behaviours of large-scale
-swarms. It has been used here to investigate the impact of control algorithms
-and parameters on swarm structure, e.g. the creation and removal of voids.
+Two area filling techniques are introduced and exit conditions are identified to determine when a swarm has filled an area.
 
-In summary, the thesis makes significant contributions to the analysis and
+In summary, significant contributions are made to the analysis and
 design of efficient control algorithms for the coordination of large-scale
 swarms.
 \end{abstract}
