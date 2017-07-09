@@ -401,6 +401,12 @@ Johnny Holmstr{\"o}m and Daniel Romero.
 \newblock In {\em Conference on Interesting Results in Computer Science and
   Engineering (IRCSE'10)}. M{\"a}lardalen University, Sweden, 2010.
 
+\bibitem{HC:09}
+S.~P. Hou and C.~C. Cheah.
+\newblock Multiplicative potential energy function for swarm control.
+\newblock In {\em Intelligent Robots and Systems, 2009. IROS 2009. IEEE/RSJ
+  International Conference on}, pages 4363--4368, Oct 2009.
+
 \bibitem{HCS:09}
 S.~P. Hou, C.~C. Cheah, and J.~J.~E. Slotine.
 \newblock Dynamic region following formation control for a swarm of robots.
@@ -700,6 +706,13 @@ Fuchen Pan, Xuebo Chen, and Lin Li.
 \newblock Practical stability in swarms system.
 \newblock {\em Journal of applied Math \& Informatics}, 26(1-2):203--212, 2008.
 
+\bibitem{PZ:13}
+Weiyun Pan and Y.~Zheng.
+\newblock Stability analysis of general swarm with gaussian
+  attractant/repellent profiles and interaction time delays.
+\newblock In {\em 32nd Chinese Control Conference (CCC)}, pages 1224--1229,
+  July 2013.
+
 \bibitem{PMRT:14}
 Daniel J.~G. Pearce, Adam~M. Miller, George Rowlands, and Matthew~S. Turner.
 \newblock Role of projection in the control of bird flocks.
@@ -836,6 +849,12 @@ M.~Scheutz and P.~Bauer.
 \newblock In {\em 2006 IEEE Conference on Computer Aided Control System Design,
   2006 IEEE International Conference on Control Applications, 2006 IEEE
   International Symposium on Intelligent Control}, pages 1258--1263, Oct 2006.
+
+\bibitem{SW:03}
+F.~E. Schneider and D.~Wildermuth.
+\newblock A potential field based approach to multi robot formation navigation.
+\newblock In {\em 2003 IEEE International Conference on Robotics, Intelligent
+  Systems and Signal Processing}, volume~1, pages 680--685 vol.1, Oct 2003.
 
 \bibitem{SK:16}
 A.~M. Schroeder and M.~Kumar.
@@ -984,6 +1003,12 @@ Maxim Worchester.
 \newblock \url{https://www.files.ethz.ch/isn/190160/340_Worcester.pdf}, April
   2015.
 \newblock [Online; accessed 15-Apr-2016].
+
+\bibitem{XJYYH:10}
+Naixue Xiong, Jing He, Yan Yang, Yanxiang He, Tai hoon Kim, and Chuan Lin.
+\newblock A survey on decentralized flocking schemes for a set of autonomous
+  mobile robots (invited paper).
+\newblock {\em Journal of Communications}, 5(1), 2010.
 
 \bibitem{XTH:09}
 Y.~Xue, G.~Tian, and B.~Huang.

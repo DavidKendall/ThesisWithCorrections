@@ -30,45 +30,45 @@ Warning--empty journal in CML:ND
 Warning--empty booktitle in PCL:08
 Warning--can't use both volume and number fields in REY:87
 Warning--empty journal in SRDF:10
-You've used 163 entries,
+You've used 167 entries,
             2118 wiz_defined-function locations,
-            1539 strings with 35094 characters,
-and the built_in function-call counts, 64007 in all, are:
-= -- 6352
-> -- 2800
-< -- 84
-+ -- 1133
-- -- 940
-* -- 4253
-:= -- 9823
-add.period$ -- 533
-call.type$ -- 163
-change.case$ -- 953
+            1561 strings with 35864 characters,
+and the built_in function-call counts, 65854 in all, are:
+= -- 6533
+> -- 2872
+< -- 88
++ -- 1163
+- -- 964
+* -- 4374
+:= -- 10086
+add.period$ -- 545
+call.type$ -- 167
+change.case$ -- 977
 chr.to.int$ -- 0
-cite$ -- 171
-duplicate$ -- 2622
-empty$ -- 5193
-format.name$ -- 940
-if$ -- 14137
+cite$ -- 175
+duplicate$ -- 2705
+empty$ -- 5346
+format.name$ -- 964
+if$ -- 14559
 int.to.chr$ -- 0
-int.to.str$ -- 163
-missing$ -- 146
-newline$ -- 833
-num.names$ -- 318
-pop$ -- 1199
+int.to.str$ -- 167
+missing$ -- 150
+newline$ -- 853
+num.names$ -- 326
+pop$ -- 1229
 preamble$ -- 1
-purify$ -- 796
+purify$ -- 816
 quote$ -- 0
-skip$ -- 2099
+skip$ -- 2177
 stack$ -- 0
-substring$ -- 4126
-swap$ -- 927
-text.length$ -- 84
+substring$ -- 4266
+swap$ -- 966
+text.length$ -- 88
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 642
+type$ -- 658
 warning$ -- 8
-while$ -- 575
-width$ -- 166
-write$ -- 1827
+while$ -- 589
+width$ -- 170
+write$ -- 1872
 (There were 8 warnings)

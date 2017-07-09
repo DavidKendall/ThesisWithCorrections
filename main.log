@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.7.11)  8 JUL 2017 16:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.4.11)  9 JUL 2017 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main
 (./main.tex
 LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
 (./thesis.cls
 
 LaTeX Warning: You have requested document class ` thesis',
@@ -1055,18 +1055,10 @@ File: CHAPTER-2/figures/FieldEffects.eps Graphic file (type eps)
 
 
 
-]
-
-LaTeX Warning: Reference `VG:05, XJYYH:10, SW:03, BAF:06, BAFVM:06, BFV:07, BM:
-09, HC:09' on page 12 undefined on input line 27.
-
-
-LaTeX Warning: Reference `YH:14, GKF:13, PZ:13' on page 12 undefined on input l
-ine 27.
-
-[12] [13] [14]
+] [12] [13] [14]
 File: CHAPTER-2/figures/FlyToCentre1.eps Graphic file (type eps)
- <CHAPTER-2/figures/FlyToCentre1.eps>
+
+<CHAPTER-2/figures/FlyToCentre1.eps>
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no Ž in font cmr10!
@@ -1075,13 +1067,13 @@ Missing character: There is no € in font cmr10!
 Missing character: There is no Ž in font cmr10!
  [15]
 File: CHAPTER-2/figures/Repulsion3.eps Graphic file (type eps)
-
-<CHAPTER-2/figures/Repulsion3.eps>
+ <CHAPTER-2/figures/Repulsion3.eps>
 File: CHAPTER-2/figures/Repulsion1.eps Graphic file (type eps)
- <CHAPTER-2/figures/Repulsion1.eps> [16]
-File: CHAPTER-2/figures/Repulsion2.eps Graphic file (type eps)
 
-<CHAPTER-2/figures/Repulsion2.eps> [17]
+<CHAPTER-2/figures/Repulsion1.eps> [16]
+File: CHAPTER-2/figures/Repulsion2.eps Graphic file (type eps)
+ <CHAPTER-2/figures/Repulsion2.eps>
+[17]
 File: CHAPTER-2/figures/Repulsion4.eps Graphic file (type eps)
  <CHAPTER-2/figures/Repulsion4.eps>
 Missing character: There is no â in font cmr10!
@@ -1090,8 +1082,7 @@ Missing character: There is no Ž in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no Ž in font cmr10!
-
-[18]
+ [18]
 File: CHAPTER-2/figures/Obstacle1.eps Graphic file (type eps)
  <CHAPTER-2/figures/Obstacle1.eps>
 Overfull \hbox (63.8041pt too wide) in paragraph at lines 199--200
@@ -2470,23 +2461,23 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--480
+Underfull \hbox (badness 10000) in paragraph at lines 479--486
 []\OT1/cmr/m/n/10.95 Morgan Kelly.  Army ants liv-ing bridges span
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--480
+Underfull \hbox (badness 10000) in paragraph at lines 479--486
 \OT1/cmr/m/n/10.95 col-lec-tive in-tel-li-gence, swarm robotics (pnas).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--480
+Underfull \hbox (badness 10000) in paragraph at lines 479--486
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ]
  []
 
 
-Overfull \hbox (85.12416pt too wide) in paragraph at lines 473--480
+Overfull \hbox (85.12416pt too wide) in paragraph at lines 479--486
 [][][][][][]\OT1/cmr/m/n/10.95 ,
  []
 
@@ -2504,22 +2495,21 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
 
-Underfull \hbox (badness 2426) in paragraph at lines 884--890
+Underfull \hbox (badness 2426) in paragraph at lines 903--909
 []\OT1/cmr/m/n/10.95 David Smal-ley.  Au-tonomous war-fare  a rev-o-lu-tion in 
 mil-i-tary
  []
 
-[198]
-Underfull \hbox (badness 1259) in paragraph at lines 954--957
+[198] [199]
+Underfull \hbox (badness 1259) in paragraph at lines 973--976
 []\OT1/cmr/m/n/10.95 Maarten Vankerkom and Jin Yu.  \OT1/cmr/m/it/10.95 Vi-su-a
 l-iz-ing Swarm Al-go-rithms\OT1/cmr/m/n/10.95 .
  []
 
-[199]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [200]) [201] [202
+[200]) [201] [202
 
 ]
 \openout2 = `APPENDIX-1/text.aux'.
@@ -2572,12 +2562,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--35
 
  (./APPENDIX-2/text.tex
 Chapter B.
-(../../PySwarmWorld/PySwarmWorld.py [205
+(./PySwarmWorld/PySwarmWorld.py [205
 
 
 
 ] [206] [207] [208] [209])
-(../../PySwarmWorld/PySwarmWorldCLI.py [210] [211] [212])) [213]
+(./PySwarmWorld/PySwarmWorldCLI.py [210] [211] [212])) [213]
 \openout2 = `APPENDIX-3/text.aux'.
 
 
@@ -2679,12 +2669,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 24499 strings out of 493030
- 469256 string characters out of 6136260
- 1223198 words of memory out of 5000000
- 27278 multiletter control sequences out of 15000+600000
+ 24509 strings out of 494954
+ 469309 string characters out of 6181003
+ 1218414 words of memory out of 5000000
+ 27037 multiletter control sequences out of 15000+600000
  20648 words of font info for 80 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
+ 14 hyphenation exceptions out of 8191
  55i,20n,74p,2031b,1795s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (242 pages, 1314836 bytes).
+Output written on main.dvi (242 pages, 1318916 bytes).
