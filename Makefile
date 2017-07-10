@@ -1,3 +1,11 @@
+main: main.tex thesis.bib
+	latex main
+	bibtex main
+	latex main
+	latex main
+	dvips -Ppdf main
+	ps2pdf -dCompatibility=1.5 -dPDFSETTINGS=/prepress -dEmbedAllFonts=true main.ps
+
 whereami: whereami.tex thesis.bib
 	latex whereami
 	bibtex whereami
@@ -6,14 +14,6 @@ whereami: whereami.tex thesis.bib
 	dvips -Ppdf whereami
 	ps2pdf -dCompatibility=1.5 -dPDFSETTINGS=/prepress -dEmbedAllFonts=true whereami.ps
 	 
-
-main: main.tex thesis.bib
-	latex main
-	bibtex main
-	latex main
-	latex main
-	dvips -Ppdf main
-	ps2pdf -dCompatibility=1.5 -dPDFSETTINGS=/prepress -dEmbedAllFonts=true main.ps
 
 main_dvips: main.tex thesis.bib
 	latex main
