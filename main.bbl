@@ -1,30 +1,5 @@
 \begin{thebibliography}{100}
 
-\bibitem{RAV:13}
-Google launches project loon.
-\newblock
-  \url{http://ravenaerostar.com/products/high-altitude-ballons/project-loon-balloons}.
-\newblock [Online; accessed 30-Sept-2014].
-
-\bibitem{MATLAB:94}
-Matlab - mathworks - mathworks united kingdom.
-\newblock \url{http://http://uk.mathworks.com/products/matlab/}, 1994.
-\newblock [Online; accessed 09-May-2016].
-
-\bibitem{NZH:13}
-Google launches project loon.
-\newblock
-  \url{http://www.nzherald.co.nz/nz/news/article.cfm?c_id=1&objectid=10890750},
-  June 2013.
-\newblock [Online; accessed 30-Sept-2014].
-
-\bibitem{CBS:13}
-Google's ambitious internet balloons soar above {N}ew {Z}ealand.
-\newblock
-  \url{http://www.cbsnews.com/news/googles-ambitious-internet-balloons-soar-above-new-zealand/},
-  2013.
-\newblock [Online; accessed 30-Sept-2014].
-
 \bibitem{JA:98}
 J.~Abouaf.
 \newblock Trial by fire: {T}eleoperated robot targets {C}hernobyl.
@@ -145,7 +120,8 @@ Matthias~R Brust and Bogdan~M Strimbu.
 Ning CAI, Hai-Ying MA, Ming-Hua LIU, and Cai-Xia WANG.
 \newblock Swarm stability analysis of nonlinear time-varying heterogeneous
   dynamical multi-agent systems.
-\newblock pages 6292--6295, 2012.
+\newblock In {\em Proceeding of the 31st Chinese Control Conference}, pages
+  6292--6295. IEEE, 2012.
 
 \bibitem{CS:15}
 B.~D. Campbell and F.~Samsel.
@@ -296,6 +272,13 @@ Veysel Gazi and Kevin~M Passino.
 \newblock {\em Swarm stability and optimization}.
 \newblock Springer Science \& Business Media, 2011.
 
+\bibitem{RAV:13}
+Google.
+\newblock Google launches project loon.
+\newblock
+  \url{http://ravenaerostar.com/products/high-altitude-ballons/project-loon-balloons}.
+\newblock [Online; accessed 30-Sept-2014].
+
 \bibitem{G:13}
 Google.
 \newblock Project loon homepage.
@@ -362,6 +345,14 @@ Hiroshi Hashimoto, Shinichi Aso, Syo Yokota, Akinori Sasaki, Yasuhiro Ohya, and
 \newblock Stability of swarm robot based on local forces of local swarms.
 \newblock In {\em SICE Annual Conference}, pages 1254--1257. IEEE, 2008.
 
+\bibitem{NZH:13}
+New~Zealand Herald.
+\newblock Google launches project loon.
+\newblock
+  \url{http://www.nzherald.co.nz/nz/news/article.cfm?c_id=1&objectid=10890750},
+  June 2013.
+\newblock [Online; accessed 30-Sept-2014].
+
 \bibitem{HER:11}
 J.~Hereford.
 \newblock Analysis of beeclust swarm algorithm.
@@ -422,6 +413,12 @@ O~Ilaya, C~Bil, and M~Evans.
 \newblock Control design for unmanned aerial vehicle swarming.
 \newblock {\em Proceedings of the Institution of Mechanical Engineers, Part G:
   Journal of Aerospace Engineering}, 222(4):549--567, 2008.
+
+\bibitem{MATLAB:94}
+MathWorks Inc.
+\newblock Matlab - mathworks - mathworks united kingdom.
+\newblock \url{http://uk.mathworks.com/products/matlab/}, 1994.
+\newblock [Online; accessed 09-May-2016].
 
 \bibitem{I:01}
 Luca Iocchi, Daniele Nardi, and Massimiliano Salerno.
@@ -682,6 +679,14 @@ I{\~n}aki Navarro and Fernando Mat{\'\i}a.
 \newblock An introduction to swarm robotics.
 \newblock {\em ISRN Robotics}, 2013, 2012.
 
+\bibitem{CBS:13}
+CBS News.
+\newblock Google's ambitious internet balloons soar above {N}ew {Z}ealand.
+\newblock
+  \url{http://www.cbsnews.com/news/googles-ambitious-internet-balloons-soar-above-new-zealand/},
+  2013.
+\newblock [Online; accessed 30-Sept-2014].
+
 \bibitem{OFM:07}
 Reza Olfati-Saber, Alex Fax, and Richard~M Murray.
 \newblock Consensus and cooperation in networked multi-agent systems.
@@ -696,7 +701,8 @@ Randal Olson.
 \bibitem{PCL:08}
 Fuchen Pan, Xue-Bo Chen, and Lin Li.
 \newblock Practical stability analysis of stochastic swarms.
-\newblock IEEE, 2008.
+\newblock {\em The 3rd Intetnational Conference on Innovative Computing
+  Information and Control (ICICIC'08)}, 2008.
 
 \bibitem{PCL:08a}
 Fuchen Pan, Xuebo Chen, and Lin Li.
@@ -787,7 +793,7 @@ Tim R{\"a}z.
 \bibitem{REY:87}
 Craig~W Reynolds.
 \newblock Flocks, herds and schools: A distributed behavioral model.
-\newblock In {\em ACM SIGGRAPH computer graphics}, volume~21, pages 25--34.
+\newblock In {\em ACM SIGGRAPH computer graphics}, volume 21:4, pages 25--34.
   ACM, 1987.
 
 \bibitem{RM:11}
@@ -939,7 +945,8 @@ Ariana Strandburg-Peshkin, Damien~R. Farine, Iain~D. Couzin, and Margaret~C.
 \bibitem{SRDF:10}
 Ruben Stranders, Francesco~Maria Delle~Fave, Alex Rogers, and Nick Jennings.
 \newblock A decentralised coordination algorithm for mobile sensors.
-\newblock 2010.
+\newblock {\em Association for the Advancement of Artificial Copyright
+  Intelligence (www.aaai.org)}, 2010.
 
 \bibitem{TDEB:12}
 Chad~M. Topaz, Maria~R. D'Orsogna, Leah Edelstein-Keshet, and Andrew~J.

@@ -22,53 +22,44 @@ A level-1 auxiliary file: APPENDIX-4/text.aux
 A level-1 auxiliary file: APPENDIX-5/text.aux
 A level-1 auxiliary file: glossary.aux
 Database file #1: thesis.bib
-Warning--to sort, need author or key in RAV:13
-Warning--to sort, need author or key in CBS:13
-Warning--to sort, need author or key in NZH:13
-Warning--to sort, need author or key in MATLAB:94
-Warning--empty journal in CML:ND
-Warning--empty booktitle in PCL:08
-Warning--can't use both volume and number fields in REY:87
-Warning--empty journal in SRDF:10
 You've used 167 entries,
             2118 wiz_defined-function locations,
-            1557 strings with 35319 characters,
-and the built_in function-call counts, 65854 in all, are:
-= -- 6533
-> -- 2872
+            1563 strings with 35531 characters,
+and the built_in function-call counts, 66042 in all, are:
+= -- 6555
+> -- 2896
 < -- 88
-+ -- 1163
-- -- 964
-* -- 4374
-:= -- 10086
-add.period$ -- 545
++ -- 1171
+- -- 972
+* -- 4372
+:= -- 10159
+add.period$ -- 550
 call.type$ -- 167
-change.case$ -- 977
+change.case$ -- 981
 chr.to.int$ -- 0
-cite$ -- 175
+cite$ -- 167
 duplicate$ -- 2705
-empty$ -- 5346
-format.name$ -- 964
-if$ -- 14559
+empty$ -- 5342
+format.name$ -- 972
+if$ -- 14585
 int.to.chr$ -- 0
 int.to.str$ -- 167
 missing$ -- 150
-newline$ -- 853
-num.names$ -- 326
-pop$ -- 1229
+newline$ -- 857
+num.names$ -- 334
+pop$ -- 1224
 preamble$ -- 1
-purify$ -- 816
+purify$ -- 820
 quote$ -- 0
 skip$ -- 2177
 stack$ -- 0
 substring$ -- 4266
-swap$ -- 966
+swap$ -- 968
 text.length$ -- 88
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 658
-warning$ -- 8
-while$ -- 589
+warning$ -- 0
+while$ -- 597
 width$ -- 170
-write$ -- 1872
-(There were 8 warnings)
+write$ -- 1883

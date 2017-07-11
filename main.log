@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.4.11)  11 JUL 2017 09:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.4.11)  11 JUL 2017 12:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2188,23 +2188,7 @@ File: CHAPTER-9/figures/FieldEffects.eps Graphic file (type eps)
 File: CHAPTER-9/figures/FloodEdges1.eps Graphic file (type eps)
 
 <CHAPTER-9/figures/FloodEdges1.eps> [183]) [184] (./main.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 22--27
-[]\OT1/cmr/m/n/10.95 Google's am-bi-tious in-ter-net bal-loons soar above
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--27
-\OT1/cmr/m/n/10.95 New Zealand.  [][][][][][][][][][][][][][][][][][][][][][][]
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--27
-[][][][][][]\OT1/cmr/m/n/10.95 ,
- []
-
-
-Underfull \hbox (badness 2277) in paragraph at lines 43--48
+Underfull \hbox (badness 2277) in paragraph at lines 18--23
 []\OT1/cmr/m/n/10.95 Panayiotis An-dreou, Demetrios Zeinalipour-Yazti, Maria An
 -dreou,
  []
@@ -2218,24 +2202,30 @@ Missing character: There is no † in font cmr10!
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ≥ in font cmr10!
  [187] [188]
-Underfull \hbox (badness 4805) in paragraph at lines 306--312
+Underfull \hbox (badness 4805) in paragraph at lines 289--295
 \OT1/cmr/m/n/10.95 spec-trum.  [][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--312
+Underfull \hbox (badness 10000) in paragraph at lines 289--295
 [][][][][][]\OT1/cmr/m/n/10.95 , Dec 2011.
  []
 
-[189]
 Missing character: There is no √ in font cmr10!
 Missing character: There is no º in font cmr10!
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ∂ in font cmr10!
+[189]
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no † in font cmr10!
- [190] [191]
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--355
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][]\OT1/cmr/m/n/10.95 ,
+ []
+
+[190] [191]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -2252,23 +2242,23 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 477--484
+Underfull \hbox (badness 10000) in paragraph at lines 474--481
 []\OT1/cmr/m/n/10.95 Morgan Kelly.  Army ants liv-ing bridges span
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 477--484
+Underfull \hbox (badness 10000) in paragraph at lines 474--481
 \OT1/cmr/m/n/10.95 col-lec-tive in-tel-li-gence, swarm robotics (pnas).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 477--484
+Underfull \hbox (badness 10000) in paragraph at lines 474--481
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ]
  []
 
 
-Overfull \hbox (85.12416pt too wide) in paragraph at lines 477--484
+Overfull \hbox (85.12416pt too wide) in paragraph at lines 474--481
 [][][][][][]\OT1/cmr/m/n/10.95 ,
  []
 
@@ -2276,7 +2266,23 @@ Overfull \hbox (85.12416pt too wide) in paragraph at lines 477--484
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [194] [195]
+ [194]
+Underfull \hbox (badness 10000) in paragraph at lines 683--689
+[]\OT1/cmr/m/n/10.95 CBS News.  Google's am-bi-tious in-ter-net bal-loons soar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 683--689
+\OT1/cmr/m/n/10.95 above New Zealand.  [][][][][][][][][][][][][][][][][][][][]
+[][][][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 683--689
+[][][][][][]\OT1/cmr/m/n/10.95 ,
+ []
+
+[195]
 Missing character: There is no √ in font cmr10!
 Missing character: There is no Å in font cmr10!
 Missing character: There is no √ in font cmr10!
@@ -2286,13 +2292,13 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
 
-Underfull \hbox (badness 2426) in paragraph at lines 900--906
+Underfull \hbox (badness 2426) in paragraph at lines 906--912
 []\OT1/cmr/m/n/10.95 David Smal-ley.  Au-tonomous war-fare  a rev-o-lu-tion in 
 mil-i-tary
  []
 
 [198] [199]
-Underfull \hbox (badness 1259) in paragraph at lines 970--973
+Underfull \hbox (badness 1259) in paragraph at lines 977--980
 []\OT1/cmr/m/n/10.95 Maarten Vankerkom and Jin Yu.  \OT1/cmr/m/it/10.95 Vi-su-a
 l-iz-ing Swarm Al-go-rithms\OT1/cmr/m/n/10.95 .
  []
@@ -2433,4 +2439,4 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  55i,20n,74p,2031b,1795s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (242 pages, 1317044 bytes).
+Output written on main.dvi (242 pages, 1317200 bytes).
