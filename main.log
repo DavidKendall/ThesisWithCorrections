@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.4.11)  9 JUL 2017 16:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.4.11)  11 JUL 2017 09:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -845,42 +845,9 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 Package: bold-extra 2001/11/13 v0.1 Use fonts from cm/mf-extra/bold
 ) (./main.aux (./FRONT/cover.aux) (./FRONT/title.aux) (./FRONT/abstract.aux)
 (./FRONT/acknowledgements.aux) (./FRONT/declaration.aux) (./CHAPTER-1/text.aux)
-(./CHAPTER-2/text.aux
-
-LaTeX Warning: Label `sec:Direction1' multiply defined.
-
-) (./CHAPTER-4/text.aux
-
-LaTeX Warning: Label `eq:SwarmStabilityDistance1' multiply defined.
-
-
-LaTeX Warning: Label `eq:SwarmPotentialMagnitude' multiply defined.
-
-) (./CHAPTER-5/text.aux) (./CHAPTER-6/text.aux
-
-LaTeX Warning: Label `concave:VoidPerimeter1' multiply defined.
-
-
-LaTeX Warning: Label `sub@concave:VoidPerimeter1' multiply defined.
-
-
-LaTeX Warning: Label `concave:VoidPerimeter2' multiply defined.
-
-
-LaTeX Warning: Label `sub@concave:VoidPerimeter2' multiply defined.
-
-
-LaTeX Warning: Label `section:compareBaselineAll1' multiply defined.
-
-) (./CHAPTER-7/text.aux
-
-LaTeX Warning: Label `fig:VoidConcaveReduction1' multiply defined.
-
-) (./CHAPTER-8/text.aux
-
-LaTeX Warning: Label `tab:FillParameters' multiply defined.
-
-) (./CHAPTER-9/text.aux) (./APPENDIX-1/text.aux) (./APPENDIX-2/text.aux)
+(./CHAPTER-2/text.aux) (./CHAPTER-4/text.aux) (./CHAPTER-5/text.aux)
+(./CHAPTER-6/text.aux) (./CHAPTER-7/text.aux) (./CHAPTER-8/text.aux)
+(./CHAPTER-9/text.aux) (./APPENDIX-1/text.aux) (./APPENDIX-2/text.aux)
 (./APPENDIX-3/text.aux) (./APPENDIX-4/text.aux) (./APPENDIX-5/text.aux)
 (./glossary.aux))
 \openout1 = `main.aux'.
@@ -1103,14 +1070,6 @@ Missing character: There is no Ž in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no Ž in font cmr10!
-
-LaTeX Warning: Reference `sec:DirectionalShape3' on page 19 undefined on input 
-line 214.
-
-
-LaTeX Warning: Reference `sec:DirectionalShape4' on page 19 undefined on input 
-line 214.
-
 [19]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
@@ -1165,14 +1124,9 @@ File: CHAPTER-2/figures/Stable.eps Graphic file (type eps)
 <CHAPTER-2/figures/Stable.eps> [24]
 File: CHAPTER-2/figures/StableTime.eps Graphic file (type eps)
  <CHAPTER-2/figures/StableTime.eps> [25]
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 385.
-
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 385.
-
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/cmtt/b/n' tried instead on input line 388.
+
 [26]
 File: CHAPTER-3/figures/classes_World.eps Graphic file (type eps)
  <CHAPTER-3/figures/classes_World.eps> [27]
@@ -1197,58 +1151,15 @@ Overfull \hbox (9.81773pt too wide) in paragraph at lines 415--416
 t [][][][][][][][][][][][][][][]
  []
 
-[29]
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 433.
-
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 433.
-
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 433.
-
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+[29] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) [30]
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 457.
-
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 457.
-
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 457.
-
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 457.
-
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <6> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 476.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 478.
 
-Package hyperref Warning: No autoref name for `lstnumber' on input line 483.
-
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 483.
-
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 505.
-
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 505.
-
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 505.
-
-[31]
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 532.
-
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 532.
-
-[32]) [33]
+[31] [32]) [33]
 \openout2 = `CHAPTER-4/text.aux'.
 
  (./CHAPTER-4/text.tex
@@ -1447,12 +1358,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--23
 []|\OT1/cmr/bx/n/10.95 Weight
  []
 
-
-Overfull \hbox (33.20961pt too wide) in paragraph at lines 35--36
-[]\OT1/cmr/m/n/10.95 The re-sults for the base-line ex-per-i-men-tal swarm are 
-shown in [][][][] and [][][][].
- []
-
 File: CHAPTER-6/figures/BaselineMagnitude1.eps Graphic file (type eps)
 <CHAPTER-6/figures/BaselineMagnitude1.eps>
 Overfull \hbox (22.5348pt too wide) in paragraph at lines 39--40
@@ -1521,75 +1426,63 @@ Overfull \hbox (22.5348pt too wide) in paragraph at lines 195--196
 [81]
 File: CHAPTER-6/figures/SimpleMulti2.eps Graphic file (type eps)
  <CHAPTER-6/figures/SimpleMulti2.eps> [82]
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 212.
-
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 212.
-
 File: CHAPTER-6/figures/PerimeterBots1.eps Graphic file (type eps)
+
 <CHAPTER-6/figures/PerimeterBots1.eps>
 File: CHAPTER-6/figures/PerimeterBots2.eps Graphic file (type eps)
  <CHAPTER-6/figures/PerimeterBots2.eps>
 [83]
 File: CHAPTER-6/figures/FullPerimeter.eps Graphic file (type eps)
- <CHAPTER-6/figures/FullPerimeter.eps>
+ <CHAPTER-6/figures/FullPerimeter.eps> [84]
 File: CHAPTER-6/figures/Perimeter1.eps Graphic file (type eps)
- <CHAPTER-6/figures/Perimeter1.eps>
-[84]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no Ž in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no Ž in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no Ž in font cmr10!
- [85]
-File: CHAPTER-6/figures/Triangulate.eps Graphic file (type eps)
- <CHAPTER-6/figures/Triangulate.eps> [86]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no Ž in font cmr10!
-File: CHAPTER-6/figures/Perimeter2.eps Graphic file (type eps)
 
-<CHAPTER-6/figures/Perimeter2.eps> [87]
+<CHAPTER-6/figures/Perimeter1.eps> [85]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no Ž in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no Ž in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no Ž in font cmr10!
+ [86]
+File: CHAPTER-6/figures/Triangulate.eps Graphic file (type eps)
+
+<CHAPTER-6/figures/Triangulate.eps>
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no Ž in font cmr10!
+ [87]
+File: CHAPTER-6/figures/Perimeter2.eps Graphic file (type eps)
+ <CHAPTER-6/figures/Perimeter2.eps>
+[88]
 Overfull \hbox (5.28712pt too wide) in paragraph at lines 370--371
 []\OT1/cmr/m/n/10.95 The com-plete perime-ter de-tec-tion al-go-rithm us-ing th
 is `cyclic-angular-neighbour-
  []
 
-[88]
+[89]
 File: CHAPTER-6/figures/PerimeterError1.eps Graphic file (type eps)
- <CHAPTER-6/figures/PerimeterError1.eps> [89]
+ <CHAPTER-6/figures/PerimeterError1.eps> [90]
 File: CHAPTER-6/figures/PerimeterAnomaly.eps Graphic file (type eps)
 
-<CHAPTER-6/figures/PerimeterAnomaly.eps>
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 416.
-
-[90]
-Overfull \hbox (34.9693pt too wide) in paragraph at lines 418--419
-\OT1/cmr/m/n/10.95 from be-ing co-or-di-nated due to the $\OML/cmm/m/it/10.95 O
-\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 n[]\OT1/cmr/m/n/10.95 )$ mes-sage prop-
-a-ga-tion time fac-tor ([][][][]) [[]].
- []
-
+<CHAPTER-6/figures/PerimeterAnomaly.eps> [91]
 File: CHAPTER-6/figures/BaselineFullPerimeterMag1.eps Graphic file (type eps)
+
 <CHAPTER-6/figures/BaselineFullPerimeterMag1.eps>
 Overfull \hbox (22.5348pt too wide) in paragraph at lines 429--430
  [] 
  []
 
-[91]
+[92]
 File: CHAPTER-6/figures/BaselineFullPerimeterDist1.eps Graphic file (type eps)
  <CHAPTER-6/figures/BaselineFullPerimeterDist1.eps>
 Overfull \hbox (22.5348pt too wide) in paragraph at lines 440--441
  [] 
  []
 
-[92] [93]
+[93]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no Ž in font cmr10!
@@ -1627,14 +1520,9 @@ Overfull \hbox (22.5348pt too wide) in paragraph at lines 511--512
  []
 
 [97] [98]
-Overfull \hbox (2.78271pt too wide) in paragraph at lines 542--543
-\OT1/cmr/m/n/10.95 swarms move-ment to-wards the des-ti-na-tion. This ef-fect c
-an be seen in [][][][]
- []
-
 File: CHAPTER-6/figures/SwarmPropagationComparison1.eps Graphic file (type eps)
 
-<CHAPTER-6/figures/SwarmPropagationComparison1.eps>
+ <CHAPTER-6/figures/SwarmPropagationComparison1.eps>
 Overfull \hbox (22.5348pt too wide) in paragraph at lines 546--547
  [] 
  []
@@ -1648,14 +1536,9 @@ Overfull \hbox (22.5348pt too wide) in paragraph at lines 555--556
  []
 
 [100]
-Overfull \hbox (0.63338pt too wide) in paragraph at lines 562--563
-[]\OT1/cmr/m/n/10.95 The ef-fect of the al-go-rithms on the sta-bil-i-sa-tion p
-e-riod can be seen in [][][][]
- []
-
 File: CHAPTER-6/figures/SwarmPropagationComparison3.eps Graphic file (type eps)
 
-<CHAPTER-6/figures/SwarmPropagationComparison3.eps>
+ <CHAPTER-6/figures/SwarmPropagationComparison3.eps>
 Overfull \hbox (22.5348pt too wide) in paragraph at lines 566--567
  [] 
  []
@@ -1667,13 +1550,7 @@ Missing character: There is no Ž in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no Ž in font cmr10!
-
-Overfull \hbox (24.84497pt too wide) in paragraph at lines 584--585
-[][][][][] \OT1/cmr/m/n/10.95 shows how the speed is cal-cu-lated based on the 
-dis-tance in [][][][].
- []
-
-[102]
+ [102]
 File: CHAPTER-6/figures/SwarmSpeed1.eps Graphic file (type eps)
  <CHAPTER-6/figures/SwarmSpeed1.eps>
 Overfull \hbox (22.5348pt too wide) in paragraph at lines 644--645
@@ -1744,15 +1621,10 @@ Overfull \hbox (22.5348pt too wide) in paragraph at lines 742--743
 
 [110] [111]
 File: CHAPTER-6/figures/OmniBall.eps Graphic file (type eps)
- <CHAPTER-6/figures/OmniBall.eps>
-Overfull \hbox (5.81812pt too wide) in paragraph at lines 785--786
-[]\OT1/cmr/m/n/10.95 The sce-nario as-sumes a GPS is be-ing used in all the age
-nts as shown in ([][][][])
- []
-
-[112] [113]
+ <CHAPTER-6/figures/OmniBall.eps> [112] [113]
 File: CHAPTER-6/figures/MessagePropogation1.eps Graphic file (type eps)
- <CHAPTER-6/figures/MessagePropogation1.eps>
+
+<CHAPTER-6/figures/MessagePropogation1.eps>
 Underfull \hbox (badness 10000) in paragraph at lines 849--855
 
  []
@@ -1767,19 +1639,10 @@ File: CHAPTER-7/figures/SwarmStableShape1.eps Graphic file (type eps)
 
 
 
-] [117]
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 39.
-
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 41.
-
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 41.
-
-[118]
+] [117] [118]
 File: CHAPTER-7/figures/OuterPerimeter1.eps Graphic file (type eps)
- <CHAPTER-7/figures/OuterPerimeter1.eps>
+
+<CHAPTER-7/figures/OuterPerimeter1.eps>
 File: CHAPTER-7/figures/InnerPerimeter1.eps Graphic file (type eps)
 
 <CHAPTER-7/figures/InnerPerimeter1.eps>
@@ -1802,48 +1665,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 [121]
 File: CHAPTER-7/figures/VoidConcave1.eps Graphic file (type eps)
  <CHAPTER-7/figures/VoidConcave1.eps> [122]
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 140.
-
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 140.
-
 File: CHAPTER-7/figures/InterAgentEffect1.eps Graphic file (type eps)
+
 <CHAPTER-7/figures/InterAgentEffect1.eps>
 File: CHAPTER-7/figures/InterAgentEffect2.eps Graphic file (type eps)
 
-<CHAPTER-7/figures/InterAgentEffect2.eps>
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 157.
-
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 157.
-
-[123]
+<CHAPTER-7/figures/InterAgentEffect2.eps> [123]
 File: CHAPTER-7/figures/PerimeterBots4.eps Graphic file (type eps)
- <CHAPTER-7/figures/PerimeterBots4.eps>
+
+<CHAPTER-7/figures/PerimeterBots4.eps>
 File: CHAPTER-7/figures/PerimeterBots5.eps Graphic file (type eps)
-
-<CHAPTER-7/figures/PerimeterBots5.eps>
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no Ž in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no Ž in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no Ž in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no Ž in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no Ž in font cmr10!
- [124]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no Ž in font cmr10!
+ <CHAPTER-7/figures/PerimeterBots5.eps>
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no Ž in font cmr10!
@@ -1851,6 +1683,26 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no Ž in font cmr10!
 
+[124]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no Ž in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no Ž in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no Ž in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no Ž in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no Ž in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no Ž in font cmr10!
+ [125]
 Underfull \hbox (badness 10000) in paragraph at lines 212--212
 []|\OT1/cmr/bx/n/10.95 Weight
  []
@@ -1875,9 +1727,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 219--219
 []|\OT1/cmr/m/n/10.95 Neighbour
  []
 
-[125]
 File: CHAPTER-7/figures/BaselineConcaveEffectDist.eps Graphic file (type eps)
- <CHAPTER-7/figures/BaselineConcaveEffectDist.eps>
+<CHAPTER-7/figures/BaselineConcaveEffectDist.eps>
 Overfull \hbox (22.5348pt too wide) in paragraph at lines 230--231
  [] 
  []
@@ -1897,14 +1748,8 @@ Overfull \hbox (22.5348pt too wide) in paragraph at lines 251--252
  []
 
 [128]
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 256.
-
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 256.
-
 File: CHAPTER-7/figures/OuterPerimeterJitter1.eps Graphic file (type eps)
-<CHAPTER-7/figures/OuterPerimeterJitter1.eps>
+ <CHAPTER-7/figures/OuterPerimeterJitter1.eps>
 File: CHAPTER-7/figures/OuterPerimeterJitter2.eps Graphic file (type eps)
 
 <CHAPTER-7/figures/OuterPerimeterJitter2.eps> [129]
@@ -2031,33 +1876,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 402--402
  []
 
 [136]
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 408.
-
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 408.
-
 File: CHAPTER-7/figures/Baseline4560End.eps Graphic file (type eps)
-<CHAPTER-7/figures/Baseline4560End.eps>
+ <CHAPTER-7/figures/Baseline4560End.eps>
 File: CHAPTER-7/figures/Concave4560End.eps Graphic file (type eps)
- <CHAPTER-7/figures/Concave4560End.eps>
 
-Package hyperref Warning: No autoref name for `subfigure' on input line 426.
-
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 426.
-
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 426.
-
-[137]
+<CHAPTER-7/figures/Concave4560End.eps> [137]
 File: CHAPTER-7/figures/Concave4560-1.eps Graphic file (type eps)
- <CHAPTER-7/figures/Concave4560-1.eps>
-File: CHAPTER-7/figures/Concave4560-2.eps Graphic file (type eps)
 
-<CHAPTER-7/figures/Concave4560-2.eps>
+<CHAPTER-7/figures/Concave4560-1.eps>
+File: CHAPTER-7/figures/Concave4560-2.eps Graphic file (type eps)
+ <CHAPTER-7/figures/Concave4560-2.eps>
 File: CHAPTER-7/figures/Concave4560-3.eps Graphic file (type eps)
- <CHAPTER-7/figures/Concave4560-3.eps>
+
+<CHAPTER-7/figures/Concave4560-3.eps>
 File: CHAPTER-7/figures/ConcavePerimeter4560-DIST.eps Graphic file (type eps)
 
 <CHAPTER-7/figures/ConcavePerimeter4560-DIST.eps>
@@ -2101,12 +1932,6 @@ Overfull \hbox (50.98756pt too wide) in paragraph at lines 504--505
  [] 
  []
 
-
-Overfull \hbox (2.08318pt too wide) in paragraph at lines 500--507
-[]\OT1/cmr/m/n/10.95 The ef-fect on the swarms struc-ture is shown in Fig-ures 
-[][][][] and [][][][]. [][][][]
- []
-
 [143]
 File: CHAPTER-7/figures/SwarmCoverage4560-2.eps Graphic file (type eps)
  <CHAPTER-7/figures/SwarmCoverage4560-2.eps>
@@ -2133,11 +1958,8 @@ File: CHAPTER-7/figures/OilSpillBase2.eps Graphic file (type eps)
 File: CHAPTER-7/figures/OilSpillBase3.eps Graphic file (type eps)
  <CHAPTER-7/figures/OilSpillBase3.eps>
 [147]
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 563.
-
 File: CHAPTER-7/figures/OilSpillConcave1.eps Graphic file (type eps)
-<CHAPTER-7/figures/OilSpillConcave1.eps>
+ <CHAPTER-7/figures/OilSpillConcave1.eps>
 File: CHAPTER-7/figures/OilSpillConcave2.eps Graphic file (type eps)
 
 <CHAPTER-7/figures/OilSpillConcave2.eps>
@@ -2167,17 +1989,8 @@ Overfull \hbox (22.5348pt too wide) in paragraph at lines 609--610
  []
 
 [150]
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 615.
-
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 615.
-
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 617.
-
 File: CHAPTER-7/figures/PerimeterObject2.eps Graphic file (type eps)
-<CHAPTER-7/figures/PerimeterObject2.eps>
+ <CHAPTER-7/figures/PerimeterObject2.eps>
 File: CHAPTER-7/figures/PerimeterObject1.eps Graphic file (type eps)
 
 <CHAPTER-7/figures/PerimeterObject1.eps> [151]
@@ -2244,12 +2057,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--40
 []|\OT1/cmr/m/n/10.95 Neighbour
  []
 
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 45.
-
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 45.
-
 File: CHAPTER-8/figures/EXPAND1.eps Graphic file (type eps)
 <CHAPTER-8/figures/EXPAND1.eps>
 File: CHAPTER-8/figures/EXPAND2.eps Graphic file (type eps)
@@ -2263,25 +2070,15 @@ File: CHAPTER-8/figures/EXPAND5.eps Graphic file (type eps)
 
 <CHAPTER-8/figures/EXPAND5.eps>
 File: CHAPTER-8/figures/EXPAND6.eps Graphic file (type eps)
- <CHAPTER-8/figures/EXPAND6.eps> [159]
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 77.
-
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 77.
-
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 77.
-
-[160]
+ <CHAPTER-8/figures/EXPAND6.eps> [159] [160]
 File: CHAPTER-8/figures/FIELDFILL-MAG.eps Graphic file (type eps)
- <CHAPTER-8/figures/FIELDFILL-MAG.eps>
+
+<CHAPTER-8/figures/FIELDFILL-MAG.eps>
 File: CHAPTER-8/figures/FIELDFILL-MAG-1.eps Graphic file (type eps)
-
-<CHAPTER-8/figures/FIELDFILL-MAG-1.eps> [161]
+ <CHAPTER-8/figures/FIELDFILL-MAG-1.eps>
+[161]
 File: CHAPTER-8/figures/FIELDFILL-MAG-2.eps Graphic file (type eps)
-
-<CHAPTER-8/figures/FIELDFILL-MAG-2.eps> [162]
+ <CHAPTER-8/figures/FIELDFILL-MAG-2.eps> [162]
 File: CHAPTER-8/figures/FIELDFILL-DIST.eps Graphic file (type eps)
 
 <CHAPTER-8/figures/FIELDFILL-DIST.eps>
@@ -2323,14 +2120,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--192
  []
 
 [167]
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 199.
-
-
-Package hyperref Warning: No autoref name for `subfigure' on input line 199.
-
 File: CHAPTER-8/figures/REPEL52-1.eps Graphic file (type eps)
-<CHAPTER-8/figures/REPEL52-1.eps>
+ <CHAPTER-8/figures/REPEL52-1.eps>
 File: CHAPTER-8/figures/REPEL52-2.eps Graphic file (type eps)
  <CHAPTER-8/figures/REPEL52-2.eps>
 File: CHAPTER-8/figures/REPEL52-3.eps Graphic file (type eps)
@@ -2352,9 +2143,9 @@ Overfull \vbox (1.50053pt too high) has occurred while \output is active []
 
 
 [169]
-Overfull \hbox (5.70714pt too wide) in paragraph at lines 240--241
-[][][][] \OT1/cmr/m/n/10.95 shows the \OT1/cmr/m/it/10.95 inter-agent vec-tor m
-ag-ni-tude \OT1/cmr/m/n/10.95 pro-duced be-tween the agents.
+Overfull \hbox (4.49048pt too wide) in paragraph at lines 240--241
+\OT1/cmr/m/n/10.95 Figure [][][][] shows the \OT1/cmr/m/it/10.95 inter-agent ve
+c-tor mag-ni-tude \OT1/cmr/m/n/10.95 pro-duced be-tween the agents.
  []
 
 File: CHAPTER-8/figures/REPELFILL5055-MAG.eps Graphic file (type eps)
@@ -2427,13 +2218,13 @@ Missing character: There is no   in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
  [187] [188]
-Underfull \hbox (badness 4805) in paragraph at lines 307--313
+Underfull \hbox (badness 4805) in paragraph at lines 306--312
 \OT1/cmr/m/n/10.95 spec-trum.  [][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--313
+Underfull \hbox (badness 10000) in paragraph at lines 306--312
 [][][][][][]\OT1/cmr/m/n/10.95 , Dec 2011.
  []
 
@@ -2461,23 +2252,23 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--486
+Underfull \hbox (badness 10000) in paragraph at lines 477--484
 []\OT1/cmr/m/n/10.95 Morgan Kelly.  Army ants liv-ing bridges span
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--486
+Underfull \hbox (badness 10000) in paragraph at lines 477--484
 \OT1/cmr/m/n/10.95 col-lec-tive in-tel-li-gence, swarm robotics (pnas).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--486
+Underfull \hbox (badness 10000) in paragraph at lines 477--484
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ]
  []
 
 
-Overfull \hbox (85.12416pt too wide) in paragraph at lines 479--486
+Overfull \hbox (85.12416pt too wide) in paragraph at lines 477--484
 [][][][][][]\OT1/cmr/m/n/10.95 ,
  []
 
@@ -2495,13 +2286,13 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
 
-Underfull \hbox (badness 2426) in paragraph at lines 903--909
+Underfull \hbox (badness 2426) in paragraph at lines 900--906
 []\OT1/cmr/m/n/10.95 David Smal-ley.  Au-tonomous war-fare  a rev-o-lu-tion in 
 mil-i-tary
  []
 
 [198] [199]
-Underfull \hbox (badness 1259) in paragraph at lines 973--976
+Underfull \hbox (badness 1259) in paragraph at lines 970--973
 []\OT1/cmr/m/n/10.95 Maarten Vankerkom and Jin Yu.  \OT1/cmr/m/it/10.95 Vi-su-a
 l-iz-ing Swarm Al-go-rithms\OT1/cmr/m/n/10.95 .
  []
@@ -2602,39 +2393,11 @@ Chapter E.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 9.
 
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 10.
-
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 10.
-
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 10.
-
 [217
 
 
 
-] [218] [219] [220]
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 91.
-
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 91.
-
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 91.
-
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 91.
-
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 91.
-
-
-Package hyperref Warning: No autoref name for `lstnumber' on input line 91.
-
-[221]
+] [218] [219] [220] [221]
 File: CHAPTER-3/figures/SampleGraph.eps Graphic file (type eps)
  <CHAPTER-3/figures/SampleGraph.eps>
 Overfull \hbox (50.98756pt too wide) in paragraph at lines 130--131
@@ -2659,22 +2422,15 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 129.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: A1B8BB8268C96AA3973DEC0BFFBF637D;10160.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 24509 strings out of 494954
- 469309 string characters out of 6181003
- 1218414 words of memory out of 5000000
- 27037 multiletter control sequences out of 15000+600000
+ 24516 strings out of 494954
+ 469487 string characters out of 6181003
+ 1218842 words of memory out of 5000000
+ 27044 multiletter control sequences out of 15000+600000
  20648 words of font info for 80 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  55i,20n,74p,2031b,1795s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (242 pages, 1318916 bytes).
+Output written on main.dvi (242 pages, 1317044 bytes).

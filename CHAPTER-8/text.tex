@@ -14,7 +14,7 @@ The expansion fill is implemented using two techniques. The main principle behin
 \section{Field effect modification with cohesion and repulsion}
 The concept behind the field effect expansion is to increase both the repulsion and cohesion fields over a period of time. This increase in the field effects makes the agents increase the distance between each other expanding the swarm as a whole. The expansion increases until, due to boundary compression, the swarm is unable to expand further. In an extreme case the expansion will result in a set of field effects that create a mesh based swarm structure rather than the desired hexagonal structure that the field effects should create. Identifying either the change in modality or the inability to expand, which can be identified by the \textit{inter-agent vector magnitude} increase or a reduction in the inter-agent distance stability indicates area saturation has occured.
 
-To test this hypothesis a swarm is modelled in the simulator. The model consists of an obstacle-based enclosed space and a swarm consisting of 60 agents. The experiments parameters for the simulation are shown in~\autoref{tab:FillParameters}
+To test this hypothesis a swarm is modelled in the simulator. The model consists of an obstacle-based enclosed space and a swarm consisting of 60 agents. The experiments parameters for the simulation are shown in~table~\ref{tab:FillParameters1}
 
 \begin{table}[H]
 \begin{center}
@@ -25,11 +25,11 @@ $k_c$         & 5          & weight adjuster for cohesion bias\\ \hline
 $k_r$         & 60         & weight adjuster for repulsion bias\\ \hline
 Sample rate   & 100ms      & proximity sensor rate\\ \hline
 Speed         & 20 units/s & agent speed\\ \hline
-\end{tabular}\caption{Swarm parameters} \label{tab:FillParameters}
+\end{tabular}\caption{Swarm parameters} \label{tab:FillParameters1}
 \end{center}
 \end{table}
 
-The field effects are incremented in turn, neighbour range followed by repulsion range. After each repulsion field change the swarm is allowed to redistribute itself and stabilise. \autoref{tab:emerge:BaselineConcaveReduction} shows the field effect settings that are used for the simulation. The field effect are selected so as to ensure the swarm parameters have the potential to create a hexagonal swarm. 
+The field effects are incremented in turn, neighbour range followed by repulsion range. After each repulsion field change the swarm is allowed to redistribute itself and stabilise. Table~\ref{tab:emerge:BaselineConcaveReduction} shows the field effect settings that are used for the simulation. The field effect are selected so as to ensure the swarm parameters have the potential to create a hexagonal swarm. 
 
 \begin{table}[H]
 \begin{center}
@@ -42,7 +42,7 @@ Neighbour Distance & 60 & 70 & -  & 80 & -  & 90 & -  & units\\  \hline
 \end{center}
 \end{table}
 
-\autoref{methods:ExpansionFill} shows the stages that the swarm progresses through during the simulation. \autoref{emerge:Expand1} shows the initial deployment of the 60 agents within the enclosed environment. \autoref{emerge:Expand6} shows the stage at which the experiment terminates due to area saturation.
+Figure~\ref{methods:ExpansionFill} shows the stages that the swarm progresses through during the simulation. Figure~\ref{emerge:Expand1} shows the initial deployment of the 60 agents within the enclosed environment. Figure~\ref{emerge:Expand6} shows the stage at which the experiment terminates due to area saturation.
 
 \begin{figure}[H]
 \centering
@@ -74,7 +74,7 @@ Neighbour Distance & 60 & 70 & -  & 80 & -  & 90 & -  & units\\  \hline
 \label{methods:ExpansionFill}
 \end{figure}
 
-After the initial deployment the system is allowed to settle~(\autoref{emerge:Expand2}) following the settling period the parameters are increased and the swarm settles again. \autoref{emerge:Expand3}~shows how the change in parameters can cause the system to become unstable, the top right section of the swarm has became multi-modal yet there is still a section of the swarm that has not expanded to the boundary perimeter. As the swarm stabilises this compressed section of the swarm `pushes' through the swarm and the swarm increases in volume filling more of the space~(\autoref{emerge:Expand4}). This process continues until changes in the parameters are unable to increase the distribution of the agents and the distances remain almost constant. Increasing the field effects further causes the swarm to become multi-modal as shown in~\ref{emerge:Expand5} and~\ref{emerge:Expand6}.
+After the initial deployment the system is allowed to settle~(Figure~\ref{emerge:Expand2}) following the settling period the parameters are increased and the swarm settles again. Figure~\ref{emerge:Expand3}~shows how the change in parameters can cause the system to become unstable, the top right section of the swarm has became multi-modal yet there is still a section of the swarm that has not expanded to the boundary perimeter. As the swarm stabilises this compressed section of the swarm `pushes' through the swarm and the swarm increases in volume filling more of the space~(Figure~\ref{emerge:Expand4}). This process continues until changes in the parameters are unable to increase the distribution of the agents and the distances remain almost constant. Increasing the field effects further causes the swarm to become multi-modal as shown in~\ref{emerge:Expand5} and~\ref{emerge:Expand6}.
 
 These effects can be identified through a combination of the \textit{inter-agent magnitude metric} and the distance metric.
 
@@ -88,7 +88,7 @@ These effects can be identified through a combination of the \textit{inter-agent
 \caption{Magnitude metric 0-120 seconds\label{emerge:FIELDFILL-MAG}}
 \end{figure}
 
-\autoref{emerge:FIELDFILL-MAG-1} shows the initial deployment status of the swarm and the first repulsion increase at 25 seconds. When the repulsion field is increased, the average \textit{inter-agent magnitude} falls and the variation increases. The agents redistribute themselves which takes until approximately 65 seconds and a new baseline is established for the field effects.
+Figure~\ref{emerge:FIELDFILL-MAG-1} shows the initial deployment status of the swarm and the first repulsion increase at 25 seconds. When the repulsion field is increased, the average \textit{inter-agent magnitude} falls and the variation increases. The agents redistribute themselves which takes until approximately 65 seconds and a new baseline is established for the field effects.
 
 \begin{figure}[H]
 \begin{center}
@@ -107,7 +107,7 @@ The next increment at 65 seconds creates a similar reaction to the magnitude and
 \end{figure}
 
 \subsection{Distance analysis}
-\autoref{emerge:FIELDFILL-DIST}~shows the distance metric for the simulation. The initial deployment is shown at 0 seconds followed by incremental changes in the distances and variance of the distances as each increment is made in the field effects. The simulation terminates after 12 seconds.
+Figure~\ref{emerge:FIELDFILL-DIST}~shows the distance metric for the simulation. The initial deployment is shown at 0 seconds followed by incremental changes in the distances and variance of the distances as each increment is made in the field effects. The simulation terminates after 12 seconds.
 
 \begin{figure}[H]
 \begin{center}
@@ -116,7 +116,7 @@ The next increment at 65 seconds creates a similar reaction to the magnitude and
 \caption{Distance metric 0-120 seconds\label{emerge:FIELDFILL-DIST}}
 \end{figure}
 
-\autoref{emerge:FIELDFILL-DIST-1} shows the initial expansion increasing the field distance causing the agents to `spread' throughout the space. Each increment having a settling period as the swarm expands.
+Figure~\ref{emerge:FIELDFILL-DIST-1} shows the initial expansion increasing the field distance causing the agents to `spread' throughout the space. Each increment having a settling period as the swarm expands.
 
 \begin{figure}[H]
 \begin{center}
@@ -125,7 +125,7 @@ The next increment at 65 seconds creates a similar reaction to the magnitude and
 \caption{Distance metric 0-60 seconds\label{emerge:FIELDFILL-DIST-1}}
 \end{figure}
 
-\autoref{emerge:FIELDFILL-DIST-2}~shows the simulation from 60-120 seconds. Between 60 and 85 seconds an increment is made in the field effects and the swarm expands. At 85 seconds there is further increment, however the effect on the distribution is different. The distribution of the agents has changed due to the modality of the swarm. The average distance has increased and there is an increase in the variance. This would indicate that the swam has fully expanded and is unable to expand further. The final increment at 105 seconds can be seen to further impact on the modality indicating the area is saturated.
+Figure~\ref{emerge:FIELDFILL-DIST-2}~shows the simulation from 60-120 seconds. Between 60 and 85 seconds an increment is made in the field effects and the swarm expands. At 85 seconds there is further increment, however the effect on the distribution is different. The distribution of the agents has changed due to the modality of the swarm. The average distance has increased and there is an increase in the variance. This would indicate that the swam has fully expanded and is unable to expand further. The final increment at 105 seconds can be seen to further impact on the modality indicating the area is saturated.
 
 \begin{figure}[H]
 \begin{center}
@@ -196,7 +196,7 @@ Neighbour Distance & 70 & 70 & 70 & 70 & 70 & 70 & units\\  \hline
 
 The theory behind this type of flood filling is as follows; Cohesion and repulsion acting against each other causes jitter, removing the cohesion allows the swarm to expand to its maximum volume with all agents distributed so they no longer interact at which point jitter will cease. The boundary created by the enclosed space will effect the expanding swarm by repelling the agents back into the swarm preventing expansion therefore the swarm movement will propogate to fill vacant areas. Jitter will initially be seen as the swarm equalises and it will decrease to zero when the swarm is fully expanded. There will be a point in the swarms expansion when the agents will not be able to extend to a zero repulsion point and there will be a permanent interaction between the perimeter and agents. This condition is the exit point for the repulsion flood fill.
 
-\autoref{emerge:SwarmFloodRepel} shows the stages that a field-repulsion-area-fill propagates through. The initial deployment is shown in~\autoref{emerge:Repel52-1}. When the simulation starts the swarm immediately expands~(\autoref{emerge:Repel52-2}) and all the agents stabilise to a position where their movement stops. The field effect is increased and the swarm distribution movement commences. This cycle continues until the swarm is unable to resolve to a neutral expansion point.
+Figure~\ref{emerge:SwarmFloodRepel} shows the stages that a field-repulsion-area-fill propagates through. The initial deployment is shown in~Figure~\ref{emerge:Repel52-1}. When the simulation starts the swarm immediately expands~(Figure~\ref{emerge:Repel52-2}) and all the agents stabilise to a position where their movement stops. The field effect is increased and the swarm distribution movement commences. This cycle continues until the swarm is unable to resolve to a neutral expansion point.
 
 \begin{figure}[H]
 \centering
@@ -237,7 +237,7 @@ The theory behind this type of flood filling is as follows; Cohesion and repulsi
 \end{figure}
 
 \subsection{\textit{Inter-agent magnitude} analysis}
-\autoref{emerge:REPELFILL5055-MAG} shows the \textit{inter-agent vector magnitude} produced between the agents. The initial deployment of the swarm shows a large negative value due to the swarm being in a highly compressed state. This causes the swarm to expand rapidly. Following the initial expansion the agents enter a phase of very close adjustment as their positions move towards a maximum expansion point. Eventually the agents are distributed to their maximum positions with the \textit{inter-agent vector magnitude} stabilises to zero with no variation. At this stage the swarm has stopped moving. This effect cannot be detected by using the distance metric which will simply show a distribution distance with a fixed variance. Having a fixed variance does not indicate the agents have stopped moving as agents could be moving in sympathy to each other creating a net change of zero.
+Figure~\ref{emerge:REPELFILL5055-MAG} shows the \textit{inter-agent vector magnitude} produced between the agents. The initial deployment of the swarm shows a large negative value due to the swarm being in a highly compressed state. This causes the swarm to expand rapidly. Following the initial expansion the agents enter a phase of very close adjustment as their positions move towards a maximum expansion point. Eventually the agents are distributed to their maximum positions with the \textit{inter-agent vector magnitude} stabilises to zero with no variation. At this stage the swarm has stopped moving. This effect cannot be detected by using the distance metric which will simply show a distribution distance with a fixed variance. Having a fixed variance does not indicate the agents have stopped moving as agents could be moving in sympathy to each other creating a net change of zero.
 
 \begin{figure}[H]
 \begin{center}
@@ -246,7 +246,7 @@ The theory behind this type of flood filling is as follows; Cohesion and repulsi
 \caption{Magnitude metric 0-450 seconds\label{emerge:REPELFILL5055-MAG}}
 \end{figure}
 
-\autoref{emerge:REPELFILL5055-MAG-1-2} shows the initial settling period of the swarm in greater detail between 0 and 65 seconds. The graph shows that the settling period lasts for approximately 55 seconds following the initial expansion of the swarm from 0 to 10 seconds. The initial deployment of swarm has a highly negative \textit{interaction vector magnitude} causing rapid expansion. From 10 second until approx 62 seconds the agents \textit{inter-agent vectors} cause the agents to spread within the space. When the agents reach the limits of the repulsion field effect they stop moving. The \textit{inter-agent vector magnitude} stabilises to zero and all the agents stop moving.
+Figure~\ref{emerge:REPELFILL5055-MAG-1-2} shows the initial settling period of the swarm in greater detail between 0 and 65 seconds. The graph shows that the settling period lasts for approximately 55 seconds following the initial expansion of the swarm from 0 to 10 seconds. The initial deployment of swarm has a highly negative \textit{interaction vector magnitude} causing rapid expansion. From 10 second until approx 62 seconds the agents \textit{inter-agent vectors} cause the agents to spread within the space. When the agents reach the limits of the repulsion field effect they stop moving. The \textit{inter-agent vector magnitude} stabilises to zero and all the agents stop moving.
 
 \begin{figure}[H]
 \begin{center}
@@ -255,7 +255,7 @@ The theory behind this type of flood filling is as follows; Cohesion and repulsi
 \caption{Magnitude metric 0-65 seconds\label{emerge:REPELFILL5055-MAG-1-2}}
 \end{figure}
 
-\autoref{emerge:REPELFILL5055-MAG-2-3} shows a detailed view of the magnitude for the swarm at the first repulsion field increment at approximately 73.5 seconds. The repulsion field effect is incremented by 1 unit. The field effect change is sufficient to allow agents to be within the neighbour field effect range. The agents are already distributed from the initial expansion so there is a `trickling' movement that occurs as the agents increase the area of the swarm within the space. The area containment is not causing any disturbance to the swarm at this stage so the swarm settles to zero (84.5 seconds). As with the initial expansion all the agents are distributed such that they are on or beyond the limits of the repulsion field effect and the swarm stops moving. This process of incrementing the field effect and the swarm stablising continues until the field effect causes the swarm to expand to a point that it fills the area and the agents are unable to move sufficiently to stop interacting.
+Figure~\ref{emerge:REPELFILL5055-MAG-2-3} shows a detailed view of the magnitude for the swarm at the first repulsion field increment at approximately 73.5 seconds. The repulsion field effect is incremented by 1 unit. The field effect change is sufficient to allow agents to be within the neighbour field effect range. The agents are already distributed from the initial expansion so there is a `trickling' movement that occurs as the agents increase the area of the swarm within the space. The area containment is not causing any disturbance to the swarm at this stage so the swarm settles to zero (84.5 seconds). As with the initial expansion all the agents are distributed such that they are on or beyond the limits of the repulsion field effect and the swarm stops moving. This process of incrementing the field effect and the swarm stablising continues until the field effect causes the swarm to expand to a point that it fills the area and the agents are unable to move sufficiently to stop interacting.
 
 \begin{figure}[H]
 \begin{center}
@@ -264,7 +264,7 @@ The theory behind this type of flood filling is as follows; Cohesion and repulsi
 \caption{Magnitude metric 70-85 seconds\label{emerge:REPELFILL5055-MAG-2-3}}
 \end{figure}
 
-\autoref{emerge:REPELFILL5055-MAG-8} shows the final part of the simulation where the swarm's resultant magnitude is unable to stabilise completely. The graph shows the increment at approximately 230 seconds creating swarm movement which slowly increasing towards zero as the swarm expands however the \textit{inter-agent vector magnitude} is not able to reach zero. The swarm's agents are bound by the space and cannot distribute themselves to a point where the field effect overlap is overcome. The \textit{inter-agent vector magnitude} average remains below 0 indicating there is a `pressure' that cannot be overcome and the agents are in continuous movement. At this stage it is possible for all the agents to obtain a state of equilibrium and for the average magnitude to stablise but owing to their containment the average magnitude would not be able to rise to zero. The swarm has therefore expanded to fill the space.
+Figure~\ref{emerge:REPELFILL5055-MAG-8} shows the final part of the simulation where the swarm's resultant magnitude is unable to stabilise completely. The graph shows the increment at approximately 230 seconds creating swarm movement which slowly increasing towards zero as the swarm expands however the \textit{inter-agent vector magnitude} is not able to reach zero. The swarm's agents are bound by the space and cannot distribute themselves to a point where the field effect overlap is overcome. The \textit{inter-agent vector magnitude} average remains below 0 indicating there is a `pressure' that cannot be overcome and the agents are in continuous movement. At this stage it is possible for all the agents to obtain a state of equilibrium and for the average magnitude to stablise but owing to their containment the average magnitude would not be able to rise to zero. The swarm has therefore expanded to fill the space.
 
 \begin{figure}[H]
 \begin{center}
@@ -274,7 +274,7 @@ The theory behind this type of flood filling is as follows; Cohesion and repulsi
 \end{figure}
 
 \subsection{Distance analysis}
-\autoref{emerge:REPELFILL5055-DIST} shows the distance metric for the same simulation as above. The initial deployment shows the agents are quite close together but immediately expand, the variance reduces as the agents become more evenly distributed. 
+Figure~\ref{emerge:REPELFILL5055-DIST} shows the distance metric for the same simulation as above. The initial deployment shows the agents are quite close together but immediately expand, the variance reduces as the agents become more evenly distributed. 
 
 \begin{figure}[H]
 \begin{center}
@@ -283,7 +283,7 @@ The theory behind this type of flood filling is as follows; Cohesion and repulsi
 \caption{Distance metric 0-450 seconds\label{emerge:REPELFILL5055-DIST}}
 \end{figure}
 
-\autoref{emerge:REPELFILL5055-DIST-1} shows the period when the swarm has initially expanded to a point that the distances appear to stabilise. The stable state is shown as a constant average distance with a constant variance. It cannot be assumed that the agents have stopped moving at this point in the simulation. Agents could change positions such that the average variance is unaffected although this is unlikely. Over this same period the magnitude is zero as shown in~\autoref{emerge:REPELFILL5055-MAG}. These two facts therefore allow the swarms state to be fully realised. The agents are distributed unevenly and are static.
+Figure~\ref{emerge:REPELFILL5055-DIST-1} shows the period when the swarm has initially expanded to a point that the distances appear to stabilise. The stable state is shown as a constant average distance with a constant variance. It cannot be assumed that the agents have stopped moving at this point in the simulation. Agents could change positions such that the average variance is unaffected although this is unlikely. Over this same period the magnitude is zero as shown in~Figure~\ref{emerge:REPELFILL5055-MAG}. These two facts therefore allow the swarms state to be fully realised. The agents are distributed unevenly and are static.
 
 \begin{figure}[H]
 \begin{center}
@@ -292,7 +292,7 @@ The theory behind this type of flood filling is as follows; Cohesion and repulsi
 \caption{Distance metric 60-75 seconds\label{emerge:REPELFILL5055-DIST-1}}
 \end{figure}
 
-\autoref{emerge:REPELFILL5055-DIST-1-2} shows the effect of the first increment of the repulsion field effect increment (50-51 units). The swarm agents move to equalise the \textit{inter-agent vectors} by increasing the distance between the agents. The average distance changes very little due to the irregular distribution of the agents (there is no cohesion to help balance the distribution). The variance in the distance has reduced as the agents are more evenly distributed. At this stage the agents are not filling the space (\textit{inter-agent vector magnitude} has resolved to 0)~(\autoref{emerge:REPELFILL5055-MAG-2-3}). The two metrics together indicate that the swarm's agent distribution is more even but the swarm is not filling the space.
+Figure~\ref{emerge:REPELFILL5055-DIST-1-2} shows the effect of the first increment of the repulsion field effect increment (50-51 units). The swarm agents move to equalise the \textit{inter-agent vectors} by increasing the distance between the agents. The average distance changes very little due to the irregular distribution of the agents (there is no cohesion to help balance the distribution). The variance in the distance has reduced as the agents are more evenly distributed. At this stage the agents are not filling the space (\textit{inter-agent vector magnitude} has resolved to 0)~(Figure~\ref{emerge:REPELFILL5055-MAG-2-3}). The two metrics together indicate that the swarm's agent distribution is more even but the swarm is not filling the space.
 
 \begin{figure}[H]
 \begin{center}
@@ -301,7 +301,7 @@ The theory behind this type of flood filling is as follows; Cohesion and repulsi
 \caption{Distance metric 70-85 seconds\label{emerge:REPELFILL5055-DIST-1-2}}
 \end{figure}
 
-\autoref{emerge:REPELFILL5055-DIST-2-3} shows that at each increment the inter-agent average distances varies but the variance decreases as the swarm stabilises and the distribution improves. This improvement in distribution is the agents `spreading' more evenly as the swarm expands within the area. However after the last field effect increase at 230 seconds the swarm is no longer able to stabilise to a static state. 
+Figure~\ref{emerge:REPELFILL5055-DIST-2-3} shows that at each increment the inter-agent average distances varies but the variance decreases as the swarm stabilises and the distribution improves. This improvement in distribution is the agents `spreading' more evenly as the swarm expands within the area. However after the last field effect increase at 230 seconds the swarm is no longer able to stabilise to a static state. 
 
 \begin{figure}[H]
 \begin{center}
@@ -310,7 +310,7 @@ The theory behind this type of flood filling is as follows; Cohesion and repulsi
 \caption{Distance metric 180-280 seconds\label{emerge:REPELFILL5055-DIST-2-3}}
 \end{figure}
 
-\autoref{emerge:REPELFILL5055-DIST-8} shows the effect of the final increment. The swarm expands but is unable to stabilise the system. The average distances fluctuate as the agents move to balance the \textit{inter-agent vectors} but the distances are unable to increase any further. The inter-agent distances are effected by the positioning of some of the agents preventing a regular shape to be formed this causes the distance variance to increase and the swarms structure starts to oscillate. These characteristics indicate that the area may be fully filled. The magnitude at this point is below zero~\autoref{emerge:REPELFILL5055-MAG-8} which indicates expansion of the swarm is posible but not occuring. The conclusion therefore is that the swarm is fully expanded. The magnitude indicates a tendency for the swarm to expand but the distances are not increasing in line with the magnitude increase. 
+Figure~\ref{emerge:REPELFILL5055-DIST-8} shows the effect of the final increment. The swarm expands but is unable to stabilise the system. The average distances fluctuate as the agents move to balance the \textit{inter-agent vectors} but the distances are unable to increase any further. The inter-agent distances are effected by the positioning of some of the agents preventing a regular shape to be formed this causes the distance variance to increase and the swarms structure starts to oscillate. These characteristics indicate that the area may be fully filled. The magnitude at this point is below zero~figure~\ref{emerge:REPELFILL5055-MAG-8} which indicates expansion of the swarm is posible but not occuring. The conclusion therefore is that the swarm is fully expanded. The magnitude indicates a tendency for the swarm to expand but the distances are not increasing in line with the magnitude increase. 
 
 \begin{figure}[H]
 \begin{center}

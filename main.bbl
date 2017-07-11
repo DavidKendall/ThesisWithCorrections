@@ -36,7 +36,7 @@ M.~S. Alvissalim, B.~Zaman, Z.~A. Hafizh, M.~A. Ma'sum, G.~Jati, W.~Jatmiko,
   and P.~Mursanto.
 \newblock Swarm quadrotor robots for telecommunication network coverage area
   expansion in disaster area.
-\newblock In {\em 2012 Proceedings of SICE Annual Conference (SICE)}, pages
+\newblock In {\em Proceedings of SICE Annual Conference (SICE)}, pages
   2256--2261, Aug 2012.
 
 \bibitem{APZDAMC:09}
@@ -56,28 +56,28 @@ Panayiotis Andreou, Demetrios Zeinalipour-Yazti, Panos~K Chrysanthis, and
 \bibitem{ABN:93}
 Ronald~C Arkin, Tucker Balch, and Elizabeth Nitz.
 \newblock Communication of behavorial state in multi-agent retrieval tasks.
-\newblock In {\em 1993 Proceedings of IEEE International Conference on Robotics
-  and Automation}, pages 588--594. IEEE, 1993.
+\newblock In {\em Proceedings of IEEE International Conference on Robotics and
+  Automation}, pages 588--594. IEEE, 1993.
 
 \bibitem{AYSH:08}
 Shinichi Aso, Sho Yokota, Hiroshi Hashimoto, Yasuhiro Ohyama, Akinori Sasaki,
   and Hiroaki Kobayashi.
 \newblock Control and stability for robotic swarm based on center of gravity of
   local swarm.
-\newblock In {\em 2008 IEEE International Symposium on Industrial Electronics},
+\newblock In {\em IEEE International Symposium on Industrial Electronics},
   pages 1341--1346. IEEE, 2008.
 
 \bibitem{AZMD:15}
 F.~Augugliaro, E.~Zarfati, A.~Mirjan, and R.~D'Andrea.
 \newblock Knot-tying with flying machines for aerial construction.
-\newblock In {\em 2015 IEEE/RSJ International Conference on Intelligent Robots
-  and Systems (IROS)}, pages 5917--5922, Sept 2015.
+\newblock In {\em IEEE/RSJ International Conference on Intelligent Robots and
+  Systems (IROS)}, pages 5917--5922, Sept 2015.
 
 \bibitem{BAB:12}
 A.~Banharnsakun, T.~Achalakul, and R.~C. Batra.
 \newblock Target finding and obstacle avoidance algorithm for microrobot
   swarms.
-\newblock In {\em 2012 IEEE International Conference on Systems, Man, and
+\newblock In {\em IEEE International Conference on Systems, Man, and
   Cybernetics (SMC)}, pages 1610--1615, Oct 2012.
 
 \bibitem{BS:13}
@@ -90,8 +90,8 @@ Laura Barnes, Wendy Alvis, MaryAnne Fields, Kimon Valavanis, and Wilfrido
   Moreno.
 \newblock Heterogeneous swarm formation control using bivariate normal
   functions to generate potential fields.
-\newblock In {\em 2006 IEEE Workshop on Distributed Intelligent Systems:
-  Collective Intelligence and Its Applications}, pages 85--94. IEEE, 2006.
+\newblock In {\em IEEE Workshop on Distributed Intelligent Systems: Collective
+  Intelligence and Its Applications}, pages 85--94. IEEE, 2006.
 
 \bibitem{BAF:06}
 Laura Barnes, Wendy Alvis, MaryAnne Fields, Kimon Valavanis, and Wilfrido
@@ -105,8 +105,8 @@ Laura Barnes, Wendy Alvis, MaryAnne Fields, Kimon Valavanis, and Wilfrido
 Laura Barnes, MaryAnne Fields, and Kimon Valavanis.
 \newblock Unmanned ground vehicle swarm formation control using potential
   fields.
-\newblock In {\em 2007 Mediterranean Conference on Control \& Automation
-  (MED'07).}, pages 1--8. IEEE, 2007.
+\newblock In {\em Mediterranean Conference on Control \& Automation (MED'07).},
+  pages 1--8. IEEE, 2007.
 
 \bibitem{BFV:09}
 Laura~E Barnes, Mary~Anne Fields, and Kimon~P Valavanis.
@@ -124,8 +124,8 @@ Laura~E Barnes, Mary~Anne Fields, and Kimon~P Valavanis.
 Spring Berman, Ad{\'a}m Hal{\'a}sz, Vijay Kumar, and Stephen Pratt.
 \newblock Bio-inspired group behaviors for the deployment of a swarm of robots
   to multiple destinations.
-\newblock In {\em 2007 IEEE International Conference on Robotics and
-  Automation}, pages 2318--2323. IEEE, 2007.
+\newblock In {\em IEEE International Conference on Robotics and Automation},
+  pages 2318--2323. IEEE, 2007.
 
 \bibitem{BBKA:ND}
 The british~beekeepers association.
@@ -138,9 +138,8 @@ The british~beekeepers association.
 Matthias~R Brust and Bogdan~M Strimbu.
 \newblock A networked swarm model for uav deployment in the assessment of
   forest environments.
-\newblock In {\em 2015 IEEE Tenth International Conference on Intelligent
-  Sensors, Sensor Networks and Information Processing (ISSNIP)}, pages 1--6.
-  IEEE, 2015.
+\newblock In {\em IEEE Tenth International Conference on Intelligent Sensors,
+  Sensor Networks and Information Processing (ISSNIP)}, pages 1--6. IEEE, 2015.
 
 \bibitem{CML:ND}
 Ning CAI, Hai-Ying MA, Ming-Hua LIU, and Cai-Xia WANG.
@@ -167,14 +166,14 @@ F.~A. Cheein, D.~Herrera, J.~Gimenez, R.~Carelli, M.~Torres-Torriti, J.~R.
   Rosell-Polo, A.~Escolà, and J.~Arnó.
 \newblock Human-robot interaction in precision agriculture: Sharing the
   workspace with service units.
-\newblock In {\em 2015 IEEE International Conference on Industrial Technology
+\newblock In {\em IEEE International Conference on Industrial Technology
   (ICIT)}, pages 289--295, March 2015.
 
 \bibitem{BC:15}
 B.~Chu.
 \newblock Mobile robot position control algorithm based on multiple ultrasonic
   distance sensors.
-\newblock In {\em 2015 15th International Conference on Control, Automation and
+\newblock In {\em 15th International Conference on Control, Automation and
   Systems (ICCAS)}, pages 1238--1240, Oct 2015.
 
 \bibitem{OC:16}
@@ -219,7 +218,7 @@ Marco Dorigo, Elio Tuci, Roderich Gro\ss, Vito Trianni, Thomas~Halva Labella,
   Baldassarre, Stefano Nolfi, Francesco Mondada, Dario Floreano, and Luca~Maria
   Gambardella.
 \newblock The swarm-bots project.
-\newblock In {\em Proceedings of the 2004 International Conference on Swarm
+\newblock In {\em Proceedings of the International Conference on Swarm
   Robotics}, SAB'04, pages 31--44, Berlin, Heidelberg, 2005. Springer-Verlag.
 
 \bibitem{EP:07}
@@ -252,7 +251,7 @@ Anders Eriksson, Martin Nilsson~Jacobi, Johan Nystr{\"o}m, and Kolbj{\o}rn
 Lei Fang and Panos~J Antsaklis.
 \newblock Information consensus of asynchronous discrete-time multi-agent
   systems.
-\newblock In {\em Proceedings of the 2005 American Control Conference}, pages
+\newblock In {\em Proceedings of the American Control Conference}, pages
   1883--1888. IEEE, 2005.
 
 \bibitem{PSF:15}
@@ -315,7 +314,7 @@ Erico Guizzo.
 Hongliang Guo, Yan Meng, and Yaochu Jin.
 \newblock Swarm robot pattern formation using a morphogenetic multi-cellular
   based self-organizing algorithm.
-\newblock In {\em 2011 IEEE International Conference on Robotics and Automation
+\newblock In {\em IEEE International Conference on Robotics and Automation
   (ICRA)}, pages 3205--3210. IEEE, 2011.
 
 \bibitem{GK:07}
@@ -348,8 +347,8 @@ T.~C. Hales.
 H.~Hamann, J.~Stradner, T.~Schmickl, and K.~Crailsheim.
 \newblock A hormone-based controller for evolutionary multi-modular robotics:
   From single modules to gait learning.
-\newblock In {\em 2010 IEEE Congress on Evolutionary Computation (CEC)}, pages
-  1--8, July 2010.
+\newblock In {\em IEEE Congress on Evolutionary Computation (CEC)}, pages 1--8,
+  July 2010.
 
 \bibitem{HW:08}
 Heiko Hamann and Heinz W{\"o}rn.
@@ -384,16 +383,15 @@ M.~G. Hinchey, R.~Sterritt, and C.~Rouff.
 Nicholas Hoff, A.~Sagoff, Robert~J. Wood, and Radhika Nagpal.
 \newblock Two foraging algorithms for robot swarms using only local
   communication.
-\newblock In {\em 2010 {IEEE} International Conference on Robotics and
-  Biomimetics, {ROBIO} 2010, Tianjin, China, December 14-18, 2010}, pages
-  123--130, 2010.
+\newblock In {\em IEEE International Conference on Robotics and Biomimetics,
+  {ROBIO} 2010, Tianjin, China, December 14-18, 2010}, pages 123--130, 2010.
 
 \bibitem{HWN:11}
 Nicholas Hoff, Robert Wood, and Radhika Nagpal.
 \newblock Effect of sensor and actuator quality on robot swarm algorithm
   performance.
-\newblock In {\em Intelligent Robots and Systems (IROS), 2011 IEEE/RSJ
-  International Conference on}, pages 4989--4994. IEEE, 2011.
+\newblock In {\em IEEE/RSJ International Conference on Intelligent Robots and
+  Systems (IROS)}, pages 4989--4994. IEEE, 2011.
 
 \bibitem{HR:ND}
 Johnny Holmstr{\"o}m and Daniel Romero.
@@ -404,8 +402,8 @@ Johnny Holmstr{\"o}m and Daniel Romero.
 \bibitem{HC:09}
 S.~P. Hou and C.~C. Cheah.
 \newblock Multiplicative potential energy function for swarm control.
-\newblock In {\em Intelligent Robots and Systems, 2009. IROS 2009. IEEE/RSJ
-  International Conference on}, pages 4363--4368, Oct 2009.
+\newblock In {\em IEEE/RSJ International Conference on Intelligent Robots and
+  Systems. (IROS 2009)}, pages 4363--4368, Oct 2009.
 
 \bibitem{HCS:09}
 S.~P. Hou, C.~C. Cheah, and J.~J.~E. Slotine.
@@ -459,8 +457,8 @@ Rapha{\"e}l Jeanson, Francis L~W Ratnieks, and Jean-Louis Deneubourg.
 \bibitem{JG:13}
 Shin-Young Jung and Michael~A Goodrich.
 \newblock Multi-robot perimeter-shaping through mediator-based swarm control.
-\newblock In {\em 2013 16th International Conference on Advanced Robotics
-  (ICAR)}, pages 1--6. IEEE, 2013.
+\newblock In {\em 16th International Conference on Advanced Robotics (ICAR)},
+  pages 1--6. IEEE, 2013.
 
 \bibitem{KS:ND}
 Kanchan Kamnani and Chaitali Suratkar.
@@ -495,8 +493,8 @@ Naga K~C Krothapalli and Abhijit~V Deshmukh.
 M.~Kudelski, M.~Cinus, L.~Gambardella, and G.~A.~Di Caro.
 \newblock A framework for realistic simulation of networked multi-robot
   systems.
-\newblock In {\em 2012 IEEE/RSJ International Conference on Intelligent Robots
-  and Systems}, pages 5018--5025, Oct 2012.
+\newblock In {\em IEEE/RSJ International Conference on Intelligent Robots and
+  Systems}, pages 5018--5025, Oct 2012.
 
 \bibitem{KV:16}
 Vijay Kumar.
@@ -514,22 +512,21 @@ Geunho Lee and Nak~Young Chong.
 J.~H. Lee, C.~W. Ahn, and J.~An.
 \newblock A honey bee swarm-inspired cooperation algorithm for foraging swarm
   robots: An empirical analysis.
-\newblock In {\em 2013 IEEE/ASME International Conference on Advanced
-  Intelligent Mechatronics (AIM)}, pages 489--493, July 2013.
+\newblock In {\em IEEE/ASME International Conference on Advanced Intelligent
+  Mechatronics (AIM)}, pages 489--493, July 2013.
 
 \bibitem{LJLYP:15}
 S.~W. Lee, H.~Jeong, S.~K. Lee, Young-Kweon Kim, and J.~H. Park.
 \newblock Lidar system using indirect time of flight method and mems scanner
   for distance measurement.
-\newblock In {\em 2016 International Conference on Optical MEMS and
-  Nanophotonics (OMN)}, pages 1--2, July 2016.
+\newblock In {\em International Conference on Optical MEMS and Nanophotonics
+  (OMN)}, pages 1--2, July 2016.
 
 \bibitem{LLZ:08}
 Bin Lei, Wenfeng Li, and Fan Zhang.
 \newblock Stable flocking algorithm for multi-robot systems formation control.
-\newblock In {\em IEEE Congress on Evolutionary Computation, 2008. CEC
-  2008.(IEEE World Congress on Computational Intelligence)}, pages 1544--1549.
-  IEEE, 2008.
+\newblock In {\em IEEE Congress on Evolutionary Computation. (CEC 2008)}, pages
+  1544--1549. IEEE, 2008.
 
 \bibitem{LADPC:07}
 Ming Li, Anthony Alvarez, Francesco De~Pellegrini, B~Prabhakaran, and Imrich
@@ -634,8 +631,8 @@ F.~Mondada, L.~M. Gambardella, D.~Floreano, S.~Nolfi, J.~L. Deneuborg, and
 Francesco Mondada, Andr{\'e} Guignard, Michael Bonani, Daniel B{\"a}r, Michel
   Lauria, and Dario Floreano.
 \newblock Swarm-bot: From concept to implementation.
-\newblock In {\em 2003 IEEE/RSJ International Conference on Intelligent Robots
-  and Systems, 2003.(IROS 2003)}, volume~2, pages 1626--1631. IEEE, 2003.
+\newblock In {\em IEEE/RSJ International Conference on Intelligent Robots and
+  Systems.(IROS 2003)}, volume~2, pages 1626--1631. IEEE, 2003.
 
 \bibitem{MOR:05}
 Luc Moreau.
@@ -646,7 +643,7 @@ Luc Moreau.
 \bibitem{MCK:15}
 Y.~Mulgaonkar, G.~Cross, and V.~Kumar.
 \newblock Design of small, safe and robust quadrotor swarms.
-\newblock In {\em 2015 IEEE International Conference on Robotics and Automation
+\newblock In {\em IEEE International Conference on Robotics and Automation
   (ICRA)}, pages 2208--2215, May 2015.
 
 \bibitem{MP:10}
@@ -657,8 +654,8 @@ Purushotham Muniganti and Albert~Oller Pujol.
 \bibitem{SOM:12}
 D.~Salda\ na, D.~Ovalle, and A.~Montoya.
 \newblock Improved algorithm for perimeter tracking in robotic sensor networks.
-\newblock In {\em 2012 XXXVIII Conferencia Latinoamericana En Informatica
-  (CLEI)}, pages 1--7, Oct 2012.
+\newblock In {\em Conferencia Latinoamericana En Informatica (CLEI)}, pages
+  1--7, Oct 2012.
 
 \bibitem{NK:10}
 Alex Nash and Sven Koenig.
@@ -743,8 +740,8 @@ C.~Pinciroli, V.~Trianni, R.~O'Grady, G.~Pini, A.~Brutschy, M.~Brambilla,
   Á~Gutiérrez, L.~M. Gambardella, and M.~Dorigo.
 \newblock Argos: A modular, multi-engine simulator for heterogeneous swarm
   robotics.
-\newblock In {\em 2011 IEEE/RSJ International Conference on Intelligent Robots
-  and Systems}, pages 5027--5034, Sept 2011.
+\newblock In {\em IEEE/RSJ International Conference on Intelligent Robots and
+  Systems}, pages 5027--5034, Sept 2011.
 
 \bibitem{PYP:01}
 Marios~M Polycarpou, Yanli Yang, and Kevin~M Passino.
@@ -772,7 +769,7 @@ Long Qin, Yabing Zha, Quanjun Yin, and Yong Peng.
 R.~Ramaithitima, M.~Whitzer, S.~Bhattacharya, and V.~Kumar.
 \newblock Sensor coverage robot swarms using local sensing without metric
   information.
-\newblock In {\em 2015 IEEE International Conference on Robotics and Automation
+\newblock In {\em IEEE International Conference on Robotics and Automation
   (ICRA)}, pages 3408--3415, May 2015.
 
 \bibitem{RWBK:16}
@@ -795,7 +792,7 @@ Craig~W Reynolds.
 
 \bibitem{RM:11}
 Lorenzo Riano and Martin Mcginnity.
-\newblock 1 emergent behaviours at the edge of chaos, 2011.
+\newblock Emergent behaviours at the edge of chaos, 2011.
 
 \bibitem{RMT:15}
 J.~H. Roach, R.~J. Marks, and B.~B. Thompson.
@@ -825,8 +822,8 @@ M.~Rubenstein and W.~M. Shen.
 Y.~s.~Dai, M.~Hinchey, M.~Madhusoodan, J.~L. Rash, and X.~Zou.
 \newblock A prototype model for self-healing and self-reproduction in swarm
   robotics system.
-\newblock In {\em 2006 2nd IEEE International Symposium on Dependable,
-  Autonomic and Secure Computing}, pages 3--10, Sept 2006.
+\newblock In {\em 2nd IEEE International Symposium on Dependable, Autonomic and
+  Secure Computing}, pages 3--10, Sept 2006.
 
 \bibitem{SALGVPJ:08}
 J~Saez-Pons, Lyuba Alboul, Veysel Gazi, and Jacques Penders.
@@ -846,22 +843,22 @@ H{\'e}ctor~F. Satiz{\'a}bal, Andres Upegui, Andres Perez-Uribe, Philippe
 M.~Scheutz and P.~Bauer.
 \newblock A scalable, robust, ultra-low complexity agent swarm for area
   coverage and interception tasks.
-\newblock In {\em 2006 IEEE Conference on Computer Aided Control System Design,
-  2006 IEEE International Conference on Control Applications, 2006 IEEE
-  International Symposium on Intelligent Control}, pages 1258--1263, Oct 2006.
+\newblock In {\em IEEE Conference on Computer Aided Control System Design, IEEE
+  International Conference on Control Applications, IEEE International
+  Symposium on Intelligent Control}, pages 1258--1263, Oct 2006.
 
 \bibitem{SW:03}
 F.~E. Schneider and D.~Wildermuth.
 \newblock A potential field based approach to multi robot formation navigation.
-\newblock In {\em 2003 IEEE International Conference on Robotics, Intelligent
+\newblock In {\em IEEE International Conference on Robotics, Intelligent
   Systems and Signal Processing}, volume~1, pages 680--685 vol.1, Oct 2003.
 
 \bibitem{SK:16}
 A.~M. Schroeder and M.~Kumar.
 \newblock Design of decentralized chemotactic control law for area coverage
   using swarm of mobile robots.
-\newblock In {\em 2016 American Control Conference (ACC)}, pages 4317--4322,
-  July 2016.
+\newblock In {\em American Control Conference (ACC)}, pages 4317--4322, July
+  2016.
 
 \bibitem{SVP:06}
 Thomas~D Seeley, P~Kirk Visscher, and Kevin~M Passino.
@@ -896,8 +893,8 @@ Z.~Shi, J.~Tu, Q.~Zhang, X.~Zhang, and J.~Wei.
 Zhiguo Shi, Jun Tu, Junming Wei, Qiao Zhang, and Xiaomeng Zhang.
 \newblock The simulation scenario for swarm robots based on open-source
   software player/stage.
-\newblock In {\em 2011 International Workshop on Open-Source Software for
-  Scientific Computation (OSSC)}, pages 107--113, Oct 2011.
+\newblock In {\em International Workshop on Open-Source Software for Scientific
+  Computation (OSSC)}, pages 107--113, Oct 2011.
 
 \bibitem{DS:15}
 David Smalley.
@@ -916,20 +913,20 @@ J.~Song and S.~Gupta.
 \bibitem{SN:10}
 S.~Srivastava and G.~C. Nandi.
 \newblock Localization of mobile robots in a network using mobile agents.
-\newblock In {\em 2010 International Conference on Computer and Communication
+\newblock In {\em International Conference on Computer and Communication
   Technology (ICCCT)}, pages 415--420, Sept 2010.
 
 \bibitem{SB:93}
 D.~J. Stilwell and J.~S. Bay.
 \newblock Toward the development of a material transport system using swarms of
   ant-like robots.
-\newblock In {\em 1993 IEEE International Conference on Robotics and
-  Automation}, pages 766--771 vol.1, May 1993.
+\newblock In {\em IEEE International Conference on Robotics and Automation},
+  pages 766--771 vol.1, May 1993.
 
 \bibitem{STO:05}
 D.~P. Stormont.
 \newblock Autonomous rescue robot swarms for first responders.
-\newblock In {\em Proceedings of the 2005 IEEE International Conference on
+\newblock In {\em Proceedings of the IEEE International Conference on
   Computational Intelligence for Homeland Security and Personal Safety
   (CIHSPS)}, pages 151--157, March 2005.
 
@@ -954,14 +951,14 @@ Chad~M. Topaz, Maria~R. D'Orsogna, Leah Edelstein-Keshet, and Andrew~J.
 B.~R. Trilaksono.
 \newblock Distributed consensus control of robot swarm with obstacle and
   collision avoidance.
-\newblock In {\em 2015 2nd International Conference on Information Technology,
+\newblock In {\em 2nd International Conference on Information Technology,
   Computer, and Electrical Engineering (ICITACEE)}, pages 2--2, Oct 2015.
 
 \bibitem{TG:12}
 G.~Tuna and K.~Gulez.
 \newblock Aided navigation techniques for indoor and outdoor unmanned vehicles.
-\newblock In {\em 2012 5th International Conference on New Technologies,
-  Mobility and Security (NTMS)}, pages 1--4, May 2012.
+\newblock In {\em 5th International Conference on New Technologies, Mobility
+  and Security (NTMS)}, pages 1--4, May 2012.
 
 \bibitem{VGHHDM:15}
 Gabriele Valentini, Heiko Hamann, and Marco Dorigo.
@@ -978,7 +975,7 @@ Maarten Vankerkom and Jin Yu.
 E.~Vassev and M.~Hinchey.
 \newblock Assl specification and code generation of self-healing behavior for
   nasa swarm-based systems.
-\newblock In {\em 2009 Sixth IEEE Conference and Workshops on Engineering of
+\newblock In {\em Sixth IEEE Conference and Workshops on Engineering of
   Autonomic and Autonomous Systems}, pages 77--86, April 2009.
 
 \bibitem{VBBLO:15}
@@ -987,15 +984,15 @@ R.~R.~P. Vicerra, R.~N.~R. Barcos, J.~K.~S. Bulan, A.~J.~O. Loterina, S.~O.
   E.~P. Dadios.
 \newblock A comparative study of swarm foraging behaviors; trophallaxis, task
   allocation and pheromone.
-\newblock In {\em 2015 International Conference on Humanoid, Nanotechnology,
+\newblock In {\em International Conference on Humanoid, Nanotechnology,
   Information Technology,Communication and Control, Environment and Management
   (HNICEM)}, pages 1--6, Dec 2015.
 
 \bibitem{WF:12}
 Liangshun Wang and Huajing Fang.
 \newblock Stability analysis of improved local swarms.
-\newblock In {\em 2012 31st Chinese Control Conference (CCC)}, pages
-  6075--6080. IEEE, 2012.
+\newblock In {\em 31st Chinese Control Conference (CCC)}, pages 6075--6080.
+  IEEE, 2012.
 
 \bibitem{MW:15}
 Maxim Worchester.
@@ -1055,7 +1052,7 @@ Demetrios Zeinalipour-Yazti, Panayiotis Andreou, Panos~K. Chrysanthis, and
 \bibitem{ZZLW:14}
 C.~Zhang, F.~m.~Zhang, F.~Li, and H.~s.~Wu.
 \newblock Improved artificial fish swarm algorithm.
-\newblock In {\em 2014 IEEE 9th Conference on Industrial Electronics and
+\newblock In {\em IEEE 9th Conference on Industrial Electronics and
   Applications (ICIEA)}, pages 748--753, June 2014.
 
 \bibitem{ZFG:13}

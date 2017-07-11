@@ -32,7 +32,7 @@ Warning--can't use both volume and number fields in REY:87
 Warning--empty journal in SRDF:10
 You've used 167 entries,
             2118 wiz_defined-function locations,
-            1561 strings with 35864 characters,
+            1557 strings with 35319 characters,
 and the built_in function-call counts, 65854 in all, are:
 = -- 6533
 > -- 2872

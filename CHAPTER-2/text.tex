@@ -3,11 +3,11 @@
 This chapter introduces the representation of agents, swarms, obstacles, the environment, and the algorithms applied to inter-agent and obstacle interactions to produce a swarming effect. Movement of agents and the application of a \textit{destination vector} for goal based swarms are presented~\cite{MP:10}. 
 
 \section{Modelling agents and swarms}
-Currently, much swarm research uses field effects as the method of modelling inter-agent interactions~\cite{BAF:06, BAFVM:06, BM:09, APZDAMC:09, GP:02, GP:04, GP:04a, GP:05, GP:11, MYP:09}. The models usually use two field effects to implement the swarming characteristic. These effects are \textit{cohesion}, to draw agents closer, and \textit{repulsion} to prevent agents colliding. Field effects are the ranges around an agent that determine the effect other agents have upon its movement~(\autoref{methods:FieldEffects}). It is usual for the cohesion field to have a radius $C_b$ which is larger than the repulsion radius $R_b$. When an agent ($b'$) moves into the \textit{neighbour field} of an agent ($b$) then $b'$ is said to be a neighbour of $b$ and is subject to cohesion. When an agent $b'$ moves into the repulsion field of $b$ then $b$ has a tendancy to move away from $b'$, i.e. to be repulsed. When an agent $b$ moves too close to an obstacle, i.e. within the obstacle repulsion range $O_b$, it has a tendancy to move away from the obstacle. 
+Currently, much swarm research uses field effects as the method of modelling inter-agent interactions~\cite{BAF:06, BAFVM:06, BM:09, APZDAMC:09, GP:02, GP:04, GP:04a, GP:05, GP:11, MYP:09}. The models usually use two field effects to implement the swarming characteristic. These effects are \textit{cohesion}, to draw agents closer, and \textit{repulsion} to prevent agents colliding. Field effects are the ranges around an agent that determine the effect other agents have upon its movement~(Figure~\ref{methods:FieldEffects}). It is usual for the cohesion field to have a radius $C_b$ which is larger than the repulsion radius $R_b$. When an agent ($b'$) moves into the \textit{neighbour field} of an agent ($b$) then $b'$ is said to be a neighbour of $b$ and is subject to cohesion. When an agent $b'$ moves into the repulsion field of $b$ then $b$ has a tendancy to move away from $b'$, i.e. to be repulsed. When an agent $b$ moves too close to an obstacle, i.e. within the obstacle repulsion range $O_b$, it has a tendancy to move away from the obstacle. 
 
 A common approach to the application of field effects is to use fixed ranges common to all agents. Cohesion is applied graduated by neighbour proximity and repulsion is applied as a fixed magnitude when an agent is within the \textit{repulsion field}. 
 
-Sensing devices have a limited range within which they detect agents, this determines a \textit{sensing field} shown is black~(\autoref{methods:FieldEffects}). In a physical implementation of a swarm, distance may be determined by some form of sensing device such as an omni-directional camera, as used in the s-bot project~\cite{HR:ND,MFGAB:03,MIN:07}, or lidar~\cite{LJLYP:15} or ultrasonic sensors~\cite{BC:15} or by an array of simple proximity detectors~\cite{HWN:11}  
+Sensing devices have a limited range within which they detect agents, this determines a \textit{sensing field} shown is black~(Figure~\ref{methods:FieldEffects}). In a physical implementation of a swarm, distance may be determined by some form of sensing device such as an omni-directional camera, as used in the s-bot project~\cite{HR:ND,MFGAB:03,MIN:07}, or lidar~\cite{LJLYP:15} or ultrasonic sensors~\cite{BC:15} or by an array of simple proximity detectors~\cite{HWN:11}  
 
 This thesis uses a similar approach to applying the cohesion effect but for repulsion a graduated field effect based on neighbour agent proximity is used.
 
@@ -38,7 +38,7 @@ The use of vectors to model inter-agent interactions is also referred to a artif
 %% Each agent's position within a swarm is modelled as a point consisting of two floating point numbers to represent their $(x,y)$ position.
 
 \section{Modelling agents and environment interactions}\label{method:AgentEnvironmentModel}
-The environment contains agents with a position in the coordinate system. It may also contain \textit{obstacles}~(\autoref{section:ObstacleSection}) and \textit{destinations}~(\autoref{sec:Direction1}). An obstacle can be considered as a point with an associated \textit{repulsion field} effect and a destination as a point towards which agents move. This modelling technique is similar to that used by Barnes et al.~\cite{BAF:06, BAFVM:06}. 
+The environment contains agents with a position in the coordinate system. It may also contain \textit{obstacles}~(Figure~\ref{section:ObstacleSection}) and \textit{destinations}~(Figure~\ref{sec:Direction1}). An obstacle can be considered as a point with an associated \textit{repulsion field} effect and a destination as a point towards which agents move. This modelling technique is similar to that used by Barnes et al.~\cite{BAF:06, BAFVM:06}. 
 %% Modelling of the swarm will be performed using two techniques; vectors for inter-object interactions and coordinates for positional locations. The proximity of each of the objects within the swarm are identified, the objects being, agents, obstacles and destinations. The effects of the objects upon each other are determined using fixed ranges (field effects). 
 
 The distribution of each of these objects, along with the field effects, produce sets of vectors that represent the inter-object interactions in the system. The vector sets for each agent are used to calculate a vector for each interaction type (cohesion, repulsion, direction, and obstacle repulsion). This is similar to the techniques used by Jung et al. and Salda\~na et al.~\cite{JG:13, SOM:12}. 
@@ -50,7 +50,7 @@ The resultant vector generated by an agent's interaction with other agents and o
 %% These potential situations are eliminated by ensuring the sampling rate is a multiple of the clock cycle for calculating field effects, and the movement of an agent is less than any of the field effects. This check is incorporated into the simulator as a parameter check when the physics model of the graphical simulator is changed.
 
 \section{Boid-based model}\label{methods:BoidModel}
-The model introduced in~\autoref{method:AgentEnvironmentModel} is based heavily on the work by Reynolds and other authors on boid-based swarms.
+The model introduced in~Figure~\ref{method:AgentEnvironmentModel} is based heavily on the work by Reynolds and other authors on boid-based swarms.
 
 Hereford~\cite{HER:11} and Barnes et al.~\cite{BAF:06} model static swarms using a bi-variable technique. A bi-variable model is based upon inter-agent cohesion and repulsion, which appears as the \textit{interaction vector} above. 
 
@@ -60,7 +60,7 @@ If a swarm is to be goal based, the swarm is modelled using the \textit{interact
 
 The first swarming model to use three components was the Boid model~\cite{REY:87}. In the Boid model, cohesion and repulsion are used to produce an \textit{inter-agent vector}. The main difference in the model is how the \textit{destination vector} is introduced. In a Boid swarm the \textit{destination vector} is not based upon a fixed destination. It is determined by each agent communicating with its neighbours to generate a consensus-based direction. Each agent calculates an average of the neighbours \textit{movement-direction vector} and applies the result as a \textit{destination vector}. This consensus-based movement creates a `flocking' effect~\cite{KC:08, REY:87}. This cooperative method of creating movement can be seen in the formation of fish shoals as discussed by Yang et al.~\cite{YGT:10} and Pearce et al.~\cite{PMRT:14}. The same flocking characteristic also occurs in starling murmurations as discussed by Campbell and Samsel~\cite{CS:15}, and Zhang et al.~\cite{ZZLW:14}. 
 
-Barnes et al., Bennet and McInnes, Cai et al. Correl and Rus, Dinolov et al. and Ekanayake and Pathirana take a different approach to creating a \textit{destination vector}~\cite{BAF:06, BAFVM:06, BM:09, CML:ND, CR:13, DLK:11, EP:10}. They generate a \textit{destination vector} in a similar manner to that described in \autoref{method:AgentEnvironmentModel} using the \textit{interaction vector} and the \textit{destination vector}.
+Barnes et al., Bennet and McInnes, Cai et al. Correl and Rus, Dinolov et al. and Ekanayake and Pathirana take a different approach to creating a \textit{destination vector}~\cite{BAF:06, BAFVM:06, BM:09, CML:ND, CR:13, DLK:11, EP:10}. They generate a \textit{destination vector} in a similar manner to that described in Figure~\ref{method:AgentEnvironmentModel} using the \textit{interaction vector} and the \textit{destination vector}.
 %% The agent's position can be determined by using a sensor such as a GPS. The directional vector is added to the interaction vector. Adding the directional bias and the interaction vector produces a goal based characteristic in the resultant movement vector.
 %% 
 %% This thesis will use a similar method of generating a directional vector from a fixed destination to produce a \textit{Boid-based} directional model.  
@@ -76,9 +76,9 @@ This thesis, when analysing the data captured from an experiment, will only use 
 
 Cohesion is based on the principle that all agents will remain part of their immediate neighbours' `cluster' and will `flock' together in a `localised' manner~\cite{VGHHDM:15, BAF:06, BAFVM:06, BFV:07, BM:09, HAY:08, HCS:09}. Localised being that the agents will only be `aware' of their immediate neighbours. 
 
-Flocking, in this thesis, should be considered as the process of agents moving towards each other to attain their most stable position~\cite{GMJ:11, IGMFM:08} which is the centre of mass of their immediate neighbours~(\autoref{methods:FlyToCentre1}). 
+Flocking, in this thesis, should be considered as the process of agents moving towards each other to attain their most stable position~\cite{GMJ:11, IGMFM:08} which is the centre of mass of their immediate neighbours~(Figure~\ref{methods:FlyToCentre1}). 
 
-The cohesion vector is calculated by summing the relative position vectors identified from the origin agent ($b$) to each neighbouring agent. This vector is divided by the total number of neighbour agents~(\autoref{eq:FlyToCentre1}) to produce a resultant cohesion vector. The closer a neighbouring agent is to the agent of interest then the smaller the cohesion vector generated.
+The cohesion vector is calculated by summing the relative position vectors identified from the origin agent ($b$) to each neighbouring agent. This vector is divided by the total number of neighbour agents~(Figure~\ref{eq:FlyToCentre1}) to produce a resultant cohesion vector. The closer a neighbouring agent is to the agent of interest then the smaller the cohesion vector generated.
 
 \begin{figure}[H]
 \begin{center}
@@ -106,9 +106,9 @@ v_{c}(b) = \frac{\mathlarger{\sum_{b' \in nbr(b)}}{bb'}}{\card{nbr(b)}}
 \end{equation}‎
 
 \section{Swarm repulsion}\label{sec:Repulsion1}
-Repulsion is defined by Reynolds, Kawabayashi and Chen, and Shinichi et al. as the tendancy for an agent to move away from another agent that enters its repulson field~\cite{REY:87, KC:08, AYSH:08}. This creates a `field effect' around the agent such that when another agent enters that area a vector is applied to prevent the agents colliding. Repulsion is also applied to agents when they interact with obstacles, this is covered in~\autoref{section:ObstacleSection}.
+Repulsion is defined by Reynolds, Kawabayashi and Chen, and Shinichi et al. as the tendancy for an agent to move away from another agent that enters its repulson field~\cite{REY:87, KC:08, AYSH:08}. This creates a `field effect' around the agent such that when another agent enters that area a vector is applied to prevent the agents colliding. Repulsion is also applied to agents when they interact with obstacles, this is covered in~Figure~\ref{section:ObstacleSection}.
 
-Kawabayashi and Chen~\cite{KC:08}, Reynolds~\cite{REY:87} and Aso et al. implement repulsion as a vector at a boundary with a fixed magnitude~(\autoref{methods:Repulsion3}). 
+Kawabayashi and Chen~\cite{KC:08}, Reynolds~\cite{REY:87} and Aso et al. implement repulsion as a vector at a boundary with a fixed magnitude~(Figure~\ref{methods:Repulsion3}). 
 
 \begin{figure}[H]
 \begin{center}
@@ -119,7 +119,7 @@ Kawabayashi and Chen~\cite{KC:08}, Reynolds~\cite{REY:87} and Aso et al. impleme
 
 This approach produces a resultant repulsion vector that is based upon the angles at which the neighbour agents approach an agent without considering the proximity of the neighbours to the agent. 
 
-In this thesis the repulsion vector has a graduated magnitude. Each neighbouring agent's repulsive effect is applied proportionally~(\autoref{methods:Repulsion1}). When an agent encroaches upon another agent the degree of the field intrusion is mapped to a value in the range $0 \rightarrow 1$. This affects the magnitude of the repulsive vectors that are applied and therefore the resultant repulsion vector~(\autoref{methods:Repulsion4}). 
+In this thesis the repulsion vector has a graduated magnitude. Each neighbouring agent's repulsive effect is applied proportionally~(Figure~\ref{methods:Repulsion1}). When an agent encroaches upon another agent the degree of the field intrusion is mapped to a value in the range $0 \rightarrow 1$. This affects the magnitude of the repulsive vectors that are applied and therefore the resultant repulsion vector~(Figure~\ref{methods:Repulsion4}). 
 
 \begin{figure}[H]
 \begin{center}
@@ -128,7 +128,7 @@ In this thesis the repulsion vector has a graduated magnitude. Each neighbouring
 \end{center}
 \end{figure}
 
-This technique changes the repulsion vector such that the direction reduces the probability of a collision. In this thesis the inter-agent repulsion will be calculated as the average of all the proportional repulsion vectors~(\autoref{methods:Repulsion2}). 
+This technique changes the repulsion vector such that the direction reduces the probability of a collision. In this thesis the inter-agent repulsion will be calculated as the average of all the proportional repulsion vectors~(Figure~\ref{methods:Repulsion2}). 
  
 \begin{figure}[H]
 \begin{center}
@@ -137,7 +137,7 @@ This technique changes the repulsion vector such that the direction reduces the 
 \end{center}
 \end{figure}
 
-\autoref{methods:Repulsion4} shows a comparison of the two repulsion models with the proportional repulsion magnitude shown in green and the fixed magnitude shown in red. The two models produce different repulsion angles. The angle produced by the proportional model increases the distance agent ($b$) will move away from $b'$ when motion is applied. This reduces the chance of a collision between the two agents. The proposed proportional model is therefore suited to swarm's where agent collisions may cause problems. 
+Figure~\ref{methods:Repulsion4} shows a comparison of the two repulsion models with the proportional repulsion magnitude shown in green and the fixed magnitude shown in red. The two models produce different repulsion angles. The angle produced by the proportional model increases the distance agent ($b$) will move away from $b'$ when motion is applied. This reduces the chance of a collision between the two agents. The proposed proportional model is therefore suited to swarm's where agent collisions may cause problems. 
 
 \begin{figure}[H]
 \begin{center}
@@ -146,7 +146,7 @@ This technique changes the repulsion vector such that the direction reduces the 
 \end{center}
 \end{figure}
 
-To calculate the total inter-agent repulsion the neighbours that are within the repulsion field must be identified. This is shown in~\autoref{eq:Repulsion2}.
+To calculate the total inter-agent repulsion the neighbours that are within the repulsion field must be identified. This is shown in~Figure~\ref{eq:Repulsion2}.
 
 $R(b)$ is the set of all agents that are within the repulsion field. $R_b$ is the repulsion field and $\magn{bb'}$ is the distance between~$b$ and its neighbour~$b'$.  
 
@@ -171,7 +171,7 @@ v_{r}(b) =‎ -
 \section{Swarm agents/obstacles interactions\label{section:ObstacleSection}}
 Obstacles, like agents, can be represented as a point in the system. As an agent moves it may enter an obstacle's \textit{obstacle repulsion field} causing the agent to move away.
 
-In this thesis agents are modelled with a fixed obstacle repulsion distance $O_b$ where a repulsion vector is applied. The repulsion is then a vector of magnitude $O_b$. If more than one obstacle is within the field effect agent the total repulsion vector is the sum of the repulsion vectors due to each obstacle~\autoref{methods:Obstacle1}. The result is normalised and scaled such that the magnitude is the same as the field distance~$O_b$.
+In this thesis agents are modelled with a fixed obstacle repulsion distance $O_b$ where a repulsion vector is applied. The repulsion is then a vector of magnitude $O_b$. If more than one obstacle is within the field effect agent the total repulsion vector is the sum of the repulsion vectors due to each obstacle~Figure~\ref{methods:Obstacle1}. The result is normalised and scaled such that the magnitude is the same as the field distance~$O_b$.
 
 \begin{figure}[H]
 \begin{center}
@@ -211,7 +211,7 @@ v_o(b) =‎ O_b\Bigg(\mathlarger{\mathlarger{\mathlarger{\sum}}}_{o \in O~:~\mag
 %% \end{center}
 
 \section{Swarm direction (goal based swarms)}\label{sec:Direction1}
-There are two directional aspects to swarm motion. The \textit{interaction vector} which is the vector created by inter-agent reactions through the cohesive and repulsive fields as discussed in~\autoref{sec:Cohesion1} and~\autoref{sec:Repulsion1} and the vector for avoidance of obstacles~\autoref{section:ObstacleSection}. The \textit{destination vector} is applied to influence the motion of a agent towards a particular coordinate~\cite{BHK:07} and the \textit{interaction vector} to maintain the swarm's structure. This model is used by Barnes et al.~\cite{BAF:06, BAFVM:06}, Bennet and McInnes~\cite{BM:09}, Cai et al.~\cite{CML:ND}, Correll and Rus~\cite{CR:13}, Dinolov et al.~\cite{DLK:11} and Ekanayake et al.~\cite{EP:10}. This thesis uses a similar technique, defining a single destination as a \textit{destination vector} for goal based swarms. The application and effect of multiple destinations is discussed in future work~(\autoref{sec:DirectionalShape3} and \ref{sec:DirectionalShape4}). 
+There are two directional aspects to swarm motion. The \textit{interaction vector} which is the vector created by inter-agent reactions through the cohesive and repulsive fields as discussed in~Figure~\ref{sec:Cohesion1} and~Figure~\ref{sec:Repulsion1} and the vector for avoidance of obstacles~Figure~\ref{section:ObstacleSection}. The \textit{destination vector} is applied to influence the motion of a agent towards a particular coordinate~\cite{BHK:07} and the \textit{interaction vector} to maintain the swarm's structure. This model is used by Barnes et al.~\cite{BAF:06, BAFVM:06}, Bennet and McInnes~\cite{BM:09}, Cai et al.~\cite{CML:ND}, Correll and Rus~\cite{CR:13}, Dinolov et al.~\cite{DLK:11} and Ekanayake et al.~\cite{EP:10}. This thesis uses a similar technique, defining a single destination as a \textit{destination vector} for goal based swarms. The application and effect of multiple destinations is discussed in future work. 
 
 %% \begin{figure}[H]
 %% \begin{center}
@@ -220,7 +220,7 @@ There are two directional aspects to swarm motion. The \textit{interaction vecto
 %% \end{center}
 %% \end{figure}
 
-$v_d(b)$~(\autoref{eq:Destination1}) is the \textit{destination vector} where $d$ is the destination. 
+$v_d(b)$~(Equation~\ref{eq:Destination1}) is the \textit{destination vector} where $d$ is the destination. 
 
 \begin{center}
 \begin{equation}\label{eq:Destination1}‎
@@ -229,7 +229,7 @@ v_{d}(b) =‎ bd
 \end{center}
 
 \section{Weighted movement-direction model}\label{methods:weightedModel}
-An agent's \textit{movement-destination vector} is the sum of all the component vectors ($v_c, v_r, v_d, v_o$) (\autoref{eq:BotDirection1})~\cite{HAY:08}. For a vector to be used for movement it must have a magnitude of 1 before the agent's speed can be applied (\autoref{sec:Direction1}).
+An agent's \textit{movement-destination vector} is the sum of all the component vectors ($v_c, v_r, v_d, v_o$) (Equation~\ref{eq:BotDirection1})~\cite{HAY:08}. For a vector to be used for movement it must have a magnitude of 1 before the agent's speed can be applied (Section~\ref{sec:Direction1}).
 
 %%  as shown in~(\autoref{eq:BotDirection1}).
  
@@ -248,15 +248,15 @@ The purpose of a weighted aggregation model is to alter the level of influence o
 
 In this thesis the technique of \textit{weighted sum aggregation} is applied to the vector calculations to allow tuning of the swarming algorithm of an agent and to change the degree of influence to obtain a required swarming effect. 
 
-The tuning is applied to each component as a weighing factor $k$~\autoref{eq:BotPhysics1}. The weightings ($k_c, k_r, k_d, k_o$) are applied before normalising the \textit{movement-directional vector}. This change of bias allows levels of importance to be applied to a system characteristic i.e. $k_c > k_d$ implies it is more important for the agents to remain together than it is to travel towards the destination. This technique is similar to those identified by Muniganti and Pujol in their survey of mathematical modelling techniques~\cite{MP:10}. 
+The tuning is applied to each component as a weighing factor $k$~Equation~\ref{eq:BotPhysics1}. The weightings ($k_c, k_r, k_d, k_o$) are applied before normalising the \textit{movement-directional vector}. This change of bias allows levels of importance to be applied to a system characteristic i.e. $k_c > k_d$ implies it is more important for the agents to remain together than it is to travel towards the destination. This technique is similar to those identified by Muniganti and Pujol in their survey of mathematical modelling techniques~\cite{MP:10}. 
 
-Weightings can be applied in several ways. The weighting can be applied as a set of arbitrary integer values (12, 67, 99) or as a set of values that always have a summed value of 1 e.g. 0.5, 0.25, 0.25. Either of these techniques are acceptable as the resultant vector is normalised following the application of the weighting. This thesis implements the weightings as a set of arbitrary integer values~(\autoref{eq:BotPhysics1}). Where $k_c$ is the weighting factor for cohesion, $k_r$ is the weighting factor for repulsion, $k_o$ is the weighting factor for obstacles and $k_d$ is the weighting factor for a destination. 
+Weightings can be applied in several ways. The weighting can be applied as a set of arbitrary integer values (12, 67, 99) or as a set of values that always have a summed value of 1 e.g. 0.5, 0.25, 0.25. Either of these techniques are acceptable as the resultant vector is normalised following the application of the weighting. This thesis implements the weightings as a set of arbitrary integer values~(Equation~\ref{eq:BotPhysics1}). Where $k_c$ is the weighting factor for cohesion, $k_r$ is the weighting factor for repulsion, $k_o$ is the weighting factor for obstacles and $k_d$ is the weighting factor for a destination. 
 
 \begin{equation}\label{eq:BotPhysics1}‎
 v(b) =‎ k_cv_c(b) + k_rv_r(b) + k_ov_o(b) + k_dv_d(b)
 \end{equation}‎
 
-Special cases of~\autoref{eq:BotPhysics1} can be applied to a swarm model. A swarm with no destination can be modelled with the destination weighting set to zero to create the model shown in~\autoref{eq:BotDirection2} as used in Chapter~\ref{chapter:flooding}. This is also known as the \textit{interaction vector}
+Special cases of~Equation~\ref{eq:BotPhysics1} can be applied to a swarm model. A swarm with no destination can be modelled with the destination weighting set to zero to create the model shown in~Equation~\ref{eq:BotDirection2} as used in Chapter~\ref{chapter:flooding}. This is also known as the \textit{interaction vector}
 
 \begin{center}
 \begin{equation}
@@ -265,7 +265,7 @@ v(b) =‎ k_cv_c(b) + k_rv_r(b) + k_ov_o(b)
 \end{equation}‎
 \end{center}
 
-A swarm that does not interact with obstacles and has no goal (destination) can have $k_o$ and $k_d$ set to zero creating the model as shown in~\autoref{eq:BotDirection3}. This is also known as the \textit{inter-agent vector} as discussed in \autoref{Section:StabilityModel} on page \pageref{Section:StabilityModel}.
+A swarm that does not interact with obstacles and has no goal (destination) can have $k_o$ and $k_d$ set to zero creating the model as shown in~Equation~\ref{eq:BotDirection3}. This is also known as the \textit{inter-agent vector} as discussed in~\ref{Section:StabilityModel} on page \pageref{Section:StabilityModel}.
 
 \begin{center}
 \begin{equation}
@@ -274,9 +274,9 @@ v(b) =‎ k_cv_c(b) + k_rv_r(b)
 \end{equation}‎
 \end{center}
 
-\autoref{eq:BotDirection3} is also the model used in the calculation of the swarm magnitude metric as discussed in chapter~\ref{chapter:metric} where $v(b) \equiv P(b)$.
+Equation~\ref{eq:BotDirection3} is also the model used in the calculation of the swarm magnitude metric as discussed in chapter~\ref{chapter:metric} where $v(b) \equiv P(b)$.
 
-\section{Modelling movement}\label{sec:Direction1}
+\section{Modelling movement}\label{sec:Movement1}
 Each agent within a swarm calculates its \textit{movement-direction vector} based on its \textit{interaction} and \textit{destination} vectors. The \textit{movement vector}~($b_{pos}$) is calculated using the unit \textit{movement-direction vector} of Equation~\ref{eq:BotPhysics1} multiplied by the time elapsed~($t$) in the system and the speed characteristic of the agent~($s_b$).
 
 This process is carried out for every agent in the swarm to create the entire swarm's next position.
@@ -314,7 +314,7 @@ The increment in the location of agent $b$ over time interval $t$ is shown in Eq
 \section{Stable swarm structures}
 A swarming behaviour can be created using only cohesion and repulsion. This technique is known as a bi-variable model~\cite{BAF:06,BAFVM:06}. The bi-variable model produces natural geometric structures. The structures tend to be based on equilateral triangles and when the distribution of the agents allows, regular hexagons are formed. These structures only occur when the repulsion and cohesion field effects produce a distribution such that an agent's detected neighbours do not extend beyond the first agent detected in any direction~\cite{PCL:08, PCL:08a}. The effect of field effect ranges on a swarm's structure is discussed in chapter~\ref{chapter:SwarmType}.  
 
-The most stable state for agents is for all agents to be equidistant with equal angles. If two agents are in close proximity they will naturally adhere to each other due to the proximity rule (cohesion)~(\autoref{fig:StableForms}); repulsion will ensure a minimum distance is preserved. In the case of 3 agents a triangle will form. In the case of 4 agents the most stable shape will be a diamond with the centre agents joined. With 5 and 6 agents a triangular lattice will emerge and with 7 agents a stable hexagon will form. The hexagon~(\autoref{fig:StableFormHexagon}) is the most stable structure with all agents being equidistant and all angles between each neighbouring agent equal~\cite{BAF:06, GP:05}. These structures are seen throughout the natural world~\cite{RAZ:13}.
+The most stable state for agents is for all agents to be equidistant with equal angles. If two agents are in close proximity they will naturally adhere to each other due to the proximity rule (cohesion)~(Figure~\ref{fig:StableForms}); repulsion will ensure a minimum distance is preserved. In the case of 3 agents a triangle will form. In the case of 4 agents the most stable shape will be a diamond with the centre agents joined. With 5 and 6 agents a triangular lattice will emerge and with 7 agents a stable hexagon will form. The hexagon~(Figure~\ref{fig:StableFormHexagon}) is the most stable structure with all agents being equidistant and all angles between each neighbouring agent equal~\cite{BAF:06, GP:05}. These structures are seen throughout the natural world~\cite{RAZ:13}.
 
 \begin{figure}[H]
 \begin{center}
@@ -333,16 +333,16 @@ The most stable state for agents is for all agents to be equidistant with equal 
 
 
 \section{Resultant swarm model}
-The swarm model created by~\autoref{eq:BotPhysics1} with suitable weightings will allow a swarm to form `stable' structures such that the agents will remain connected~(\autoref{methods:Stable1}) and over time migrate to an optimum overall structure for the models parameters. The parameters are the field effect ranges, the cohesion and repulsion magnitude models and the weightings. 
+The swarm model created by~Equation~\ref{eq:BotPhysics1} with suitable weightings will allow a swarm to form `stable' structures such that the agents will remain connected~(Section~\ref{methods:Stable1}) and over time migrate to an optimum overall structure for the models parameters. The parameters are the field effect ranges, the cohesion and repulsion magnitude models and the weightings. 
 
-The initial random deployment of a set of agents to create a swarm produces a `disorganised' state. The disorganisation is caused by the varying cohesion and repulsion vectors that are generated by the inter-agent relationships. Following the initial deployment the magnitudes will create movements that gradually stabilise the swarm structure to a level of movement that best fits the model parameters~\cite{PG:08, WF:12}. The point of equilibrium for the swarm and the resultant structure is dependant upon the agent's cohesion and repulsion fields level of overlapping. This is discussed in section~\autoref{section:AnalysisA} and~\autoref{section:AnalysisB}.
+The initial random deployment of a set of agents to create a swarm produces a `disorganised' state. The disorganisation is caused by the varying cohesion and repulsion vectors that are generated by the inter-agent relationships. Following the initial deployment the magnitudes will create movements that gradually stabilise the swarm structure to a level of movement that best fits the model parameters~\cite{PG:08, WF:12}. The point of equilibrium for the swarm and the resultant structure is dependant upon the agent's cohesion and repulsion fields level of overlapping. This is discussed in section~\ref{section:AnalysisA} and~\ref{section:AnalysisB}.
 
 When modelling swarms it is common practice to have the agents in constant motion~\cite{LCW:07, GKF:13}. In this thesis agents are modelled moving at a constant speed with no inertial effect such that an agent can move freely within the system plane. The only exception to this will be if an equilibrium state is encountered where the summed vectors produce a null vector. If this occurs the agent will stop moving.
 
 \section{Swarm deployment}
-Using the methods discussed in this chapter a swarming behaviour emerges from a collection of agents. The initial deployment of a swarm may be a random dispersal of the agents such that the swarm is in a disorganised state~(\autoref{methods:Chaos1}), this disorganisation is caused by a instability in the magnitudes that are acting upon each of the agents (as detailed above). Based upon the application of the models discussed the swarm will initially move in such a way as to balance all the vectors resulting in a period of disorganisation in that the swarms goal of traversing an environment will be limited as the vectors generated to disperse the agents will inhibit the directional bias. 
+Using the methods discussed in this chapter a swarming behaviour emerges from a collection of agents. The initial deployment of a swarm may be a random dispersal of the agents such that the swarm is in a disorganised state~(\ref{methods:Chaos1}), this disorganisation is caused by a instability in the magnitudes that are acting upon each of the agents (as detailed above). Based upon the application of the models discussed the swarm will initially move in such a way as to balance all the vectors resulting in a period of disorganisation in that the swarms goal of traversing an environment will be limited as the vectors generated to disperse the agents will inhibit the directional bias. 
 
-This phase of the swarms life cycle is the `initialisation phase'~(\autoref{methods:StableTime1}). When the initialisation phase is over the vector calculations (cohesion, repulsion, and direction) will balance and the swarm will create stable shapes such as hexagonal lattices where all the angles and lengths (distances between agents) tend toward being equal~(\autoref{methods:Stable1})
+This phase of the swarms life cycle is the `initialisation phase'~(Figure~\ref{methods:StableTime1}). When the initialisation phase is over the vector calculations (cohesion, repulsion, and direction) will balance and the swarm will create stable shapes such as hexagonal lattices where all the angles and lengths (distances between agents) tend toward being equal~(Figure~\ref{methods:Stable1})
 
 The effects can be seem in the screenshots (Figures \ref{methods:Chaos1}, \ref{methods:Stable1}, \ref{methods:StableTime1}) from the simulator discussed in chapter~\ref{chapter:simulator}.
 
@@ -382,10 +382,10 @@ The Webot~\cite{CL:16} simulator, which is a commercal product, has been used su
 These simulators all provide a discrete time simulation environment. The main purpose of these simulators is to visualise either an individual robot or a swarm of robots based on a model that is defined through bespoke libraries and configuration parameters. On the other hand, in this thesis the main purpose of each simulation is to log all the positional and vector data associated with every agent at each discrete time interval. Due to this disparity in approaches it was decided to develop a simulator whose main purpose is the collection of data on distance, positions, distribution and inter-object vector magnitude influence. 
 
 \section{Development overview}\label{sim:intro}
-The simulator has two distinct components: a graphical design/simulation tool~(Appendix~\autoref{AP2:GRAPH}) and a command line based simulation-only tool~(Appendix~\autoref{AP2:CLI}). Both parts of the simulator are written in Python 3~\cite{PYTHON3:15} using an object model as shown in~\autoref{sim:objectModel}. Both use the same modelling engine by sharing the base classes.  The final object model is similar to that proposed by Vankerkom and Yu for swarm visualisation~\cite{VY:04}. The simulator design is also influenced by the \textit{`main loop'} proposed in the ARGoS simulator~\cite{PTOPB:11}.
+The simulator has two distinct components: a graphical design/simulation tool~(Appendix~\ref{AP2:GRAPH}) and a command line based simulation-only tool~(Appendix~\ref{AP2:CLI}). Both parts of the simulator are written in Python 3~\cite{PYTHON3:15} using an object model as shown in~section~\ref{sim:objectModel}. Both use the same modelling engine by sharing the base classes.  The final object model is similar to that proposed by Vankerkom and Yu for swarm visualisation~\cite{VY:04}. The simulator design is also influenced by the \textit{`main loop'} proposed in the ARGoS simulator~\cite{PTOPB:11}.
 
 \section{Swarm simulator object model}\label{sim:Simulator3}
-\autoref{sim:objectModel} shows the object model underlying the simulator. The \texttt{\textbf{World}} class models the Euclidean plane for the simulations. The \texttt{\textbf{World}} class is a container object for other classes including lists of swarms, destinations, and obstacles that make up the environment to be modelled. The \texttt{\textbf{Swarm}} class implements a list which contains several \texttt{\textbf{Participants}} (agents) that constitute a swarm. The \texttt{\textbf{Participant}} class models the swarm agents and inherits the \texttt{\textbf{Bot}} class which provides the positioning coordinates for the agents. The \texttt{\textbf{Destination}} and \texttt{\textbf{Obstacle}} classes inherit their coordinates from the \texttt{\textbf{Bot}} class. The \texttt{\textbf{Swarm}} class implements a generic physics model for the coordination of the agents. The \texttt{\textbf{BoidSwarm}} class inherits the \texttt{\textbf{Swarm}} class and implements the algorithm for the boid model which includes the physics modelling. The \texttt{\textbf{Logger}} class implements a data logging mechanism and is used to capture the simulation data from within the \texttt{\textbf{World}} class via the \texttt{\textbf{Global}} class which is an implementation of a singleton containing the environmental constraints.
+Figure~\ref{sim:objectModel} shows the object model underlying the simulator. The \texttt{\textbf{World}} class models the Euclidean plane for the simulations. The \texttt{\textbf{World}} class is a container object for other classes including lists of swarms, destinations, and obstacles that make up the environment to be modelled. The \texttt{\textbf{Swarm}} class implements a list which contains several \texttt{\textbf{Participants}} (agents) that constitute a swarm. The \texttt{\textbf{Participant}} class models the swarm agents and inherits the \texttt{\textbf{Bot}} class which provides the positioning coordinates for the agents. The \texttt{\textbf{Destination}} and \texttt{\textbf{Obstacle}} classes inherit their coordinates from the \texttt{\textbf{Bot}} class. The \texttt{\textbf{Swarm}} class implements a generic physics model for the coordination of the agents. The \texttt{\textbf{BoidSwarm}} class inherits the \texttt{\textbf{Swarm}} class and implements the algorithm for the boid model which includes the physics modelling. The \texttt{\textbf{Logger}} class implements a data logging mechanism and is used to capture the simulation data from within the \texttt{\textbf{World}} class via the \texttt{\textbf{Global}} class which is an implementation of a singleton containing the environmental constraints.
 
 \begin{figure}[H]
 \begin{center}
@@ -394,14 +394,14 @@ The simulator has two distinct components: a graphical design/simulation tool~(A
 \caption[Simulator object model]{Simulator object model}\label{sim:objectModel}
 \end{figure}
 
-The object modelling shown in \autoref{sim:objectModel} is implemented in Python using packages.
+The object modelling shown in Figure~\ref{sim:objectModel} is implemented in Python using packages.
 
 \section{Swarm simulator software}\label{sim:Simulator2}
 The main purpose of the graphical environment is for the setup of an experiment's initial configuration. This is achieved by positioning the agents, destinations, and obstacles in an environment and saving the configuration as a simulation file. As a secondary purpose the graphical environment is capable of running small scale simulations. The command line tool is used to execute the simulation experiments designed using the graphical tool. 
 
-The graphical tool, shown as (1) in~\autoref{sim:SimulatorOverview}, uses PyGame~\cite{PYGAME:15} as its graphical presentation layer. PyGame supports several rendering engines; in this application the default SDL rendering engine is used. The graphical simulator runs in real-time and is capable of simulating small swarms of \textless~150 agents on a PC with an \texttt{Intel® Core™ i7-4770 CPU @ 3.40GHz * 8} processor. This swarm size limitation is due to the Python code being executed on a single processor core. There is also a limitation in the performance of the graphical engine due to the rendering being performed by the interpreter.
+The graphical tool, shown as (1) in~Figure~\ref{sim:SimulatorOverview}, uses PyGame~\cite{PYGAME:15} as its graphical presentation layer. PyGame supports several rendering engines; in this application the default SDL rendering engine is used. The graphical simulator runs in real-time and is capable of simulating small swarms of \textless~150 agents on a PC with an \texttt{Intel® Core™ i7-4770 CPU @ 3.40GHz * 8} processor. This swarm size limitation is due to the Python code being executed on a single processor core. There is also a limitation in the performance of the graphical engine due to the rendering being performed by the interpreter.
  
-The command line tool, shown as (2) in~\autoref{sim:SimulatorOverview}, reads in the experiment configuration file generated via the graphical tool, shown as (1). The command line tool uses simulated descrete time~(\autoref{sim:time}) and is able to run with  arbitrary sized swarms without real-time processing limitations. The command line tool simulates the swarm and generates the initial data extract (3a). The data extract is then loaded into a MySQL database (3b) and the data is then agregated to create the complete dataset for the experiment (4). The processes 5 and 6 are discussed in~\autoref{sim:GraphingTools}.  This thesis deals with arbitrary sized swarms, so simulations are designed in the graphical environment but executed using the command-line-based simulator. 
+The command line tool, shown as (2) in~Figure~\ref{sim:SimulatorOverview}, reads in the experiment configuration file generated via the graphical tool, shown as (1). The command line tool uses simulated descrete time~(Figure~\ref{sim:time}) and is able to run with  arbitrary sized swarms without real-time processing limitations. The command line tool simulates the swarm and generates the initial data extract (3a). The data extract is then loaded into a MySQL database (3b) and the data is then agregated to create the complete dataset for the experiment (4). The processes 5 and 6 are discussed in~Figure~\ref{sim:GraphingTools}.  This thesis deals with arbitrary sized swarms, so simulations are designed in the graphical environment but executed using the command-line-based simulator. 
 
 \begin{figure}[H]
 \begin{center}
@@ -410,7 +410,7 @@ The command line tool, shown as (2) in~\autoref{sim:SimulatorOverview}, reads in
 \caption{Simulator process overview\label{sim:SimulatorOverview}}
 \end{figure}
 
-\autoref{sim:SimulatorOverview} shows the stages of the simulation from developing an experiment~(1) through to the production of simulation results~(6).
+Figure~\ref{sim:SimulatorOverview} shows the stages of the simulation from developing an experiment~(1) through to the production of simulation results~(6).
 
 The complete PySwarmWorld application is available at \url{https://drive.google.com/file/d/0B0DIRBx-V-eYVnNvVEkzUkRuZVk/view?usp=sharing}.
 
@@ -430,7 +430,7 @@ For the identification of an agent's position a GPS with a sample rate of the sa
 \subsection{Cohesion implementation}
 Within the simulation the neighbour range is calculated by comparing a set distance (neighbour range) to the magnitude of the \textit{inter-agent vectors}.
 
-An agent's cohesion is implemented in the simulation software as~\autoref{code:cohesion1}. Line~\autoref{line:neighbours} shows the iteration over all the neighbours. Line~\autoref{line:sumVectors} calculates the sum of the vectors created by the neighbours. Line~\autoref{line:resultantCohesion} divides the summed vectors by the number of neighbours. This process generates the cohesion vector for an agent to its neighbours.
+An agent's cohesion is implemented in the simulation software as~Listing~\ref{code:cohesion1}. Line~\ref{line:neighbours} shows the iteration over all the neighbours. Line~\ref{line:sumVectors} calculates the sum of the vectors created by the neighbours. Line~\ref{line:resultantCohesion} divides the summed vectors by the number of neighbours. This process generates the cohesion vector for an agent to its neighbours.
 
 \lstset{language=Python,
 basicstyle=\tiny,
@@ -454,7 +454,7 @@ def flyTowardsCentre(participant):
 \end{lstlisting}
 
 \subsection{Repulsion implementation}
-\autoref{code:repulsion1} shows the implementation of inter-agent repulsion in the simulation software. This effect reduces the possibility of agents colliding. Line~\autoref{line:calcDistance} identifies the distance between a neighbour and an agent. This distance is then used to identify if a repulsive vector needs to be generated (Line~\autoref{line:isRepulsion}). Lines~\autoref{line:amountRepulsion} and~\autoref{line:applyRepulsion} calculate the proportional effect of the repulsion that is then applied to an agent.
+Listing~\ref{code:repulsion1} shows the implementation of inter-agent repulsion in the simulation software. This effect reduces the possibility of agents colliding. Line~\ref{line:calcDistance} identifies the distance between a neighbour and an agent. This distance is then used to identify if a repulsive vector needs to be generated (Line~\ref{line:isRepulsion}). Lines~\ref{line:amountRepulsion} and~\ref{line:applyRepulsion} calculate the proportional effect of the repulsion that is then applied to an agent.
 
 \lstset{language=Python,
 basicstyle=\tiny,
@@ -480,7 +480,7 @@ def moveAway(participant):
 \end{lstlisting}
 
 \subsection{Destination implementation}
-\autoref{code:destination1} shows the implementation of the destination vector. Line~\autoref{line:isPerimeter} identifies if an agent should apply a destination vector. Line~\autoref{line:perimeterEffect} generates a vector based on the \texttt{\textbf{target}}, The \texttt{\textbf{target}} is the destination that is closest to the agent. The vector manipulation function (\texttt{\textbf{normalise()}}) is located in the \texttt{\textbf{Vector}} class. The result of the process is a vector which influences the agent with a directional bias or a null vector.
+Listing~\ref{code:destination1} shows the implementation of the destination vector. Line~\ref{line:isPerimeter} identifies if an agent should apply a destination vector. Line~\ref{line:perimeterEffect} generates a vector based on the \texttt{\textbf{target}}, The \texttt{\textbf{target}} is the destination that is closest to the agent. The vector manipulation function (\texttt{\textbf{normalise()}}) is located in the \texttt{\textbf{Vector}} class. The result of the process is a vector which influences the agent with a directional bias or a null vector.
 
 \lstset{language=Python,
 basicstyle=\tiny,
@@ -502,7 +502,7 @@ def moveTowardsDestination(participant):
 \end{lstlisting}
 
 \subsection{Obstacle avoidance implementation}
-\autoref{code:obstacle1} shows how the obstacle avoidance vector is implemented in the simulator. If an agent falls within the range of an obstacle it must be repelled. The method takes as parameters a list of the obstacles and an agent. The method then iterates over each of the obstacles~(Line~\autoref{line:obstacleList}) and identifies if the agent is within the obstacle's field effect~(Line~\autoref{line:obstacleRange}). If the agent is within the field effect the fixed repulsion vector for each obstacle the agent is in range of is added~(Line~\autoref{line:obstacleFixedField}). The result is a directional vector that must be applied to the agent.
+Listing~\ref{code:obstacle1} shows how the obstacle avoidance vector is implemented in the simulator. If an agent falls within the range of an obstacle it must be repelled. The method takes as parameters a list of the obstacles and an agent. The method then iterates over each of the obstacles~(Line~\ref{line:obstacleList}) and identifies if the agent is within the obstacle's field effect~(Line~\ref{line:obstacleRange}). If the agent is within the field effect the fixed repulsion vector for each obstacle the agent is in range of is added~(Line~\ref{line:obstacleFixedField}). The result is a directional vector that must be applied to the agent.
  
 \lstset{language=Python,
 basicstyle=\tiny,
@@ -529,7 +529,7 @@ def avoidObstacles(participant, obstacles):
 \end{lstlisting}
 
 \subsection{Agent model implementation}
-\autoref{code:worldPhysics1} shows how the implementation of the complete physics model for a boid-based swarm is implemented in the simulator. This code is part of the \texttt{\textbf{BoidSwarm}} class which inherits the \texttt{\textbf{Swarm}} class. This method is the specialisation for the boid swarm. Method \texttt{\textbf{calcTrajectory()}} is the only method in the \texttt{\textbf{BoidSwarm}}~class it collates all the cohesion and repulsion vectors for the inter-agent and inter-object interactions and applies the vectors using the weighted model~(line \autoref{line:weightedModel}). On line~\autoref{line:convexCompress} the simulator status is checked to identify if the simulation is to implement the convex compression algorithm. If convex compression is to be applied then an alternate physics model is applied to the agents. The repulsion vector is still applied but also a \texttt{\textbf{moveBetweenTwoNeighbours()}} method generates a vector that is applied. This vector is designed to `smooth' a swarm's perimeter. This will be covered in more detail in~\autoref{concave:ConcaveVoidReduction1}.
+Listing~\ref{code:worldPhysics1} shows how the implementation of the complete physics model for a boid-based swarm is implemented in the simulator. This code is part of the \texttt{\textbf{BoidSwarm}} class which inherits the \texttt{\textbf{Swarm}} class. This method is the specialisation for the boid swarm. Method \texttt{\textbf{calcTrajectory()}} is the only method in the \texttt{\textbf{BoidSwarm}}~class it collates all the cohesion and repulsion vectors for the inter-agent and inter-object interactions and applies the vectors using the weighted model~(line~\ref{line:weightedModel}). On line~\ref{line:convexCompress} the simulator status is checked to identify if the simulation is to implement the convex compression algorithm. If convex compression is to be applied then an alternate physics model is applied to the agents. The repulsion vector is still applied but also a \texttt{\textbf{moveBetweenTwoNeighbours()}} method generates a vector that is applied. This vector is designed to `smooth' a swarm's perimeter. This will be covered in more detail in~Figure~\ref{concave:ConcaveVoidReduction1}.
 
 \lstset{language=Python,
 basicstyle=\tiny,

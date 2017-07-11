@@ -70,10 +70,10 @@
 \contentsline {subsection}{\numberline {5.6.1}Simple multifaceted algorithm}{80}{subsection.5.6.1}
 \contentsline {subsection}{\numberline {5.6.2}Basic-count effect}{80}{subsection.5.6.2}
 \contentsline {section}{\numberline {5.7}Complex multifaceted swarm (full-perimeter)}{83}{section.5.7}
-\contentsline {subsection}{\numberline {5.7.1}Full-perimeter coordinator detection}{84}{subsection.5.7.1}
-\contentsline {subsubsection}{\numberline {5.7.1.1}Perimeter detection errors}{89}{subsubsection.5.7.1.1}
-\contentsline {subsubsection}{\numberline {5.7.1.2}Perimeter and void detection}{90}{subsubsection.5.7.1.2}
-\contentsline {subsection}{\numberline {5.7.2}Baseline/full perimeter comparison}{91}{subsection.5.7.2}
+\contentsline {subsection}{\numberline {5.7.1}Full-perimeter coordinator detection}{85}{subsection.5.7.1}
+\contentsline {subsubsection}{\numberline {5.7.1.1}Perimeter detection errors}{90}{subsubsection.5.7.1.1}
+\contentsline {subsubsection}{\numberline {5.7.1.2}Perimeter and void detection}{91}{subsubsection.5.7.1.2}
+\contentsline {subsection}{\numberline {5.7.2}Baseline/full perimeter comparison}{92}{subsection.5.7.2}
 \contentsline {subsection}{\numberline {5.7.3}Complex Multifaceted Swarm (full-perimeter) - Simulation}{93}{subsection.5.7.3}
 \contentsline {section}{\numberline {5.8}Baseline and effect comparison}{94}{section.5.8}
 \contentsline {subsection}{\numberline {5.8.1}Internal movement comparison}{94}{subsection.5.8.1}
@@ -92,7 +92,7 @@
 \contentsline {chapter}{\numberline {6.}Swarm coordination - concave reduction}{116}{chapter.6}
 \contentsline {section}{\numberline {6.1}Concave reduction implementation}{120}{section.6.1}
 \contentsline {section}{\numberline {6.2}Concave reduction agent movement}{122}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Perimeter Exceptions}{123}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.1}Perimeter Exceptions}{124}{subsection.6.2.1}
 \contentsline {section}{\numberline {6.3}Concave reduction mathematical model}{124}{section.6.3}
 \contentsline {section}{\numberline {6.4}Application of concave reduction on perimeter agents}{125}{section.6.4}
 \contentsline {section}{\numberline {6.5}Application of concave reduction on concave perimeters (voids)}{136}{section.6.5}
@@ -147,6 +147,6 @@
 \contentsline {subsubsection}{\numberline {E.1.1.6}\texttt {\textbf {FULLNEIGHBOUR}} view}{220}{subsubsection.E.1.1.6}
 \contentsline {subsubsection}{\numberline {E.1.1.7}\texttt {\textbf {NEIGHBOURDISTANCE}} view}{220}{subsubsection.E.1.1.7}
 \contentsline {subsubsection}{\numberline {E.1.1.8}\texttt {\textbf {SWARMTRAVELLED}} view}{220}{subsubsection.E.1.1.8}
-\contentsline {subsubsection}{\numberline {E.1.1.9}\texttt {\textbf {DISTANCEGPS}} view}{220}{subsubsection.E.1.1.9}
+\contentsline {subsubsection}{\numberline {E.1.1.9}\texttt {\textbf {DISTANCEGPS}} view}{221}{subsubsection.E.1.1.9}
 \contentsline {subsubsection}{\numberline {E.1.1.10}\texttt {\textbf {SWARMPROFILE}} view}{221}{subsubsection.E.1.1.10}
 \contentsline {section}{\numberline {E.2}Data graphing tools}{221}{section.E.2}

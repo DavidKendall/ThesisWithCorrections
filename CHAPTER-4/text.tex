@@ -160,11 +160,11 @@ If a swarm is goal-based the additional \textit{directional vector} will prevent
 \centering
 \subfigure[($t$)]{
 	 \includegraphics[width=5.5cm]{CHAPTER-4/figures/StabilityNullVector3}
-    \label{concave:VoidPerimeter1}
+    \label{metric:VoidPerimeter1}
 }
 \subfigure[($t + 1$)]{
 	 \includegraphics[width=6cm]{CHAPTER-4/figures/StabilityNullVector2}
-    \label{concave:VoidPerimeter2}
+    \label{metric:VoidPerimeter2}
 }
 \caption{Directional movement and the null vector}
 \label{methods:StabilityNullVector2}
@@ -228,7 +228,7 @@ The standard deviation is calculated as~\autoref{eq:SwarmStabilityQuotientT} whe
 \sigma_p(S) = \sqrt{\frac{\mathlarger{\sum_{b \in S}}~\mathlarger{\sum_{b' \in nbr(b)}}\Big(P(b')-\mu_p(S)\Big)^2}{\mathlarger{\sum_{b \in S}}\card{nbr(b)}}}
 \end{equation}
 
-The metric for the internal movement is a set of numbers, the mean and standard deviation of the swarm's internal \textit{agent resultant magnitude} derived from each agent and its neighbour interactions~(\autoref{eq:SwarmPotentialMagnitude}). The pair $\mu_p(S)$, $\sigma_p(S)$ may be written informally as: 
+The metric for the internal movement is a set of numbers, the mean and standard deviation of the swarm's internal \textit{agent resultant magnitude} derived from each agent and its neighbour interactions~Equation~(\ref{eq:SwarmPotentialMagnitude}). The pair $\mu_p(S)$, $\sigma_p(S)$ may be written informally as: 
 
 \begin{equation}
 \label{eq:SwarmPotentialMagnitude}
@@ -246,7 +246,7 @@ The relative position vector generated for an agent $b$ to its neighbour $b'$, $
 \mu_d(b) = \frac{\mathlarger{\sum_{b' \in nbr(b)}}\magn{bb'}}{\mathlarger{\card{nbr(b)}}}
 \end{equation}
 
-\label{eq:SwarmStabilityDistance1} identifies the mean distance for an individual agent. The mean distance for a swarm is calculated by \autoref{eq:SwarmStabilityDistance2}. All the inter-agent interactions must be included for the swarm ($S$). $\sum_{b \in S}|nbr(b)|$ calculates how many inter-agent relationships exist in the swarm and $\sum_{b' \in nbr(b)}\magn{bb'}$ calculates the total distance between each agent and its neighbours. $\sum_{b \in S}$ iterates over all the agents in the swarm~($S$).
+Equation~\ref{eq:SwarmStabilityDistance1} identifies the mean distance for an individual agent. The mean distance for a swarm is calculated by \autoref{eq:SwarmStabilityDistance2}. All the inter-agent interactions must be included for the swarm ($S$). $\sum_{b \in S}|nbr(b)|$ calculates how many inter-agent relationships exist in the swarm and $\sum_{b' \in nbr(b)}\magn{bb'}$ calculates the total distance between each agent and its neighbours. $\sum_{b \in S}$ iterates over all the agents in the swarm~($S$).
 
 \begin{equation}
 \label{eq:SwarmStabilityDistance2}
@@ -264,7 +264,7 @@ The mechanism above provides an overall indication of the distribution of the ag
 The distance metric for the internal distribution of the agents is the pair consisting of $\mu_d(S)$, $\sigma_d(S)$ the mean and the standard deviation of the swarm's internal resultant distances from every agent in the swarm. This can be written informally as:
 
 \begin{equation}
-\label{eq:SwarmPotentialMagnitude}
+\label{eq:SwarmPotentialMagnitude2}
 \psi_d = \mu_d(S)\pm \sigma_d(S)
 \end{equation}
 
