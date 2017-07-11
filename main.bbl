@@ -111,7 +111,7 @@ The british~beekeepers association.
 
 \bibitem{BSB:15}
 Matthias~R Brust and Bogdan~M Strimbu.
-\newblock A networked swarm model for uav deployment in the assessment of
+\newblock A networked swarm model for {UAV} deployment in the assessment of
   forest environments.
 \newblock In {\em IEEE Tenth International Conference on Intelligent Sensors,
   Sensor Networks and Information Processing (ISSNIP)}, pages 1--6. IEEE, 2015.
@@ -170,6 +170,13 @@ X.~Cui, C.~T. Hardin, R.~K. Ragade, and A.~S. Elmaghraby.
 \newblock In {\em 16th IEEE International Conference on Tools with Artificial
   Intelligence (ICTAI)}, pages 424--430, Nov 2004.
 
+\bibitem{DHMRZ:06}
+Y.~S. Dai, M.~Hinchey, M.~Madhusoodan, J.~L. Rash, and X.~Zou.
+\newblock A prototype model for self-healing and self-reproduction in swarm
+  robotics system.
+\newblock In {\em 2nd IEEE International Symposium on Dependable, Autonomic and
+  Secure Computing}, pages 3--10, Sept 2006.
+
 \bibitem{DK:02}
 G.~N. Desouza and A.~C. Kak.
 \newblock Vision for mobile robot navigation: a survey.
@@ -212,7 +219,7 @@ Samitha~W Ekanayake and Pubudu~N Pathirana.
 
 \bibitem{SF:16}
 SparkFun Electronics.
-\newblock Sparkfun venus gps with sma connector.
+\newblock Sparkfun venus {GPS} with {SMA} connector.
 \newblock \url{https://www.sparkfun.com/products/11058}, September 2016.
 \newblock [Online; accessed 24-Sept-2016].
 
@@ -281,13 +288,13 @@ Google.
 
 \bibitem{G:13}
 Google.
-\newblock Project loon homepage.
+\newblock Project {L}oon {H}omepage.
 \newblock \url{https://www.google.com/loon/}, 2013.
 \newblock [Online; accessed 18-Jan-2014].
 
 \bibitem{EG:11}
 Erico Guizzo.
-\newblock video: watch flying robots build a 6 meter tower - ieee spectrum.
+\newblock video: watch flying robots build a 6 meter tower - {IEEE} {S}pectrum.
 \newblock
   \url{http://spectrum.ieee.org/automaton/robotics/diy/video-watch-flying-robots-build-a-6-meter-tower},
   Dec 2011.
@@ -347,7 +354,7 @@ Hiroshi Hashimoto, Shinichi Aso, Syo Yokota, Akinori Sasaki, Yasuhiro Ohya, and
 
 \bibitem{NZH:13}
 New~Zealand Herald.
-\newblock Google launches project loon.
+\newblock {G}oogle launches project {L}oon.
 \newblock
   \url{http://www.nzherald.co.nz/nz/news/article.cfm?c_id=1&objectid=10890750},
   June 2013.
@@ -404,7 +411,7 @@ S.~P. Hou, C.~C. Cheah, and J.~J.~E. Slotine.
 
 \bibitem{JH:16}
 John Hunter.
-\newblock matplotlib: python plotting - matplotlib 1.5.1 documentation.
+\newblock {M}atplotlib: {P}ython plotting - {M}atplotlib 1.5.1 {D}ocumentation.
 \newblock \url{http://matplotlib.org/}, February 2016.
 \newblock [Online; accessed 15-Apr-2016].
 
@@ -413,12 +420,6 @@ O~Ilaya, C~Bil, and M~Evans.
 \newblock Control design for unmanned aerial vehicle swarming.
 \newblock {\em Proceedings of the Institution of Mechanical Engineers, Part G:
   Journal of Aerospace Engineering}, 222(4):549--567, 2008.
-
-\bibitem{MATLAB:94}
-MathWorks Inc.
-\newblock Matlab - mathworks - mathworks united kingdom.
-\newblock \url{http://uk.mathworks.com/products/matlab/}, 1994.
-\newblock [Online; accessed 09-May-2016].
 
 \bibitem{I:01}
 Luca Iocchi, Daniele Nardi, and Massimiliano Salerno.
@@ -459,9 +460,9 @@ Shin-Young Jung and Michael~A Goodrich.
 
 \bibitem{KS:ND}
 Kanchan Kamnani and Chaitali Suratkar.
-\newblock A review paper on google loon technique.
+\newblock A review paper on {G}oogle {L}oon technique.
 \newblock {\em International Journal of Research In Science and Engineering},
-  1(Special Issue: 1):167--171, 2016.
+  1(Special Issue:1):167--171, 2016.
 
 \bibitem{KC:08}
 H.~Kawabayashi and Y.~W. Chen.
@@ -589,6 +590,12 @@ Nithin Mathews, Gabriele Valentini, Anders~Lyhne Christensen, Rehan O’Grady,
 \newblock Spatially targeted communication in decentralized multirobot systems.
 \newblock {\em Autonomous Robots}, 38(4):439--457, 2015.
 
+\bibitem{MATLAB:94}
+{M}ath{W}orks {I}nc.
+\newblock {MATLAB} - {M}athworks - {M}athworks {U}nited {K}ingdom.
+\newblock \url{http://uk.mathworks.com/products/matlab/}, 1994.
+\newblock [Online; accessed 09-May-2016].
+
 \bibitem{MD:09}
 James McLurkin and Erik~D Demaine.
 \newblock A distributed boundary detection algorithm for multi-robot systems.
@@ -604,12 +611,6 @@ Don Miner.
 Don Miner and Niels Kasch.
 \newblock Swarmvis: a tool for visualizing swarm systems.
 \newblock {\em UMBC Computer Science}, 636, 2011.
-
-\bibitem{MP:09}
-Y.~Mohan and S.~G. Ponnambalam.
-\newblock An extensive review of research in swarm robotics.
-\newblock In {\em World Congress on Nature Biologically Inspired Computing
-  (NaBIC 2009)}, pages 140--145, Dec 2009.
 
 \bibitem{MYP:09}
 Yogeswaran Mohan and SG~Ponnambalam.
@@ -694,7 +695,7 @@ Reza Olfati-Saber, Alex Fax, and Richard~M Murray.
 
 \bibitem{RO:15}
 Randal Olson.
-\newblock Current research | dr. randal s. olson.
+\newblock {C}urrent {R}esearch | {D}r. {R}andal {S}. {O}lson.
 \newblock \url{http://www.randalolson.com/about/research/}, April 2016.
 \newblock [Online; accessed 13-Apr-2016].
 
@@ -786,8 +787,8 @@ R.~Ramaithitima, M.~Whitzer, S.~Bhattacharya, and V.~Kumar.
 
 \bibitem{RAZ:13}
 Tim R{\"a}z.
-\newblock On the application of the honeycomb conjecture to the bee's
-  honeycomb.
+\newblock On the {A}pplication of the {H}oneycomb {C}onjecture to the {B}ee's
+  {H}oneycomb.
 \newblock {\em Philosophia Mathematica}, page nkt022, 2013.
 
 \bibitem{REY:87}
@@ -823,13 +824,6 @@ M.~Rubenstein and W.~M. Shen.
   self-healing of a differentiated shape.
 \newblock In {\em IEEE/RSJ International Conference on Intelligent Robots and
   Systems (IROS 2008)}, pages 1397--1402, Sept 2008.
-
-\bibitem{DHMRZ:06}
-Y.~s.~Dai, M.~Hinchey, M.~Madhusoodan, J.~L. Rash, and X.~Zou.
-\newblock A prototype model for self-healing and self-reproduction in swarm
-  robotics system.
-\newblock In {\em 2nd IEEE International Symposium on Dependable, Autonomic and
-  Secure Computing}, pages 3--10, Sept 2006.
 
 \bibitem{SALGVPJ:08}
 J~Saez-Pons, Lyuba Alboul, Veysel Gazi, and Jacques Penders.
@@ -904,7 +898,7 @@ Zhiguo Shi, Jun Tu, Junming Wei, Qiao Zhang, and Xiaomeng Zhang.
 
 \bibitem{DS:15}
 David Smalley.
-\newblock Autonomous warfare – a revolution in military affairs.
+\newblock {A}utonomous {W}arfare - {A} {R}evolution in {M}ilitary {A}ffairs.
 \newblock
   \url{http://www.onr.navy.mil/Media-Center/Press-Releases/2015/LOCUST-low-cost-UAV-swarm-ONR.aspx},
   April 2015.
@@ -945,8 +939,8 @@ Ariana Strandburg-Peshkin, Damien~R. Farine, Iain~D. Couzin, and Margaret~C.
 \bibitem{SRDF:10}
 Ruben Stranders, Francesco~Maria Delle~Fave, Alex Rogers, and Nick Jennings.
 \newblock A decentralised coordination algorithm for mobile sensors.
-\newblock {\em Association for the Advancement of Artificial Copyright
-  Intelligence (www.aaai.org)}, 2010.
+\newblock {\em Association for the Advancement of Artificial Intelligence
+  (www.aaai.org)}, 2010.
 
 \bibitem{TDEB:12}
 Chad~M. Topaz, Maria~R. D'Orsogna, Leah Edelstein-Keshet, and Andrew~J.
@@ -980,8 +974,8 @@ Maarten Vankerkom and Jin Yu.
 
 \bibitem{VH:09}
 E.~Vassev and M.~Hinchey.
-\newblock Assl specification and code generation of self-healing behavior for
-  nasa swarm-based systems.
+\newblock {ASSL} {S}pecification and {C}ode {G}eneration of {S}elf-{H}ealing
+  {B}ehavior for {NASA} {S}warm-{B}ased {S}ystems.
 \newblock In {\em Sixth IEEE Conference and Workshops on Engineering of
   Autonomic and Autonomous Systems}, pages 77--86, April 2009.
 
@@ -1003,7 +997,7 @@ Liangshun Wang and Huajing Fang.
 
 \bibitem{MW:15}
 Maxim Worchester.
-\newblock Autonomous warfare – a revolution in military affairs.
+\newblock {A}utonomous {W}arfare - {A} {R}evolution in {M}ilitary {A}ffairs.
 \newblock \url{https://www.files.ethz.ch/isn/190160/340_Worcester.pdf}, April
   2015.
 \newblock [Online; accessed 15-Apr-2016].
