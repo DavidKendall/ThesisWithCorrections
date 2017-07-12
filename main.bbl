@@ -281,7 +281,7 @@ Veysel Gazi and Kevin~M Passino.
 
 \bibitem{RAV:13}
 Google.
-\newblock Google launches project loon.
+\newblock Google launches {P}roject {L}oon.
 \newblock
   \url{http://ravenaerostar.com/products/high-altitude-ballons/project-loon-balloons}.
 \newblock [Online; accessed 30-Sept-2014].
@@ -330,7 +330,7 @@ S.~Güler, N.~Köksal, and B.~Fidan.
 
 \bibitem{HT:2001}
 T.~C. Hales.
-\newblock The honeycomb conjecture.
+\newblock The {H}oneycomb {C}onjecture.
 \newblock {\em Discrete {\&} Computational Geometry}, 25(1):1--22, 2001.
 
 \bibitem{HSSC:10}
@@ -354,7 +354,7 @@ Hiroshi Hashimoto, Shinichi Aso, Syo Yokota, Akinori Sasaki, Yasuhiro Ohya, and
 
 \bibitem{NZH:13}
 New~Zealand Herald.
-\newblock {G}oogle launches project {L}oon.
+\newblock {G}oogle launches {P}roject {L}oon.
 \newblock
   \url{http://www.nzherald.co.nz/nz/news/article.cfm?c_id=1&objectid=10890750},
   June 2013.
@@ -448,8 +448,8 @@ B.~Jakimovski, B.~Meyer, and E.~Maehle.
 
 \bibitem{JRD:03}
 Rapha{\"e}l Jeanson, Francis L~W Ratnieks, and Jean-Louis Deneubourg.
-\newblock Pheromone trail decay rates on different substrates in the pharaoh's
-  ant, monomorium pharaonis (l.).
+\newblock {P}heromone trail decay rates on different substrates in the
+  {P}haraoh's ant, {M}onomorium {P}haraonis ({L}.).
 \newblock {\em Physiological Entomology}, 28(3):192--198, 2003.
 
 \bibitem{JG:13}
@@ -567,7 +567,7 @@ CYBERBOTICS Ltd.
 
 \bibitem{MV:12}
 Z.~Ma and G.~A.~E. Vandenbosch.
-\newblock Comparison of weighted sum approaches for pso fitness functions in
+\newblock Comparison of weighted sum approaches for {PSO} fitness functions in
   antenna design.
 \newblock In {\em 42nd European Microwave Conference (EuMC)}, pages 842--845,
   Oct 2012.
@@ -585,7 +585,7 @@ Marco Mamei, Matteo Vasirani, and Franco Zambonelli.
 \newblock {\em Applied Artificial Intelligence}, 18(9-10):903--919, 2004.
 
 \bibitem{NVC:15}
-Nithin Mathews, Gabriele Valentini, Anders~Lyhne Christensen, Rehan O’Grady,
+Nithin Mathews, Gabriele Valentini, Anders~Lyhne Christensen, Rehan O`Grady,
   Arne Brutschy, and Marco Dorigo.
 \newblock Spatially targeted communication in decentralized multirobot systems.
 \newblock {\em Autonomous Robots}, 38(4):439--457, 2015.
@@ -906,7 +906,8 @@ David Smalley.
 
 \bibitem{SG:15}
 J.~Song and S.~Gupta.
-\newblock Slam based shape adaptive coverage control using autonomous vehicles.
+\newblock {SLAM} based shape adaptive coverage control using autonomous
+  vehicles.
 \newblock In {\em 10th System of Systems Engineering Conference (SoSE)}, pages
   268--273, May 2015.
 
@@ -1030,7 +1031,8 @@ Mao Yang, Gan-gui Yan, and Yan-tao Tian.
 
 \bibitem{YH:14}
 Y.~T. Yao and R.~H. Hwang.
-\newblock Analysis of swarm behavior of users' gps data based on boids model.
+\newblock {A}nalysis of {S}warm {B}ehavior of {U}sers' {GPS} {D}ata {B}ased on
+  {B}oids {M}odel.
 \newblock In {\em IEEE International Conference on Internet of Things
   (iThings), and Green Computing and Communications (GreenCom), IEEE and Cyber,
   Physical and Social Computing(CPSCom)}, pages 421--427, Sept 2014.
