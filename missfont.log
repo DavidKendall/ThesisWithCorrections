@@ -53,3 +53,4 @@ mktexpk --mfmode ljfour --bdpi 8000 --mag 0+6400/(2*4000) --dpi 6400 cmttb10
 mktexpk --mfmode ljfour --bdpi 8000 --mag 0+6400/(2*4000) --dpi 6400 cmttb10
 mktexpk --mfmode ljfour --bdpi 8000 --mag 0+6400/(2*4000) --dpi 6400 cmttb10
 mktexpk --mfmode ljfour --bdpi 8000 --mag 0+6400/(2*4000) --dpi 6400 cmttb10
+mktexpk --mfmode ljfour --bdpi 8000 --mag 0+6400/(2*4000) --dpi 6400 cmttb10
