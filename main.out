@@ -128,8 +128,10 @@
 \BOOKMARK [1][-]{section.C.1}{Analysis database schema}{appendix.C}% 128
 \BOOKMARK [0][-]{appendix.D}{SIMULATOR DATA SETS}{part*.8}% 129
 \BOOKMARK [0][-]{appendix.E}{Simulator data capture}{part*.8}% 130
-\BOOKMARK [1][-]{subsection.E.0.1}{Data capture implementation}{appendix.E}% 131
-\BOOKMARK [2][-]{subsection.E.0.2}{Data capture tables}{subsection.E.0.1}% 132
-\BOOKMARK [1][-]{section.E.1}{Simulator data aggregation}{appendix.E}% 133
-\BOOKMARK [2][-]{subsection.E.1.1}{Data aggregation views}{section.E.1}% 134
-\BOOKMARK [1][-]{section.E.2}{Data graphing tools}{appendix.E}% 135
+\BOOKMARK [1][-]{section.E.1}{Data capture implementation}{appendix.E}% 131
+\BOOKMARK [1][-]{section.E.2}{Data capture tables}{appendix.E}% 132
+\BOOKMARK [2][-]{subsection.E.2.1}{PARTICIPANT table \(Agents\)}{section.E.2}% 133
+\BOOKMARK [2][-]{subsection.E.2.2}{NEIGHBOUR table}{section.E.2}% 134
+\BOOKMARK [1][-]{section.E.3}{Simulator data aggregation}{appendix.E}% 135
+\BOOKMARK [2][-]{subsection.E.3.1}{Data aggregation views}{section.E.3}% 136
+\BOOKMARK [1][-]{section.E.4}{Data graphing tools}{appendix.E}% 137

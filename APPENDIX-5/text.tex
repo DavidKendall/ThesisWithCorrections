@@ -6,7 +6,7 @@ The agent data is added to the log file and it consists of the positional inform
 
 When a simulation is finished the SQL log is closed. 
 
-\subsection{Data capture implementation}
+\section{Data capture implementation}
 The code in~listing~\ref{code:SQL2} shows how the log entries for a simulation run are captured. Line~\ref{line:participantSQL} shows the agent details embedded in an SQL insert statement. This statement is then appended to the log file using the \texttt{\textbf{addEntry()}} method. The code then iteration over the agents~\texttt{\textbf{bot.neighbours}} list (Line~\ref{line:neighbourList}). On line~\ref{line:neighbourSQL} the neighbour entries are added to the log file using the \texttt{\textbf{addEntry()}} method.
 
 \lstset{language=Python,
@@ -34,13 +34,13 @@ escapechar=|
   |\label{line:neighbourSQL}|status.log.addEntry("INSERT INTO NEIGHBOUR VALUES (%s,%s,%s,%s,%s,%s,%s);\n" % (status.logCount,bot.id,neighbour.id,distanceToNeighbour.get_length(),resultant,cohesion,repulsion))
 \end{lstlisting}
 
-\subsection{Data capture tables}
+\section{Data capture tables}
 The tables created from the initial log file are the starting point of the analysis process. 
 
-\subsubsection{\texttt{\textbf{PARTICIPANT}} table (Agents)}
+\subsection{\texttt{\textbf{PARTICIPANT}} table (Agents)}
 The \texttt{\textbf{PARTICIPANT}} table~\ref{code:Participant} is a snapshot of all the agents in the swarm at each time interval. The data that is logged includes the position (\texttt{\textbf{x}},\texttt{\textbf{y}}) of each agent along with the direction of the agent (\texttt{\textbf{directionX}}, \texttt{\textbf{directionY}}). The table also includes the field effect values for repulsion~(\texttt{\textbf{minNeighbour}}) and cohesion~(\texttt{\textbf{maxNeighbour}}). The table is used for several aggregations and also to plot the path of individual agents within a simulation.
 
-\subsubsection{\texttt{\textbf{NEIGHBOUR}} table} 
+\subsection{\texttt{\textbf{NEIGHBOUR}} table} 
 The \texttt{\textbf{NEIGHBOUR}} table~\ref{code:Neighbour} is a snapshot of all the agents that are `visible' to an agent. This table is directly related to the \texttt{\textbf{PARTICIPANT}} table via the \texttt{\textbf{LogCount}} and \texttt{\textbf{id}} fields as a one to many relationship. This table also contains the calculated magnitudes for the repulsion and cohesion of each neighbour to its parent. The table also includes the calculated distance the neighbour is away from the parent agent. 
 
 \section{Simulator data aggregation}

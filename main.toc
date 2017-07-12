@@ -133,20 +133,20 @@
 \contentsline {section}{\numberline {C.1}Analysis database schema}{214}{section.C.1}
 \contentsline {chapter}{\numberline {D.}SIMULATOR DATA SETS}{215}{appendix.D}
 \contentsline {chapter}{\numberline {E.}Simulator data capture}{217}{appendix.E}
-\contentsline {subsection}{\numberline {E.0.1}Data capture implementation}{217}{subsection.E.0.1}
-\contentsline {subsection}{\numberline {E.0.2}Data capture tables}{218}{subsection.E.0.2}
-\contentsline {subsubsection}{\numberline {E.0.2.1}\texttt {\textbf {PARTICIPANT}} table (Agents)}{218}{subsubsection.E.0.2.1}
-\contentsline {subsubsection}{\numberline {E.0.2.2}\texttt {\textbf {NEIGHBOUR}} table}{218}{subsubsection.E.0.2.2}
-\contentsline {section}{\numberline {E.1}Simulator data aggregation}{218}{section.E.1}
-\contentsline {subsection}{\numberline {E.1.1}Data aggregation views}{219}{subsection.E.1.1}
-\contentsline {subsubsection}{\numberline {E.1.1.1}\texttt {\textbf {LOGS}} view}{219}{subsubsection.E.1.1.1}
-\contentsline {subsubsection}{\numberline {E.1.1.2}\texttt {\textbf {SWARM}} view}{219}{subsubsection.E.1.1.2}
-\contentsline {subsubsection}{\numberline {E.1.1.3}\texttt {\textbf {PERIMETER}} view}{219}{subsubsection.E.1.1.3}
-\contentsline {subsubsection}{\numberline {E.1.1.4}\texttt {\textbf {FULLPERIMETER}} view}{219}{subsubsection.E.1.1.4}
-\contentsline {subsubsection}{\numberline {E.1.1.5}\texttt {\textbf {SWARMSIZE}} view}{220}{subsubsection.E.1.1.5}
-\contentsline {subsubsection}{\numberline {E.1.1.6}\texttt {\textbf {FULLNEIGHBOUR}} view}{220}{subsubsection.E.1.1.6}
-\contentsline {subsubsection}{\numberline {E.1.1.7}\texttt {\textbf {NEIGHBOURDISTANCE}} view}{220}{subsubsection.E.1.1.7}
-\contentsline {subsubsection}{\numberline {E.1.1.8}\texttt {\textbf {SWARMTRAVELLED}} view}{220}{subsubsection.E.1.1.8}
-\contentsline {subsubsection}{\numberline {E.1.1.9}\texttt {\textbf {DISTANCEGPS}} view}{221}{subsubsection.E.1.1.9}
-\contentsline {subsubsection}{\numberline {E.1.1.10}\texttt {\textbf {SWARMPROFILE}} view}{221}{subsubsection.E.1.1.10}
-\contentsline {section}{\numberline {E.2}Data graphing tools}{221}{section.E.2}
+\contentsline {section}{\numberline {E.1}Data capture implementation}{217}{section.E.1}
+\contentsline {section}{\numberline {E.2}Data capture tables}{218}{section.E.2}
+\contentsline {subsection}{\numberline {E.2.1}\texttt {\textbf {PARTICIPANT}} table (Agents)}{218}{subsection.E.2.1}
+\contentsline {subsection}{\numberline {E.2.2}\texttt {\textbf {NEIGHBOUR}} table}{218}{subsection.E.2.2}
+\contentsline {section}{\numberline {E.3}Simulator data aggregation}{218}{section.E.3}
+\contentsline {subsection}{\numberline {E.3.1}Data aggregation views}{219}{subsection.E.3.1}
+\contentsline {subsubsection}{\numberline {E.3.1.1}\texttt {\textbf {LOGS}} view}{219}{subsubsection.E.3.1.1}
+\contentsline {subsubsection}{\numberline {E.3.1.2}\texttt {\textbf {SWARM}} view}{219}{subsubsection.E.3.1.2}
+\contentsline {subsubsection}{\numberline {E.3.1.3}\texttt {\textbf {PERIMETER}} view}{219}{subsubsection.E.3.1.3}
+\contentsline {subsubsection}{\numberline {E.3.1.4}\texttt {\textbf {FULLPERIMETER}} view}{219}{subsubsection.E.3.1.4}
+\contentsline {subsubsection}{\numberline {E.3.1.5}\texttt {\textbf {SWARMSIZE}} view}{220}{subsubsection.E.3.1.5}
+\contentsline {subsubsection}{\numberline {E.3.1.6}\texttt {\textbf {FULLNEIGHBOUR}} view}{220}{subsubsection.E.3.1.6}
+\contentsline {subsubsection}{\numberline {E.3.1.7}\texttt {\textbf {NEIGHBOURDISTANCE}} view}{220}{subsubsection.E.3.1.7}
+\contentsline {subsubsection}{\numberline {E.3.1.8}\texttt {\textbf {SWARMTRAVELLED}} view}{220}{subsubsection.E.3.1.8}
+\contentsline {subsubsection}{\numberline {E.3.1.9}\texttt {\textbf {DISTANCEGPS}} view}{221}{subsubsection.E.3.1.9}
+\contentsline {subsubsection}{\numberline {E.3.1.10}\texttt {\textbf {SWARMPROFILE}} view}{221}{subsubsection.E.3.1.10}
+\contentsline {section}{\numberline {E.4}Data graphing tools}{221}{section.E.4}
