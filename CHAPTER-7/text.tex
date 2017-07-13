@@ -26,7 +26,7 @@ Concave reduction is an extension of the work discussed by Ismail and Timmis in 
  
 In a 3D space a sphere provides maximum volume with the minimum surface area and in a 2D Euclidean plane a circle provides maximum area with the minimum perimeter size. Both of these facts indicate that a perimeter should be tending towards a structure where its outer edges are convex in nature. 
 
-In chapter~\ref{chapter:coordination} perimeter detection is used to coordinate a swarm. Anomalies created by voids and dents add additional agents to the perimeter. This increases the size of a perimeter and reduces the efficiency of a swarms in terms of energy consumption when using sensors~(GPS) for a goal based task. 
+In chapter~\ref{chapter:coordination} perimeter detection is used to coordinate a swarm. Anomalies created by voids and dents add additional agents to the perimeter. This increases the size of a perimeter and reduces the efficiency of a swarm in terms of energy consumption when using sensors~(GPS) for a goal based task. 
  
 Using the full perimeter detection algorithm, as described in~section~\ref{sec:complexMulti}, agents are identified as being perimeter based if they comply with a set of conditions. The conditions are: 
 \begin{itemize}
@@ -244,7 +244,7 @@ The \textit{inter-agent vector magnitude} calculations in these experiments are 
 \caption{Baseline/Concave effect magnitude\label{concave:BaselineConcaveEffectMag}}
 \end{figure}
 
-Figure~\ref{concave:BaselineConcavePerimeter} shows the effect on the number of perimeter agents. Initially the perimeter size is minimally affected due to the swarms compression however after the expansion phase of the swarm (8 seconds) more perimeter agents are identified as concave edges are formed. As these concave edges are `straightened' they create further anomalies that ripple through the swarm. This rippling is identified by the erratic changes in the number of perimeter agents. After approximately 30 seconds the swarm has been forced into a less angular structure with curved edges and the number of perimeter agents falls below the minimum of the baseline. The shape of the swarm is still undergoing change following this and the perimeter count continues to fluctuate.
+Figure~\ref{concave:BaselineConcavePerimeter} shows the effect on the number of perimeter agents. Initially the perimeter size is minimally affected due to the swarm's compression however after the expansion phase of the swarm (8 seconds) more perimeter agents are identified as concave edges are formed. As these concave edges are `straightened' they create further anomalies that ripple through the swarm. This rippling is identified by the erratic changes in the number of perimeter agents. After approximately 30 seconds the swarm has been forced into a less angular structure with curved edges and the number of perimeter agents falls below the minimum of the baseline. The shape of the swarm is still undergoing change following this and the perimeter count continues to fluctuate.
 %PERIMETER8070CONCAVE.py
 \begin{figure}[H]
 \begin{center}
@@ -497,7 +497,7 @@ Once the initial disorganised phase settles, which takes approximately 1.2 secon
 \caption{Concave reduction perimeter effect\label{methods:ConcavePerimeter4560-1}}
 \end{figure}
 
-The effect on the swarms structure is shown in Figures~\ref{voids:SwarmCoverage4560-1} and~\ref{voids:SwarmCoverage4560-2}. Figure~\ref{voids:SwarmCoverage4560-1} shows the agents positions during the simulation for the baseline and the concave reduction enabled swarms. The baseline swarm is shown in black. The red traces are for the swarm using concave reduction. Figure~\ref{voids:SwarmCoverage4560-2} is a more detailed view highlighting the baseline lattice structure.
+The effect on the swarm's structure is shown in Figures~\ref{voids:SwarmCoverage4560-1} and~\ref{voids:SwarmCoverage4560-2}. Figure~\ref{voids:SwarmCoverage4560-1} shows the agents positions during the simulation for the baseline and the concave reduction enabled swarms. The baseline swarm is shown in black. The red traces are for the swarm using concave reduction. Figure~\ref{voids:SwarmCoverage4560-2} is a more detailed view highlighting the baseline lattice structure.
 %COVERBASELINE4560.py
 \begin{figure}[H]
 \begin{center}
@@ -506,7 +506,7 @@ The effect on the swarms structure is shown in Figures~\ref{voids:SwarmCoverage4
 \caption{Agent movement comparison\label{voids:SwarmCoverage4560-1}}
 \end{figure}
 
-The overall effect of the concave reduction on the swarms movement can be seen in~figure~\ref{voids:SwarmCoverage4560-1}. The void is closed by the reduction and the overall area of the swarm is reduced. There is however a negative effect with respect to the concave reduction; the swarm has a directional bias due to the large straight edge which causes the swarm to `drift'. When looking closely at the positions (Figure~\ref{voids:SwarmCoverage4560-2}) the baseline agents remain relatively static in their positions vibrating slightly to maintain the equilibrium of the internal magnitudes. 
+The overall effect of the concave reduction on the swarm's movement can be seen in~figure~\ref{voids:SwarmCoverage4560-1}. The void is closed by the reduction and the overall area of the swarm is reduced. There is however a negative effect with respect to the concave reduction; the swarm has a directional bias due to the large straight edge which causes the swarm to `drift'. When looking closely at the positions (Figure~\ref{voids:SwarmCoverage4560-2}) the baseline agents remain relatively static in their positions vibrating slightly to maintain the equilibrium of the internal magnitudes. 
 %COVERBASELINE4560.py
 \begin{figure}[H]
 \begin{center}

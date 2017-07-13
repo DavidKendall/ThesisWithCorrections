@@ -66,7 +66,7 @@ These baseline measurements are used to identify the changes that occur in the s
 \section{Destination vector application}
 Many mechanisms can be used to influence a swarm to travel in a specific direction. These mechanisms generally involve the use of sensors such as magnetometers or GPS's to achieve a directional coordinate \cite{SG:15,TG:12}. 
 
-This thesis aims to produce algorithms that will reduce the number of active sensors that are needed for the directional coordination of a swarm. When reducing the number of active sensors the algorithms must maintain sufficient coordination of agents to influence the swarm's direction and therefore create an overall \textit{destination vector} to a swarms movement. Reducing the number of active sensors will reduce the net energy usage of the sensors and potentially increase the sensors viable lifetime. Another aspect of the algorithms is that they should minimise the internal disturbance (jitter) created by the \textit{destination vector}.
+This thesis aims to produce algorithms that will reduce the number of active sensors that are needed for the directional coordination of a swarm. When reducing the number of active sensors the algorithms must maintain sufficient coordination of agents to influence the swarm's direction and therefore create an overall \textit{destination vector} to a swarm's movement. Reducing the number of active sensors will reduce the net energy usage of the sensors and potentially increase the sensors viable lifetime. Another aspect of the algorithms is that they should minimise the internal disturbance (jitter) created by the \textit{destination vector}.
 
 There are two distinct approaches to configuring agents: all the agents are configured identically (homogeneous swarm) or the agents are in a selection of different configurations (heterogeneous swarm)~\cite{BS:13}. 
 
@@ -106,7 +106,7 @@ Figure~\ref{reduced:Monolithic1} shows a screen shot from the swarm simulator wi
 \end{figure}
 
 \subsection{Baseline and effect of no perimeter detection\label{section:compareBaselineNoPerimeter}}
-To identify the effect of the all-agents algorithm the simulation is executed using the same parameters as the baseline swarm with the added \textit{destination vector} on all the agents. The effect of introducing this bias on the swarms internal characteristics can be seen in~Figures~\ref{reduced:BaselineAllAgentsMag1} and~\ref{reduced:BaselineAllAgentsDist1}.
+To identify the effect of the all-agents algorithm the simulation is executed using the same parameters as the baseline swarm with the added \textit{destination vector} on all the agents. The effect of introducing this bias on the swarm's internal characteristics can be seen in~Figures~\ref{reduced:BaselineAllAgentsMag1} and~\ref{reduced:BaselineAllAgentsDist1}.
 %BASELINE-ALLAGENTS-MAG.py
 \begin{figure}[H]
 \begin{center}
@@ -432,7 +432,7 @@ Figures~\ref{reduced:BaselineFullPerimeterMag1} and \ref{reduced:BaselineFullPer
 
 Figure~\ref{reduced:BaselineFullPerimeterMag1} shows the magnitude metric for the simulation. Up to the point where the magnitude reaches zero ($\approx$ 4.8 seconds / 48 cycles) the swarm is undergoing expansion and the \textit{inter-agent vectors} have a higher repulsive magnitude. Up to this point it is not possible to determine if the swarm is a cohesive entity. Once the \textit{inter-agent vector magnitude} becomes positive the swarm is known to be cohesive. Once the \textit{interaction vectors magnitudes} subside the directional bias from the coordinator agents \textit{destination vectors} will influence the swarm's direction. 
 
-Once the swarm has completed its expansion the swarms interacting vectors stabalise to an optimum level for the swarm environment parameters. The level of interaction between the vectors produces an increase in the jitter compared to the baseline. This change is induced by the coordinators \textit{destination vectors}.
+Once the swarm has completed its expansion the swarm's interacting vectors stabalise to an optimum level for the swarm environment parameters. The level of interaction between the vectors produces an increase in the jitter compared to the baseline. This change is induced by the coordinators \textit{destination vectors}.
 
 \begin{figure}[H]
 \begin{center}
@@ -496,7 +496,7 @@ Figure~\ref{reduced:BaselineAllDist2} show that the average distance between the
 \caption{Baseline and magnitude comparison\label{reduced:BaselineAllMag2}}
 \end{figure}
 
-Figures \ref{reduced:BaselineAllMag1} and \ref{reduced:BaselineAllMag2} highlight that a highly compressed swarm's magnitude, indicated by a negative magnitude, will overwhelm most of a swarms activity. This can be expected due to the size of the magnitudes that are affecting the swarm's movement. When all agents in a swarm are coordinators the directional effect can break through the highly cohesive stabilising vectors but this increases the level of jitter making the swarm's internal movement less predictable.
+Figures \ref{reduced:BaselineAllMag1} and \ref{reduced:BaselineAllMag2} highlight that a highly compressed swarm's magnitude, indicated by a negative magnitude, will overwhelm most of a swarm's activity. This can be expected due to the size of the magnitudes that are affecting the swarm's movement. When all agents in a swarm are coordinators the directional effect can break through the highly cohesive stabilising vectors but this increases the level of jitter making the swarm's internal movement less predictable.
 
 The directional algorithm that introduces the least amount of jitter is the basic-count algorithm. The basic-count algorithm is also the simplest of the multi-faceted algorithms to implement with a minimal computational overhead for the agents. 
 
@@ -521,7 +521,7 @@ Figure~\ref{fig:SwarmPerimeter1} shows the `all-agent' algorithm as a simple fla
 In~figure~\ref{fig:SwarmPerimeter1} the `basic-count' algorithm is shown in blue. Due to the swarm being compressed the basic-count effect is initially limited. There are no coordinators identified at $t=0$. This is due to the compression of the agents in the initial deployment. As the simulation progresses the disorganised stage expands the swarm and disperses the agents such that each agent develops less neighbours. The coordinator detection algorithm then begins to identify a subset on the perimeter. This process continues and eventually settles, shown by the plateau in the graph. Figure~\ref{fig:SwarmPerimeter1} shows there is a slight change in the swarm structure at 8 seconds, this is due to anomalies in the swarm being corrected by the effect of the cohesion and repulsion field effects. Once the anomalies percolate out of the swarm the structure stabalises and the number of coordinators stops fluctuating.
 
 \subsubsection{Full perimeter GPS utilisation\label{section:SwarmPerimeter4}}
-The full perimeter detection algorithm starts with a subset immediately as shown in green in figure~\ref{fig:SwarmPerimeter1}. This is due to the algorithm always detecting a full perimeter based on neighbour visibility. This has an immediate effect on the swarm as there is always a degree of \textit{destination vector magnitude} influence on the swarm, even during the expansion phase. However, the \textit{interaction vector magnitudes} are much larger than the \textit{destination vector magnitude} so the progression towards the goal is hampered and the path of the swarm is erratic. The introduction of the \textit{destination vector} influence from the very begin also disrupts the swarms expansion and increases the duration of the disorganised period. As the swarm expands the algorithm detects more agents as coordinators as the number of perimeter agents increases.
+The full perimeter detection algorithm starts with a subset immediately as shown in green in figure~\ref{fig:SwarmPerimeter1}. This is due to the algorithm always detecting a full perimeter based on neighbour visibility. This has an immediate effect on the swarm as there is always a degree of \textit{destination vector magnitude} influence on the swarm, even during the expansion phase. However, the \textit{interaction vector magnitudes} are much larger than the \textit{destination vector magnitude} so the progression towards the goal is hampered and the path of the swarm is erratic. The introduction of the \textit{destination vector} influence from the very begin also disrupts the swarm's expansion and increases the duration of the disorganised period. As the swarm expands the algorithm detects more agents as coordinators as the number of perimeter agents increases.
 
 \subsection{Swarm path propagation comparison\label{section:compareBaselineAll2}}
 All algorithms do eventually settle to a stable structure (for their environment parameters) with agents distributed in lattice structures. The time taken for each algorithm to achieve their stable distribution varies. This is due to the level of influence the directional bias has on the swarm. Table~\ref{tab:GPSUsage} shows the settled coordinator distributions at 12s into the simulation.
@@ -538,7 +538,7 @@ Full perimeter & 72 & 36\% & Void detection and perimeter (capable of supporting
 \end{center}
 \end{table}
 
-The three algorithms take different amounts of time to stabalise~(Figure~\ref{fig:SwarmPerimeter1}) this has an impact on how long it takes each of the algorithms to impact the swarms movement towards the destination. This effect can be seen in~figure~\ref{reduced:SwarmPropagationPathComparison1} that shows the paths that each algorithm produces. 
+The three algorithms take different amounts of time to stabalise~(Figure~\ref{fig:SwarmPerimeter1}) this has an impact on how long it takes each of the algorithms to impact the swarm's movement towards the destination. This effect can be seen in~figure~\ref{reduced:SwarmPropagationPathComparison1} that shows the paths that each algorithm produces. 
 
 \begin{figure}[H]
 \begin{center}
@@ -556,7 +556,7 @@ Figure~\ref{reduced:SwarmPropagationPathComparison1} shows the initial expansion
 \caption{Swarm propagation path comparison\label{reduced:SwarmPropagationPathComparison2}}
 \end{figure}
 
-Using all agents as coordinators results in the swarm immediately moving in the direction of the destination. The full perimeter detection has a limited effect on the direction of travel until the internal vectors start to balance and the internal magnitudes can be affected by a \textit{destination vectors} at which point the swarm travels in the direction of the destination. The basic-count algorithm stabilises and then moves towards the destination in a similar manner to the full perimeter except in the initial compressed disorganised stage the basic-count algorithm develops in the same manner as the baseline swarm where there are no coordinators. These experimental results demonstrate that reducing the GPS utilisation has two effects on the swarms propagation. Firstly it is possible to reduce the number of GPS sensors required to coordinate a swarm and it is possible to manage the `jitter' while applying a directional bias on a swarm using \textit{destination vectors}. 
+Using all agents as coordinators results in the swarm immediately moving in the direction of the destination. The full perimeter detection has a limited effect on the direction of travel until the internal vectors start to balance and the internal magnitudes can be affected by a \textit{destination vectors} at which point the swarm travels in the direction of the destination. The basic-count algorithm stabilises and then moves towards the destination in a similar manner to the full perimeter except in the initial compressed disorganised stage the basic-count algorithm develops in the same manner as the baseline swarm where there are no coordinators. These experimental results demonstrate that reducing the GPS utilisation has two effects on the swarm's propagation. Firstly it is possible to reduce the number of GPS sensors required to coordinate a swarm and it is possible to manage the `jitter' while applying a directional bias on a swarm using \textit{destination vectors}. 
 
 The effect of the algorithms on the stabilisation period can be seen in~figure~\ref{reduced:SwarmPropagationPathComparison3} which shows the swarm paths at the end of the 60 seconds simulation period. The relative positions shows the distances that the swarm is able to travel while employing the three algorithms, this is based on the swarm centroid. The baseline centroid path shows that without a \textit{destination vector} being applied the swarm's centroid moves but it is based upon the \textit{interaction vectors} only and there is no directional bias.
 
@@ -580,13 +580,13 @@ d = \sqrt{(x_{t}-x_{t^1})^2+(y_{t}-y_{t^1})^2}
 S_s = \frac{d}{n}
 \end{equation}‎
 
-Equation~\ref{eq:SwarmSpeed1} shows how the speed is calculated based on the distance in equation~\ref{eq:SwarmDistance1}. $S_s$ is the speed of the swarms centroid and $n$ is the number of time increments.
+Equation~\ref{eq:SwarmSpeed1} shows how the speed is calculated based on the distance in equation~\ref{eq:SwarmDistance1}. $S_s$ is the speed of the swarm's centroid and $n$ is the number of time increments.
 
-Once the swarm has stabilised it migrates towards the destination. Each of the algorithms has an effect on how many coordinators are used to control the direction of the swarm~(Figure~\ref{fig:SwarmPerimeter1}). The impact of the number of coordinators is expected to affect the propagation speed of the swarm towards its destination. Based upon the final positions of the swarms over the last 20 seconds of their simulations it is shown that there was only a marginal impact on the speed of the swarm once stabilised~(Figure~\ref{fig:SwarmSpeed1}). The difference in the algorithms only affects the time it takes the swarm to stabilise to the level that the \textit{destination vectors} can influence the swarms movement.
+Once the swarm has stabilised it migrates towards the destination. Each of the algorithms has an effect on how many coordinators are used to control the direction of the swarm~(Figure~\ref{fig:SwarmPerimeter1}). The impact of the number of coordinators is expected to affect the propagation speed of the swarm towards its destination. Based upon the final positions of the swarms over the last 20 seconds of their simulations it is shown that there was only a marginal impact on the speed of the swarm once stabilised~(Figure~\ref{fig:SwarmSpeed1}). The difference in the algorithms only affects the time it takes the swarm to stabilise to the level that the \textit{destination vectors} can influence the swarm's movement.
 
 The results also show a reduction in energy usage (GPS usage) is possible with minimal effect on the overall speed of the swarm (taken from the centroid). 
 
-Although the agents within the swarm have travelled the same distances the overall path of swarms has been affected~(Table~\ref{tab:SwarmSpeed2}).
+Although the agents within the swarm have travelled the same distances the overall path of the swarms has been affected~(Table~\ref{tab:SwarmSpeed2}).
 
 The time frame for the results in~table~\ref{tab:SwarmSpeed1},~\ref{tab:SwarmSpeed2},~\ref{tab:SwarmSpeed3} are for a time slice from 40~-~60~seconds in the simulation.
 
@@ -748,7 +748,7 @@ Comparing the three metrics it is possible to determine the coordination effects
 
 The resultant terminal speed of the swarm, based on the centroid, is minimally effected by the algorithm. 
 
-The ability of the swarm to propagate towards a destination is hampered by reducing the number of coordinators as the stabilisation of the swarms structure reduces the \textit{destination vector magnitude}. The most effected algorithm is the basic-count algorithm which is unable to influence the swarm at deployment due to compression reducing the number of coordinators and lessening the aggregate \textit{destination vector magnitude}. The full perimeter algorithm creates a greater aggregate \textit{destination vector} more quickly than the basic-count algorithm, however the algorithm does induce additional jitter. The `all-agent' algorithm has an immediate aggregate \textit{destination vector magnitude} but this algorithm also induces jitter such that the hexagonal lattice start to fail.
+The ability of the swarm to propagate towards a destination is hampered by reducing the number of coordinators as the stabilisation of the swarm's structure reduces the \textit{destination vector magnitude}. The most effected algorithm is the basic-count algorithm which is unable to influence the swarm at deployment due to compression reducing the number of coordinators and lessening the aggregate \textit{destination vector magnitude}. The full perimeter algorithm creates a greater aggregate \textit{destination vector} more quickly than the basic-count algorithm, however the algorithm does induce additional jitter. The `all-agent' algorithm has an immediate aggregate \textit{destination vector magnitude} but this algorithm also induces jitter such that the hexagonal lattice start to fail.
  
 Increasing the number of coordinators increases the amount of internal disturbance within the swarm which can affect a sensor array in terms of its ability to function efficiently. Adjusting the weighting of $k_d$ can improve this as discussed in~section~\ref{sec:AlternateBias1}. The algorithm that is most improved by adjusting the weightings is the `all-agent' algorithm such that it allows the hexagonal lattice to form and still produces an immediate directional bias through the aggregate \textit{destination vectors}.  
 
@@ -852,7 +852,7 @@ $n_2 \to \{n_5, n_4\}$\\
 $n_5 \to \{n_6\}$\\
 $n_4 \to \{n_6\}$\\
 
-The SenseSwarm algorithm works by locating the lowest agent in the swarm and then that agent propagating a message left and right to next lowest neighbours to identify the swarms outer edge. 
+The SenseSwarm algorithm works by locating the lowest agent in the swarm and then that agent propagating a message left and right to next lowest neighbours to identify the swarm's outer edge. 
 
 The SenseSwarm mechanism does not detect internal voids and is therefore not suitable for concave reduction as discussed in chapter~\ref{chapter:ConcaveReduction}.
 
