@@ -368,9 +368,6 @@ The effects can be seem in the screenshots (Figures \ref{methods:Chaos1}, \ref{m
 \end{figure}
 
 \section{Swarm simulator}\label{chapter:simulator}
-This section discusses the design, development and usage of the simulator used in this thesis. The simulator implements the algorithms and formulae discussed in chapter~\ref{chapter:methods}. This chapter also discusses the creation of the raw experimental data and how it is processed to produce the aggregated analysis information for visualisation.
-
-%\section{Introduction}\label{sim:intro}
 Swarm behaviours can be investigated by means of experiments with physical robots or by means of simulations. The latter approach has the advantages of scalability, genralisation, speed of development, and cost. This thesis is based upon data generated from simulated swarms. There are several open source robotic simulators available, the most popular being ARGoS, Player/Stage, and Gazebo.
 
 ARGoS is described as a multi-physics simulator and has gained interest in the swarm robots community. In 2011 Luca and Caro published an overview of the simulator's engine discussing how the system functioned~\cite{PTOPB:11} and the philosophy behind its structure. They also published a framework for using the simulator in 2012~\cite{KCGD:12}. 
@@ -381,20 +378,12 @@ The Webot~\cite{CL:16} simulator, which is a commercal product, has been used su
 
 These simulators all provide a discrete time simulation environment. The main purpose of these simulators is to visualise either an individual robot or a swarm of robots based on a model that is defined through bespoke libraries and configuration parameters. On the other hand, in this thesis the main purpose of each simulation is to log all the positional and vector data associated with every agent at each discrete time interval. Due to this disparity in approaches it was decided to develop a simulator whose main purpose is the collection of data on distance, positions, distribution and inter-object vector magnitude influence. 
 
+This section discusses the design, development and usage of the simulator used in this thesis and the creation of the raw experimental data. The section also discusses how the data is processed to produce the aggregated data required for visualisation.
+
+%\section{Introduction}\label{sim:intro}
+
 \subsection{Development overview}\label{sim:intro}
-The simulator has two distinct components: a graphical design/simulation tool~(Appendix~\ref{AP2:GRAPH}) and a command line based simulation-only tool~(Appendix~\ref{AP2:CLI}). Both parts of the simulator are written in Python 3~\cite{PYTHON3:15} using an object model as shown in~\autoref{sim:objectModel}. Both use the same modelling engine by sharing the base classes.  The final object model is similar to that proposed by Vankerkom and Yu for swarm visualisation~\cite{VY:04}. The simulator design is also influenced by the \textit{`main loop'} proposed in the ARGoS simulator~\cite{PTOPB:11}.
-
-\subsection{Swarm simulator object model}\label{sim:Simulator3}
-Figure~\ref{sim:objectModel} shows the object model underlying the simulator. The \texttt{\textbf{World}} class models the Euclidean plane for the simulations. The \texttt{\textbf{World}} class is a container object for other classes including lists of swarms, destinations, and obstacles that make up the environment to be modelled. The \texttt{\textbf{Swarm}} class implements a list which contains several \texttt{\textbf{Participants}} (agents) that constitute a swarm. The \texttt{\textbf{Participant}} class models the swarm agents and inherits the \texttt{\textbf{Bot}} class which provides the positioning coordinates for the agents. The \texttt{\textbf{Destination}} and \texttt{\textbf{Obstacle}} classes inherit their coordinates from the \texttt{\textbf{Bot}} class. The \texttt{\textbf{Swarm}} class implements a generic physics model for the coordination of the agents. The \texttt{\textbf{BoidSwarm}} class inherits the \texttt{\textbf{Swarm}} class and implements the algorithm for the boid model which includes the physics modelling. The \texttt{\textbf{Logger}} class implements a data logging mechanism and is used to capture the simulation data from within the \texttt{\textbf{World}} class via the \texttt{\textbf{Global}} class which is an implementation of a singleton containing the environmental constraints.
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{CHAPTER-3/figures/classes_World}
-\end{center}
-\caption[Simulator object model]{Simulator object model}\label{sim:objectModel}
-\end{figure}
-
-The object modelling shown in Figure~\ref{sim:objectModel} is implemented in Python using packages.
+The simulator has two distinct components: a graphical design/simulation tool~(Appendix~\ref{AP2:GRAPH}) and a command line based simulation-only tool~(Appendix~\ref{AP2:CLI}). Both parts of the simulator are written in Python 3~\cite{PYTHON3:15} using an object model as shown in~appendix~ref{app5}. Both use the same modelling engine by sharing the base classes.  The final object model is similar to that proposed by Vankerkom and Yu for swarm visualisation~\cite{VY:04}. The simulator design is also influenced by the \textit{`main loop'} proposed in the ARGoS simulator~\cite{PTOPB:11}.
 
 \subsection{Swarm simulator software}\label{sim:Simulator2}
 The main purpose of the graphical environment is for the setup of an experiment's initial configuration. This is achieved by positioning the agents, destinations, and obstacles in an environment and saving the configuration as a simulation file. As a secondary purpose the graphical environment is capable of running small scale simulations. The command line tool is used to execute the simulation experiments designed using the graphical tool. 
@@ -411,8 +400,6 @@ The command line tool, shown as (2) in~Figure~\ref{sim:SimulatorOverview}, reads
 \end{figure}
 
 Figure~\ref{sim:SimulatorOverview} shows the stages of the simulation from developing an experiment~(1) through to the production of simulation results~(6).
-
-The complete PySwarmWorld application is available at \url{https://drive.google.com/file/d/0B0DIRBx-V-eYVnNvVEkzUkRuZVk/view?usp=sharing}.
 
 \subsection{Motion modelling implementation}
 The motion model of the simulation is implemented through the modelling of vectors that influence an agents resultant direction. The vectors that model the swarm environment are the cohesion and repulsion vectors created by inter-agent and inter-object interactions. 
