@@ -399,7 +399,7 @@ This section discusses the design, development and usage of the simulator used i
 %\section{Introduction}\label{sim:intro}
 
 \subsection{Development overview}\label{sim:intro}
-The simulator has two distinct components: a graphical design/simulation tool~(Appendix~\ref{AP2:GRAPH}) and a command line based simulation-only tool~(Appendix~\ref{AP2:CLI}). Both parts of the simulator are written in Python 3~\cite{PYTHON3:15} using an object model as shown in~appendix~ref{app5}. Both use the same modelling engine by sharing the base classes.  The final object model is similar to that proposed by Vankerkom and Yu for swarm visualisation~\cite{VY:04}. The simulator design is also influenced by the \textit{`main loop'} proposed in the ARGoS simulator~\cite{PTOPB:11}.
+The simulator has two distinct components: a graphical design/simulation tool~(Appendix~\ref{AP2:GRAPH}) and a command line based simulation-only tool~(Appendix~\ref{AP2:CLI}). Both parts of the simulator are written in Python 3~\cite{PYTHON3:15} using an object model as shown in~appendix~\ref{app5}. Both use the same modelling engine by sharing the base classes.  The final object model is similar to that proposed by Vankerkom and Yu for swarm visualisation~\cite{VY:04}. The simulator design is also influenced by the \textit{`main loop'} proposed in the ARGoS simulator~\cite{PTOPB:11}.
 
 \subsection{Swarm simulator software}\label{sim:Simulator2}
 The main purpose of the graphical environment is for the setup of an experiment's initial configuration. This is achieved by positioning the agents, destinations, and obstacles in an environment and saving the configuration as a simulation file. As a secondary purpose the graphical environment is capable of running small scale simulations. The command line tool is used to execute the simulation experiments designed using the graphical tool. 
@@ -418,12 +418,12 @@ The command line tool, shown as (2) in~Figure~\ref{sim:SimulatorOverview}, reads
 Figure~\ref{sim:SimulatorOverview} shows the stages of the simulation from developing an experiment~(1) through to the production of simulation results~(6).
 
 \subsection{Motion modelling implementation}
-The motion model of the simulation is implemented through the modelling of vectors that influence an agents resultant direction. The vectors that model the swarm environment are the cohesion and repulsion vectors created by inter-agent and inter-object interactions. 
+The motion model of the simulation is implemented through the modelling of vectors that influence an agent's resultant direction. The vectors that model the swarm environment are the cohesion and repulsion vectors created by inter-agent and inter-object interactions. 
 
 Agent positions are modelled using floating point numbers. These coordinates are translated to integer based $(x,y)$ co-ordinates for the presentation layer. The integer translation is only for the visualisation of the swarm. This is the same approach used by Vankerkom and Yu in their paper on swarm visualisation~\cite{VY:04}. They model the agent using a class that consists of positional variables of type double. This is also seen in the SwarmVis software developed by Miner and Kasch~\cite{DMNK:ND}.
 
 \subsubsection{Modelling Time}\label{sim:time}
-There are two options for representing time when modelling a swarm: continuous time and discrete time. Continuous time~\cite{HW:08} is \textit{dense}: between any two points in time there is another point. Discrete time~\cite{FAP:05, GP:05, RVMH:13, HER:11, MP:10, PCL:08a} on the other hand proceeds in `ticks' with no intermediate time points. In this thesis discrete time is used. This same approach is identified by Muniganti and Pujol in thier survey of mathematical swarming models~\cite{MP:10}. 
+There are two options for representing time when modelling a swarm: continuous time and discrete time. Continuous time~\cite{HW:08} is \textit{dense}: between any two points in time there is another point. Discrete time~\cite{FAP:05, GP:05, RVMH:13, HER:11, MP:10, PCL:08a} on the other hand proceeds in `ticks' with no intermediate time points. In this thesis discrete time is used. This same approach is identified by Muniganti and Pujol in their survey of mathematical swarming models~\cite{MP:10}. 
 
 \subsubsection{Sensor modelling}
 Vision based coordination for robots was a subject of great interest in the 1980s and 90s~\cite{DK:02}. This interest moved to omni-directional cameras as a means of determine position and mapping through image analysis in a process known as SLAM (Simultanious Localisation And Mapping)~\cite{TRI:15,SG:15}. A general purpose omni-directional camera can operate at speeds between 1Hz and 60Hz depending upon the resolution of the images and the accuracy of the positional data required. In simulations in this thesis an operating speed of 10Hz (100ms) will be used. 
@@ -578,22 +578,17 @@ def calcTrajectory(self, participant, obstacles, destinations):
 \end{lstlisting}
 
 \section{Conclusion}
-<<<<<<< HEAD
-=======
-This chapter discussed the use of vector maths as a modelling technique for swarms and discusses the use of field effects to model agent characteristic to create movement. The chapter then discusses the mathematical model that is then applied throughout the thesis. The main vectors that are modelled are cohesion to ensure agents remain part of a cohesive body and repulsion to ensure agents do not collide. These two characteristics can create stable swarming structure. The chapter also introduced two additional aspects of swarming to the model; a goal based direction and obstacle avoidance. 
->>>>>>> upstream/master
-
 This chapter notes the trend in using vectors as a modelling technique for
-swarms and discusses the use of field effects in determining agent movement. 
-The chapter then introduces the mathematical model that is applied
-throughout the thesis. The introduction covers the cohesion model that ensures agents
-remain part of a swarm and the repulsion model that ensures agents do
-not collide with each other, thus maintaining a stable swarming structure. The chapter
-also introduces two additional aspects of swarming to the model: goal-based
-direction and obstacle avoidance. 
-
-All simulations in this thesis are carried out using the simulator described in
-this chapter. The data created by each simulation is aggregated to generate the
-final datasets that allow the characteristics of the simulated swarm to be
-evaluated. Data analysis results are visualised from the aggregated data. 
+swarms and discusses the use of field effects in determining agent movement.
+The chapter then introduces the mathematical model that is applied throughout
+the thesis. The introduction covers the cohesion model that ensures agents
+remain part of a swarm and the repulsion model that ensures agents do not
+collide with each other, thus maintaining a stable swarming structure. The
+chapter also introduces two additional aspects of swarming to the model:
+goal-based direction and obstacle avoidance.  Finally, the chapter discusses
+the simulation of swarms.  All simulations in this thesis are carried out using
+the simulator described in this chapter. The data created by each simulation is
+aggregated to generate the final datasets that allow the characteristics of the
+simulated swarm to be evaluated. Data analysis results are visualised from the
+aggregated data. 
 

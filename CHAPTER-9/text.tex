@@ -13,9 +13,38 @@ The remainder of the section focuses on the major contributions of the research:
 \end{itemize}
 
 \subsection{Model/Simulator}
-Earlier research has identified the use of field effects as being an effective method of modelling an agent's behaviour within a swarm. This has led to vector mathematics being the most prominent mathematical modelling tool in swarm theory. Field effect modelling through vector mathematics is discussed in chapter~\ref{chapter:methods}. This chapter also introduces a graduated field effect implementation for cohesion~(\autoref{sec:Cohesion1}) and repulsion~(\autoref{sec:Repulsion1}) this approach helps to reduce collisions. The model also applies an aggregate weighted model that allows the field effect algorithms to be tailored to create regular structures~(\autoref{methods:weightedModel}).
 
-All of the experimental work in this thesis has been carried out using a simulator written specifically for this project. Chapter~\ref{chapter:simulator} discusses the simulation process and the object model used for the representation of the swarming agents. The chapter discusses the mathematical models that have been applied to the modelling. The chapter also discusses how the simulator is applied to the experiments and how the results are achieved. The simulator has been designed with a specific set of requirements for this thesis and it allows the modelled swarms to be analysed by creating aggregated simulation data sets. The datasets consist of each agent's \textit{inter-agent vector magnitudes}, inter-agent distances, and inter-agent relationships in the form of cohesion and repulsion vectors. The simulator is configurable in terms of allowing the weighted model and field effects defined in chapter~\ref{chapter:metric} to be visualised and allows the environmental parameters to be altered to achieve the required effects discussed throughout. The simulator, being based on an object model, has allowed two applications to be developed: a graphical setup environment to create simulation configurations and a command line based simulation tool to execute the experiments. The graphical tool is capable of running small simulations in a real-time mode but for large swarms a command line version is used which incorporates simulated time to ensure the accuracy of the simulation results. The simulator uses a discrete time model to capture and implement the models~(\autoref{sim:time}). 
+Earlier research has identified the use of field effects as being an effective
+method of modelling an agent's behaviour within a swarm. This has led to vector
+mathematics being the most prominent mathematical modelling tool in swarm
+theory. Field effect modelling through vector mathematics is discussed in
+chapter~\ref{chapter:methods}. This chapter also introduces a graduated field
+effect implementation for cohesion~(\autoref{sec:Cohesion1}) and
+repulsion~(\autoref{sec:Repulsion1}) this approach helps to reduce collisions.
+The model also applies an aggregate weighted model that allows the field effect
+algorithms to be tailored to create regular
+structures~(\autoref{methods:weightedModel}).
+
+All of the experimental work in this thesis has been carried out using a
+simulator written specifically for this project.
+Section~\ref{chapter:simulator} discusses the simulation process and the object
+model used for the representation of the swarming agents. The section discusses
+the mathematical models that have been applied to the simulation. The section
+also discusses how the simulator is applied to the experiments and how the
+results are achieved. The simulator has been designed with a specific set of
+requirements for this thesis and it allows the modelled swarms to be analysed
+by creating aggregated simulation data sets. The datasets consist of each
+agent's \textit{inter-agent vector magnitudes}, inter-agent distances, and
+inter-agent relationships in the form of cohesion and repulsion vectors. The
+simulator is configurable in terms of the parameters of the weighted model and
+field effects defined in chapter~\ref{chapter:methods}, and for small to
+medium-sized swarms, allows the effects of varying parameter values to be
+visualised in real-time.  The simulator, being based on an object model,
+supports two related applications: a graphical environment for the creation of
+simulation configurations and the visualisation of small-scale experiments, and
+a command line based application for the execution of large-scale experiments.
+The simulator uses a discrete time model to capture and implement the
+models~(\autoref{sim:time}). 
 
 \subsection{Inter-agent magnitude metric}
 The application of swarms as a platform to solve problems has necessitated the need to understand how agents in a swarm can be distributed and how their movements can be coordinated efficiently. Chapter~\ref{chapter:metric} identifies the \textit{inter-agent vector magnitude} as being a suitable metric to measure a swarm's internal movements~(\autoref{section:MagnitudeDynamics}). 
@@ -62,13 +91,17 @@ The additional work required here would be to identify potential applications of
 \subsection{Area flooding}
 If agents could vary their field effects based on their position in a swarm (e.g. agents at the boundary) is it possible to improve coverage?
 
-If agents were able to vary their field effects based on detected environmental features a swarm may be able to achieve set goals more efficiently in unknown environments. An environment may have narrow paths linking larger chambers. Allowing agents to change their field effects may allow a swarm to propagate through this type of environment more effectively. This application requires further work to identify the affectiveness of using adaptive field effects on area flooding.
+If agents were able to vary their field effects based on detected environmental features a swarm may be able to achieve set goals more efficiently in unknown environments. An environment may have narrow paths linking larger chambers. Allowing agents to change their field effects may allow a swarm to propagate through this type of environment more effectively. This application requires further work to identify the effectiveness of using adaptive field effects on area flooding.
  
 \subsection{Path following and shape forming swarms}\label{sec:DirectionalShape1}
 The \textit{destination vector} as discussed in~\autoref{sec:Direction1} has been based upon a swarm having a fixed single destination however this model can be changed slightly to produce two more possible swarming effects by applying the \textit{destination vector} to a set of points. The effects that are possible are to create swarms that form arbitrary shapes or a swarm that will migrate along a specific path. The \textit{destination vector} required to achieve these two emergent behaviours can be implemented using the coordination techniques discussed in chapter~\ref{chapter:coordination}.
 
-The main area of research that is still required in this area is how to best implement the coordination. The thesis shows that changing how coordination is applied via perimeter coordinators can improve a swarm's structure however what is not know is what is the best way to apply the coordination if a swarm is being applied to a shape forming~\cite{EP:07} or path following task.
+The main area of research that is still required in this area is how to best implement the coordination. The thesis shows that changing how coordination is applied via perimeter coordinators can improve a swarm's structure however what is not known is what is the best way to apply the coordination if a swarm is being applied to a shape forming~\cite{EP:07} or path following task.
 
 \subsection{Self optimisation}\label{sec:Optimisation1}
-The research carried out in terms of improving the performance of a swarms internal distribution shows that as the parameters are changed it is possile to improve the performance of a swarm. Further work is therefore required to identify what optimisation techniques could be applied to a swarm's algorithms to create optimising swarm based on environmental conditions.
+The research carried out in terms of improving the performance of a swarm's
+internal distribution shows that as the parameters are changed it is possile to
+improve the performance of a swarm. Further work is therefore required to
+identify what optimisation techniques could be applied to a swarm's algorithms
+to improve its performance based on environmental conditions.
 
