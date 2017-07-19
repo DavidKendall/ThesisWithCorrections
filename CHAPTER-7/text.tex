@@ -26,17 +26,17 @@ Concave reduction is an extension of the work discussed by Ismail and Timmis in 
  
 In a 3D space a sphere provides maximum volume with the minimum surface area and in a 2D Euclidean plane a circle provides maximum area with the minimum perimeter size. Both of these facts indicate that a perimeter should be tending towards a structure where its outer edges are convex in nature. 
 
-In chapter~\ref{chapter:coordination} perimeter detection is used to coordinate a swarm. Anomalies created by voids and dents add additional agents to the perimeter. This increases the size of a perimeter and reduces the efficiency of a swarms in terms of energy consumption when using sensors~(GPS) for a goal based task. 
+In chapter~\ref{chapter:coordination} perimeter detection is used to coordinate a swarm. Anomalies created by voids and dents add additional agents to the perimeter. This increases the size of a perimeter and reduces the efficiency of a swarm in terms of energy consumption when using sensors~(GPS) for a goal based task. 
  
-Using the full perimeter detection algorithm, as described in~section~\ref{sec:complexMulti}, agents are identified as being perimeter based if they comply with a set of conditions. The conditions are: 
+Using the full perimeter detection algorithm, as described in~\autoref{sec:complexMulti}, agents are identified as being perimeter based if they comply with a set of conditions. The conditions are: 
 \begin{itemize}
   \item There are at least two adjacent neighbours that cannot\\detect each other~(Section~\ref{reduced:Perimeter1}, page \pageref{reduced:Perimeter1})
   \item The agent has less than 4 neighbours
-  \item The angle between two neighbours is $> 180^\circ$~(Section~\ref{reduced:Perimeter2}, page \pageref{reduced:Perimeter2})
+  \item The angle between two neighbours is $> 180^\circ$~(\autoref{reduced:Perimeter2}, page \pageref{reduced:Perimeter2})
 \end{itemize} 
 These conditions create an identifiable set of adjacent agents~(Figure~\ref{fig:SwarmVoids}, page \pageref{fig:SwarmVoids}) that create a perimeter.
 
-This process detects both the outer edge of a swarm and any internal features~(voids) that satisfy the same set of conditions. It is therefore possible to have both voids and islands of agents within the same swarm~(Figure~\ref{fig:SwarmVoids}, page \pageref{fig:SwarmVoids}). Voids are best defined as perimeters that are concave in nature and inside another perimeter. McLurkin describes two types of perimeters convex and concave~\cite{MD:09}. A convex perimeter is an edge where the average angle of the agent's exposed faces are~$< 180^\circ$. A concave perimeter is where the average exposed angle is~$> 180^\circ$~(Section~\ref{concave:VoidPerimeter1}, page \pageref{concave:VoidPerimeter1}).
+This process detects both the outer edge of a swarm and any internal features~(voids) that satisfy the same set of conditions. It is therefore possible to have both voids and islands of agents within the same swarm~(Figure~\ref{fig:SwarmVoids}, page \pageref{fig:SwarmVoids}). Voids are best defined as perimeters that are concave in nature and inside another perimeter. McLurkin describes two types of perimeters convex and concave~\cite{MD:09}. A convex perimeter is an edge where the average angle of the agent's exposed faces are~$< 180^\circ$. A concave perimeter is where the average exposed angle is~$> 180^\circ$~(\autoref{concave:VoidPerimeter1}, page \pageref{concave:VoidPerimeter1}).
  
 When discussing concave reduction the concave angle of interest is the relationship between an agent and two of its adjacent neighbours such that the neighbours have no visibility of each other and the neighbour-agent-neighbour relationship produces an angle~$< 180^\circ$. This is unrelated to the aggregate angle used to identify the perimeter type that the agent is a member of. Concave reduction therefore affects both inner~(Figure~\ref{fig:InnerPerimeter1}) and outer~(Figure~\ref{fig:OuterPerimeter1}) perimeter agents. Figure~\ref{fig:ConcaveReductionAgents} shows candidate agents identified by this process in black. 
 
@@ -85,11 +85,11 @@ The purpose of concave reduction is to alter the overall structure of the swarm 
 \end{figure}
 
 \section{Concave reduction implementation}\label{sec:ConcaveReductionImp}
-As previously shown in chapter~\ref{chapter:coordination} detection of a swarm's perimeter can be used to create efficiencies in the use of sensors to coordinate a swarm to a destination. Identifying agents that are suitable for concave reduction to be applied involves the same conditional checks as the perimeter detection algorithm with the addition of a status check on the cyclic-angular-check component~(Section~\ref{reduced:Perimeter2}, page \pageref{reduced:Perimeter2}). In a static swarm, where there are no \textit{destination vectors}, concave reduction will result in a restructuring motion that creates a more `rounded' swarm~(Figure~\ref{fig:OuterPerimeterReduction}). Concave reduction also creates a surround effect as it removes voids from a swarm~(Section~\ref{voids:ObjectSurrounding}). When concave reduction is applied to a mobile swarm the void closing effect can be used to improve reconnaissance coverage as a swarm passes around obstacles~(Figure~\ref{concave:mobileSwarm1}).
+As previously shown in chapter~\ref{chapter:coordination} detection of a swarm's perimeter can be used to create efficiencies in the use of sensors to coordinate a swarm to a destination. Identifying agents that are suitable for concave reduction to be applied involves the same conditional checks as the perimeter detection algorithm with the addition of a status check on the cyclic-angular-check component~(\autoref{reduced:Perimeter2}, page \pageref{reduced:Perimeter2}). In a static swarm, where there are no \textit{destination vectors}, concave reduction will result in a restructuring motion that creates a more `rounded' swarm~(Figure~\ref{fig:OuterPerimeterReduction}). Concave reduction also creates a surround effect as it removes voids from a swarm~(\autoref{voids:ObjectSurrounding}). When concave reduction is applied to a mobile swarm the void closing effect can be used to improve reconnaissance coverage as a swarm passes around obstacles~(Figure~\ref{concave:mobileSwarm1}).
 
 Although these effects improve the potential applications of swarms there is a negative impact introduced by concave reduction. When a section of a swarm's perimeter has move concavities than its opposing side concave reduction can create an artificial aggregate \textit{destination vector}. This aggregate vector causes the swarm to move towards the opposing edge. 
 
-To implement void reduction full perimeter detection~(Section~\ref{sec:complexMulti}) is required. Concave reduction does not require the perimeter type to be identified and therefore no communications infrastructure is required~\cite{MD:09,NIM:09,SOM:12,ZFG:13,JG:13}. The main limitation a communications infrastructure imposes on a swarm is the number of agents a swarm can contain. This is due to the propagation time of agent positions throughout the swarm as discussed in~section~\ref{methods:MessagePropogation}~page~\pageref{methods:MessagePropogation}. 
+To implement void reduction full perimeter detection~(\autoref{sec:complexMulti}) is required. Concave reduction does not require the perimeter type to be identified and therefore no communications infrastructure is required~\cite{MD:09,NIM:09,SOM:12,ZFG:13,JG:13}. The main limitation a communications infrastructure imposes on a swarm is the number of agents a swarm can contain. This is due to the propagation time of agent positions throughout the swarm as discussed in~\autoref{methods:MessagePropogation}~page~\pageref{methods:MessagePropogation}. 
 
 The implementation of concave reduction identification is therefore incorporated into the perimeter detection algorithm~(Algorithm~\ref{algo:checkVisibility}, page \pageref{algo:checkVisibility}). The changes are highlighted in~algorithm~\ref{algo:checkVisibility2}.\\
 
@@ -126,7 +126,7 @@ $b.concave = False$\;
 The purpose of the changes are to set a status flag to highlight a gap has been detected and to record the agent's neighbour pair that create the concave gap.
 
 \section{Concave reduction agent movement}\label{concave:AgentMovement}
-Adding a further characteristic to the motion of a swarm necessitates a revision to the existing agent model as discussed in~section~\ref{methods:BoidModel} page \pageref{methods:BoidModel}. With concave reduction this revision is based upon the identification of the concave perimeter edges as shown in~figure~\ref{concave:VoidConcave1} $(b^{'},b,b^{''})$. 
+Adding a further characteristic to the motion of a swarm necessitates a revision to the existing agent model as discussed in~\autoref{methods:BoidModel} page \pageref{methods:BoidModel}. With concave reduction this revision is based upon the identification of the concave perimeter edges as shown in~figure~\ref{concave:VoidConcave1} $(b^{'},b,b^{''})$. 
 
 \begin{figure}[H]
 \begin{center}
@@ -191,7 +191,7 @@ D(b) =‎ D_{pos}b
 
 $D(b)$~is a vector derived from the identified centroid of the neighbour gap~($G_b$) to the parent agent~($b$). This new vector is the \textit{concavity vector} used to implement the concave reduction movement~(Equation~\ref{eq:ConcaveVoidPhysics3a}).
 
-This derived movement is specifically for reducing the anomaly of which the agent is a part. The concave reduction movement needs to be enhanced to take into consideration an agent's surroundings. Due to proximity it can be assumed that there are no agents in the path between the agent and the gap, however there may be an obstacle. The \textit{concavity vector} must include an obstacle avoidance component~(Equation~\ref{eq:ConcaveVoidPhysics4}) as shown in~section~\ref{section:ObstacleSection} on page \pageref{section:ObstacleSection}. As with all the previous vector based calculations a weighting is applied to the calculated \textit{concavity vector}~$k_{cr}$ to allow the model to vary the intensity of the effect. The resultant vector is then normalised to produce the \textit{concavity reduction vector} as shown in~equation~\ref{eq:ConcaveVoidPhysics4}. 
+This derived movement is specifically for reducing the anomaly of which the agent is a part. The concave reduction movement needs to be enhanced to take into consideration an agent's surroundings. Due to proximity it can be assumed that there are no agents in the path between the agent and the gap, however there may be an obstacle. The \textit{concavity vector} must include an obstacle avoidance component~(Equation~\ref{eq:ConcaveVoidPhysics4}) as shown in~\autoref{section:ObstacleSection} on page \pageref{section:ObstacleSection}. As with all the previous vector based calculations a weighting is applied to the calculated \textit{concavity vector}~$k_{cr}$ to allow the model to vary the intensity of the effect. The resultant vector is then normalised to produce the \textit{concavity reduction vector} as shown in~equation~\ref{eq:ConcaveVoidPhysics4}. 
 
 \begin{center}
 \begin{equation}‎
@@ -222,7 +222,7 @@ Speed & 20 & 20 & units/s\\  \hline
 \end{center}
 \end{table}
 
-Figure~\ref{concave:BaselineConcaveEffectDist} shows the changes in the inter-agent distances that result from the concave reduction. The experiment demonstrates that with concave reduction the average distance increases and the variance of the distances increases. This is due to the `pulling' effect of the \textit{concavity reduction vector} on the perimeter. The algorithm distorts the distribution of the agents as discussed in~section~\ref{concave:AgentMovement}. The initial expansion of the swarm is similar for the baseline and the concave reduction however at 9 seconds into the simulation the \textit{concavity reduction vectors} affects the swarm sufficiently to prevent the average distance reducing to the same level as the baseline. Once the swarm has stabilised with the concave reduction enabled the average distance and variance remain constant but above the baseline.
+Figure~\ref{concave:BaselineConcaveEffectDist} shows the changes in the inter-agent distances that result from the concave reduction. The experiment demonstrates that with concave reduction the average distance increases and the variance of the distances increases. This is due to the `pulling' effect of the \textit{concavity reduction vector} on the perimeter. The algorithm distorts the distribution of the agents as discussed in~\autoref{concave:AgentMovement}. The initial expansion of the swarm is similar for the baseline and the concave reduction however at 9 seconds into the simulation the \textit{concavity reduction vectors} affects the swarm sufficiently to prevent the average distance reducing to the same level as the baseline. Once the swarm has stabilised with the concave reduction enabled the average distance and variance remain constant but above the baseline.
 
 %BASELINE-CONCAVE-DIST.py
 \begin{figure}[H]
@@ -244,7 +244,7 @@ The \textit{inter-agent vector magnitude} calculations in these experiments are 
 \caption{Baseline/Concave effect magnitude\label{concave:BaselineConcaveEffectMag}}
 \end{figure}
 
-Figure~\ref{concave:BaselineConcavePerimeter} shows the effect on the number of perimeter agents. Initially the perimeter size is minimally affected due to the swarms compression however after the expansion phase of the swarm (8 seconds) more perimeter agents are identified as concave edges are formed. As these concave edges are `straightened' they create further anomalies that ripple through the swarm. This rippling is identified by the erratic changes in the number of perimeter agents. After approximately 30 seconds the swarm has been forced into a less angular structure with curved edges and the number of perimeter agents falls below the minimum of the baseline. The shape of the swarm is still undergoing change following this and the perimeter count continues to fluctuate.
+Figure~\ref{concave:BaselineConcavePerimeter} shows the effect on the number of perimeter agents. Initially the perimeter size is minimally affected due to the swarm's compression however after the expansion phase of the swarm (8 seconds) more perimeter agents are identified as concave edges are formed. As these concave edges are `straightened' they create further anomalies that ripple through the swarm. This rippling is identified by the erratic changes in the number of perimeter agents. After approximately 30 seconds the swarm has been forced into a less angular structure with curved edges and the number of perimeter agents falls below the minimum of the baseline. The shape of the swarm is still undergoing change following this and the perimeter count continues to fluctuate.
 %PERIMETER8070CONCAVE.py
 \begin{figure}[H]
 \begin{center}
@@ -497,7 +497,7 @@ Once the initial disorganised phase settles, which takes approximately 1.2 secon
 \caption{Concave reduction perimeter effect\label{methods:ConcavePerimeter4560-1}}
 \end{figure}
 
-The effect on the swarms structure is shown in Figures~\ref{voids:SwarmCoverage4560-1} and~\ref{voids:SwarmCoverage4560-2}. Figure~\ref{voids:SwarmCoverage4560-1} shows the agents positions during the simulation for the baseline and the concave reduction enabled swarms. The baseline swarm is shown in black. The red traces are for the swarm using concave reduction. Figure~\ref{voids:SwarmCoverage4560-2} is a more detailed view highlighting the baseline lattice structure.
+The effect on the swarm's structure is shown in Figures~\ref{voids:SwarmCoverage4560-1} and~\ref{voids:SwarmCoverage4560-2}. Figure~\ref{voids:SwarmCoverage4560-1} shows the agents positions during the simulation for the baseline and the concave reduction enabled swarms. The baseline swarm is shown in black. The red traces are for the swarm using concave reduction. Figure~\ref{voids:SwarmCoverage4560-2} is a more detailed view highlighting the baseline lattice structure.
 %COVERBASELINE4560.py
 \begin{figure}[H]
 \begin{center}
@@ -506,7 +506,7 @@ The effect on the swarms structure is shown in Figures~\ref{voids:SwarmCoverage4
 \caption{Agent movement comparison\label{voids:SwarmCoverage4560-1}}
 \end{figure}
 
-The overall effect of the concave reduction on the swarms movement can be seen in~figure~\ref{voids:SwarmCoverage4560-1}. The void is closed by the reduction and the overall area of the swarm is reduced. There is however a negative effect with respect to the concave reduction; the swarm has a directional bias due to the large straight edge which causes the swarm to `drift'. When looking closely at the positions (Figure~\ref{voids:SwarmCoverage4560-2}) the baseline agents remain relatively static in their positions vibrating slightly to maintain the equilibrium of the internal magnitudes. 
+The overall effect of the concave reduction on the swarm's movement can be seen in~figure~\ref{voids:SwarmCoverage4560-1}. The void is closed by the reduction and the overall area of the swarm is reduced. There is however a negative effect with respect to the concave reduction; the swarm has a directional bias due to the large straight edge which causes the swarm to `drift'. When looking closely at the positions (Figure~\ref{voids:SwarmCoverage4560-2}) the baseline agents remain relatively static in their positions vibrating slightly to maintain the equilibrium of the internal magnitudes. 
 %COVERBASELINE4560.py
 \begin{figure}[H]
 \begin{center}
@@ -560,7 +560,7 @@ Figure~\ref{fig:OilSpillConcaveReduction1} shows the containment process using t
 \label{fig:OilSpillConcaveReduction1}
 \end{figure}
 
-Figure~\ref{fig:VoidConcaveReduction} shows the same simulation with void-reduction activated. The swarm expands as expected due to the field effects but in addition the concave reduction reduces the void within the swarm. This reduction in the void causes the swarm to shrink around the obstacle completely enclosing it at the obstacle perimeter. On the left hand side of~figure~\ref{fig:OilSpillConcave2} the percolation effect can be seen as described in~section~\ref{sec:ApplicationConcavePerimeters}.
+Figure~\ref{fig:VoidConcaveReduction} shows the same simulation with void-reduction activated. The swarm expands as expected due to the field effects but in addition the concave reduction reduces the void within the swarm. This reduction in the void causes the swarm to shrink around the obstacle completely enclosing it at the obstacle perimeter. On the left hand side of~figure~\ref{fig:OilSpillConcave2} the percolation effect can be seen as described in~\autoref{sec:ApplicationConcavePerimeters}.
 
 \begin{figure}[H]
 \centering
@@ -630,7 +630,7 @@ When the object is small the cohesion and repulsion fields may make the swarm na
 \label{fig:SwarmObjectVoids}
 \end{figure}
  
-Concave reduction has been shown to remove voids in static swarms in~section~\ref{sec:ApplicationConcavePerimeters}. Concave reduction can also be applied to a goal-based swarm to control coverage when passing small object: `small' means the maximum radius of the obstacle is of the order of the size of the neighbour field of an agent or less. When concave reduction is applied to the swarm it will surround the obstacle. Surrounding the obstacle creates a greater degree of coverage and increases the effectiveness of the swarm.
+Concave reduction has been shown to remove voids in static swarms in~\autoref{sec:ApplicationConcavePerimeters}. Concave reduction can also be applied to a goal-based swarm to control coverage when passing small object: `small' means the maximum radius of the obstacle is of the order of the size of the neighbour field of an agent or less. When concave reduction is applied to the swarm it will surround the obstacle. Surrounding the obstacle creates a greater degree of coverage and increases the effectiveness of the swarm.
 
 Taking the baseline swarm from chapter~\ref{chapter:coordination} the swarm environment can be modified to include an obstacle in the path of the swarm. Table~\ref{tab:SwarmCoverageParameters} shows the weightings and field effects for the baseline and concave reduction parameters for the experiment to demonstrate the concave reduction coverage improvement. Figure~\ref{voids:ObstacleTest1} shows the swarm and object setup within the simulator for the experiment.
 

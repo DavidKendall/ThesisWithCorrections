@@ -47,44 +47,28 @@ If the application of a swarm requires it to move in a specific direction then a
 Chapter~\ref{chapter:ConcaveReduction} examines how swarms can exhibit emergent behaviours from a simple algorithm. A localised algorithm is used to improve inter-agent distributions by identifying gaps between an agent's neighbours and moving the agent towards the gap. This simple change to the swarming model produces two behavioural changes. It causes a swarm to close voids and migrate towards a more uniform shape. These effects can be interpreted as a `healing' effect as they cause the swarm to be more uniform in shape with no internal anomalies. This can be useful when a swarm's structure is disrupted by a failed agent or from disruptions to a swarm's path. This behaviour can also be applied to encapsulating an object. The object encapsulation effect is presented in terms of an existing application area in the petrochemical industry where they have identified the use of swarms as a potential method of controlling oil spillages~(\autoref{voids:ObjectSurrounding}). The technique used in this thesis uses a Boid-based swarming approach which differs to the current research which uses an ant-colony-based approach. This `healing' behaviour is also applied to goal-based swarms in an attempt to remove voids in a reconnaissance based swarm when a swarm's path is disrupted~(\autoref{concave:mobileSwarm1}). The thesis demonstrates that the emergent behaviour is able to remove a void created by an obstacle improving the coverage of the swarm's path using the \textit{concave-reduction} effect.
 
 \subsection{Flood filling}
-In chapter~\ref{chapter:flooding} the cohesion and repulsion field effects (\textit{interaction vectors}) are used to create an area filling behaviour using a swarm of a fixed size. This is achieved by increasing the repulsion field effect of the agents to influence the distribution of the agents such that the agents fill a bounded area. The chapter examines two different techniques of coordinating the expansion process. The first technique involves using a `normal' swarm that uses both cohesion and repulsion to create a swarm that acts as a single entity and ensures agents maintain `visibility' of each of its neighbours. The second technique exploits the fact that the swarm is in a bounded area and removes the cohesion field effect and uses only the repulsion field to expand the agents throughout the space. The metrics discussed in chapter~\ref{chapter:metric} are used to identify the effects of the expansion on the swarms internal structures and to identify terminating conditions for the filling behaviours.
+In chapter~\ref{chapter:flooding} the cohesion and repulsion field effects (\textit{interaction vectors}) are used to create an area filling behaviour using a swarm of a fixed size. This is achieved by increasing the repulsion field effect of the agents to influence the distribution of the agents such that the agents fill a bounded area. The chapter examines two different techniques of coordinating the expansion process. The first technique involves using a `normal' swarm that uses both cohesion and repulsion to create a swarm that acts as a single entity and ensures agents maintain `visibility' of each of its neighbours. The second technique exploits the fact that the swarm is in a bounded area and removes the cohesion field effect and uses only the repulsion field to expand the agents throughout the space. The metrics discussed in chapter~\ref{chapter:metric} are used to identify the effects of the expansion on the swarm's internal structures and to identify terminating conditions for the filling behaviours.
 
 \section{Future work}\label{additional:MoreWork}
 The research in this thesis has investigated several issues with respect to swarm analysis but has also raised further questions that need to be answered. The new metric allows swarms to be analysed in a completely different way and has opened up the possibility of analysing new swarm configurations.
 
 \subsection{Magnitude metric application}\label{additional:fieldsWork}
-Swarms are often constructed from heterogeneous agents that adapt to stimuli but the agents themselves are usually modelled using homogeneous field effects. This modelling of homogeneous field effects lends itself to being measured and monitored by a distance based metric as discussed by Navarro et al. \cite{NIM:09} due to the regular shapes and structures that emerge. The dependence on regularity of shapes and structures is a limitation of the distance metric due to the aggregation of the distances not reflecting the mathematical model that creates the structures. The magnitude based metric overcomes that limitation by analysing the vectors that effect the agent distribution. With heterogeneous field effects the inter-agent distances may vary in an equilibrium state due to the way the field effects overlap when agents interact. 
+Swarms are often constructed from heterogeneous agents that adapt to stimuli but the agents themselves are usually modelled using homogeneous field effects. This modelling of homogeneous field effects lends itself to being measured and monitored by a distance based metric as discussed by Navarro et al. \cite{NIM:09} and Gazi et al. (\cite{SALGVPJ:08, VG:05, GP:02, GP:04, GP:04a, GP:05, GP:11}) due to the regular shapes and structures that emerge. The dependence on regularity of shapes and structures is a limitation of the distance metric due to the aggregation of the distances not reflecting the mathematical model that creates the structures. The magnitude based metric overcomes that limitation by analysing the vectors that effect the agent distribution. With heterogeneous field effects the inter-agent distances may vary in an equilibrium state due to the way the field effects overlap when agents interact. 
 
-The \textit{inter-agent vector magnitude} metric takes into consideration the resultant effects of the mathematical model~Figure~\ref{additional:FieldEffects} rather than just arbitrary distances between agents. 
-
-The balancing of \textit{interaction vectors} affect the resultant agent distributions. Figure~\ref{additional:FieldEffects} shows a swarm construct where the interaction of the agents would be unidirectional, agent $b$ is affected by agent $b'$ with respect to cohesion but agent $b'$ is not affected by $b$. 
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=9cm]{CHAPTER-9/figures/FieldEffects}
-\end{center}
-\caption{Varied field effects\label{additional:FieldEffects}}
-\end{figure}
+The \textit{inter-agent vector magnitude} metric takes into consideration the resultant effects of the mathematical model rather than just arbitrary distances between agents. The balancing of \textit{interaction vectors} affect the resultant agent distributions.
 
 The additional work required here would be to identify potential applications of these variations in the field effects that could improve existing swarm applications. For example, if an agent is on a perimeter would the swarm benefit from reducing the field effects to create a greater compression effect? Would having a mixed field effect swarm produce better coverage of an area? What would be the impact of having variable field effects upon a goal-based swarm?
 
 \subsection{Area flooding}
 If agents could vary their field effects based on their position in a swarm (e.g. agents at the boundary) is it possible to improve coverage?
 
-As a swarm expands the distribution of the agents is effected by convex and concave corners~(\autoref{additional:FloodEdges1}). If agents were able to vary their field effects based on detected features a swarm may be able to achieve set goals more efficiently (use less energy) and effectively (reducing time).
-
-Using a fixed potential field may effect distribution. An environment may have narrow paths linking larger chambers. Allowing agents to change their field effects may allow a swarm to propagate through this type of environment more effectively. 
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=6cm]{CHAPTER-9/figures/FloodEdges1}
-\end{center}
-\caption{Flood fill edges\label{additional:FloodEdges1}}
-\end{figure}
-
-Further work is needed to identify the affect of using adaptive field effects on area flooding.
+If agents were able to vary their field effects based on detected environmental features a swarm may be able to achieve set goals more efficiently in unknown environments. An environment may have narrow paths linking larger chambers. Allowing agents to change their field effects may allow a swarm to propagate through this type of environment more effectively. This application requires further work to identify the affectiveness of using adaptive field effects on area flooding.
  
 \subsection{Path following and shape forming swarms}\label{sec:DirectionalShape1}
 The \textit{destination vector} as discussed in~\autoref{sec:Direction1} has been based upon a swarm having a fixed single destination however this model can be changed slightly to produce two more possible swarming effects by applying the \textit{destination vector} to a set of points. The effects that are possible are to create swarms that form arbitrary shapes or a swarm that will migrate along a specific path. The \textit{destination vector} required to achieve these two emergent behaviours can be implemented using the coordination techniques discussed in chapter~\ref{chapter:coordination}.
 
-The main area of research that is still required in this area is how to best implement the coordination. The thesis shows that changing how coordination is applied via perimeter coordinators can improve a swarms structure however what is not know is what is the best way to apply the coordination if a swarm is being applied to a shape forming~\cite{EP:07} or path following task.
+The main area of research that is still required in this area is how to best implement the coordination. The thesis shows that changing how coordination is applied via perimeter coordinators can improve a swarm's structure however what is not know is what is the best way to apply the coordination if a swarm is being applied to a shape forming~\cite{EP:07} or path following task.
+
+\subsection{Self optimisation}\label{sec:Optimisation1}
+The research carried out in terms of improving the performance of a swarms internal distribution shows that as the parameters are changed it is possile to improve the performance of a swarm. Further work is therefore required to identify what optimisation techniques could be applied to a swarm's algorithms to create optimising swarm based on environmental conditions.
+
