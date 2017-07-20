@@ -432,7 +432,7 @@ Figures~\ref{reduced:BaselineFullPerimeterMag1} and \ref{reduced:BaselineFullPer
 
 Figure~\ref{reduced:BaselineFullPerimeterMag1} shows the magnitude metric for the simulation. Up to the point where the magnitude reaches zero ($\approx$ 4.8 seconds / 48 cycles) the swarm is undergoing expansion and the \textit{inter-agent vectors} have a higher repulsive magnitude. Up to this point it is not possible to determine if the swarm is a cohesive entity. Once the \textit{inter-agent vector magnitude} becomes positive the swarm is known to be cohesive. Once the \textit{interaction vectors magnitudes} subside the directional bias from the coordinator agents \textit{destination vectors} will influence the swarm's direction. 
 
-Once the swarm has completed its expansion the swarm's interacting vectors stabalise to an optimum level for the swarm environment parameters. The level of interaction between the vectors produces an increase in the jitter compared to the baseline. This change is induced by the coordinators \textit{destination vectors}.
+Once the swarm has completed its expansion the swarm's interacting vectors stabilise to an optimum level for the swarm environment parameters. The level of interaction between the vectors produces an increase in the jitter compared to the baseline. This change is induced by the coordinators \textit{destination vectors}.
 
 \begin{figure}[H]
 \begin{center}
@@ -464,7 +464,7 @@ Equation~\ref{eq:Centroid1} calculates the coordinates for the centre of the swa
 Comparing swarms with these metrics generates a fuller understanding of the effects the algorithms and allows suitable applications to be identified.
 
 \subsection{Internal movement comparison\label{section:stabilityComparison1}}
-Figures \ref{reduced:BaselineAllDist1}, \ref{reduced:BaselineAllDist2}, \ref{reduced:BaselineAllMag1}, and \ref{reduced:BaselineAllMag2} identify the jitter based on distance and the \textit{inter-agent vector magnitudes} for the coordintion algorithms and the baseline. Both the metrics show that as the number of coordinator agents increases the jitter increases. 
+Figures \ref{reduced:BaselineAllDist1}, \ref{reduced:BaselineAllDist2}, \ref{reduced:BaselineAllMag1}, and \ref{reduced:BaselineAllMag2} identify the jitter based on distance and the \textit{inter-agent vector magnitudes} for the coordination algorithms and the baseline. Both the metrics show that as the number of coordinator agents increases the jitter increases. 
 
 \begin{figure}[H]
 \begin{center}
@@ -518,7 +518,7 @@ Figure~\ref{fig:SwarmPerimeter1} shows the development of the GPS utilisation of
 Figure~\ref{fig:SwarmPerimeter1} shows the `all-agent' algorithm as a simple flat constant of 200 agents which is 100\% of the swarm's agents. The directional bias is therefore constant throughout the simulation. 
 
 \subsubsection{Basic-count GPS utilisation\label{section:SwarmPerimeter3}}
-In~figure~\ref{fig:SwarmPerimeter1} the `basic-count' algorithm is shown in blue. Due to the swarm being compressed the basic-count effect is initially limited. There are no coordinators identified at $t=0$. This is due to the compression of the agents in the initial deployment. As the simulation progresses the disorganised stage expands the swarm and disperses the agents such that each agent develops less neighbours. The coordinator detection algorithm then begins to identify a subset on the perimeter. This process continues and eventually settles, shown by the plateau in the graph. Figure~\ref{fig:SwarmPerimeter1} shows there is a slight change in the swarm structure at 8 seconds, this is due to anomalies in the swarm being corrected by the effect of the cohesion and repulsion field effects. Once the anomalies percolate out of the swarm the structure stabalises and the number of coordinators stops fluctuating.
+In~figure~\ref{fig:SwarmPerimeter1} the `basic-count' algorithm is shown in blue. Due to the swarm being compressed the basic-count effect is initially limited. There are no coordinators identified at $t=0$. This is due to the compression of the agents in the initial deployment. As the simulation progresses the disorganised stage expands the swarm and disperses the agents such that each agent develops less neighbours. The coordinator detection algorithm then begins to identify a subset on the perimeter. This process continues and eventually settles, shown by the plateau in the graph. Figure~\ref{fig:SwarmPerimeter1} shows there is a slight change in the swarm structure at 8 seconds, this is due to anomalies in the swarm being corrected by the effect of the cohesion and repulsion field effects. Once the anomalies percolate out of the swarm the structure stabilises and the number of coordinators stops fluctuating.
 
 \subsubsection{Full perimeter GPS utilisation\label{section:SwarmPerimeter4}}
 The full perimeter detection algorithm starts with a subset immediately as shown in green in figure~\ref{fig:SwarmPerimeter1}. This is due to the algorithm always detecting a full perimeter based on neighbour visibility. This has an immediate effect on the swarm as there is always a degree of \textit{destination vector magnitude} influence on the swarm, even during the expansion phase. However, the \textit{interaction vector magnitudes} are much larger than the \textit{destination vector magnitude} so the progression towards the goal is hampered and the path of the swarm is erratic. The introduction of the \textit{destination vector} influence from the very begin also disrupts the swarm's expansion and increases the duration of the disorganised period. As the swarm expands the algorithm detects more agents as coordinators as the number of perimeter agents increases.
@@ -538,7 +538,7 @@ Full perimeter & 72 & 36\% & Void detection and perimeter (capable of supporting
 \end{center}
 \end{table}
 
-The three algorithms take different amounts of time to stabalise~(Figure~\ref{fig:SwarmPerimeter1}) this has an impact on how long it takes each of the algorithms to impact the swarm's movement towards the destination. This effect can be seen in~figure~\ref{reduced:SwarmPropagationPathComparison1} that shows the paths that each algorithm produces. 
+The three algorithms take different amounts of time to stabilise~(Figure~\ref{fig:SwarmPerimeter1}) this has an impact on how long it takes each of the algorithms to impact the swarm's movement towards the destination. This effect can be seen in~figure~\ref{reduced:SwarmPropagationPathComparison1} that shows the paths that each algorithm produces. 
 
 \begin{figure}[H]
 \begin{center}
@@ -768,13 +768,13 @@ Reducing the number of GPS modules being used at any point in time will impact t
 %% W = V * I
 %% \end{equation}
 
-The energy usage of a motor will depend upon the power requirements required for agent movement (dependent on agent size and weight). It is assumed that the agents will utilise an omni ball movement system to provide universal movement. Most omni ball systems utilise 3 motors to control the movement~(Figure~\ref{fig:OmniBall}), other configuration are possible such as the four wheeled omni directional wheelbase\cite{PD:06}.
+The energy usage of a motor will depend upon the power requirements required for agent movement (dependent on agent size and weight). It is assumed that the agents will utilise an omni-ball movement system to provide universal movement. Most omni ball systems utilise 3 motors to control the movement~(Figure~\ref{fig:OmniBall}), other configuration are possible such as the four wheeled omni-directional wheelbase\cite{PD:06}.
 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=6cm]{CHAPTER-6/figures/OmniBall}
 \end{center}
-\caption{Omni ball motor arrangement \label{fig:OmniBall}}
+\caption{Omni-ball motor arrangement \label{fig:OmniBall}}
 \end{figure}
 
 Three possible scenarios of different motor requirements are compared for possible energy savings.

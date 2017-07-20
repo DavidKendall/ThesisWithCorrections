@@ -269,7 +269,7 @@ The effect on the structure of the swarm caused by the concave perimeter agents 
 \label{fig:InducedJitter}
 \end{figure}
 
-Figure~\ref{concave:BaselineConcaveEffectPath1} shows the paths of the agents in the swarm with concave reduction (red) and the baseline (black). The paths of the agents are initially very similar as the swarm expands but as the \textit{interaction vector magnitudes} rise and the swarm stabilises the effect of the \textit{concavity reduction vectors} start to noticeably influence the swarm structure. The most noticeable effect is on the perimeter where the agents have expanded then instead of stabalising to relatively stable fixed position there is drifting effect occurring due to the imbalance of the initial deployment structure (more anomalies on one side). The swarm also becomes more `rounded' in appearance. 
+Figure~\ref{concave:BaselineConcaveEffectPath1} shows the paths of the agents in the swarm with concave reduction (red) and the baseline (black). The paths of the agents are initially very similar as the swarm expands but as the \textit{interaction vector magnitudes} rise and the swarm stabilises the effect of the \textit{concavity reduction vectors} start to noticeably influence the swarm structure. The most noticeable effect is on the perimeter where the agents have expanded then instead of stabilising to relatively stable fixed position there is drifting effect occurring due to the imbalance of the initial deployment structure (more anomalies on one side). The swarm also becomes more `rounded' in appearance. 
 
 %COVERBASELINE1.py
 \begin{figure}[H]
@@ -459,7 +459,7 @@ The concave reduction algorithm creates a more pronounced variation due to the v
 \caption{Concave reduction stability effect distance\label{voids:ConcavePerimeter4560-DIST}}
 \end{figure}
 
-The residual jitter from 3.5 seconds on-wards~(Figire~\ref{voids:ConcavePerimeter4560-DIST-2}) is the algorithm's effect on the outer perimeter of the swarm. The baseline shows a steadier average with a reduced variance as the basic swarming algorithm allows the agents to settle to a formation that is more structurally stable.
+The residual jitter from 3.5 seconds on-wards~(Figure~\ref{voids:ConcavePerimeter4560-DIST-2}) is the algorithm's effect on the outer perimeter of the swarm. The baseline shows a steadier average with a reduced variance as the basic swarming algorithm allows the agents to settle to a formation that is more structurally stable.
 %SWARMHOLE-DIST-4560.py
 \begin{figure}[H]
 \begin{center}
@@ -488,7 +488,7 @@ Once the void is removed the swarm settles to a more stable phase 3.5 seconds on
 
 The effect on the swarm of removing the void is to reduce the overall number of perimeter agents. Figure~\ref{methods:ConcavePerimeter4560-1} shows that as the void is removed from the swarm the number of perimeter agents falls. The change in size is caused by two processes. The swarm structure is being altered on the outer perimeter as the agents move towards a more circular formation and the internal agents identified as perimeter agents of a void move to reduce the internal anomaly. 
 
-Once the initial disorganised phase settles, which takes approximately 1.2 seconds, the effect of the concave reduction starts to take effect. The perimeter size starts to reduce. The majority of the reduction is the void shrinking. The swarm then goes through a settling period where the overall perimeter size of the swarm stabalises and eventually the residual snapping effect is left at the outer perimeter. This occurs at approximately 3.5 seconds into the simulation. 
+Once the initial disorganised phase settles, which takes approximately 1.2 seconds, the effect of the concave reduction starts to take effect. The perimeter size starts to reduce. The majority of the reduction is the void shrinking. The swarm then goes through a settling period where the overall perimeter size of the swarm stabilises and eventually the residual snapping effect is left at the outer perimeter. This occurs at approximately 3.5 seconds into the simulation. 
 %PERIMETER4560HOLE.py
 \begin{figure}[H]
 \begin{center}
@@ -540,7 +540,7 @@ Figure~\ref{concave:OilSpillSimulation} is a screen shot of the deployment withi
 \caption{Oil spill containment simulation\label{concave:OilSpillSimulation}}
 \end{figure}
 
-Figure~\ref{fig:OilSpillConcaveReduction1} shows the containment process using the baseline configuration without concave reduction. The swarm expands due to the field effects and then stabilises into a swarm which contains a void area. The swarm stablises and the swarm moves slightly as the cohesion and repulsion fluctuate to maintain the swarm's structure. However the void does not close and the containment process does not occur. The agents that do come in contact with the obstacle are repelled by the obstacle repulsion field.
+Figure~\ref{fig:OilSpillConcaveReduction1} shows the containment process using the baseline configuration without concave reduction. The swarm expands due to the field effects and then stabilises into a swarm which contains a void area. The swarm stabilises and the swarm moves slightly as the cohesion and repulsion fluctuate to maintain the swarm's structure. However the void does not close and the containment process does not occur. The agents that do come in contact with the obstacle are repelled by the obstacle repulsion field.
 
 \begin{figure}[H]
 \centering
@@ -681,7 +681,7 @@ Figure~\ref{voids:ObstacleTest3} shows the path trace for the same environment s
 \section{Conclusion}\label{voids:Conclusion}
 This chapter has demonstrated the concept of controlling a swarm's structure through the identification of perimeter anomalies in the form of concave edges. The identification of the anomalies is achieved locally by an individual agent without needing any communications infrastructure. The technique works with arbitrary sized swarms demonstrated here experimentally with a swarm of 200 agents.
 
-Concave reduction is shown to work with static swarms such that a swarm can stablise to a more regular shape. It is possible for a swarm to develop where no concave reduction will be in operation which would allow the swarm to refer back to a baseline condition. Figure~\ref{voids:IdealSwarm} shows an ideal swarm shape that would result in no concave reduction based movement. 
+Concave reduction is shown to work with static swarms such that a swarm can stabilise to a more regular shape. It is possible for a swarm to develop where no concave reduction will be in operation which would allow the swarm to refer back to a baseline condition. Figure~\ref{voids:IdealSwarm} shows an ideal swarm shape that would result in no concave reduction based movement. 
 
 \begin{figure}[H]
 \begin{center}
