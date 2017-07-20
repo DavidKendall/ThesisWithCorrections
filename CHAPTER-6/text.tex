@@ -430,9 +430,9 @@ Figures~\ref{reduced:BaselineFullPerimeterMag1} and \ref{reduced:BaselineFullPer
 \caption{Baseline/Full perimeter magnitude comparison\label{reduced:BaselineFullPerimeterMag1}}
 \end{figure}
 
-Figure~\ref{reduced:BaselineFullPerimeterMag1} shows the magnitude metric for the simulation. Up to the point where the magnitude reaches zero ($\approx$ 4.8 seconds / 48 cycles) the swarm is undergoing expansion and the \textit{inter-agent vectors} have a higher repulsive magnitude. Up to this point it is not possible to determine if the swarm is a cohesive entity. Once the \textit{inter-agent vector magnitude} becomes positive the swarm is known to be cohesive. Once the \textit{interaction vectors magnitudes} subside the directional bias from the coordinator agents \textit{destination vectors} will influence the swarm's direction. 
+Figure~\ref{reduced:BaselineFullPerimeterMag1} shows the magnitude metric for the simulation. Up to the point where the magnitude reaches zero ($\approx$ 4.8 seconds / 48 cycles) the swarm is undergoing expansion and the \textit{inter-agent vectors} have a higher repulsive magnitude. Up to this point it is not possible to determine if the swarm is a cohesive entity. Once the \textit{inter-agent vector magnitude} becomes positive the swarm is known to be cohesive. Once the \textit{interaction vectors' magnitudes} subside the directional bias from the coordinator agents' \textit{destination vectors} will influence the swarm's direction. 
 
-Once the swarm has completed its expansion the swarm's interacting vectors stabilise to an optimum level for the swarm environment parameters. The level of interaction between the vectors produces an increase in the jitter compared to the baseline. This change is induced by the coordinators \textit{destination vectors}.
+Once the swarm has completed its expansion the swarm's interacting vectors stabilise to an optimum level for the swarm environment parameters. The level of interaction between the vectors produces an increase in the jitter compared to the baseline. This change is induced by the coordinators' \textit{destination vectors}.
 
 \begin{figure}[H]
 \begin{center}
@@ -503,7 +503,7 @@ The directional algorithm that introduces the least amount of jitter is the basi
 Figure~\ref{reduced:BaselineAllMag2} shows a closer view of the swarms following the stabilisation period between 17.5s and 20s. The basic-count algorithm produces the least disruption to the agents and has the highest average \textit{inter-agent vector magnitude} indicating the swarm has a higher tendency to remain cohesive with the widest distribution. This effect is caused by the increase in the cohesion effect when the agents are more distant. This demonstrates that the algorithm produces a swarm that covers a greater area. The increased area coverage is confirmed by figure~\ref{reduced:BaselineAllDist2} which shown the greatest average inter-agent distance. The `all-agent' algorithm has the smallest resultant \textit{inter-agent vector magnitude} indicating that the swarm is more highly compressed (more repulsion is in operation). This is corroborated by the inter-agent distribution shown in~figure~\ref{reduced:BaselineAllDist2}.
 
 \subsection{Swarm GPS utilisation\label{section:compareGPSUages1}}
-The multi-faceted algorithms that are defined above create subsets of coordinator agents for the application of a \textit{destination vector} bias of a swarm. These subsets can be identified to identify the GPS usage in the swarm at each time cycle ($t$). This allows a profile of the algorithms coordinator role identification process to be isolated to identify the level of GPS utilisation in the swarm.
+The multi-faceted algorithms that are defined above create subsets of coordinator agents for the application of a \textit{destination vector} bias of a swarm. These subsets can be identified to identify the GPS usage in the swarm at each time cycle ($t$). This allows a profile of the algorithms' coordinator role identification process to be isolated to identify the level of GPS utilisation in the swarm.
 
 \begin{figure}[H]
 \begin{center}
@@ -646,7 +646,7 @@ Full Perimeter & (1218.1290381962, 260.3440891182) & 669.4489951522\\ \hline
 \end{figure}
 
 \subsection{Alternate weightings for directional bias}\label{sec:AlternateBias1}
-The overall effect of the directional bias is effected by the number of coordinator agents in a swarm. Increasing the bias effects the jitter therefore balancing the weighting should have a positive effect in reducing the jitter.
+The overall effect of the directional bias is affected by the number of coordinator agents in a swarm. Increasing the bias affects the jitter therefore balancing the weighting should have a positive effect in reducing the jitter.
 
 The impact of the bias can be seen in the effect it has upon the number of neighbours an agent has during the path propagation.
 
@@ -768,7 +768,7 @@ Reducing the number of GPS modules being used at any point in time will impact t
 %% W = V * I
 %% \end{equation}
 
-The energy usage of a motor will depend upon the power requirements required for agent movement (dependent on agent size and weight). It is assumed that the agents will utilise an omni-ball movement system to provide universal movement. Most omni ball systems utilise 3 motors to control the movement~(Figure~\ref{fig:OmniBall}), other configuration are possible such as the four wheeled omni-directional wheelbase\cite{PD:06}.
+The energy usage of a motor will depend upon the power requirements required for agent movement (dependent on agent size and weight). It is assumed that the agents will utilise an omni-ball movement system to provide universal movement. Most omni-ball systems utilise 3 motors to control the movement~(Figure~\ref{fig:OmniBall}), other configuration are possible such as the four wheeled omni-directional wheelbase\cite{PD:06}.
 
 \begin{figure}[H]
 \begin{center}
@@ -858,7 +858,7 @@ The SenseSwarm mechanism does not detect internal voids and is therefore not sui
 
 \section{Conclusion\label{methods:Conclusion}}
 
-This chapter discusses three techniques to create goal based swarms. The techniques are: Using all the agents to coordinate a swarm, using perimeter agents only and using a subset of the perimeter agents. 
+This chapter discusses three techniques to create goal based swarms. The techniques are: using all the agents to coordinate a swarm, using perimeter agents only, and using a subset of the perimeter agents. 
 
 The techniques are then analysed using the metrics defined in chapter~\ref{chapter:metric} to identify the effect the coordination techniques have upon the internal structures of the swarm.
 
