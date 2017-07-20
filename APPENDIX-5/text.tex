@@ -1,6 +1,153 @@
 \chapter{Simulator and data capture}\label{app5}
 
-This appendix presents the modelling techniques applied to the simulator and discusses the processes used to analyse the datasets produced by the simulations.
+This appendix presents the modelling techniques applied to the simulator and discusses the processes used to analyse the datasets produced by the simulations it also shows the code required to implement the modelling in thw simulator.
+
+\section{Python Code}\label{sim:PythonCode}
+
+\subsection{Cohesion}\label{sim:code:Cohesion}
+An agent's cohesion is implemented in the simulation software as~Listing~\ref{code:cohesion1}. Line~\ref{line:neighbours} shows the iteration over all the neighbours. Line~\ref{line:sumVectors} calculates the sum of the vectors created by the neighbours. Line~\ref{line:resultantCohesion} divides the summed vectors by the number of neighbours. This process generates the cohesion vector for an agent to its neighbours.
+
+\lstset{language=Python,
+basicstyle=\tiny,
+numbers=left, 
+numberstyle=\tiny,
+captionpos=b,
+frame=single,
+breaklines=true,
+caption=Cohesion code,
+escapechar=|
+} % Set your language (you can change the language for each code-block optionally)
+\begin{lstlisting}[label={code:cohesion1}]  % Start your code-block
+
+def flyTowardsCentre(participant):
+  newVector = Vector2()
+  if len(participant.neighbours):
+|\label{line:neighbours}|  for bot in participant.neighbours:
+|\label{line:sumVectors}|    newVector += Vector2(bot.x,bot.y)
+|\label{line:resultantCohesion}|    newVector = (Vector2(newVector.x / len(participant.neighbours),newVector.y / len(participant.neighbours)) - Vector2.from_floats(participant.x,participant.y))
+  return newVector
+\end{lstlisting}
+
+\subsection{Repulsion}\label{sim:code:Repulsion}
+Listing~\ref{code:repulsion1} shows the implementation of inter-agent repulsion in the simulation software. This effect reduces the possibility of agents colliding. Line~\ref{line:calcDistance} identifies the distance between a neighbour and an agent. This distance is then used to identify if a repulsive vector needs to be generated (Line~\ref{line:isRepulsion}). Lines~\ref{line:amountRepulsion} and~\ref{line:applyRepulsion} calculate the proportional effect of the repulsion that is then applied to an agent.
+
+\lstset{language=Python,
+basicstyle=\tiny,
+numbers=left, 
+numberstyle=\tiny,
+captionpos=b,
+frame=single,
+breaklines=true,
+caption=Repulsion code,
+escapechar=|
+} % Set your language (you can change the language for each code-block optionally)
+\begin{lstlisting}[label={code:repulsion1}]  % Start your code-block
+
+def moveAway(participant):
+  newVector = Vector2()
+  for bot in participant.neighbours:
+|\label{line:calcDistance}|    distanceVector = Vector2.from_points((bot.x,bot.y),(participant.x,participant.y))
+    distance = distanceVector.get_length()
+|\label{line:isRepulsion}|    if participant.minimumClearDistance > distance and distance > 0:
+|\label{line:amountRepulsion}|      percentagePush = ((participant.minimumClearDistance - distance) / distance)
+|\label{line:applyRepulsion}|      newVector += distanceVector.normalise() * (participant.minimumClearDistance * percentagePush)
+  return newVector
+\end{lstlisting}
+
+\subsubsection{Destination implementation}
+Listing~\ref{code:destination1} shows the implementation of the destination vector. Line~\ref{line:isPerimeter} identifies if an agent should apply a destination vector. Line~\ref{line:perimeterEffect} generates a vector based on the \texttt{\textbf{target}}, The \texttt{\textbf{target}} is the destination that is closest to the agent. The vector manipulation function (\texttt{\textbf{normalise()}}) is located in the \texttt{\textbf{Vector}} class. The result of the process is a vector which influences the agent with a directional bias or a null vector.
+
+\lstset{language=Python,
+basicstyle=\tiny,
+numbers=left, 
+numberstyle=\tiny,
+captionpos=b,
+frame=single,
+breaklines=true,
+caption=Repulsion code,
+escapechar=|
+} % Set your language (you can change the language for each code-block optionally)
+\begin{lstlisting}[label={code:destination1}]  % Start your code-block
+
+def moveTowardsDestination(participant):
+|\label{line:isPerimeter}|  if participant.isPerimeter:
+|\label{line:perimeterEffect}|    return Vector2.from_points((participant.x, participant.y),(participant.target.x,participant.target.y)).normalise()
+  else:
+    return Vector2()
+\end{lstlisting}
+
+\subsubsection{Obstacle avoidance implementation}
+Listing~\ref{code:obstacle1} shows how the obstacle avoidance vector is implemented in the simulator. If an agent falls within the range of an obstacle it must be repelled. The method takes as parameters a list of the obstacles and an agent. The method then iterates over each of the obstacles~(Line~\ref{line:obstacleList}) and identifies if the agent is within the obstacle's field effect~(Line~\ref{line:obstacleRange}). If the agent is within the field effect the fixed repulsion vector for each obstacle the agent is in range of is added~(Line~\ref{line:obstacleFixedField}). The result is a directional vector that must be applied to the agent.
+ 
+\lstset{language=Python,
+basicstyle=\tiny,
+numbers=left, 
+numberstyle=\tiny,
+captionpos=b,
+frame=single,
+breaklines=true,
+caption=Obstacle avoidance code,
+escapechar=|
+} % Set your language (you can change the language for each code-block optionally)
+\begin{lstlisting}[label={code:obstacle1}]  % Start your code-block
+
+def avoidObstacles(participant, obstacles):
+  newVector = Vector2()
+|\label{line:obstacleList}|  for obstacle in obstacles:
+    distanceVector = Vector2.from_points((participant.x,participant.y),(obstacle.x,obstacle.y))
+    distance = distanceVector.get_length()
+|\label{line:obstacleRange}|    if distance < obstacle.repelDistance and distance > 0:
+      tempVector = Vector2(participant.x,participant.y) - Vector2(obstacle.x,obstacle.y)
+|\label{line:obstacleFixedField}|      tempVector = tempVector.normalise() * obstacle.repelDistance
+      newVector += tempVector
+  return newVector
+\end{lstlisting}
+
+\subsubsection{Agent model implementation}\label{sim:AgentModelImplementation}
+Listing~\ref{code:worldPhysics1} shows how the implementation of the complete physics model for a boid-based swarm is implemented in the simulator. This code is part of the \texttt{\textbf{BoidSwarm}} class which inherits the \texttt{\textbf{Swarm}} class. This method is the specialisation for the boid swarm. Method \texttt{\textbf{calcTrajectory()}} is the only method in the \texttt{\textbf{BoidSwarm}}~class it collates all the cohesion and repulsion vectors for the inter-agent and inter-object interactions and applies the vectors using the weighted model~(line~\ref{line:weightedModel}). On line~\ref{line:convexCompress} the simulator status is checked to identify if the simulation is to implement the convex compression algorithm. If convex compression is to be applied then an alternate physics model is applied to the agents. The repulsion vector is still applied but also a \texttt{\textbf{moveBetweenTwoNeighbours()}} method generates a vector that is applied. This vector is designed to `smooth' a swarm's perimeter. This will be covered in more detail in~Figure~\ref{concave:ConcaveVoidReduction1}.
+
+\lstset{language=Python,
+basicstyle=\tiny,
+numbers=left, 
+numberstyle=\tiny,
+captionpos=b,
+frame=single,
+breaklines=true,
+caption=Agent trajectory code,
+escapechar=|
+} % Set your language (you can change the language for each code-block optionally)
+\begin{lstlisting}[label={code:worldPhysics1}]  % Start your code-block
+
+def calcTrajectory(self, participant, obstacles, destinations):
+  status = Globals()
+  v1 = Vector2()
+  v2 = Vector2()
+  v3 = Vector2()
+  v4 = Vector2()
+  v5 = Vector2()
+
+  nextPosition = Vector2()
+        
+|\label{line:convexCompress}|  if status.compressConcave:
+    if (participant.isPerimeter and participant.concave):
+      v2 = BoidSwarm.moveAway(participant)
+      v5 = BoidSwarm.moveBetweenTwoNeighbours(participant)
+    else:
+      v1 = BoidSwarm.flyTowardsCentre(participant)
+      v2 = BoidSwarm.moveAway(participant)
+      v4 = BoidSwarm.moveTowardsDestination(participant)
+
+  else:
+    v1 = BoidSwarm.flyTowardsCentre(participant)            
+    v2 = BoidSwarm.moveAway(participant)
+    v4 = BoidSwarm.moveTowardsDestination(participant)
+
+  v3 = BoidSwarm.avoidObstacles(participant, obstacles)
+
+|\label{line:weightedModel}|  nextPosition += (v1 * status.physicsFlyTowardsCentre) + (v2 * status.physicsMoveAway) + (v3 * status.physicsAvoidObstacle) + (v4 * status.physicsMoveTowardsDestination) + (v5 * status.physicsCompressConcave)
+  participant.destination = Vector2(nextPosition)
+  participant.direction = Vector2(nextPosition.normalise())
+\end{lstlisting}
 
 \section{Swarm simulator object model}\label{sim:Simulator3}
 Figure~\ref{sim:objectModel} shows the object model underlying the simulator. The \texttt{\textbf{World}} class models the Euclidean plane for the simulations. The \texttt{\textbf{World}} class is a container object for other classes including lists of swarms, destinations, and obstacles that make up the environment to be modelled. The \texttt{\textbf{Swarm}} class implements a list which contains several \texttt{\textbf{Participants}} (agents) that constitute a swarm. The \texttt{\textbf{Participant}} class models the swarm agents and inherits the \texttt{\textbf{Bot}} class which provides the positioning coordinates for the agents. The \texttt{\textbf{Destination}} and \texttt{\textbf{Obstacle}} classes inherit their coordinates from the \texttt{\textbf{Bot}} class. The \texttt{\textbf{Swarm}} class implements a generic physics model for the coordination of the agents. The \texttt{\textbf{BoidSwarm}} class inherits the \texttt{\textbf{Swarm}} class and implements the algorithm for the boid model which includes the physics modelling. The \texttt{\textbf{Logger}} class implements a data logging mechanism and is used to capture the simulation data from within the \texttt{\textbf{World}} class via the \texttt{\textbf{Global}} class which is an implementation of a singleton containing the environmental constraints.
@@ -16,8 +163,7 @@ The object modelling shown in Figure~\ref{sim:objectModel} is implemented in Pyt
 
 The complete PySwarmWorld application is available at \url{https://drive.google.com/file/d/0B0DIRBx-V-eYVnNvVEkzUkRuZVk/view?usp=sharing}.
 
-\section{Simulator data capture}
-
+\section{Simulator data capture}\label{sim:DataAnalysis}
 When data logging is activated the simulator generates an SQL log file using the \textbf{Logger} Class. As the simulation runs the system, at each time interval~($t$) calculates all of the agents movements and the magnitudes that affect each agent pair generate. This data is then appended to the SQL log file as a transaction~(Listing~\ref{code:SQL2}), shown as (3a) in~figure~\ref{sim:SimulatorOverview} on page~\pageref{sim:SimulatorOverview}, using the~\texttt{\textbf{addEntry()}} method of the~\texttt{\textbf{Logger}} class. This method generates two SQL insertions that are added for each transaction. 
 
 The agent data is added to the log file and it consists of the positional information of the agent along with the destination and directional bias the agent has affecting it. There are also the statistics of the minimum and maximum distances of its neighbours and a boolean flag identifying if the agent is on a perimeter. If an agent is on a perimeter it will be affected by a destination vector. The second set of entries are the neighbour records which include the physics data the neighbour has affecting it through that relationship. 
